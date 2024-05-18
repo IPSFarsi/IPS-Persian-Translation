@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+ <app key="calendar" version="107745">
+  <word key="__app_calendar" js="0">تقویم</word>
+  <word key="frontnavigation_calendar" js="0">تقویم</word>
+  <word key="__indefart_calendar_event_comment" js="0">یک دیدگاه در یک رویداد تقویم</word>
+  <word key="__indefart_calendar_event" js="0">یک رویداد در تقویم</word>
+  <word key="__indefart_calendar_event_review" js="0">یک بررسی بر روی یک رویداد تقویم</word>
+  <word key="__defart_calendar_event_comment" js="0">دیدگاهی در مورد یک رویداد از تقویم</word>
+  <word key="__defart_calendar_event_comment_plural" js="0">{!#[1:نظر][?:نظر]} در یک رویداد</word>
+  <word key="__defart_calendar_event" js="0">رویداد تقویم</word>
+  <word key="__defart_calendar_event_plural" js="0">{!#[1:رویداد][?:رویدادها]}</word>
+  <word key="__defart_calendar_event_review" js="0">بررسی یک رویداد از تقویم</word>
+  <word key="__defart_calendar_event_review_plural" js="0">{!#[1:نقد][?:نقد]} در یک رویداد</word>
+  <word key="calendar_event_container" js="0">تقویم</word>
+  <word key="menu__calendar_calendars" js="0">تقویم</word>
+  <word key="menu__calendar_calendars_calendars" js="0">تقویم ها</word>
+  <word key="menu__calendar_calendars_ical" js="0">خوراک های iCalendar </word>
+  <word key="menu__calendar_calendars_settings" js="0">تنظیمات</word>
+  <word key="module__calendar_calendar" js="0">تقویم</word>
+  <word key="module__calendar_calendars" js="0">تقویم ها</word>
+  <word key="module__calendar_events" js="0">رویدادها</word>
+  <word key="menu__calendar_venues" js="0">مکان‌ها</word>
+  <word key="event" js="0">رویداد</word>
+  <word key="editor__calendar_Events" js="0">رویدادهای تقویم</word>
+  <word key="editor__calendar_Calendar" js="0">تقویم ها</word>
+  <word key="editor__calendar_Venue" js="0">مکان‌ها</word>
+  <word key="acp_search_title_calendar_Calendars" js="0">تقویم</word>
+  <word key="calendar_event_pl_lc" js="0">رویدادهای تقویم</word>
+  <word key="search_contextual_item_calendars" js="0">این تقویم</word>
+  <word key="search_contextual_item_calendar_event" js="0">این رویداد</word>
+  <word key="r__calendars" js="0">تقویم ها</word>
+  <word key="r__calendars_manage" js="0">توانایی مدیریت تقویم ها؟</word>
+  <word key="r__calendars_add" js="0">توانایی اضافه کرد تقویم ها؟</word>
+  <word key="r__calendars_edit" js="0">توانایی  ویرایش  تقویم ها؟</word>
+  <word key="r__calendars_permissions" js="0">توانایی مدیریت دسترسی تقویم ها؟</word>
+  <word key="r__calendars_massManageContent" js="0">توانایی انتقال/حذف رویداد های به صورت انبوه؟</word>
+  <word key="r__calendars_delete" js="0">توانایی حذف تقویم ها؟</word>
+  <word key="r__ical" js="0">خوراک های iCalendar</word>
+  <word key="r__calendar_feeds_manage" js="0">توانایی مدیریت خوراک های واردشده  iCalendar؟</word>
+  <word key="r__calendar_feeds_add" js="0">توانایی اضافه کردن خوراک های واردشده  iCalendar؟ </word>
+  <word key="r__calendar_feeds_edit" js="0">توانایی ویرایش خوراک های واردشده  iCalendar؟</word>
+  <word key="r__calendar_feeds_delete" js="0">توانایی حذف خوراک های وارد شده  iCalendar؟</word>
+  <word key="r__rsvp" js="0">آمار</word>
+  <word key="r__rsvp_manage" js="0">آیا می‌تواند آمار RSVP را ببیند؟</word>
+  <word key="loc_calendar_viewing_calendar" js="0">در حال مشاهده تقویم : %s</word>
+  <word key="loc_calendar_viewing_calendar_all" js="0">مشاهده  تقویم</word>
+  <word key="loc_calendar_viewing_event" js="0">مشاهده رویداد: %s</word>
+  <word key="loc_calendar_viewing_calendar_action" js="0">%s در حال مشاهده یک تقویم است</word>
+  <word key="loc_calendar_viewing_calendar_all_action" js="0">%s در حال مشاهده یک تقویم است</word>
+  <word key="loc_calendar_viewing_event_action" js="0">%s در حال مشاهده یک رویداد است</word>
+  <word key="ipb_calendar_mon" js="0">شروع تقویم در دوشنبه</word>
+  <word key="ipb_calendar_mon_desc" js="0">به طور پیشفرض تقویم از روز یکشنبه به عنوان روز آغازین برای هر هفته استفاده میکند. شما میتوانید با استفاده از این تنظیمات میتوانید روز آغازین هفته را به جای آن دوشنبه قرار دهید. </word>
+  <word key="calendar_rss_feed" js="0">فعال کردن خوراک RSS برای رویدادهای نزدیک</word>
+  <word key="calendar_rss_feed_desc" js="0"><![CDATA[تنها مطالبی که برای کاربران مهمان قابل دسترس هستند، نمایش داده می شود. برای تنظیمات بیشتر، می توانید یک <a href='{internal.app=core&module=discovery&controller=rss}'>خوراک RSS اختصاصی</a> ایجاد نمایید.]]></word>
+  <word key="calendar_rss_feed_days" js="0">تعداد روزهای آینده برای درج در فید</word>
+  <word key="calendar_rss_feed_order" js="0">سفارش خوراک توسط</word>
+  <word key="calendar_rss_feed_order_date" js="0">تاریخ رخداد</word>
+  <word key="calendar_rss_feed_order_publish" js="0">تاریخ انتشار</word>
+  <word key="acplogs__calendar_settings" js="0">تنظیمات تقویم بروز شد</word>
+  <word key="calendar_default_view" js="0">لایه پیش فرض</word>
+  <word key="calendar_default_view_desc" js="0">این تنظیم به شما اجازه کنترل لایه پیش فرض صفحه اصلی تقویم را میدهد. کاربران میتوانند در صورت تمایل این تنظیم را به طور پیشفرض رها کنند.</word>
+  <word key="cal_df_month" js="0">این ماه</word>
+  <word key="cal_df_week" js="0">این هفته</word>
+  <word key="cal_df_day" js="0">امروز</word>
+  <word key="cal_df_overview" js="0">مرور</word>
+  <word key="filestorage__calendar_Events" js="0">تصاویر کاور رویدادهای تقویم</word>
+  <word key="calendar_df_locale" js="0">استفاده از فرمت تاریخ پیشفرض</word>
+  <word key="calendar_df_d_sm_y" js="0">روز ماه سال - DD MMM YYYY (به عنوان مثال: 01 ژانویه 2000)</word>
+  <word key="calendar_df_d_lm_y" js="0">روز ماه سال - DD Month YYYY (به عنوان مثال: 01 ژانویه 2000)</word>
+  <word key="calendar_df_sm_d_y" js="0">ماه روز، سال - Month DD, YYYY  (به عنوان مثال: 01 ژانویه 2000)</word>
+  <word key="calendar_df_lm_d_y" js="0">ماه روز، سال - Month DD, YYYY  (به عنوان مثال: 01 ژانویه 2000)</word>
+  <word key="calendar_custom_df" js="0">و یا یک فرمت تاریخ اختصاصی مشخص کنید</word>
+  <word key="calendar_date_format" js="0">فرمت تاریخ برای رویدادها</word>
+  <word key="calendar_date_format_custom" js="0">فرمت تاریخ اختصاصی</word>
+  <word key="calendar_date_format_custom_desc" js="0"><![CDATA[شما می‌توانید از هرگونه گزینه‌های<a href='{external.php-strftime}' target='_blank' rel='noopener'>PHP strftime</a> استفاده کنید تا یک قالب سفارشی برای تاریخ‌ها در تقویم مشخص کنید]]></word>
+  <word key="calendar_no_date_format" js="0">شما باید یک قالب تاریخ از پیش تعریف شده را انتخاب کنید یا یک قالب تاریخ سفارشی مشخص کنید</word>
+  <word key="calendar_block_past_changes" js="0">مانع از تغییرات در رویدادهای گذشته</word>
+  <word key="calendar_block_past_changes_desc" js="0">در صورت فعال بودن، کاربران نمی‌توانند برای رویدادها RSVP دهند یا رویدادهایی که گذشته‌اند را ویرایش کنند. مدیران همچنان قادر به ویرایش رویدادهای گذشته هستند.</word>
+  <word key="calendars" js="0">تقویم ها</word>
+  <word key="calendars_sg" js="0">تقویم</word>
+  <word key="calendars_sg_lc" js="0">تقویم‌</word>
+  <word key="calendar_settings" js="0">تنظیمات</word>
+  <word key="calendar_permissions" js="0">دسترسی</word>
+  <word key="calendar_moderation" js="0">مدیریت</word>
+  <word key="cal_title" js="0">نام</word>
+  <word key="cal_moderate" js="0">رویداد ها باید تایید شوند؟</word>
+  <word key="cal_comment_moderate" js="0">دیدگاه ها باید تایید شوند؟</word>
+  <word key="cal_allow_comments" js="0">اجازه ارسال دیدگاه؟</word>
+  <word key="cal_allow_reviews" js="0">اجازه ارسال بررسی؟</word>
+  <word key="cal_review_moderate" js="0">بررسی ها باید تایید شوند؟</word>
+  <word key="calperm_perm__label" js="0"></word>
+  <word key="calperm_perm__view" js="0">مشاهده تقویم</word>
+  <word key="calperm_perm__read" js="0">نمایش رویدادها</word>
+  <word key="calperm_perm__add" js="0">اضافه کردن رویدادها</word>
+  <word key="calperm_perm__reply" js="0">دیدگاه ها</word>
+  <word key="calperm_perm__askrsvp" js="0">درخواست RSVP</word>
+  <word key="calperm_perm__rsvp" js="0">RSVP</word>
+  <word key="calperm_perm__review" js="0">بررسی</word>
+  <word key="cal_color" js="0">رنگ</word>
+  <word key="add_calendar" js="0">اضافه کردن تقویم</word>
+  <word key="edit_calendar" js="0">ویرایش تقویم</word>
+  <word key="modperms__core_Content_calendar_Event" js="0">تقویم</word>
+  <word key="calendar_calendars" js="0">تقویم ها</word>
+  <word key="can_pin_calendar_event" js="0">توانایی مهم کردن رویدادها؟</word>
+  <word key="can_unpin_calendar_event" js="0">توانایی غیر مهم کردن رویداد؟</word>
+  <word key="can_feature_calendar_event" js="0">توانایی ویژه کردن رویداد ها؟</word>
+  <word key="can_unfeature_calendar_event" js="0">توانایی غیرویژه کردن رویدادها؟</word>
+  <word key="can_move_calendar_event" js="0">توانایی انتقال رویدادها؟</word>
+  <word key="can_move_calendar_event_desc" js="0">توانایی جابجایی رویدادها فقط بین تقویم‌هایی که می‌توانند در آنها محتوای جدید ایجاد کنند</word>
+  <word key="can_lock_calendar_event" js="0">توانایی قفل کردن نوشته‌ها؟</word>
+  <word key="can_unlock_calendar_event" js="0">توانایی باز کردن رویدادها؟</word>
+  <word key="can_reply_to_locked_calendar_event" js="0">توانایی نوشتن دیدگاه ها در رویدادهای قفل شده؟</word>
+  <word key="can_edit_calendar_event" js="0">توانایی ویرایش رویدادها؟</word>
+  <word key="can_hide_calendar_event" js="0">توانایی پنهان کردن رویدادها؟</word>
+  <word key="can_unhide_calendar_event" js="0">توانایی آشکار کردن رویدادها؟</word>
+  <word key="can_view_hidden_calendar_event" js="0">آیا قابلیت مشاهده رویدادهای پنهان را داشته باشد؟</word>
+  <word key="can_delete_calendar_event" js="0">توانایی حذف رویداد؟</word>
+  <word key="can_edit_calendar_event_comment" js="0">توانایی ویرایش دیدگاه ها؟</word>
+  <word key="can_hide_calendar_event_comment" js="0">توانایی پنهان کردن دیدگاه ها؟</word>
+  <word key="can_unhide_calendar_event_comment" js="0">توانایی آشکار کردن دیدگاه ها؟</word>
+  <word key="can_view_hidden_calendar_event_comment" js="0">توانایی مشاهده دیدگاه های پنهان؟</word>
+  <word key="can_delete_calendar_event_comment" js="0">توانایی حذف دیدگاه ها؟</word>
+  <word key="can_edit_calendar_event_review" js="0">توانایی ویرایش نقدها؟</word>
+  <word key="can_hide_calendar_event_review" js="0">توانایی پنهان کردن نقدها؟</word>
+  <word key="can_unhide_calendar_event_review" js="0">توانایی آشکار کردن نقدها؟</word>
+  <word key="can_view_hidden_calendar_event_review" js="0">توانایی مشاهده نقد و بررسی‌های پنهان؟</word>
+  <word key="can_delete_calendar_event_review" js="0">توانایی حذف نقد و بررسی؟</word>
+  <word key="can_feature_comments_calendar_event" js="0">توانایی توصیه دیدگاه ها در رویدادها؟</word>
+  <word key="can_unfeature_comments_calendar_event" js="0">توانایی حذف دیدگاه های توصیه شده در رویدادها؟</word>
+  <word key="can_add_item_message_calendar_event" js="0">توانایی افزودن پیام در رویدادها؟</word>
+  <word key="can_edit_item_message_calendar_event" js="0">توانایی ویرایش پیام در رویدادها؟</word>
+  <word key="can_delete_item_message_calendar_event" js="0">توانایی حذف پیام در رویدادها؟</word>
+  <word key="ical_title" js="0">وارد کردن فید iCalendar</word>
+  <word key="ical_feed_title" js="0">عنوان</word>
+  <word key="ical_feed_added" js="0">اضافه شد</word>
+  <word key="ical_feed_lastupdated" js="0">آخرین بروزرسانی</word>
+  <word key="ical_feed_calendar_id" js="0">تقویم</word>
+  <word key="ical_feed_url" js="0">آدرس URL</word>
+  <word key="calendar_feeds_add" js="0">افزودن خوراک تقویم</word>
+  <word key="calendar_feeds_upload" js="0">بارگذاری فایل تقئیم</word>
+  <word key="update_ical" js="0">وارد کردن رویدادهای جدید</word>
+  <word key="feed_title" js="0">نام</word>
+  <word key="feed_url" js="0">آدرس URL</word>
+  <word key="feed_url_desc" js="0">URL باید با http: //، https: // یا webcal شروع شود: //</word>
+  <word key="feed_member_id" js="0">عضو</word>
+  <word key="feed_member_id_desc" js="0">رویدادهای این خوراک توسط این کاربر ایجاد خواهند شد</word>
+  <word key="feed_calendar_id" js="0">تقویم</word>
+  <word key="feed_calendar_id_desc" js="0">تقویمی که رویداد های این خوراک در آن ذخیره خواهند شد را انتخاب کنید</word>
+  <word key="feed_allow_rsvp" js="0">فعال سازی RSVP</word>
+  <word key="feed_allow_rsvp_desc" js="0">در صورت فعال سازی، RSVP برای تمامی رویدادهای وارد شده از این فید فعال میگردد.</word>
+  <word key="acplog__ical_uploaded" js="0">بارگذاری یک فایل در تقویم ( %s رویداد درون ریزی شد و %s رویداد نادیده گرفته شد)</word>
+  <word key="acplog__icalfeed_created" js="0">خوراک های %s تقویم اضافه شد</word>
+  <word key="acplog__icalfeed_updated" js="0">%s فید iCalendar ویرایش شد</word>
+  <word key="feed_uploaded" js="0">رویدادهای iCalendar وارد شده</word>
+  <word key="acplog__icalfeed_refreshed" js="0">فید iCalendar به‌روز شد (%s رویداد وارد شده و %s رویداد از دست رفته)</word>
+  <word key="feed_refreshed" js="0">خوراک iCalendar  تازه سازی شد</word>
+  <word key="feed_file" js="0">فایل iCalendar</word>
+  <word key="feed_file_desc" js="0">فایل های iCalendar معمولا فرمت ics. دارند</word>
+  <word key="feed_not_found" js="0">ما قادر به یافتن این خوراک iCalendar  نیستیم</word>
+  <word key="acplog__icalfeed_deleted" js="0">فید iCalendar %s حذف شد</word>
+  <word key="keep_events" js="0">نگهداری رویدادها</word>
+  <word key="keep_events_desc" js="0">شما میتوانید رویدادهای وارد شده از این خوراک را برای حذف انتخاب کنید</word>
+  <word key="ical_error_NO_CONTENT" js="0">به‌نظر می‌آید که فید نامعتبر است زیرا محتوایی برگشت داده نشد</word>
+  <word key="ical_error_BAD_CONTENT" js="0">به‌نظر می‌آید که فید نامعتبر است زیرا محتوا با قالب مورد انتظار همخوانی ندارد</word>
+  <word key="cal_month_title" js="0">%s %s</word>
+  <word key="cal_month_stream_title" js="0">جریان رویداد برای %s %s</word>
+  <word key="cal_week_title" js="0">%s %s %s - %s %s %s</word>
+  <word key="cal_week_title_wb" js="0">w/b %s %s %s </word>
+  <word key="cal_month_day" js="0">%s %s، %s</word>
+  <word key="cal_month_day_noyear" js="0">%s %s </word>
+  <word key="all_calendars" js="0">همه تقویم ها</word>
+  <word key="create_event" js="0">ایجاد رویداد</word>
+  <word key="select_calendar" js="0">انتخاب تقویم</word>
+  <word key="add_event" js="0">اضافه کردن رویداد</word>
+  <word key="previous_month" js="0">ماه قبل</word>
+  <word key="next_month" js="0">ماه بعد</word>
+  <word key="day" js="0">روز</word>
+  <word key="tomorrow" js="0">فردا</word>
+  <word key="prev_day" js="0">روز قبل</word>
+  <word key="next_day" js="0">روز بعد</word>
+  <word key="event_stream" js="0">جریان رویداد</word>
+  <word key="event_stream_short" js="0">جریان</word>
+  <word key="previous_week" js="0">هفته قبل</word>
+  <word key="next_week" js="0">هفته بعد</word>
+  <word key="no_events_today" js="0">هیچ رویدادی برای امروز برنامه ریزی نشده</word>
+  <word key="no_events_month" js="0">هیچ رویدادی برای این ماه برنامه ریزی نشده است</word>
+  <word key="error_bad_date" js="0">تاریخی که درخواست کرده اید به نظر معتبر نمی باشد</word>
+  <word key="calendar_event" js="0">رویداد</word>
+  <word key="calendar_event_comment" js="0">دیدگاه های رویداد</word>
+  <word key="calendar_event_review" js="0">بازبینی رویداد </word>
+  <word key="calendar_event_pl" js="0">رویداد</word>
+  <word key="calendar_event_comment_pl" js="0">دیدگاه های رویداد</word>
+  <word key="calendar_event_comment_pl_lc" js="0">دیدگاه های رویداد</word>
+  <word key="calendar_event_review_pl" js="0">بازبینی رویدادها</word>
+  <word key="calendar_event_review_pl_lc" js="0">بازبینی رویدادها</word>
+  <word key="event_review_count" js="0">{# [1:نقد][?:نقد]}</word>
+  <word key="event_comment_count" js="0">{!#[1:دیدگاه][?:دیدگاه]}</word>
+  <word key="event_rsvp_attendees_list" js="0">{# [1:کاربر شرکت کرده][?:کاربران شرکت کرده]} RSVP داده‌اند{!#[0: ][?:، از جمله]}</word>
+  <word key="calendar_rss_title" js="0">رویدادهای نزدیک</word>
+  <word key="submit_event" js="0">ارسال یک رویداد</word>
+  <word key="with_calendar" js="0">با %s</word>
+  <word key="with_all_calendars" js="0">با همه تقویم ها</word>
+  <word key="event_calendar_id" js="0">تقویم</word>
+  <word key="event_container" js="0">تقویم</word>
+  <word key="event_title" js="0">عنوان</word>
+  <word key="event_ip_address" js="0">آدرس IP</word>
+  <word key="event_tags" js="0">تگ</word>
+  <word key="event_content" js="0">توضیحات</word>
+  <word key="event_dates" js="0">تاریخ</word>
+  <word key="rsvp" js="0">RSVP</word>
+  <word key="event_rsvp" js="0">درخواست RSVP</word>
+  <word key="event_rsvp_desc" js="0">اعضایی که مجاز به RSVP کردن برای رویدادها هستند، می‌خواهند این کار را انجام دهند و قادر به مشاهده لیست اعضا که برای این رویداد RSVP داده‌اند هستند. برای رویدادهای دوره‌ای، پاسخ‌ها برای تمام وقوع‌ها اعمال می‌شود.</word>
+  <word key="event_to" js="0">به</word>
+  <word key="event_all_day" js="0">این یک رویداد برای تمام روز است</word>
+  <word key="no_end_time" js="0">زمان پایان وجود ندارد</word>
+  <word key="event_repeat" js="0">تکرار</word>
+  <word key="change_timezone" js="0">تغییر منطقه زمانی</word>
+  <word key="event_timezone" js="0">منطقه زمانی رویداد</word>
+  <word key="event_rpm_repeats" js="0">تکرارها:</word>
+  <word key="event_rpm_repeats_daily" js="0">روزانه</word>
+  <word key="event_rpm_repeats_weekly" js="0">هفتگی</word>
+  <word key="event_rpm_repeats_monthly" js="0">ماهیانه</word>
+  <word key="event_rpm_repeats_yearly" js="0">سالیانه</word>
+  <word key="event_rpm_repeatevery" js="0">تکرار رویداد:</word>
+  <word key="event_rpm_repeatevery_day" js="0">روزها</word>
+  <word key="event_rpm_repeatevery_week" js="0">هفته ها</word>
+  <word key="event_rpm_repeatevery_month" js="0">ماه ها</word>
+  <word key="event_rpm_repeatevery_year" js="0">سالها</word>
+  <word key="event_rpm_repeaton" js="0">گزارش در:</word>
+  <word key="event_single_day" js="0">تک رویداد روز</word>
+  <word key="event_rpm_ends" js="0">پایان در:</word>
+  <word key="event_rpm_ends_never" js="0">هرگز</word>
+  <word key="event_rpm_ends_afterx" js="0">بعد</word>
+  <word key="event_rpm_ends_occurrencesx" js="0">رویدادها</word>
+  <word key="event_rpm_ends_date" js="0">در</word>
+  <word key="event_auto_follow" js="0"></word>
+  <word key="event_auto_follow_suffix" js="0">زمانی که دیگر دیدگاه ها پست شدند به من اطلاع رسانی کن</word>
+  <word key="event_rsvp_limit" js="0">محدودیت RSVP</word>
+  <word key="event_rsvp_limit_desc" js="0">با رسیدن به محدودیت، دیگر شرکت‌کنندگان اجازه RSVP دادن به این رویداد را نخواهند داشت.</word>
+  <word key="event_cover_photo" js="0">عکس کاور</word>
+  <word key="event_location" js="0">مکان</word>
+  <word key="showing_events_near_you" js="0">نمایش رویدادهای نزدیک مکان فعلی شما.</word>
+  <word key="see_more_events_near_you" js="0">مشاهده رویدادهای بیشتر بر اساس مکان</word>
+  <word key="event_album" js="0">آلبوم</word>
+  <word key="event_album_desc" js="0">شما میتوانید یک آلبوم از گالری را در این رویداد لینک کنید که عکس ها در صفحه رویدادها نمایش داده شوند و باعث میشود اطلاعات درباره این رویداد در صفحه آلبوم نمایش داده شوند.</word>
+  <word key="submit_event_start" js="0">شروع رویداد</word>
+  <word key="submit_event_end" js="0">پایان رویداد</word>
+  <word key="submit_event_summary" js="0">خلاصه</word>
+  <word key="submit_event_repeats_check" js="0">تکرارهای این رویداد</word>
+  <word key="submit_event_repeats" js="0">تکرار</word>
+  <word key="submit_event_remove_repeat" js="0">حذف</word>
+  <word key="add_cal_event_header" js="0">اضافه کردن رویداد به تقویم</word>
+  <word key="copy_cal_event" js="0">رویداد تقویم را کپی کنید</word>
+  <word key="copy_cal_event_header" js="0">کپی %s</word>
+  <word key="calendar_jump" js="0">برو</word>
+  <word key="calendar_jump_today" js="0">برو به امروز</word>
+  <word key="jump_to_placeholder" js="0">پرش به ...</word>
+  <word key="jump_to" js="0">پرش به</word>
+  <word key="events_happening_today" js="0">رویدادهایی که امروز اتفاق می افتد</word>
+  <word key="day_view_all_day" js="0"><![CDATA[همه<br>روز]]></word>
+  <word key="you_are_going" js="0">شما میروید</word>
+  <word key="you_were_going" js="0">شما شرکت کرده‌اید</word>
+  <word key="you_arent_going" js="0">شما میروید</word>
+  <word key="you_werent_going" js="0">شما شرکت نکرده‌اید</word>
+  <word key="you_are_going_to_this" js="0">شما برای این رویداد میروید</word>
+  <word key="you_are_not_going_to_this" js="0">شما برای این رویداد نمیروید</word>
+  <word key="rsvp_change" js="0">تغییر در RSVP</word>
+  <word key="confirm_attendance" js="0">تایید حضور و غیاب</word>
+  <word key="featured_events" js="0">رویدادهای ویژه</word>
+  <word key="end_date_before_start" js="0">لطفا تاریخ پایان پس از تاریخ شروع رویداد را انتخاب کنید</word>
+  <word key="invalid_start_date" js="0">تاریخ شروع ارائه شده معتبر نیست</word>
+  <word key="invalid_end_date" js="0">تاریخ پایان ارئه شده معتبر نیست</word>
+  <word key="invalid_recurrence" js="0">رویداد نمی‌تواند به این فراوانی تکرار شود. هر وقوع باید قبل از شروع وقوع بعدی به پایان برسد.</word>
+  <word key="event__save" js="0">ذخیره</word>
+  <word key="calendar_delete_title" js="0">حذف این رویداد</word>
+  <word key="blurb_date_with_time" js="0">%s %s</word>
+  <word key="blurb_start_and_end" js="0">%s - %s در %s</word>
+  <word key="blurb_start_only" js="0">%s در %s</word>
+  <word key="download_ical" js="0">دریافت رویداد</word>
+  <word key="download_ical_title" js="0">دریافت این رویداد به عنوان فایل iCalendar </word>
+  <word key="event_details" js="0">جزئیات رویداد</word>
+  <word key="event_created_by" js="0">رویداد ایجاد شده توسط %s</word>
+  <word key="event_rating_value" js="0">امتیاز شما</word>
+  <word key="event_review_text" js="0">دیدگاه  شما</word>
+  <word key="event__review_placeholder" js="0">اضافه کردن یک بررسی ...</word>
+  <word key="event__comment_placeholder" js="0">اضافه کردن یک دیدگاه  ...</word>
+  <word key="event_submit_comment" js="0">ثبت دیدگاه </word>
+  <word key="event_rsvp_attendees" js="0">شرکت کنندگان</word>
+  <word key="report_event" js="0">گزارش رویداد</word>
+  <word key="calendar_edit_details" js="0">ویرایش جزئیات</word>
+  <word key="calendar_edit_details_title" js="0">ویرایش جزئیات این رویداد</word>
+  <word key="manage_event" js="0">مدیریت رویداد</word>
+  <word key="event_pending_approval" js="0">این رویداد هنوز تایید نشده است و تنها به مدیران قابل مشاهده است.</word>
+  <word key="rsvp_leave_event" js="0">ترک رویداد</word>
+  <word key="rsvp_attend_event" js="0">شرکت می‌کنم</word>
+  <word key="rsvp_maybe_event" js="0">شاید</word>
+  <word key="rsvp_notgoing_event" js="0">رد شده</word>
+  <word key="rsvp_attendees" js="0">شرکت می‌کنند</word>
+  <word key="rsvp_attendees_past" js="0">رفته‌اند</word>
+  <word key="rsvp_attended_past_event" js="0">رفته‌اند</word>
+  <word key="rsvp_notattended_past_event" js="0">نمی توانستم حضور یابم</word>
+  <word key="rsvp_maybe_attendees" js="0">شاید</word>
+  <word key="rsvp_notgoing_attendees" js="0">رد شده</word>
+  <word key="event_address" js="0">آدرس رویداد</word>
+  <word key="add_similar_event" js="0">اضافه کردن رویداد مشابه</word>
+  <word key="no_rsvps_yet" js="0">هیچ کسی در حال حاضر حضور ندارد.</word>
+  <word key="no_decline_rsvps_yet" js="0">هنوز هیچ کس انصراف نداده است.</word>
+  <word key="no_maybe_rsvps_yet" js="0">هنوز هیچ کس نگفته است که ممکن است شرکت کند.</word>
+  <word key="no_rsvps_past" js="0">هیچ کس به این رویداد نرفت.</word>
+  <word key="no_maybe_rsvps_past" js="0">هیچ کس نگفته است که ممکن است شرکت کند.</word>
+  <word key="no_decline_rsvps_past" js="0">هیچ کس حاضر به حضور در آن نیست.</word>
+  <word key="rsvp_limit_reached" js="0">RSVP به حداکثر مقدار رسیده است</word>
+  <word key="no_rsvp_past_event" js="0">رویداد قبلاً برگزار شده است</word>
+  <word key="rsvp_error" js="0">شما دسترسی SRVP کردن این رویداد را ندارید</word>
+  <word key="rsvp_not_going" js="0">نام شما از لیست مهمان های این رویداد حذف شده است</word>
+  <word key="rsvp_selection_yes" js="0">نام شما به لیست مهمان ها افزوده شده است</word>
+  <word key="rsvp_selection_no" js="0">این خیلی بد است! شما قادر به ایجاد این در رویداد نیستید.</word>
+  <word key="rsvp_selection_maybe" js="0">نام شما به لیست احتمالی اضافه شده است</word>
+  <word key="rsvp_download" js="0">دریافت لیست مهمان</word>
+  <word key="event_rsvp_attendees_other" js="0">دیگر پاسخ ها</word>
+  <word key="recur_human_yearly" js="0">این رویداد هر %s سال تکرار میشود</word>
+  <word key="recur_human_yearly_multi" js="0">این رویداد هر %s سال تکرار میشود %s</word>
+  <word key="recur_human_monthly" js="0">این رویداد هر %s ماه تکرار میشود</word>
+  <word key="recur_human_monthly_multi" js="0">این رویداد {!#[1:شروع شد][2:شروع می‌شود]} %s و هر %s %s تکرار می‌شود</word>
+  <word key="recur_human_weekly" js="0">این رویداد هر %s هفته تکرار میشود</word>
+  <word key="recur_human_weekly_multi" js="0">این رویداد هر %s هفته تکرار میشود  %s %s</word>
+  <word key="recur_human_weekly_days" js="0">این رویداد هر هفته تکرار میشود در %s%s</word>
+  <word key="recur_human_weekly_multi_days" js="0">این رویداد {!#[1:شروع شد][2:شروع می‌شود]} %s و هر %s در %s %s تکرار می‌شود</word>
+  <word key="recur_human_daily" js="0">این رویداد روزانه تکرار میشود %s</word>
+  <word key="recur_human_daily_multi" js="0">این رویداد هر %s روز تکرار میشود %s</word>
+  <word key="recur_human__forever" js="0">برای همیشه</word>
+  <word key="recur_human__occurrences" js="0">برای {# [1:وقوع][?:وقوع]}</word>
+  <word key="recur_human__until" js="0">تا %s</word>
+  <word key="recur_human__xyearly" js="0">{# [1:سال][?:سال‌]}</word>
+  <word key="recur_human__xmonthly" js="0">{# [1:ماه][?:ماه]}</word>
+  <word key="recur_human__xweekly" js="0">{# [1:هفته][?:هفته]}</word>
+  <word key="recur_human__xdaily" js="0">{# [1:روز][?:روز]}</word>
+  <word key="event_rss_feed_off" js="0">این فید RSS در حال حاضر در دسترس نمی باشد</word>
+  <word key="event_rss_feed_off_admin" js="0">خوراک RSS تقویم در حال حاضر در کنترل پنل مدیر غیر فعال می باشد</word>
+  <word key="event_attendees" js="0">شرکت‌کنندگان برای %s</word>
+  <word key="rsvp_limit_info" js="0">{# [1:کاربر را][?:کار را]} برای این رویداد RSVP کرده‌اند. کل %s می‌توانند RSVP کنند.</word>
+  <word key="rsvp_limit_nomaybe" js="0">You may only indicate you are going or not going when an event has a limit specified</word>
+  <word key="no_event_review" js="0">شما برای بررسی رویدادها دسترسی ندارید</word>
+  <word key="task_BAD_CONTENT" js="0">فید iCalendar %s به درستی در قالب معترف شناخته شده iCalendar فرمت نشده است</word>
+  <word key="task_NO_CONTENT" js="0">فید iCalendar %s هیچ رویدادی برای پردازش برگردانده نکرد</word>
+  <word key="subscribe_button" js="0">مشترک شوید</word>
+  <word key="subscribe_webcal" js="0">اشتراک در خوراک های iCalendar</word>
+  <word key="download_webcal" js="0">دریافت خروجی تقویم</word>
+  <word key="calendar_id" js="0">تقویم</word>
+  <word key="event_locked_can_comment" js="0">این رویداد قفل شده است. اما دسترسی شما اجازه اضافه کردن دیدگاه را می دهد.</word>
+  <word key="event_locked_cannot_comment" js="0">این رویداد در حال حاضر برای دیدگاه های بیشتر بسته شده است.</word>
+  <word key="event_images" js="0">عکس این رویداد</word>
+  <word key="event_move_title" js="0">جابجا کردن این رویداد</word>
+  <word key="feature_title_event" js="0">ویژگی این رویداد</word>
+  <word key="unfeature_title_event" js="0">غیر ویژه کردن این رویداد</word>
+  <word key="pin_title_event" js="0">پین کردن این رویداد</word>
+  <word key="unpin_title_event" js="0">غیر مهم کردن این رویداد</word>
+  <word key="hide_title_event" js="0">پنهان کردن این رویداد</word>
+  <word key="unhide_title_event" js="0">آشکار کردن این رویداد</word>
+  <word key="lock_title_event" js="0">قفل کردن این رویداد</word>
+  <word key="unlock_title_event" js="0">بازکردن این رویداد</word>
+  <word key="approve_title_event" js="0">پذیرفتن این رویداد</word>
+  <word key="event_set_reminder" js="0">تنظیم یادآور</word>
+  <word key="event_set_reminder_tip" js="0">یادآور شوید هنگامی که این رویداد نزدیک می‌شود</word>
+  <word key="event_edit_reminder" js="0">به‌روزرسانی یادآور</word>
+  <word key="event_dont_remind" js="0">حذف یادآور</word>
+  <word key="event_remind_me" js="0">یادآورم کن</word>
+  <word key="event_remind_days_before" js="0">روز قبل از این رویداد</word>
+  <word key="event_reminder_removed" js="1">یادآور حذف شد</word>
+  <word key="event_reminder_added" js="1">یادآور ذخیره شد</word>
+  <word key="no_edit_past_event" js="0">شما اجازه ویرایش رویدادهای گذشته را ندارید</word>
+  <word key="block_upcomingEvents" js="0">رویدادهای نزدیک</word>
+  <word key="block_upcomingEvents_desc" js="0">رویدادهای آینده تقویم را نشان میدهد</word>
+  <word key="auto_hide" js="0">پنهان کردن بلوک به صورت خودکار</word>
+  <word key="auto_hide_desc" js="0">پنهان کردن این بلوک زمانی که هیچ نتیجه ای برای نمایش وجود ندارد</word>
+  <word key="days_ahead" js="0">تعداد روزها برای نمایش دادن</word>
+  <word key="maximum_count" js="0">تعداد رویدادها</word>
+  <word key="view_this_event" js="0">نمایش %s</word>
+  <word key="no_upcoming_events" js="0">هیچ رویداد نزدیکی یافت نشد</word>
+  <word key="member_age" js="0">({# [1:سال][?:سال} سن دارد)</word>
+  <word key="block_recentReviews" js="0">بررسی رویداد اخیر</word>
+  <word key="block_recentReviews_desc" js="0">نمایش بررسی های اخیر</word>
+  <word key="no_recent_reviews" js="0">بررسی ای در این اواخر یافت نشد</word>
+  <word key="announce_calendars" js="0">تقویم </word>
+  <word key="review_count" js="0">تعداد بررسی ها جهت نمایش</word>
+  <word key="widget_calendar" js="0">تقویم</word>
+  <word key="embed_calendar_event" js="0">تقویم رویداد</word>
+  <word key="x_users_going" js="0">{# [1:کاربر][?:کاربر]} می رود</word>
+  <word key="timezone_offset_short" js="0">GMT %s</word>
+  <word key="timezone_offset_-12" js="0">[GMT - 12] زمان جزیره بیکر</word>
+  <word key="timezone_offset_-11" js="0">[GMT - 11] زمان استاندارد ساموا</word>
+  <word key="timezone_offset_-10" js="0">[GMT - 10] زمان استاندارد هاوایی</word>
+  <word key="timezone_offset_-9.5" js="0">[GMT - 9:30] زمان جزایر مارکز</word>
+  <word key="timezone_offset_-9" js="0">[GMT - 9] زمان استاندارد آلاسکا</word>
+  <word key="timezone_offset_-8" js="0">[GMT - 8] زمان استاندارد اقیانوس آرام</word>
+  <word key="timezone_offset_-7" js="0">[GMT - 7] زمان استاندارد کوهستان</word>
+  <word key="timezone_offset_-6" js="0">[GMT - 6] زمان استاندارد مرکزی</word>
+  <word key="timezone_offset_-5" js="0">[GMT - 5] زمان استاندارد شرقی</word>
+  <word key="timezone_offset_-4.5" js="0">[GMT - 4:30] زمان استاندارد ونزوئلا</word>
+  <word key="timezone_offset_-4" js="0">[GMT - 4] زمان استاندارد آتلانتیک</word>
+  <word key="timezone_offset_-3.5" js="0">[GMT - 3:30] زمان استاندارد نیوفاندلند</word>
+  <word key="timezone_offset_-3" js="0">[GMT - 3] زمان برازیلیا</word>
+  <word key="timezone_offset_-2" js="0">[GMT - 2] زمان Fernando de Noronha</word>
+  <word key="timezone_offset_-1" js="0">[GMT - 1] زمان گرینلند شرقی </word>
+  <word key="timezone_offset_0" js="0">[GMT] زمان گرینویچ</word>
+  <word key="timezone_offset_1" js="0">[GMT + 1] زمان اروپای مرکزی</word>
+  <word key="timezone_offset_2" js="0">[GMT + 2] زمان شرق اروپا</word>
+  <word key="timezone_offset_3" js="0">[GMT + 3] زمان آفریقایی شرقی</word>
+  <word key="timezone_offset_3.5" js="0">[GMT + 3:30] زمان استاندارد ایران</word>
+  <word key="timezone_offset_4" js="0">[GMT + 4] زمان استاندارد خلیج فارس</word>
+  <word key="timezone_offset_4.5" js="0">[GMT + 4:30] زمان افغانستان</word>
+  <word key="timezone_offset_5" js="0">[GMT +5] زمان استاندارد پاکستان</word>
+  <word key="timezone_offset_5.5" js="0">[GMT +5:30] زمان استاندارد هند</word>
+  <word key="timezone_offset_5.75" js="0">[GMT +5: 45] زمان نپال</word>
+  <word key="timezone_offset_6" js="0">[GMT +6] زمان بنگلادش</word>
+  <word key="timezone_offset_6.5" js="0">[GMT +6:30] زمان میانمار</word>
+  <word key="timezone_offset_7" js="0">[GMT + 7] زمان هندوچین</word>
+  <word key="timezone_offset_8" js="0">[GMT + 8] چین</word>
+  <word key="timezone_offset_9" js="0">[GMT + 9] ژاپن</word>
+  <word key="timezone_offset_9.5" js="0">[GMT + 9:30] استرالیا (زمان مرکزی)</word>
+  <word key="timezone_offset_10" js="0">[GMT + 10] زمان استاندارد شرقی استرالیا</word>
+  <word key="timezone_offset_10.5" js="0">[GMT +10:30] زمان استاندارد لورد هوگو</word>
+  <word key="timezone_offset_11" js="0">[GMT + 11] زمان جزیره سلیمان</word>
+  <word key="timezone_offset_11.5" js="0">[GMT + 11:30] زمان جزیره نورفولک </word>
+  <word key="timezone_offset_12" js="0">[GMT + 12] زمان نیوزیلند</word>
+  <word key="timezone_offset_12.75" js="0">[GMT + 12:45] زمان جزایر چاتام</word>
+  <word key="timezone_offset_13" js="0">[GMT + 13] زمان جزایر فینیکس</word>
+  <word key="timezone_offset_14" js="0">[GMT + 14] زمان جزیره‌های Line</word>
+  <word key="task__icalendar" js="0">خوراک تقویم را برای رویدادهای جدید و مهم چک کنید .</word>
+  <word key="digest_area_calendar_calendar" js="0">رویدادها</word>
+  <word key="digest_area_calendar_event" js="0">رویداد</word>
+  <word key="x_created_event_in" js="0">%s یک رویداد ارسال کرده است در %s</word>
+  <word key="x_commented_event" js="0">%s بر روی یک رویداد دیدگاهی ارسال کرد</word>
+  <word key="x_reviewed_event" js="0">%s یک رویداد را مرور کرد</word>
+  <word key="digest_event_on" js="0">رویداد در</word>
+  <word key="digest_users_going" js="0">{# [1:کاربر][?:کاربران]} شرکت می‌کنند</word>
+  <word key="mailsub__calendar_notification_new_content" js="0"><![CDATA[{$content->mapped("title")|raw}]]></word>
+  <word key="email_new_calevent_plain" js="0">%s %s، %s، را برای %s ارسال کرده است</word>
+  <word key="email_new_calevent" js="0"><![CDATA[<a href='%s'>%s</a> %s، <a href='%s'>%s</a>، را برای %s ارسال کرده است]]></word>
+  <word key="email_new_calevent_guest" js="0"><![CDATA[%s (مهمان) %s، <a href='%s'>%s</a>، را برای %s ارسال کرده است]]></word>
+  <word key="__api_calendar_events" js="0">رویدادها</word>
+  <word key="__api_calendar_comments" js="0">دیدگاه‌ها</word>
+  <word key="__api_calendar_reviews" js="0">نقدها</word>
+  <word key="__api_calendar_calendars" js="0">تقویم‌ها</word>
+  <word key="__api_calendar_venues" js="0">مکان‌ها</word>
+  <word key="calendar_activity_stream_rsvp" js="0"><![CDATA[%s در حال شرکت در <a href='%s'>%s</a> است]]></word>
+  <word key="all_activity_calendar_streamitems" js="0">زمانی که کاربر یک زمان خاص برای یک رویداد ایجاد کرد</word>
+  <word key="notifications__calendar_Events" js="0">یادآور رویدادها</word>
+  <word key="notifications__calendar_Events_desc" js="0">این اعلامیه ها در هنگامی که شما یادآور در هنگام نزدیک شدن به رویداد را تنظیم کرده باشید، دریافت خواهید کرد.</word>
+  <word key="mailsub__calendar_notification_event_reminder" js="0"><![CDATA[یادآوری برای رویداد {$content->mapped("title")|raw}]]></word>
+  <word key="email_event_reminder" js="0"><![CDATA[در حال حاضر کمتر از %s تا <a href='%s'>%s </a> وجود دارد.]]></word>
+  <word key="email_event_reminder_plain" js="0">از این پس کمتر از %s تا %s باقی مانده است</word>
+  <word key="email_event_reminder_when" js="0">زمان: %s</word>
+  <word key="email_event_reminder_where" js="0">مکان: %s</word>
+  <word key="days_to_go" js="0">{# [1:روز][?:روز]}</word>
+  <word key="notification__event_reminder" js="0">کمتر از %s مانده به %s</word>
+  <word key="notification__event_reminder_title" js="0">{!#[1:رویداد آینده][?:رویدادهای آینده]}</word>
+  <word key="menu__calendar_calendars_venues" js="0">محل های برگزاری</word>
+  <word key="venues" js="0">مکان‌ها</word>
+  <word key="venue_title" js="0">نام مکان</word>
+  <word key="event_venue_name" js="0">مکان رویداد</word>
+  <word key="event_venue" js="0">مکان</word>
+  <word key="venues_not_listed" js="0">مکان‌ لیست نشده است</word>
+  <word key="venue_address" js="0">آدرس</word>
+  <word key="r__venues" js="0">مکان‌ها</word>
+  <word key="r__venues_manage" js="0">توانایی مدیریت مکان‌ها</word>
+  <word key="module__venues_view" js="0">مکان‌ها</word>
+  <word key="editor__venues_Venue" js="0">توضیحات مکان</word>
+  <word key="venue_description" js="0">توضیحات</word>
+  <word key="calendar_venues_enabled" js="0">فعال سازی مکان‌ها</word>
+  <word key="calendar_venues_enabled_desc" js="0">هنگام فعال بودن، مدیران می‌توانند مکان‌های پیش‌فرض را ایجاد کنند که می‌توانند هنگام ایجاد رویدادها انتخاب شوند.</word>
+  <word key="calendar_more_events_at_x" js="0">رویدادهای بیشتر در این مکان</word>
+  <word key="venue_details" js="0">در مورد مکان</word>
+  <word key="venue_upcoming_events" js="0">رویدادهای آینده</word>
+  <word key="feed_venue_id" js="0">مکان</word>
+  <word key="event_new_venue" js="0">ذخیره موقعیت به عنوان مکان جدید؟</word>
+  <word key="cal_allow_anonymous" js="0">اجازه ارسال ناشناس داده‌ها؟</word>
+  <word key="AchievementAction__Rsvp" js="0">کاربر RSVP برای رویداد</word>
+  <word key="achievement_filter_Rsvp_nth_suffix" js="0"><![CDATA[<span data-role='مین'>مین</span> RSVP او باشد]]></word>
+  <word key="achievement_filter_Rsvp_receiver" js="0">به کاربری که رویداد را ارسال کرده است</word>
+  <word key="achievement_filter_Rsvp_giver" js="0">به کاربری که RSVP دارد</word>
+  <word key="AchievementAction__Rsvp_log" js="0">RSVP به %s</word>
+  <word key="AchievementAction__Rsvp_title" js="0">رویداد RSVP</word>
+  <word key="menu__calendar_stats" js="0">تقویم</word>
+  <word key="emailstats__notification_event_reminder" js="0">یادآوری‌های رویداد</word>
+  <word key="menu__calendar_stats_rsvp" js="0">RSVP</word>
+  <word key="calendar_stats_rsvp_title" js="0">RSVP در گذر زمان</word>
+  <word key="calendar_stats_rsvp_response_0" js="0">نمی روم</word>
+  <word key="calendar_stats_rsvp_response_1" js="0">می روم</word>
+  <word key="calendar_stats_rsvp_response_2" js="0">شاید</word>
+  <word key="menu__calendar_stats_venues" js="0">مکان‌ها</word>
+  <word key="webhook_calendarEvent_rsvp" js="0">ترتیب می‌دهد هنگامی که کسی وضعیت RSVP خود را تغییر می‌دهد</word>
+  <word key="event_online" js="0">رویداد آنلاین</word>
+  <word key="event_url" js="0">آدرس اینترنتی</word>
+  <word key="all_events" js="0">همه</word>
+  <word key="online_events" js="0">رویدادهای آنلاین</word>
+  <word key="open_event" js="0">رویداد باز</word>
+  <word key="powered_by" js="0">قدرت گرفته از</word>
+  <word key="physical_events" js="0">رویدادهای حضوری</word>
+  <word key="event_view_overview" js="0">مرور کلی</word>
+  <word key="event_view_daily" js="0">روزانه</word>
+  <word key="event_view_weekly" js="0">هفتگی</word>
+  <word key="event_view_monthly" js="0">ماهیانه</word>
+  <word key="events_search_your_location" js="0">مکان شما</word>
+  <word key="events_search_use_location" js="0">استفاده از مکان من</word>
+  <word key="events_search_cancel_location" js="0">لغو مکان</word>
+  <word key="events_search_location" js="0">مکان</word>
+  <word key="events_search_search_location" js="0">جستجوی مکان</word>
+  <word key="events_search_type" js="0">نوع</word>
+  <word key="events_search_from" js="0">از</word>
+  <word key="events_search_to" js="0">تا</word>
+  <word key="events_search_search" js="0">جستجو</word>
+  <word key="events_search_events" js="0">جستجوی رویدادها</word>
+  <word key="events_search_back_to_overview" js="0">بازگشت به مرور کلی</word>
+  <word key="events_search_sort_by" js="0">مرتب‌سازی بر اساس:</word>
+  <word key="events_search_distance" js="0">فاصله</word>
+  <word key="events_search_date" js="0">تاریخ</word>
+  <word key="events_search_show_more" js="0">نمایش نتایج بیشتر</word>
+  <word key="events_search_no_events" js="0">رویدادی برای نمایش وجود ندارد</word>
+  <word key="events_search_no_events_long" js="0">هیچ رویدادی با جستجوی شما مطابقت نداشت</word>
+  <word key="events_happening_near_you" js="0">در نزدیکی شما روی می‌دهد</word>
+  <word key="events_online_events" js="0">رویدادهای آنلاین</word>
+  <word key="events_browse_by_month" js="0">مرور بر اساس ماه</word>
+  <word key="events_no_more_this_month" js="0">در این ماه دیگر رویدادی وجود ندارد</word>
+  <word key="events_show_more" js="0">نمایش رویدادهای بیشتر</word>
+  <word key="map_center_lat" js="0">عرض جغرافیایی مرکز نقشه</word>
+  <word key="map_center_lon" js="0">طول جغرافیایی مرکز نقشه</word>
+  <word key="map_center_lat_desc" js="0">عرض جغرافیایی پیش‌فرض برای استفاده در صورت عدم تعیین مکان کاربر توسط مکان‌یابی جغرافیایی یا جستجوی IP.</word>
+  <word key="map_center_lon_desc" js="0">طول جغرافیایی پیش‌فرض برای استفاده در صورت عدم تعیین مکان کاربر توسط مکان‌یابی جغرافیایی یا جستجوی IP.</word>
+  <word key="event_happening_now" js="0">در حال برگزاری</word>
+  <word key="event_happening_today" js="0">امروز برگزار می‌شود</word>
+  <word key="events_near_you_soon" js="0">متاسفانه هیچ رویدادی در نزدیکی شما به زودی برگزار نمی‌شود. لطفاً بعداً مراجعه کنید!</word>
+  <word key="x_daily" js="1">{# [1:روز][?:روز]}</word>
+  <word key="x_weekly" js="1">{# [1:هفته][?:هفته]}</word>
+  <word key="x_monthly" js="1">{# [1:ماه][?:ماه]}</word>
+  <word key="x_yearly" js="1">{# [1:سال][?:سال]}</word>
+  <word key="every_x" js="1">هر {{period}}</word>
+  <word key="x_times" js="1">{# [1:بار][?:بار]}</word>
+  <word key="until" js="1">تا {{date}}</word>
+  <word key="with_end" js="1">{{interval}}،{{endAfter}}</word>
+  <word key="MO" js="1">دوشنبه</word>
+  <word key="TU" js="1">سه‌شنبه</word>
+  <word key="WE" js="1">چهارشنبه</word>
+  <word key="TH" js="1">پنج‌شنبه</word>
+  <word key="FR" js="1">آدینه</word>
+  <word key="SA" js="1">شنبه</word>
+  <word key="SU" js="1">یکشنبه</word>
+  <word key="one_day" js="1">در {{first}}</word>
+  <word key="multiple_day" js="1">در {{days}} و {{last}}</word>
+  <word key="week_string" js="1">{{هفته}} {{روز}}</word>
+  <word key="doesnt_repeat" js="1">بدون تکرار</word>
+  <word key="single_not_allday" js="1"><![CDATA[در <strong>{{startDate}}</strong>، از <strong>{{startTime}}</strong> تا <strong>{{endTime}}</strong>]]></word>
+  <word key="single_not_allday_noendtime" js="1"><![CDATA[در <strong>{{startDate}}</strong>، در <strong>{{startTime}}</strong>]]></word>
+  <word key="single_allday" js="1"><![CDATA[<strong>{{startDate}}</strong> (تمام روز)]]></word>
+  <word key="not_single_not_allday" js="1"><![CDATA[از <strong>{{startDate}}</strong> در <strong>{{startTime}}</strong> تا <strong>{{endDate}}</strong> در <strong>{{endTime}}</strong>]]></word>
+  <word key="not_single_allday" js="1"><![CDATA[از <strong>{{startDate}}</strong> تا <strong>{{endDate}}</strong>]]></word>
+  <word key="select_time" js="1">(انتخاب زمان)</word>
+  <word key="event_reminder_removed" js="1">یادآور حذف شد</word>
+  <word key="event_reminder_added" js="1">یادآور ذخیره شد</word>
+  <word key="event_your_current_location" js="1">مکان فعلی شما</word>
+  <word key="event_your_current_location_sorry" js="1">متأسفانه ما قادر به دریافت مکان شما نبودیم. آیا خدمات مکان‌یابی در مرورگر شما فعال است؟</word>
+  <word key="event_finding_location" js="1">در حال یافتن مکان شما...</word>
+ </app>
+</language>

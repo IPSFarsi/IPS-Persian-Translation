@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+ <app key="blog" version="107745">
+  <word key="__app_blog" js="0">وبلاگ</word>
+  <word key="frontnavigation_blogs" js="0">وبلاگ ها</word>
+  <word key="__indefart_blog_entry_comment" js="0">دیدگاه ها در یک نوشته وبلاگ</word>
+  <word key="__indefart_blog_entry" js="0">نوشته وبلاگ</word>
+  <word key="__defart_blog_entry_comment" js="0">دیدگاه در یک نوشته وبلاگ</word>
+  <word key="__defart_blog_entry_comment_plural" js="0"></word>
+  <word key="__defart_blog_entry" js="0">مطلب وبلاگ</word>
+  <word key="__defart_blog_entry_plural" js="0">{!#[1:نوشته وبلاگ][?:نوشته وبلاگ]}</word>
+  <word key="blog_entry_container" js="0">وبلاگ ها</word>
+  <word key="blog_entry_pl_lc" js="0">نوشته های وبلاگ</word>
+  <word key="module__blog_blogs" js="0">وبلاگ‌ها</word>
+  <word key="menu__blog_blogs" js="0">وبلاگ‌ها</word>
+  <word key="menu__blog_blogs_settings" js="0">تنظیمات</word>
+  <word key="menu__blog_blogs_blogs" js="0">وبلاگ‌ ها</word>
+  <word key="acp_search_title_blog_Blogs" js="0">وبلاگ‌ ها</word>
+  <word key="acplog__entries_published" js="0">نوشته وبلاگ منتشر شده به صورت خودکار (%s منتشر شد) </word>
+  <word key="filestorage__blog_Entries" js="0">نوشته‌های وبلاگ</word>
+  <word key="add_blog" js="0">افزودن وبلاگ</word>
+  <word key="block_blog_Overview" js="0">پیشخوان وبلاگ</word>
+  <word key="editor__blog_Blogs" js="0">وبلاگ‌ها</word>
+  <word key="editor__blog_Entries" js="0">نوشته‌های وبلاگ</word>
+  <word key="editor__blog_Categories" js="0"></word>
+  <word key="task__blogrssimport" js="0">بررسی خوراک‌های RSS/Atom برای نوشته‌های جدید و وارد شده به وبلاگ</word>
+  <word key="filestorage__blog_Blogs" js="0">تصویر کاور وبلاگ</word>
+  <word key="entry_blog_id" js="0">وبلاگ</word>
+  <word key="r__blogs" js="0">وبلاگ‌ها</word>
+  <word key="r__blog_settings_manage" js="0">توانایی ویرایش تنظیمات وبلاگ؟</word>
+  <word key="r__blogs_manage" js="0">توانایی مدیریت وبلاگ؟</word>
+  <word key="blog_member_deleted" js="0">کاربر حذف شده است</word>
+  <word key="rebuilding_blog_entry_images" js="0">بازسازی تصاویر وبلاگ</word>
+  <word key="acplogs__blog_settings" js="0">تنظیمات وبلاگ بروز شد</word>
+  <word key="blog_enable_rating" js="0">فعال بودن امتیاز دهی وبلاگ</word>
+  <word key="blog_settings_rss" js="0">تنظیمات RSS</word>
+  <word key="blog_allow_rssimport" js="0">پذیرش وارد کردن RSS</word>
+  <word key="blog_allow_rssimport_desc" js="0"></word>
+  <word key="blog_allow_rss" js="0">پذیرش خروجی RSS</word>
+  <word key="blog_allow_grid" js="0">فعال کردن حالت نمایش شبکه ای</word>
+  <word key="blog_allow_grid_desc" js="0"></word>
+  <word key="blog_view_mode" js="0">حالت نمایش پیش فرض</word>
+  <word key="blog_view_mode_grid" js="0">رفتن به آخرین مطلب</word>
+  <word key="blog_view_mode_grid_desc" js="0"></word>
+  <word key="blog_view_mode_list" js="0">لیست وبلاگ ها</word>
+  <word key="blog_view_mode_list_desc" js="0">وبلاگ ها را به عنوان یک لیست قابل مرتب سازی و فیلتر کردن نشان می دهد</word>
+  <word key="blogs" js="0">وبلاگ‌ها</word>
+  <word key="blog_word_custom" js="0">نام وبلاگ</word>
+  <word key="blog_blog_member_id" js="0">نویسنده وبلاگ</word>
+  <word key="blogs_sg" js="0">وبلاگ</word>
+  <word key="blogs_sg_lc" js="0">وبلاگ</word>
+  <word key="create_blog" js="0">ساخت یک وبلاگ</word>
+  <word key="create_new_blog" js="0">ایجاد یک وبلاگ جدید</word>
+  <word key="add_entry_to" js="0">افزودن نوشته به یک وبلاگ</word>
+  <word key="blog_entry" js="0">نوشته وبلاگ</word>
+  <word key="blog_entry_pl" js="0">نوشته‌های وبلاگ</word>
+  <word key="blog_entry_comment" js="0">دیدگاه های وبلاگ</word>
+  <word key="add_blog_entry" js="0">افزودن نوشته وبلاگ</word>
+  <word key="entry_pl" js="0">نوشته‌های وبلاگ</word>
+  <word key="blog_entry_comment_pl" js="0">دیدگاه های وبلاگ</word>
+  <word key="blog_entry_comment_pl_lc" js="0">دیدگاه های وبلاگ</word>
+  <word key="entry_comments" js="0">دیدگاه ها</word>
+  <word key="blog_num_views" js="0">{!# [1:مشاهده][?:مشاهده]}</word>
+  <word key="manage_blog" js="0">مدیریت وبلاگ</word>
+  <word key="select_blog" js="0">انتخاب وبلاگ</word>
+  <word key="search_contextual_item_blogs" js="0">این وبلاگ</word>
+  <word key="search_contextual_item_blog_entry" js="0">این مطلب</word>
+  <word key="view_blogs_as_list" js="0">نمایش وبلاگ ها</word>
+  <word key="view_blogs_as_grid" js="0">نمایش آخرین مطالب</word>
+  <word key="blog_settings" js="0">تنظیمات وبلاگ</word>
+  <word key="blog_name" js="0">نام</word>
+  <word key="blog_name_group" js="0">نام</word>
+  <word key="blog_desc" js="0">توضیحات</word>
+  <word key="blog_desc_group" js="0">توضیحات</word>
+  <word key="blog_desc_placeholder" js="0">افزودن توضیحات ...</word>
+  <word key="blog_type" js="0">نوع</word>
+  <word key="blog_type_normal" js="0">تک نویسنده</word>
+  <word key="blog_type_group" js="0">گروه</word>
+  <word key="blog_type_group_desc" js="0">پیوستن به وبلاگ گروهی توسط همه کاربران گروه انتخاب شده مدیریت می‌شود</word>
+  <word key="blog_groupblog_ids" js="0">گروه‌ها</word>
+  <word key="blog_member_id" js="0">نویسنده</word>
+  <word key="blog_groupblog_name" js="0">نام گروه</word>
+  <word key="blog_groupblog_name_desc" js="0">در محلی که نام مالک در زمان مشاهده وبلاگ گروهی قرار دارد استفاده می‌شود.</word>
+  <word key="edit_blog" js="0">ویرایش وبلاگ</word>
+  <word key="delete_blog" js="0">حذف</word>
+  <word key="blog_privacy" js="0">حریم خصوصی</word>
+  <word key="blog_privacy_open" js="0">هرکسی که می تواند این وبلاگ را بخواند</word>
+  <word key="blog_privacy_private" js="0">تنها کاربرانی که انتخاب می‌کنم بتوانند وبلاگ را بخوانند</word>
+  <word key="blog_social_group" js="0">کاربران مجاز به خواندن این وبلاگ هستند</word>
+  <word key="no_blog_author_selected" js="0">نویسنده وبلاگی انتخاب نشده است</word>
+  <word key="modlog__action_delete_blog" js="0">وبلاگ %s شد</word>
+  <word key="modlog__action_delete_blog_stats" js="0">Deleted Blog</word>
+  <word key="delete_blog_confirm" js="0">آیا شما از حذف این وبلاگ مطمئن هستید؟</word>
+  <word key="delete_blog_warning" js="0"></word>
+  <word key="submit_entry" js="0">ارسال یک نوشته وبلاگ جدید</word>
+  <word key="blog_entry_title" js="0">عنوان</word>
+  <word key="blog_entry_tags" js="0">برچسب‌ها</word>
+  <word key="blog_entry_auto_follow" js="0"></word>
+  <word key="blog_entry_auto_follow_suffix" js="0">زمان ارسال یک دیدگاه توسط کاربران من را مطلع کن</word>
+  <word key="blog_entry_content" js="0">نوشته</word>
+  <word key="blog_entry_date" js="0">زمان انتشار</word>
+  <word key="blog_entry_publish" js="0">انتشار</word>
+  <word key="blog_entry_mainTab" js="0">نوشته وبلاگ</word>
+  <word key="blog_entry_pollTab" js="0">نظرسنجی</word>
+  <word key="blog_entry_poll" js="0"></word>
+  <word key="create_blog_entry" js="0">ساخت نوشته وبلاگ</word>
+  <word key="entry_submit" js="0">ارسال نوشته</word>
+  <word key="entry_information" js="0">جزییات نوشته</word>
+  <word key="blog_entry__save" js="0">ذخیره</word>
+  <word key="entry_ip_address" js="0">آدرس IP</word>
+  <word key="entry_gallery_album" js="0">آلبوم</word>
+  <word key="entry_gallery_album_desc" js="0">شما می‌توانید برای نوشته خود یک آلبوم مرتبط از گالری را نیز قرار دهید. تصاویر آلبوم همراه با نوشته شما نمایش داده می‌شوند.</word>
+  <word key="entry_category_choice" js="0"></word>
+  <word key="entry_category_choice_new" js="0"></word>
+  <word key="entry_category_choice_existing" js="0"></word>
+  <word key="block_entryFeed" js="0">آخرین نوشته های وبلاگ</word>
+  <word key="block_entryFeed_desc" js="0">ایجاد خوراک برای مطالب وبلاگ</word>
+  <word key="widget_feed_container_blog_entry" js="0">وبلاگ ها</word>
+  <word key="block_latestComments" js="0">آخرین دیدگاه ها از وبلاگ شما</word>
+  <word key="block_latestComments_desc" js="0">نمایش فهرستی از آخرین دیدگاه ها از کاربران وارد شده به وبلاگ</word>
+  <word key="view_this_entry" js="0">مشاهده نوشته %s</word>
+  <word key="block_blogStatistics" js="0">آمارهای وبلاگ</word>
+  <word key="block_blogStatistics_desc" js="0">نمایش آمارهای کلی وبلاگ</word>
+  <word key="stats_overview_blogs" js="0">وبلاگ</word>
+  <word key="stats_overview_blogs_desc" js="0">تاریخ ایجاد وبلاگ ثبت نمی شود در نتیجه این عدد کل هست و محدود به هیچ زمان خاصی نمی شود</word>
+  <word key="total_blogs" js="0">مجموع وبلاگ‌ها</word>
+  <word key="total_entries" js="0">مجموع نوشته‌ها</word>
+  <word key="block_recentEntries" js="0">نوشته‌های اخیر</word>
+  <word key="block_recentEntries_desc" js="0">نمایش عکس های جدیدتر</word>
+  <word key="prev_entry" js="0">نوشته قبلی</word>
+  <word key="next_entry" js="0">نوشته بعدی</word>
+  <word key="blog_entry__comment_placeholder" js="0">افزودن یک دیدگاه ...</word>
+  <word key="blog_entry_submit_comment" js="0">ارسال دیدگاه </word>
+  <word key="entry_actions" js="0">مدیریت نوشته</word>
+  <word key="edit_title_blog" js="0">ویرایش این نوشته وبلاگ</word>
+  <word key="feature_title_blog" js="0">ویژه کردن این نوشته وبلاگ</word>
+  <word key="unfeature_title_blog" js="0">غیر ویژه کردن این نوشته</word>
+  <word key="pin_title_blog" js="0">مهم کردن این نوشته وبلاگ</word>
+  <word key="unpin_title_blog" js="0">غیر مهم کردن نوشته</word>
+  <word key="hide_title_blog" js="0">پنهان کردن این نوشته</word>
+  <word key="unhide_title_blog" js="0">آشکار کردن این نوشته</word>
+  <word key="blog_lock_title" js="0">قفل کردن این وبلاگ</word>
+  <word key="blog_unlock_title" js="0">بازکردن نوشته</word>
+  <word key="blog_move_title" js="0">انتقال این نوشته</word>
+  <word key="blog_delete_title" js="0">حذف این نوشته</word>
+  <word key="approve_title_blog" js="0">پذیرش این نوشته وبلاگ</word>
+  <word key="report_entry" js="0">گزارش نوشته</word>
+  <word key="unpublished" js="0">منتشر نشده</word>
+  <word key="blog_entry_locked_can_comment" js="0">این نوشته قفل شده است، اما دسترسی شما اجازه ارسال دیدگاه را می‌دهد.</word>
+  <word key="blog_entry_locked_cannot_comment" js="0">این نوشته قفل شده و امکان ارسال دیدگاه غیرفعال است.</word>
+  <word key="entry_posted" js="0">نوشته ارسال شد</word>
+  <word key="entry_future_posted" js="0">نوشته منتشر می‌شود در</word>
+  <word key="entry_images" js="0">تصاویر</word>
+  <word key="entry_posted_with_cat" js="0"></word>
+  <word key="entry_future_posted_with_cat" js="0"></word>
+  <word key="blog_comments" js="0">{!#[1:دیدگاه][?:دیدگاه]}</word>
+  <word key="blog_entries" js="0">{!#[1:نوشته][?:نوشته‌]}</word>
+  <word key="blog_views" js="0">{!#[1:مشاهده][?:مشاهده]}</word>
+  <word key="recent_entries" js="0">نوشته‌های اخیر</word>
+  <word key="featured_entries" js="0">نوشته‌های ویژه</word>
+  <word key="our_community_blogs" js="0">وبلاگ‌های سایت ما</word>
+  <word key="my_blogs" js="0">وبلاگ‌های من</word>
+  <word key="blogs_with_content" js="0">وبلاگ با نوشته</word>
+  <word key="sort_last_edate" js="0">آخرین نوشته</word>
+  <word key="sort_rating_total" js="0">امتیاز‌‌‌ دهی</word>
+  <word key="from_the_blog" js="0">از وبلاگ</word>
+  <word key="see_more_entries" js="0">دیدن نوشته‌های بیشتر از %s</word>
+  <word key="no_entries_yet" js="0">تا این لحظه بدون نوشته</word>
+  <word key="read_more_entry" js="0">مطالعه بیشتر درباره این نوشته</word>
+  <word key="see_comments_on_entry" js="0">دیدن دیدگاه های این نوشته</word>
+  <word key="add_entry" js="0">افزودن نوشته جدید</word>
+  <word key="this_is_group" js="0">این یک وبلاگ گروهی است</word>
+  <word key="unread_blog" js="0">این نوشته خوانده نشده است</word>
+  <word key="read_blog" js="0">شما نوشته را خوانده‌اید</word>
+  <word key="go_to_blog" js="0">برو به وبلاگ %s</word>
+  <word key="latest_entry" js="0">آخرین نوشته</word>
+  <word key="entry_name_with_cat" js="0">%s در %s</word>
+  <word key="no_entries" js="0">تاکنون برای این وبلاگ نوشته‎ ای ایجاد نشده است</word>
+  <word key="pin_blog" js="0">مهم کردن</word>
+  <word key="unpin_blog" js="0">غیر مهم کردن</word>
+  <word key="blog_by" js="0">یک وبلاگ ایجاد شده %s</word>
+  <word key="group_blog_by" js="0">یک وبلاگ گروهی توسط %s</word>
+  <word key="club_blog_for" js="0">وبلاگ کلوپ برای %s</word>
+  <word key="contributors_to_this" js="0">مشارکت‌کنندگان این وبلاگ</word>
+  <word key="num_contributors_to_this" js="0">این وبلاگ {# [1:نویسنده][?:نویسنده]} دارد</word>
+  <word key="about_this_blog" js="0">درباره این وبلاگ</word>
+  <word key="entries_in_this_blog" js="0">نوشته‌های این وبلاگ</word>
+  <word key="blog_category_viewing" js="0">در حال مشاهده دسته %s</word>
+  <word key="blog_category_select" js="0">مشاهده دسته</word>
+  <word key="blog_rss_offline" js="0">خوراک RSS غیرفعال شد</word>
+  <word key="blog_rss_offline_admin" js="0">خوراک RSS غیرفعال است چون تنظیمات &quot;پذیرش خوراک RSS&quot; در پنل مدیریت غیرفعال است /یا از تنظیمات کلی وبلاگ غیرفعال است.</word>
+  <word key="blog_enable_rss" js="0">فعال بودن خوراک RSS</word>
+  <word key="blog_enable_rss_desc" js="0">پذیرفتن این وبلاگ برای هماهنگی با دیگر وبلاگ‌ها با فعال کردن RSS</word>
+  <word key="blog_rss_title" js="0">آخرین نوشته‌ها</word>
+  <word key="blog_rss_import" js="0">درون ریزی RSS/Atom</word>
+  <word key="blog_rss_import_url" js="0">آدرس وبگاه</word>
+  <word key="blog_rss_import_auth_user" js="0">نام کاربری مجوز HTTP</word>
+  <word key="blog_rss_import_auth_user_desc" js="0">بیشتر خوراک‌ها نیازی به مجوز بررسی ندارند و می‌توانید خالی رها کنید.</word>
+  <word key="blog_rss_import_auth_pass" js="0">گذرواژه مجوز HTTP</word>
+  <word key="blog_rss_import_auth_pass_desc" js="0">بیشتر خوراک‌ها نیازی به مجوز بررسی ندارند و می‌توانید خالی رها کنید.</word>
+  <word key="blog_rss_import_tags" js="0">برچسب‌ها</word>
+  <word key="blog_rss_import_show_link" js="0">متن برای استفاده لینک</word>
+  <word key="blog_rss_import_show_link_desc" js="0">در انتهای پست، به نوشته اصلی لینک شود.</word>
+  <word key="blog_rss_import_show_link_default" js="0">مشاهده مطلب در صفحه خودش</word>
+  <word key="blog_enable_rss_import" js="0">فعال بودن درون ریزی RSS</word>
+  <word key="blog_enable_rss_import_desc" js="0">درون ریزی RSS از یک سایت دیگر</word>
+  <word key="embed_blog_entry" js="0">نوشته وبلاگ</word>
+  <word key="embed_blog" js="0">وبلاگ</word>
+  <word key="view_this_blog" js="0">مشاهده این وبلاگ</word>
+  <word key="user_blogs" js="0">وبلاگ‌ها</word>
+  <word key="profile_blog_blog" js="0">وبلاگ‌ها</word>
+  <word key="also_contributes" js="0"> همچنین مشارکت کرده در:</word>
+  <word key="contributes_to" js="0">مشارکت‌ها در</word>
+  <word key="most_recent_entry" js="0">بیشترین نوشته اخیر</word>
+  <word key="blog_byline_nodate" js="0">یک وبلاگ ایجاد شده %s</word>
+  <word key="blog_last_entry_date" js="0">آخرین نوشته توسط %s</word>
+  <word key="num_blog_comments" js="0">{# [1:دیدگاه][?:دیدگاه]}</word>
+  <word key="num_blog_entries" js="0">{# [1:مطلب][?:مطلب]}</word>
+  <word key="num_blog_views" js="0">{# [1:بازدید][?:بازدید]}</word>
+  <word key="digest_area_blog_blog" js="0">وبلاگ ها</word>
+  <word key="digest_area_blog_entry" js="0">نوشته ها</word>
+  <word key="x_created_blog" js="0">%s یک وبلاگ ایجاد کرد</word>
+  <word key="x_created_entry_in" js="0">%s یک نوشته وبلاگ در %s ارسال کرد</word>
+  <word key="x_commented_entry" js="0">%s دیدگاهی برای یک نوشته فرستاد</word>
+  <word key="x_commented_blog_entry" js="0">%s برای مطلبی از یک وبلاگ دیدگاهی ارسال کرد</word>
+  <word key="loc_blog_viewing_index" js="0">گشتن در وبلاگ‌ها</word>
+  <word key="loc_blog_creating" js="0">ایجاد یک وبلاگ</word>
+  <word key="loc_blog_viewing_blog" js="0">درحال مشاهده وبلاگ: %s</word>
+  <word key="loc_blog_adding_entry" js="0">در حال افزودن یک نوشته به وبلاگ: %s</word>
+  <word key="loc_blog_viewing_entry" js="0">در حال  مشاهده نوشته: %s</word>
+  <word key="loc_blog_viewing_index_action" js="0">%s در حال مشاهده وبلاگ‌ها است</word>
+  <word key="loc_blog_creating_action" js="0"></word>
+  <word key="loc_blog_viewing_blog_action" js="0"></word>
+  <word key="loc_blog_adding_entry_action" js="0"></word>
+  <word key="loc_blog_viewing_entry_action" js="0"></word>
+  <word key="modperms__core_Content_blog_Entry" js="0">وبلاگ‌ها</word>
+  <word key="modperms__blog_Blogs" js="0">بلاگ ها</word>
+  <word key="can_pin_blog_entry" js="0">توانایی مهم کردن نوشته‌ها؟</word>
+  <word key="can_unpin_blog_entry" js="0">توانایی غیر مهم کردن نوشته‌ها؟</word>
+  <word key="can_feature_blog_entry" js="0">توانایی ویژه کردن نوشته‌ها؟</word>
+  <word key="can_unfeature_blog_entry" js="0">توانایی غیر ویژه کردن نوشته‌ها؟</word>
+  <word key="can_edit_blog_entry" js="0">توانایی ویرایش نوشته‌ها؟</word>
+  <word key="can_hide_blog_entry" js="0">توانایی پنهان کردن نوشته‌ها؟</word>
+  <word key="can_unhide_blog_entry" js="0">توانایی آشکار کردن نوشته‌ها؟</word>
+  <word key="can_view_hidden_blog_entry" js="0">توانایی مشاهده نوشته‌های پنهان؟</word>
+  <word key="can_mod_blogs" js="0">توانایی انتقال وبلاگ؟</word>
+  <word key="can_move_blog_entry" js="0">توانایی قفل نوشته‌ها؟</word>
+  <word key="can_move_blog_entry_desc" js="0">تنها توانایی انتقال مطالب به وبلاگ هایی را خواهند داشت که امکان ایجاد مطلب در آن وبلاگ ها دارند.</word>
+  <word key="can_lock_blog_entry" js="0">توانایی قفل کردن نوشته‌ها؟</word>
+  <word key="can_unlock_blog_entry" js="0">توانایی باز کردن نوشته‌ها؟</word>
+  <word key="can_reply_to_locked_blog_entry" js="0">توانایی ارسال پاسخ به مطالب قفل شده؟</word>
+  <word key="can_delete_blog_entry" js="0">توانایی حذف نوشته‌ها؟</word>
+  <word key="can_edit_blog_entry_comment" js="0">توانایی ویرایش دیدگاه ها؟</word>
+  <word key="can_hide_blog_entry_comment" js="0">توانایی پنهان کردن دیدگاه ها؟</word>
+  <word key="can_unhide_blog_entry_comment" js="0">توانایی آشکار کردن دیدگاه ها؟</word>
+  <word key="can_view_hidden_blog_entry_comment" js="0">توانایی مشاهده دیدگاه های پنهان؟</word>
+  <word key="can_delete_blog_entry_comment" js="0">توانایی حذف دیدگاه ها؟</word>
+  <word key="can_future_publish_blog_entry" js="0">توانایی تنظیم به عنوان انتشار در آینده؟</word>
+  <word key="can_view_future_blog_entry" js="0">توانایی مشاهده نوشته‌های وبلاگ در صف انتشار کاربران دیگر؟</word>
+  <word key="can_feature_comments_blog_entry" js="0">توانایی انتخاب دیدگاه ها به عنوان توصیه شده در وبلاگ؟</word>
+  <word key="can_unfeature_comments_blog_entry" js="0">توانایی حذف دیدگاه های توصیه شده در وبلاگ؟</word>
+  <word key="can_add_item_message_blog_entry" js="0">توانایی افزودن پیام در مطالب؟</word>
+  <word key="can_edit_item_message_blog_entry" js="0">توانایی ویرایش پیام در مطالب؟</word>
+  <word key="can_delete_item_message_blog_entry" js="0">توانایی حذف پیام در مطالب؟</word>
+  <word key="group__blog_Blog" js="0">وبلاگ</word>
+  <word key="g_blog_allowlocal" js="0">توانایی ایجاد وبلاگ؟</word>
+  <word key="g_blog_maxblogs" js="0">حداکثر تعداد وبلاگ‌ها</word>
+  <word key="g_blog_allowprivate" js="0">توانایی ایجاد وبلاگ خصوصی؟</word>
+  <word key="g_blog_allowprivate_desc" js="0">وبلاگ‌های خصوصی تنها توسط کاربران انتخاب شده توسط مالک وبلاگ‌ قابل مشاهده هستند.</word>
+  <word key="g_blog_allowpoll" js="0">توانایی افزودن نظرسنجی به نوشته‌ های وبلاگ؟</word>
+  <word key="g_blog_allowcomment" js="0">توانایی ارسال دیدگاه ها در نوشته‌ ها؟</word>
+  <word key="g_blog_allowcomment_guestreg" js="0"><![CDATA[<a href='{internal.admin.app=core&module=settings&controller=posting&searchResult=post_before_registering}'>ارسال قبل از ثبت نام</a> فعال است اما با فعال سازی این گزینه، نادیده گرفته می شود.]]></word>
+  <word key="g_blog_allowownmod" js="0">توانایی مدیریت نوشته های وبلاگ خود؟</word>
+  <word key="g_blog_allowownmod_desc" js="0">کاربر قادر خواهد بود: ویرایش دیدگاه ها و نوشته‌ها، حذف نوشته‌ها و دیدگاه ها و غیرفعال سازی ارسال دیدگاه در نوشته ها.</word>
+  <word key="g_blog_allowdelete" js="0">توانایی حذف وبلاگ خود؟</word>
+  <word key="block_blogCommentFeed" js="0">دیدگاه های وبلاگ</word>
+  <word key="block_blogCommentFeed_desc" js="0">نمایش دیدگاه ها از وبلاگ .</word>
+  <word key="block_blogs" js="0">وبلاگ</word>
+  <word key="block_blogs_desc" js="0">نمایش یک لیست از وبلاگ ها.</word>
+  <word key="widget_blog_last_date" js="0">آخرین نوشته ارسال شده</word>
+  <word key="widget__blog_edate" js="0">تاریخ آخرین مطلب</word>
+  <word key="widget__blog_count_entries" js="0">تعداد مطالب</word>
+  <word key="widget__blog_count_comments" js="0">تعداد دیدگاه ها</word>
+  <word key="__api_blog_comments" js="0">دیدگاه‌ها</word>
+  <word key="__api_blog_entries" js="0">مطالب</word>
+  <word key="__api_blog_blogs" js="0">وبلاگ ها</word>
+  <word key="blog_sidebar_enabled" js="0">فعال کردن سایدبار اختصاصی؟</word>
+  <word key="blog_sidebar" js="0">محتوا سایدبار</word>
+  <word key="blog_enable_sidebar" js="0">فعال کردن سایدبارهای اختصاصی؟</word>
+  <word key="blog_enable_sidebar_desc" js="0">کاربران دارای سطح دسترسی مدیریت وبلاگ ها قادر خواهند بود مطالب را قبل از سایدبار که شامل لینک های شبکه های اجتماعی می شود، اضافه کنند.</word>
+  <word key="blog_sidebar_title" js="0">اطلاعات وبلاگ</word>
+  <word key="blog_bm_filters" js="0">وبلاگ</word>
+  <word key="mf_has_blog" js="0">کاربر دارای وبلاگ باشد؟</word>
+  <word key="blog_entry_cover_photo" js="0">تصویر شاخص</word>
+  <word key="menu__blog_blogs_categories" js="0">وبلاگ</word>
+  <word key="blog_categories" js="0">وبلاگ</word>
+  <word key="blog_create_category" js="0">ایجاد دسته جدید</word>
+  <word key="blog_categories_add_child" js="0">افزودن وبلاگ</word>
+  <word key="blog_category_id" js="0">دسته</word>
+  <word key="category_basic_settings" js="0">تنظیمات اولیه</word>
+  <word key="blog_category_desc" js="0">توضیحات</word>
+  <word key="category_parent" js="0">والد</word>
+  <word key="category_desc_placeholder" js="0">افزودن توضیحات...</word>
+  <word key="__api_blog_categories" js="0">دسته بندی ها</word>
+  <word key="entry_category_id" js="0"></word>
+  <word key="blog_entry_new_category" js="0"></word>
+  <word key="blog_entry_category_new" js="0"></word>
+  <word key="blog_category_heading" js="0">در حال مشاهده مطالب %s</word>
+  <word key="blog_manage_entry_categories" js="0">مدیرت دسته ها</word>
+  <word key="blog_entry_categories" js="0">دسته‌بندی مطالب</word>
+  <word key="blog_error_missing_name" js="0">شما باید برای این دسته بندی نامی وارد کنید</word>
+  <word key="blog_error_not_find_category" js="0">نمی توان این دسته بندی را پیدا کرد</word>
+  <word key="blog_categories_all" js="0">نمایش همه</word>
+  <word key="no_entries_in_cat" js="0">هیچ مطلبی در این دسته وجود ندارد</word>
+  <word key="__api_blog_entrycategories" js="0">ورودی دسته بندی ها</word>
+  <word key="blog_subcategories" js="0">زیردسته</word>
+  <word key="webhook_blogBlog_create" js="0"></word>
+  <word key="blog_category_confirm_delete" js="1">آیا از پاک کردن این دسته بندی مطمئن هستید؟</word>
+  <word key="blog_category_confirm_delete_desc" js="1"></word>
+  <word key="manage_cats_new_row" js="1">افزودن دسته بندی جدید</word>
+  <word key="entry_cat_order_saved" js="1">ترتیب دسته بندی ذخیره شد</word>
+ </app>
+</language>
