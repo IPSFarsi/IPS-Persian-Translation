@@ -193,7 +193,7 @@
   <word key="bw_enable_answers__member" js="0">اجازه انتخاب به ایجاد کننده موضوع جهت علامت زدن به عنوان حل شده؟</word>
   <word key="bw_enable_answers__member_desc" js="0">اختیار به ایجاد کننده موضوع داده شود تا ارسال‌ها را نیز به عنوان راه حل، انتخاب کند. </word>
   <word key="solved_stats_from_cutoff" js="0">Statistics Cutoff</word>
-  <word key="solved_stats_from_cutoff_desc" js="0"><![CDATA[Any topics marked as solved that were posted older than the timeframe configured here will be excluded from <a href='{internal.app=forums&module=stats&controller=solved&tab=time}' target='_blank'>Time to Solved</a> statistics for this forum. Note that statistics are built once daily, so changes here may not take effect immediately.]]></word>
+  <word key="solved_stats_from_cutoff_desc" js="0"><![CDATA[هر گونه موضوعی که به عنوان حل شده علامت‌گذاری شده باشد و قدیمی‌تر از بازه زمانی تنظیم شده در اینجا منتشر شده باشد، از <a href='{internal.app=forums&module=stats&controller=solved&tab=time}' target='_blank'>آمار زمان تا حل</a> برای این انجمن حذف خواهد شد. توجه داشته باشید که آمارها روزانه یکبار ساخته می‌شوند، بنابراین تغییرات اعمال شده در اینجا ممکن است به طور فوری اعمال نشوند.]]></word>
   <word key="rebuilding_starter_ids" js="0">بازسازی ID های شروع کننده های موضوع</word>
   <word key="chart_forums" js="0">فیلتر توسط تالارهای گفتگو</word>
   <word key="forums_topic_post" js="0">ارسال های تالار</word>
@@ -559,11 +559,11 @@
   <word key="can_use_saved_actions" js="0">توانایی استفاده از عملیات های مدیریتی ذخیره شده؟</word>
   <word key="modlog__saved_action" js="0">Ran a saved action on topic</word>
   <word key="modlog__unarchived_topic" js="0"><![CDATA[موضوع از آرشیو خارج شد: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__removed_archive_exclude_topic" js="0">Removed 'exclude from archive' state from a topic</word>
-  <word key="queue_deleting_legacy_topics" js="0">Deleting legacy topic data</word>
-  <word key="queue_deleting_legacy_posts" js="0">Deleting legacy post data</word>
-  <word key="queue_fixing_hidden_first_post" js="0">Updating incorrectly hidden topics</word>
-  <word key="queue_rebuilding_new_topic_flag" js="0">Rebuilding new topic flag in posts</word>
+  <word key="modlog__removed_archive_exclude_topic" js="0">حالت 'حذف از بایگانی' از یک موضوع حذف شد</word>
+  <word key="queue_deleting_legacy_topics" js="0">حذف داده‌های قدیمی موضوعات</word>
+  <word key="queue_deleting_legacy_posts" js="0">حذف داده‌های قدیمی ارسال‌ها</word>
+  <word key="queue_fixing_hidden_first_post" js="0">به‌روزرسانی موضوعاتی که به‌طور نادرست مخفی شده‌اند</word>
+  <word key="queue_rebuilding_new_topic_flag" js="0">بازسازی پرچم موضوع جدید در ارسال‌ها</word>
   <word key="queue_rebuilding_solved_posts" js="0">بازسازی فهرست پست های حل شده</word>
   <word key="block_forumStatistics" js="0">آمار انجمن</word>
   <word key="block_forumStatistics_desc" js="0">نمایش آمار عمومی انجمن</word>
@@ -582,10 +582,10 @@
   <word key="block_postFeed_desc" js="0">ایجاد یک خوراک از پست‌ها بر اساس گزینه‌های مرتب‌سازی و ترتیب دلخواه</word>
   <word key="digest_area_forums_topic" js="0">موضوع‌ها</word>
   <word key="digest_area_forums_forum" js="0">انجمن‌ها</word>
-  <word key="x_created_topic_in" js="0">%s created a topic in %s</word>
-  <word key="x_asked_new_question" js="0">%s asked a new question in %s</word>
-  <word key="x_replied_to_a_topic" js="0">%s replied to a topic</word>
-  <word key="x_answered_a_question" js="0">%s answered a question</word>
+  <word key="x_created_topic_in" js="0">%s یک موضوع در %s ایجاد کرد</word>
+  <word key="x_asked_new_question" js="0">%s یک سوال جدید در %s پرسید</word>
+  <word key="x_replied_to_a_topic" js="0">%s به یک موضوع پاسخ داد</word>
+  <word key="x_answered_a_question" js="0">%s به یک سوال پاسخ داد</word>
   <word key="loc_forums_viewing_topic" js="0">در حال مشاهده موضوع: %s</word>
   <word key="loc_forums_viewing_topic_action" js="0">%s درحال خواندن یک موضوع است</word>
   <word key="loc_forums_viewing_forum" js="0">در حال مشاهده انجمن: %s</word>
@@ -594,36 +594,36 @@
   <word key="loc_forums_creating_topic_action" js="0">%s درحال ایجاد یک موضوع است</word>
   <word key="loc_forums_index" js="0">در مشاهده صفحه اول انجمن‌ها</word>
   <word key="loc_forums_index_action" js="0">%s درحال مشاهده یک تالار است</word>
-  <word key="ad_forum_listing" js="0">After the first topic in each forum</word>
-  <word key="ad_topic_view" js="0">After the first post in each topic</word>
-  <word key="ad_fluid_index_view" js="0">Fluid view topic listing, between topic rows</word>
-  <word key="ad_fluid_index_view_number" js="0">Show this advert after every</word>
-  <word key="ad_fluid_index_view_number_suffix" js="0">topic rows when in fluid view mode</word>
-  <word key="ad_fluid_index_view_repeat" js="0">Repeated</word>
-  <word key="ad_fluid_index_view_repeat_suffix" js="0">times</word>
-  <word key="stats_new_topics" js="0">Topics</word>
-  <word key="stats_new_posts" js="0">Posts</word>
+  <word key="ad_forum_listing" js="0">پس از اولین موضوع در هر انجمن</word>
+  <word key="ad_topic_view" js="0">پس از اولین پست در هر موضوع</word>
+  <word key="ad_fluid_index_view" js="0">نمایش موضوع به صورت آبشاری، بین ردیف‌های موضوع</word>
+  <word key="ad_fluid_index_view_number" js="0">نمایش این تبلیغ بعد از هر</word>
+  <word key="ad_fluid_index_view_number_suffix" js="0">ردیف موضوع در حالت نمایش آبشاری</word>
+  <word key="ad_fluid_index_view_repeat" js="0">تکرار شده</word>
+  <word key="ad_fluid_index_view_repeat_suffix" js="0">بار</word>
+  <word key="stats_new_topics" js="0">موضوع‌ها</word>
+  <word key="stats_new_posts" js="0">ارسال‌ها</word>
   <word key="stats_topics_tab_total" js="0">همه موضوع‌ها</word>
-  <word key="stats_topics_tab_byforum" js="0">Topics By Forum</word>
-  <word key="stats_topics_tab_noposts" js="0">Topics With No Posts</word>
+  <word key="stats_topics_tab_byforum" js="0">موضوعات بر اساس انجمن</word>
+  <word key="stats_topics_tab_noposts" js="0">موضوعات بدون ارسال</word>
   <word key="stats_topics_tab_solved" js="0">موضوع‌های حل شده بر اساس انجمن</word>
   <word key="stats_topics_title_solved" js="0">موضوع‌های حل شده بر اساس انجمن</word>
-  <word key="stats_topics_tab_groups" js="0">Solved Topics By Group</word>
-  <word key="stats_topics_title" js="0">Topics by time period</word>
-  <word key="stats_topics_title_byforum" js="0">Topics by forum</word>
-  <word key="stats_topics_tab_unsolved" js="0">Unsolved Topics</word>
-  <word key="topics_noposts_tid" js="0">Topic ID</word>
-  <word key="topics_noposts_title" js="0">Title</word>
-  <word key="topics_noposts_state" js="0">Status</word>
-  <word key="topics_noposts_start_date" js="0">Started</word>
-  <word key="topics_noposts_starter_id" js="0">Author</word>
-  <word key="topics_noposts_views" js="0">Views</word>
-  <word key="topics_noposts_forum_id" js="0">Forum</word>
-  <word key="topics_noposts_approved" js="0">Approved</word>
-  <word key="stats_posts_tab_total" js="0">All Posts</word>
-  <word key="stats_posts_tab_byforum" js="0">Posts By Forum</word>
-  <word key="stats_posts_title" js="0">Posts by time period</word>
-  <word key="stats_posts_title_byforum" js="0">Posts by forum</word>
+  <word key="stats_topics_tab_groups" js="0">موضوعات حل شده بر اساس گروه</word>
+  <word key="stats_topics_title" js="0">موضوعات بر اساس دوره زمانی</word>
+  <word key="stats_topics_title_byforum" js="0">موضوعات بر اساس انجمن</word>
+  <word key="stats_topics_tab_unsolved" js="0">موضوعات بدون حل</word>
+  <word key="topics_noposts_tid" js="0">شناسه موضوع</word>
+  <word key="topics_noposts_title" js="0">عنوان</word>
+  <word key="topics_noposts_state" js="0">وضعیت</word>
+  <word key="topics_noposts_start_date" js="0">شروع شده</word>
+  <word key="topics_noposts_starter_id" js="0">نویسنده</word>
+  <word key="topics_noposts_views" js="0">بازدیدها</word>
+  <word key="topics_noposts_forum_id" js="0">انجمن</word>
+  <word key="topics_noposts_approved" js="0">تأیید شده</word>
+  <word key="stats_posts_tab_total" js="0">تمام ارسال‌ها</word>
+  <word key="stats_posts_tab_byforum" js="0">ارسال‌ها بر اساس انجمن</word>
+  <word key="stats_posts_title" js="0">ارسال‌ها بر اساس دوره زمانی</word>
+  <word key="stats_posts_title_byforum" js="0">ارسال‌ها بر اساس انجمن</word>
   <word key="stats_percentagesolved" js="0">درصد حل شده‌ها</word>
   <word key="stats_percentagesolved_desc" js="0">درصد موضوع های حل شده در مقایسه با تعداد کل موضوع های ارسال شده</word>
   <word key="stats_solved_tooltip" js="0">%s موضوع از مجموع %s موضوع، حل شده است</word>
@@ -636,20 +636,20 @@
   <word key="stats_question_ratings_positive" js="0">امتیاز مثبت</word>
   <word key="r__questions" js="0">سوال‌ها</word>
   <word key="r__questions_manage" js="0">توانایی مشاهده آمار سوال‌ها؟</word>
-  <word key="menu__forums_stats_solvers" js="0">Top Solvers</word>
-  <word key="top_solvers" js="0">Top Solvers</word>
-  <word key="top_solvers_name" js="0">Username</word>
-  <word key="top_solvers_count" js="0">Solved Count</word>
-  <word key="top_solvers_solved_date" js="0">Date Range</word>
-  <word key="top_solvers_date" js="0">Last Solution Date</word>
-  <word key="top_solvers_member_group_id" js="0">Group</word>
+  <word key="menu__forums_stats_solvers" js="0">برترین حل‌کنندگان</word>
+  <word key="top_solvers" js="0">برترین حل‌کنندگان</word>
+  <word key="top_solvers_name" js="0">نام کاربری</word>
+  <word key="top_solvers_count" js="0">تعداد حل‌شده</word>
+  <word key="top_solvers_solved_date" js="0">بازه زمانی</word>
+  <word key="top_solvers_date" js="0">تاریخ آخرین حل</word>
+  <word key="top_solvers_member_group_id" js="0">گروه</word>
   <word key="widget_feed_container_topic" js="0">انجمن‌ها</word>
   <word key="block_topicFeed_title" js="0">موضوع‌ها</word>
   <word key="block_postFeed_title" js="0">ارسال‌ها</word>
   <word key="block_poll" js="0">نظرسنچی</word>
   <word key="block_poll_desc" js="0">ایجاد بلوک نظرسنجی از موضوع دارای نظرسنجی</word>
   <word key="widget_poll_tid" js="0">موضوع</word>
-  <word key="widget_poll_tid_desc" js="0">Start typing the name of the topic</word>
+  <word key="widget_poll_tid_desc" js="0">شروع به تایپ نام موضوع کنید</word>
   <word key="poll_view_topic" js="0">نمایش موضوع</word>
   <word key="poll_widget_no_poll" js="0">موضوع انتخاب شده دارای نظرسنجی فعال نمی باشد.</word>
   <word key="__api_forums_posts" js="0">ارسال‌ها</word>
@@ -680,9 +680,9 @@
   <word key="forums_solved_topic_reengage_never" js="0">هرگز به نویسنده جهت درخواست ایمیل زده نشود</word>
   <word key="forums_solved_stats_time" js="0">مدت زمان حل شدن (بر اساس روز)</word>
   <word key="forums_solved_stats_percentage" js="0">درصد حل شده‌ها</word>
-  <word key="solved_stats_rebuild_started" js="0">Statistics rebuild started</word>
-  <word key="solved_stats_rebuild_button" js="0">Rebuild Solved Statistics</word>
-  <word key="solved_rebuilding_stats" js="0">Rebuilding solved statistics for forum %s</word>
+  <word key="solved_stats_rebuild_started" js="0">بازسازی آمار شروع شد</word>
+  <word key="solved_stats_rebuild_button" js="0">بازسازی آمار حل شده</word>
+  <word key="solved_rebuilding_stats" js="0">بازسازی آمار حل شده برای انجمن %s</word>
   <word key="solved_stats_chart_desc" js="0">داده‌های این نمودار هر روز یکبار به‌روزرسانی می‌شوند.</word>
   <word key="forums_simple_name_with_container" js="0"><![CDATA[توسط %s در <a href='%s'>%s</a>	]]></word>
   <word key="forums_show_all_forums" js="0">حالت جدول</word>
