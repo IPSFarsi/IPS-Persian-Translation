@@ -99,7 +99,7 @@
   <word key="category_tag_prefixes" js="0">پذیرش پیشوند؟</word>
   <word key="category_allow_albums_club" js="0">پذیرش آلبوم؟</word>
   <word key="category_allow_albums" js="0">آلبوم ها</word>
-  <word key="category_allow_albums_desc" js="0"><![CDATA[You can control which groups are allowed to create albums from <a href='{internal.app=core&module=members&controller=groups}'>Group Settings</a>. If you require albums but the user does not have permission to create albums, they will not be able to submit to this category.]]></word>
+  <word key="category_allow_albums_desc" js="0"><![CDATA[شما می توانید کنترل کنید که کدام گروه ها مجاز به ایجاد آلبوم از <a href='{internal.app=core&module=members&controller=groups}'>تنظیمات گروه< /a>. اگر به آلبوم نیاز دارید اما کاربر اجازه ایجاد آلبوم را ندارد، نمی‌تواند به این دسته ارسال کند.]]></word>
   <word key="cat_no_allow_albums" js="0">عدم پذیرش آلبوم</word>
   <word key="cat_no_allow_albums_desc" js="0">Images can only be submitted directly to the category</word>
   <word key="cat_allow_albums" js="0">پذیرش آلبوم</word>
@@ -136,7 +136,7 @@
   <word key="acplog__catalbum_mass_move" js="0">Mass Moved %s albums from %s to %s</word>
   <word key="acplog__catalbum_mass_delete" js="0">%s البوم از %s به صورت دسته‌جمعی حذف شده است.</word>
   <word key="galnode_mass_content_move_blurb" js="0"><![CDATA[<strong>%s albums</strong> will be moved to %s]]></word>
-  <word key="galnode_mass_content_delete_blurb" js="0"><![CDATA[<strong>%s البوم</strong> حذف خواهند شد.]]></word>
+  <word key="galnode_mass_content_delete_blurb" js="0"><![CDATA[<strong>%s آلبوم</strong> <strong>حذف</strong> خواهد شد.]]></word>
   <word key="error_messages" js="0">پیام‌های خطا</word>
   <word key="category_permission_custom_error" js="0">پیام خطای عدم دسترسی اختصاصی</word>
   <word key="category_permission_custom_error_desc" js="0">این پیام خطا به هر کسی که می تواند دسته بندی را مرور کند، نمایش داده می شود اما نمی تواند تصاویر داخل آن را مشاهده کند</word>
@@ -376,7 +376,7 @@
   <word key="cover_category" js="0">تنظیم به عنوان کاور دسته</word>
   <word key="cover_album_only" js="0">کاور آلبوم</word>
   <word key="cover_album" js="0">تنظیم به عنوان کاور آلبوم</word>
-  <word key="cover_both" js="0">کاور هر دو (دسته و آلبوم)</word>
+  <word key="cover_both" js="0"><![CDATA[کاور هر دو (دسته و آلبوم)]]></word>
   <word key="set_as_profile_photo" js="0">این تصویر به عنوان تصویر نمایه شما تنظیم شد</word>
   <word key="set_as_category_done" js="0">این تصویر به عنوان کاور دسته تنظیم شد</word>
   <word key="set_as_album_done" js="0">این تصویر به عنوان کاور آلبوم تعیین شد</word>
@@ -546,6 +546,7 @@
   <word key="movies_you_uploaded" js="0">ویدیوهای بارگذاری شده شما</word>
   <word key="media_you_uploaded" js="0">فایل‌های بارگذاری شده شما</word>
   <word key="new_album" js="1"><![CDATA[افزودن {{count}} به آلبوم جدید: <strong>{{album}}</strong>]]></word>
+  <word key="new_album" js="0"><![CDATA[افزودن {# [1:تصویر][?:تصویر]} به آلبوم: <strong>%s</strong>]]></word>
   <word key="with_all_images" js="0">همراه با همه تصویرها</word>
   <word key="create_album" js="0">ساخت آلبوم</word>
   <word key="create_an_album" js="0">ساخت یک آلبوم</word>
@@ -558,12 +559,12 @@
   <word key="set_credit_all" js="0">تنظیم تهیه کنندگان برای همه</word>
   <word key="set_tags_all" js="0">Set tags on all</word>
   <word key="notify_me" js="0">زمانی که دیدگاه جدیدی ارسال شد باخبرم کن</word>
-  <word key="album_limit_message" js="0"><![CDATA[Albums can contain up to <strong>{# [1:image or video][?:images or videos]}</strong>, but you've uploaded <strong>%d</strong>. Only the first {# [1:image or video][?:images or videos]} will be added to the album when you save; any remaining will be removed.]]></word>
+  <word key="album_limit_message" js="0"><![CDATA[آلبوم‌ها می‌توانند حداکثر حاوی <strong>{# [1:تصویر یا ویدیو][?:تصویر یا ویدیو]}</strong> باشند، اما شما <strong>%d</strong> را آپلود کرده‌اید. فقط اولین {# [1:تصویر یا ویدیو][?:تصویر یا ویدیو]} به آلبوم اضافه می شود که ذخیره کنید. باقیمانده حذف خواهد شد.]]></word>
   <word key="too_many_images" js="0">تصویرهای زیادی موجود است</word>
   <word key="editing_image" js="0">ویرایش تصویر</word>
   <word key="editing_movie" js="0">ویرایش ویدیو</word>
   <word key="ready_to_submit" js="0">آماده به ارسال</word>
-  <word key="ready_to_submit_blurb" js="0"><![CDATA[Click <em>Finish editing images</em> to submit your images to our gallery.]]></word>
+  <word key="ready_to_submit_blurb" js="0"><![CDATA[برای ارسال تصاویر خود به گالری ما، <em>پایان ویرایش تصاویر</em> را کلیک کنید.]]></word>
   <word key="x_of_y" js="0">%d از %d</word>
   <word key="continue_next_image" js="0">ذخیره این تصویر</word>
   <word key="finish_all_images" js="0">پایان و ذخیره همه تصاویر</word>
@@ -594,7 +595,7 @@
   <word key="specify_image_tags" js="0">Set tags</word>
   <word key="gallery_guest_post_normal_header" js="0">You are posting as a guest</word>
   <word key="gallery_guest_post_pbr_blurb" js="0">You can submit your images now and register an account later.</word>
-  <word key="gallery_guest_post_mod_approval" js="0"><![CDATA[<strong>Note:</strong> your images will require approval by a moderator after posting.]]></word>
+  <word key="gallery_guest_post_mod_approval" js="0"><![CDATA[<strong>توجه:</strong> تصاویر شما پس از ارسال به تأیید ناظر نیاز دارند.]]></word>
   <word key="gallery_this_will_be_moderated" js="0">به علت هشداری که شما دریافت کرده‌اید، تصاویر شما تا زمان تایید مدیریت، مخفی خواهد بود.</word>
   <word key="emailtpl__imageContent" js="0">Gallery image table</word>
   <word key="exif_title" js="0">داده‌های کامل EXIF</word>
@@ -885,8 +886,7 @@
   <word key="cancel_note" js="1">لغو</word>
   <word key="count_image" js="1">{# [1:تصویر][?:تصویر]}</word>
   <word key="delete_note_confirm" js="1">شما از حذف این نکته مطمئن هستید؟</word>
-  <word key="new_album" js="1"><![CDATA[افزودن {{count}} به آلبوم جدید: <strong>{{album}}</strong>]]></word>
-  <word key="existing_album" js="1"><![CDATA[افزودن {{count}} به آلبوم موجود: <strong>{{album}}</strong> ]]></word>
+  <word key="existing_album" js="1"><![CDATA[افزودن {{count}} به آلبوم موجود: <strong>{{آلبوم}}</strong>]]></word>
   <word key="unsaved_image_data" js="1">شما تغییرات خود را روی تصویر ذخیره نکرده‌اید. مطمئن هستید قصد تغییر تصویر را دارید؟</word>
   <word key="unsaved_image_data_desc" js="1">اطلاعات این تصویر از دست می‌رود.</word>
   <word key="images_without_data" js="1">شما برای {{count}} هیچ اطلاعاتی وارد نکردید، مطمئن هستید می‌خواهید ادامه دهید؟</word>

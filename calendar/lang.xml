@@ -52,7 +52,7 @@
   <word key="ipb_calendar_mon" js="0">شروع تقویم در دوشنبه</word>
   <word key="ipb_calendar_mon_desc" js="0">به طور پیشفرض تقویم از روز یکشنبه به عنوان روز آغازین برای هر هفته استفاده میکند. شما میتوانید با استفاده از این تنظیمات میتوانید روز آغازین هفته را به جای آن دوشنبه قرار دهید. </word>
   <word key="calendar_rss_feed" js="0">فعال کردن خوراک RSS برای رویدادهای نزدیک</word>
-  <word key="calendar_rss_feed_desc" js="0"><![CDATA[تنها مطالبی که برای کاربران مهمان قابل دسترس هستند، نمایش داده می شود. برای تنظیمات بیشتر، می توانید یک <a href='{internal.app=core&module=discovery&controller=rss}'>خوراک RSS اختصاصی</a> ایجاد نمایید.]]></word>
+  <word key="calendar_rss_feed_desc" js="0"><![CDATA[فقط محتوایی که در دسترس مهمانان باشد نشان داده می‌شود. برای گزینه‌ های بیشتر، یک <a href='{internal.app=core&module=discovery&controller=rss}'>خوراک RSS سفارشی ایجاد کنید </a>]]></word>
   <word key="calendar_rss_feed_days" js="0">تعداد روزهای آینده برای درج در فید</word>
   <word key="calendar_rss_feed_order" js="0">سفارش خوراک توسط</word>
   <word key="calendar_rss_feed_order_date" js="0">تاریخ رخداد</word>
@@ -196,7 +196,7 @@
   <word key="calendar_event_review_pl_lc" js="0">بازبینی رویدادها</word>
   <word key="event_review_count" js="0">{# [1:نقد][?:نقد]}</word>
   <word key="event_comment_count" js="0">{!#[1:دیدگاه][?:دیدگاه]}</word>
-  <word key="event_rsvp_attendees_list" js="0">{# [1:کاربر شرکت کرده][?:کاربران شرکت کرده]} RSVP داده‌اند{!#[0: ][?:، از جمله]}</word>
+  <word key="event_rsvp_attendees_list" js="0">{# [1:کاربر شرکت کرده][?:کاربر شرکت کرده]} RSVP داده{!#[0: ][?:، از جمله]}</word>
   <word key="calendar_rss_title" js="0">رویدادهای نزدیک</word>
   <word key="submit_event" js="0">ارسال یک رویداد</word>
   <word key="with_calendar" js="0">با %s</word>
@@ -340,7 +340,7 @@
   <word key="event_rss_feed_off_admin" js="0">خوراک RSS تقویم در حال حاضر در کنترل پنل مدیر غیر فعال می باشد</word>
   <word key="event_attendees" js="0">شرکت‌کنندگان برای %s</word>
   <word key="rsvp_limit_info" js="0">{# [1:کاربر را][?:کار را]} برای این رویداد RSVP کرده‌اند. کل %s می‌توانند RSVP کنند.</word>
-  <word key="rsvp_limit_nomaybe" js="0">You may only indicate you are going or not going when an event has a limit specified</word>
+  <word key="rsvp_limit_nomaybe" js="0">شما فقط می توانید نشان دهید زمانی که یک رویداد دارای محدودیت مشخص است، نمی روید</word>
   <word key="no_event_review" js="0">شما برای بررسی رویدادها دسترسی ندارید</word>
   <word key="task_BAD_CONTENT" js="0">فید iCalendar %s به درستی در قالب معترف شناخته شده iCalendar فرمت نشده است</word>
   <word key="task_NO_CONTENT" js="0">فید iCalendar %s هیچ رویدادی برای پردازش برگردانده نکرد</word>
@@ -437,19 +437,19 @@
   <word key="digest_users_going" js="0">{# [1:کاربر][?:کاربران]} شرکت می‌کنند</word>
   <word key="mailsub__calendar_notification_new_content" js="0"><![CDATA[{$content->mapped("title")|raw}]]></word>
   <word key="email_new_calevent_plain" js="0">%s %s، %s، را برای %s ارسال کرده است</word>
-  <word key="email_new_calevent" js="0"><![CDATA[<a href='%s'>%s</a> %s، <a href='%s'>%s</a>، را برای %s ارسال کرده است]]></word>
+  <word key="email_new_calevent" js="0"><![CDATA[<a href='%s'>%s</a> %s را پست کرده است، <a href='%s'>%s< /a>، برای %s]]></word>
   <word key="email_new_calevent_guest" js="0"><![CDATA[%s (مهمان) %s، <a href='%s'>%s</a>، را برای %s ارسال کرده است]]></word>
   <word key="__api_calendar_events" js="0">رویدادها</word>
   <word key="__api_calendar_comments" js="0">دیدگاه‌ها</word>
   <word key="__api_calendar_reviews" js="0">نقدها</word>
   <word key="__api_calendar_calendars" js="0">تقویم‌ها</word>
   <word key="__api_calendar_venues" js="0">مکان‌ها</word>
-  <word key="calendar_activity_stream_rsvp" js="0"><![CDATA[%s در حال شرکت در <a href='%s'>%s</a> است]]></word>
+  <word key="calendar_activity_stream_rsvp" js="0"><![CDATA[%s در <a href='%s'>%s</a> شرکت می‌کند]]></word>
   <word key="all_activity_calendar_streamitems" js="0">زمانی که کاربر یک زمان خاص برای یک رویداد ایجاد کرد</word>
   <word key="notifications__calendar_Events" js="0">یادآور رویدادها</word>
   <word key="notifications__calendar_Events_desc" js="0">این اعلامیه ها در هنگامی که شما یادآور در هنگام نزدیک شدن به رویداد را تنظیم کرده باشید، دریافت خواهید کرد.</word>
-  <word key="mailsub__calendar_notification_event_reminder" js="0"><![CDATA[یادآوری برای رویداد {$content->mapped("title")|raw}]]></word>
-  <word key="email_event_reminder" js="0"><![CDATA[در حال حاضر کمتر از %s تا <a href='%s'>%s </a> وجود دارد.]]></word>
+  <word key="mailsub__calendar_notification_event_reminder" js="0"><![CDATA[یادآوری رویداد برای {$content->mapped("title")|raw}]]></word>
+  <word key="email_event_reminder" js="0"><![CDATA[در حال حاضر کمتر از %s تا <a href='%s'>%s</a> باقی مانده است.]]></word>
   <word key="email_event_reminder_plain" js="0">از این پس کمتر از %s تا %s باقی مانده است</word>
   <word key="email_event_reminder_when" js="0">زمان: %s</word>
   <word key="email_event_reminder_where" js="0">مکان: %s</word>
@@ -477,7 +477,7 @@
   <word key="event_new_venue" js="0">ذخیره موقعیت به عنوان مکان جدید؟</word>
   <word key="cal_allow_anonymous" js="0">اجازه ارسال ناشناس داده‌ها؟</word>
   <word key="AchievementAction__Rsvp" js="0">کاربر RSVP برای رویداد</word>
-  <word key="achievement_filter_Rsvp_nth_suffix" js="0"><![CDATA[<span data-role='مین'>مین</span> RSVP او باشد]]></word>
+  <word key="achievement_filter_Rsvp_nth_suffix" js="0"><![CDATA[<span data-role='th'>ام</span> RSVP او باشد]]></word>
   <word key="achievement_filter_Rsvp_receiver" js="0">به کاربری که رویداد را ارسال کرده است</word>
   <word key="achievement_filter_Rsvp_giver" js="0">به کاربری که RSVP دارد</word>
   <word key="AchievementAction__Rsvp_log" js="0">RSVP به %s</word>
