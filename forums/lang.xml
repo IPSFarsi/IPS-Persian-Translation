@@ -1,793 +1,793 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language>
  <app key="forums" version="107745">
-  <word key="__app_forums" js="0">تالارهای گفتگو</word>
-  <word key="frontnavigation_forums" js="0">تالارهای گفتگو</word>
-  <word key="__indefart_post" js="0">یک ارسال در یک موضوع</word>
-  <word key="__indefart_topic" js="0">یک موضوع</word>
-  <word key="__indefart_answer" js="0">پاسخی برای یک سوال</word>
-  <word key="__indefart_question" js="0">یک سوال</word>
-  <word key="__defart_post" js="0">ارسال یک موضوع</word>
-  <word key="__defart_post_plural" js="0">{!#[1:ارسال][?:ارسال]} در موضوع</word>
-  <word key="__defart_topic" js="0">موضوع</word>
-  <word key="__defart_topic_plural" js="0">{!#[1:موضوع][?:موضوع]} </word>
-  <word key="__defart_answer" js="0">پاسخ به یک سوال</word>
-  <word key="__defart_answer_plural" js="0">{!#[1:پاسخ][?:پاسخ]} برای سوال</word>
-  <word key="__defart_question" js="0">سوال</word>
-  <word key="__defart_question_plural" js="0">{!#[1:سوال][?:سوال]}</word>
-  <word key="topic_container" js="0">تالارهای گفتگو</word>
-  <word key="search_contextual_item_forums" js="0">این تالار</word>
-  <word key="search_contextual_item_topic" js="0">این موضوع</word>
-  <word key="module__forums_forums" js="0">تالارهای گفتگو</word>
-  <word key="module__forums_stats" js="0">آمار</word>
-  <word key="filestorage__forums_Icons" js="0">نماد تالارهای گفتگو</word>
-  <word key="filestorage__forums_Cards" js="0">کارت‌های انجمن</word>
-  <word key="post" js="0">پست</word>
-  <word key="post_lc" js="0">پست</word>
-  <word key="answer" js="0">پاسخ</word>
-  <word key="answer_lc" js="0">پاسخ</word>
-  <word key="editor__forums_Forums" js="0">تالارهای گفتگو و موضوعات</word>
-  <word key="acp_search_title_forums_Forums" js="0">تالارهای گفتگو</word>
-  <word key="menu__forums_forums" js="0">تالارهای گفتگو</word>
-  <word key="menu__forums_forums_forums" js="0">تالارهای گفتگو</word>
-  <word key="menu__forums_forums_savedActions" js="0">اقدامات ذخیره شده</word>
-  <word key="menu__forums_stats" js="0">تالارهای گفتگو</word>
-  <word key="menu__forums_stats_topics" js="0">آمار موضوع های جدید</word>
-  <word key="menu__forums_stats_posts" js="0">آمار ارسال های جدید</word>
-  <word key="menu__forums_stats_solved" js="0">حل‌شده</word>
-  <word key="r__forums" js="0">تالارهای گفتگو</word>
-  <word key="r__forums_manage" js="0">توانایی مشاهده تالارهای گفتگو؟</word>
-  <word key="r__forums_add" js="0">توانایی ایجاد تالارهای گفتگو؟</word>
-  <word key="r__forums_edit" js="0">توانایی ویرایش تالارهای گفتگو؟</word>
-  <word key="r__forums_perms" js="0">توانایی مدیریت سطح دسترسی تالارهای گفتگو؟</word>
-  <word key="r__forums_massManageContent" js="0">توانایی حذف/ جا به جایی گسترده موضوع هادر تالارهای گفتگو؟</word>
-  <word key="r__forums_delete" js="0">توانایی حذف تالارهای گفتگو؟</word>
-  <word key="r__archive_manage" js="0">توانایی مدیریت تنظیمات بایگانی کردن؟</word>
-  <word key="r__settings_access" js="0">توانایی دسترسی به تنظیمات؟</word>
-  <word key="r__forum_settings" js="0">توانایی مدیریت تنظیمات تالارهای گفتگو؟</word>
-  <word key="r__savedActions" js="0">کارهای ذخیره شده</word>
-  <word key="r__savedActions_manage" js="0">توانایی مشاهده عملیات ذخیره شده؟</word>
-  <word key="r__savedActions_add" js="0">توانایی ایجاد عملیات ذخیره شده؟</word>
-  <word key="r__savedActions_edit" js="0">توانایی ویرایش عملیات ذخیره شده؟</word>
-  <word key="r__savedActions_delete" js="0">توانایی حذف عملیات ذخیره شده؟</word>
-  <word key="r__topics" js="0">آمار موضوع های جدید</word>
-  <word key="r__topics_manage" js="0">می تواند آمار مربوط به موضوع های جدید را مشاهده کند</word>
-  <word key="r__posts" js="0">آمار پست های جدید</word>
-  <word key="r__posts_manage" js="0">می تواند آمار مربوط به پست های جدید را مشاهده کند</word>
-  <word key="modperms__core_Content_forums_Topic" js="0">تالارهای گفتگو</word>
-  <word key="can_pin_topic" js="0">توانایی مهم کردن موضوع ها / پرسش ها؟</word>
-  <word key="can_unpin_topic" js="0">توانایی غیرمهم کردن موضوع ها / پرسش ها؟</word>
-  <word key="can_feature_topic" js="0">توانایی ویژه کردن موضوع ها / پرسش ها؟</word>
-  <word key="can_unfeature_topic" js="0">توانایی عدم ویژه کردن موضوع ها / پرسش ها؟</word>
-  <word key="can_edit_topic" js="0">توانایی ویرایش موضوع ها / پرسش ها؟</word>
-  <word key="can_hide_topic" js="0">توانایی پنهان کردن موضوع ها / پرسش ها؟</word>
-  <word key="can_unhide_topic" js="0">توانایی آشکار کردن موضوع ها / پرسش ها؟</word>
-  <word key="can_view_hidden_topic" js="0">توانایی مشاهده موضوع ها / پرسش های پنهان؟</word>
-  <word key="can_move_topic" js="0">توانایی انتقال موضوع ها / پرسش ها؟</word>
-  <word key="can_move_topic_desc" js="0">قادر خواهد بود که موضوع ها/سوالات را فقط در تالارهایی که دسترسی مدیریت دارد جابجا کند، نه در هر تالاری.</word>
-  <word key="can_lock_topic" js="0">توانایی قفل موضوع ها / پرسش ها؟</word>
-  <word key="can_unlock_topic" js="0">توانایی بازکردن موضوع ها / پرسش های قفل شده؟</word>
-  <word key="can_reply_to_locked_topic" js="0">توانایی ارسال پاسخ به موضوع ها / پرسش های قفل شده؟</word>
-  <word key="can_delete_topic" js="0">توانایی حذف موضوع ها / پرسش ها؟</word>
-  <word key="can_split_merge_topic" js="0">توانایی تقسیم و یکی کردن موضوع ها / پرسش ها؟</word>
-  <word key="can_edit_post" js="0">توانایی ویرایش ارسال ها / پاسخ ها؟</word>
-  <word key="can_hide_post" js="0">توانایی پنهان کردن ارسال ها / پاسخ ها؟</word>
-  <word key="can_unhide_post" js="0">توانایی آشکار کردن ارسال ها / پاسخ ها؟</word>
-  <word key="can_view_hidden_post" js="0">توانایی مشاهده ارسال ها / پاسخ های پنهان شده؟</word>
-  <word key="can_delete_post" js="0">توانایی حذف ارسال ها / پاسخ ها؟</word>
-  <word key="can_read_all_topics" js="0">توانایی مشاهده تمامی موضوع ها / پرسش ها؟</word>
-  <word key="can_read_all_topics_desc" js="0">بعضی از تالارهای گفتگو فقط برای نمایش موضوع ها / سوال ها برای کاربرانی که در آن تالارها ارسال شده اند تنظیم شده است. زمانی که این تنظیم فعال باشد مدیران تنها کسانی هستند که بدون ارسال مطلب در آن تالارها می توانند همه موضوع ها / سوال های آن تالار را مشاهده کنند.</word>
-  <word key="can_set_best_answer" js="0">توانایی انتخاب بهترین پاسخ برای پرسش ها و موضوع ها؟</word>
-  <word key="can_feature_comments_topic" js="0">توانایی انتخاب ارسال ها به عنوان پیشنهاد شده در موضوع؟</word>
-  <word key="can_unfeature_comments_topic" js="0">توانایی حذف ارسال های پیشنهاد شده در موضوع؟</word>
-  <word key="can_add_item_message_topic" js="0">توانایی ارسال پیام در موضوع؟</word>
-  <word key="can_edit_item_message_topic" js="0">توانایی ویرایش پیام ها در موضوع ها؟</word>
-  <word key="can_delete_item_message_topic" js="0">توانایی حذف پیام ها در موضوع ها؟</word>
-  <word key="can_toggle_item_moderation_topic" js="0">توانایی فعال/غیرفعال کردن امکانات مدیریتی در موضوع‌ها؟</word>
-  <word key="can_future_publish_topic" js="0">توانایی انتخاب تاریخ انتشار در آینده؟</word>
-  <word key="can_view_future_topic" js="0">توانایی مشاهده موارد در انتظار انتشار دیگر کاربران؟</word>
-  <word key="forums" js="0">تالارهای گفتگو</word>
-  <word key="forums_sg" js="0">تالارهای گفتگو</word>
-  <word key="forums_sg_lc" js="0">انجمن</word>
-  <word key="forums_add_child" js="0">ایجاد زیر تالار گفتگو</word>
-  <word key="forums_add_child_cat" js="0">ایجاد تالارهای گفتگو</word>
-  <word key="all_public" js="0">همه عمومی‌ها</word>
-  <word key="forum_name" js="0">نام</word>
-  <word key="forum_description" js="0">توضیحات</word>
-  <word key="forum_description_placeholder" js="0">افزودن توضیحات ...</word>
-  <word key="forum_type" js="0">نوع</word>
-  <word key="forum_type_normal" js="0">گفتگو</word>
-  <word key="forum_type_normal_desc" js="0">کاربران می توانند موضوع جدید آغاز نمایند که دیگر کاربرن می توانند به آن پاسخ دهند. پاسخ ها بر اساس زمان ارسال مرتب می شوند.</word>
-  <word key="forum_type_qa" js="0">سوال</word>
-  <word key="forum_type_qa_desc" js="0">کاربران می توانند سوال خود را مطرح کنند تا دیگر کاربران به آن پاسخ دهند. پاسخ ها بر اساس رای دیگر کاربران نمایش می یابد و مطلبی که دارای بیشترین رای باشد ابتدا نمایش می یابد.</word>
-  <word key="forum_type_category" js="0">دسته</word>
-  <word key="forum_type_category_desc" js="0">دسته ها فقط در بر دارنده تالار ها هستند و نمی توان در آن ها مطلبی ارسال کرد.</word>
-  <word key="forum_type_redirect" js="0">منتقل شونده</word>
-  <word key="forum_type_redirect_desc" js="0">انتقال کاربران به مکان دیگر پس از کلیک کردن.</word>
-  <word key="forum_password_on" js="0">محافظت با گذرواژه؟</word>
-  <word key="forum_password_on_desc" js="0"><![CDATA[در زمان فعال بودن، کاربرانی که سطح دسترسی آنها اجازه می دهد به تالار دسترسی داشته باشند باید برای ورود گذرواژه را وارد کنند. کاربرانی که قادر به دسترسی به این تالار نیستند از آنها  گذرواژه خواسته نمی شود. گذرواژه فقط برای این تالار اعمال می شود و اگر این تالار دارای زیر دسته هایی باشد، گذرواژه برای آنها نیاز نمی باشد.<br> موضوع های ارسال شده در انجمن هایی که با گذرواژه محافظت می شوند، هیچ اعلامیه ای برای ارسال های جدید در هیچ جایی (سایدبار، سربرگ، فوتر یا بلوکی و غیره) ارسال نمی شود.]]></word>
-  <word key="forum_password" js="0"> گذرواژه</word>
-  <word key="forum_password_override" js="0">عدم نیاز به گذرواژه</word>
-  <word key="forum_display" js="0">تنظیمات نمایش</word>
-  <word key="forum_topicfilter" js="0">فیلتر پیش فرض</word>
-  <word key="forum_rules" js="0">قوانین</word>
-  <word key="forum_show_rules" js="0">نمایش قوانین؟</word>
-  <word key="forum_show_rules_none" js="0">نمایش داده نشود</word>
-  <word key="forum_show_rules_link" js="0">نمایش آدرس قوانین</word>
-  <word key="forum_show_rules_link_desc" js="0">قوانین در یک صفحه مجزا نمایش می یابد و آدرس آن در هدر تالار قرار می گیرد</word>
-  <word key="forum_show_rules_full" js="0">نمایش قوانین</word>
-  <word key="forum_show_rules_full_desc" js="0">قوانین در هدر تالار به صورت مستقیم نمایش می یابد</word>
-  <word key="forum_rules_title" js="0">عنوان قوانین</word>
-  <word key="forum_rules_text" js="0">قوانین</word>
-  <word key="bw_fluid_view" js="0">فعال سازی حالت شناور ترکیبی؟</word>
-  <word key="bw_fluid_view_desc" js="0">وقتی فعال شود، همه‌ی موضوعات این انجمن و زیرانجمن‌های مرتبط با آن در یک لیست تکی همراه با جعبه فیلتر نمایش داده می‌شود که این اجازه را به اعضای شما می‌دهد موضوعات مربوط به زیرانجمن‌های خاصی را فیلتر کنند.</word>
-  <word key="bw_fluid_view__warning" js="0">حالت شناور ترکیبی را نمی‌توان فعال کرد زیرا این انجمن هیچ زیرانجمنی ندارد.</word>
-  <word key="combined_fluid_view" js="0">حالت شناور ترکیبی</word>
-  <word key="forum_settings" js="0">تنظیمات تالارهای گفتگو</word>
-  <word key="posting_settings" js="0">تنظیمات ارسال</word>
-  <word key="forum_allow_poll" js="0">اجازه ایجاد نظرسنجی؟</word>
-  <word key="posts" js="0">ارسال ها</word>
-  <word key="forum_preview_posts" js="0">ارسال ها باید پذیرفته شوند؟</word>
-  <word key="forum_preview_posts_qa" js="0">ارسال ها باید پذیرفته شوند؟</word>
-  <word key="forum_preview_posts_topics" js="0">موضوع های جدید</word>
-  <word key="forum_preview_posts_questions" js="0">سوال های جدید</word>
-  <word key="forum_preview_posts_posts" js="0">پاسخ ها</word>
-  <word key="forum_preview_posts_answers" js="0">پاسخ ها</word>
-  <word key="forum_inc_postcount" js="0">شمارش ارسال ها؟</word>
-  <word key="forum_inc_postcount_desc" js="0">اگر غیر فعال باشد، در این تالار هر مقدار کاربر مطلبی ارسال کند به تعداد ارسال های آن اضافه نمی گردد. معمولا از این تنظیم برای ایجاد تالار های آزمایشی استفاده می گردد.</word>
-  <word key="forum_redirect_url" js="0">آدرس انتقالی</word>
-  <word key="forum_redirect_hits" js="0">شمارشگر انتقال ها</word>
-  <word key="forum_redirect_hits_desc" js="0">تعداد دفعاتی که کاربران بر روی تالار کلیک کرده و منتقل شده اند، که در لیست تالار ها نمایش می یابد. شمارشگر به طور خودکار افزایش می یابد اما شما می توانید به صورت دستی آن را تنظیم کنید.</word>
-  <word key="forum_permission_custom_error" js="0">پیام خطای اختصاصی عدم دسترسی</word>
-  <word key="forum_permission_custom_error_desc" js="0">اگر این پیام درج شود، برای کاربرانی که اجازه دسترسی به این تالار را ندارند ولی تلاش کرده اند که آن را مشاهده کنند نمایش می یابد.</word>
-  <word key="forum_permerror_placeholder" js="0">افزودن پیام خطا ...</word>
-  <word key="forum_skin_id" js="0">برتری پوسته</word>
-  <word key="forum_skin_id_desc" js="0">در هنگام مشاهده این تالار، بدون در نظر گرفتن تنظیمات کاربر، پوسته انتخاب شده برای کاربر نمایش داده می شود.</word>
-  <word key="forum_skin_id_default" js="0">-بدون تغییر-</word>
-  <word key="forum_display_forum" js="0">نحوه نمایش تالار</word>
-  <word key="forum_display_topic" js="0">نحوه نمایش موضوع</word>
-  <word key="forum_display_question" js="0">نحوه نمایش سوال</word>
-  <word key="forum_forum_allow_rating" js="0">فعال بودن امتیاز دهی ستاره ای؟</word>
-  <word key="forum_forum_allow_rating_desc" js="0"><![CDATA[در بخش <a href="{internal.app=core&amp;module=members&amp;controller=groups}">تنظیمات گروه کاربری</a> می توانید تعیین نمایید چه گروه های کاربری می توانند امتیاز دهند]]></word>
-  <word key="posting_requirements" js="0">نیازمندی های ارسال</word>
-  <word key="forum_min_posts_view" js="0">حداقل ارسال برای مشاهده تالار</word>
-  <word key="forum_min_posts_post" js="0">حداقل ارسال برای ارسال مطلب</word>
-  <word key="forum_can_view_others" js="0">کاربران می توانند موضوع های ارسالی دیگران را ببینند؟</word>
-  <word key="forum_can_view_others_desc" js="0">مدیران (در بخش هایی که دسترسی دارند) می توانند تمامی موضوعات را مشاهده نمایند. از این تنظیم می توانید برای ایجاد یک تالار که کاربران می توانند به صورت خصوصی با مدیران ارتباط داشته باشند استفاده کنید.</word>
-  <word key="forum_can_view_others_qa" js="0">توانایی مشاهده سوالات دیگران توسط کاربران؟</word>
-  <word key="forum_can_view_others_qa_desc" js="0">مدیران (در بخش هایی که دسترسی دارند) می توانند تمامی سوال ها را مشاهده نمایند. از این تنظیم می توانید برای ایجاد یک تالار پشتیبانی اختصاصی استفاده نمایید.</word>
-  <word key="forum_can_view_others_club" js="0">کاربران می توانند موضوع‌های ارسال شده توسط دیگر کاربران را مشاهده کنند؟</word>
-  <word key="forum_can_view_others_club_desc" js="0">شما و سایر مدیران یا رهبران این کلوپ می‌توانید همه موضوعات را ببینید. می توانید از این تنظیم برای ایجاد یک انجمن استفاده کنید که در آن کاربران می توانند به صورت خصوصی با مدیران کلوپ ارتباط برقرار کنند.</word>
-  <word key="forum_permission_showtopic" js="0">کاربرانی که مجوز خواندن تالار را ندارند می توانند تالار را باز کنند؟</word>
-  <word key="forum_permission_showtopic_desc" js="0">اگر کاربری مجوز مشاهده تالار را داشته باشد اما مجوز خواندن موضوع ها را نداشته باشد، این تنظیم این امکان را می دهد که کاربر عناوین موضوع های تالار را مشاهده نماید.</word>
-  <word key="forum_permission_showtopic_qa" js="0">کاربرانی که مجوز خواندن تالار را ندارند می توانند تالار را باز کنند؟</word>
-  <word key="forum_permission_showtopic_qa_desc" js="0">اگر کاربری مجوز مشاهده تالار را داشته باشد اما مجوز خواندن موضوع ها را نداشته باشد، این تنظیم این امکان را می دهد که کاربر عناوین سوال ها را مشاهده نماید.</word>
-  <word key="forum_disable_sharelinks" js="0">فعال بودن به اشتراک گذاری؟</word>
-  <word key="forum_disable_sharelinks_desc" js="0"><![CDATA[<a href="{internal.app=core&amp;module=promotion&amp;controller=sharelinks}">تنظیمات به اشتراک گذاری</a>]]></word>
-  <word key="forum_tag_predefined" js="0">برچسب های تعریف شده</word>
-  <word key="forum_tag_predefined_unlimited" js="0">استفاده از پیش فرض</word>
-  <word key="forum_tag_predefined_desc" js="0">اگر از سیستم بسته استفاده می شود، کاربران باید از این برچسب ها انتخاب نمایند. اگر از سیستم باز استفاده می شود، برچسب های وارد شده در اینجا به عنوان برچسب پیشنهادی، نمایش داده خواهد شد.</word>
-  <word key="forum_ipseo_priority" js="0">اولویت در نقشه سایت</word>
-  <word key="forum_ipseo_priority_desc" js="0"><![CDATA[مقدار اولویت در نقشه سایت، نشان دهنده میزان مهم بودن آن صفحه در برابر دیگر صفحه های سایت می باشد که برای موتورهای جستجو این کار در نقشه سایت بیان می شود.<a href="{internal.app=core&amp;module=promotion&amp;controller=seo&amp;tab=sitemap}">تنظیمات نقشه سایت</a>]]></word>
-  <word key="forum_qa_rate_questions" js="0">چه کسی می تواند به سوال امتیاز دهد؟</word>
-  <word key="forum_qa_rate_questions_desc" js="0">سوال هایی که در بازه زمانی 30 روزه بهترین امتیاز را کسب کرده اند در تالار به عنوان سوال های پرطرفدار نمایش می یابند.</word>
-  <word key="forum_qa_rate_answers" js="0">چه کسی می تواند به پاسخ ها امتیاز دهد؟</word>
-  <word key="forum_qa_rate_answers_desc" js="0">پاسخ ها بر اساس بیشترین امتیاز مرتب می شوند.</word>
-  <word key="bw_enable_answers_member" js="0">کاربر سوال کننده می تواند بهترین پاسخ را انتخاب کند؟</word>
-  <word key="bw_enable_answers_member_desc" js="0">بهترین پاسخ همیشه قبل از دیگر پاسخ ها نمایش می یابد.</word>
-  <word key="forum_icon" js="0">نماد</word>
-  <word key="forum_icon_desc" js="0"><![CDATA[آیکون در کنار انجمن در فهرست انجمن‌ها نمایش داده می‌شود. این آیکون به طور خودکار محو می‌شود تا نشان دهد که آیا موضوعات خوانده نشده‌ای در انجمن وجود دارد یا خیر.<br>اگر هیچ آیکونی ارائه نشود، آیکون پیش‌فرض استفاده می‌شود.]]></word>
-  <word key="forum_parent_id" js="0">تالار مادر</word>
-  <word key="forum_parent_id_error" js="0">فقط دسته ها می توانند بدون والد باشند.</word>
-  <word key="forums_posts_per_page" js="0">ارسال ها در هر صفحه</word>
-  <word key="add_forum" js="0">افزودن تالار گفتگو</word>
-  <word key="edit_forum" js="0">ویرایش تالار</word>
-  <word key="node_no_parentf" js="0">بدون والد</word>
-  <word key="forum_use_feature_color" js="0">استفاده از رنگ ویژه؟</word>
-  <word key="forum_use_feature_color_desc" js="0">رنگ ویژه، نام تالارهای گفتگو را به صورت یک نشان متفاوت در زمان استفاده در توضیحات نمایش خواهد داد.</word>
-  <word key="forum_feature_color" js="0">رنگ ویژه</word>
-  <word key="forum_card_image" js="0">تصویر کارت شبکه</word>
-  <word key="forum_card_image_desc" js="0">هنگام مشاهده انجمن ها به صورت شبکه‌ای، تصویر انتخابی شما به عنوان پس زمینه ظاهر می شود.</word>
-  <word key="bw_enable_answers_moderator" js="0">فعال سازی حالت حل شده؟</word>
-  <word key="bw_enable_answers_moderator_desc" js="0">مدیران (و به صورت اختیاری ایجاد کننده‌گان موضوع) می توانند ارسال‌ها را به عنوان راه حل، انتخاب کنند.</word>
-  <word key="bw_enable_answers__member" js="0">اجازه انتخاب به ایجاد کننده موضوع جهت علامت زدن به عنوان حل شده؟</word>
-  <word key="bw_enable_answers__member_desc" js="0">اختیار به ایجاد کننده موضوع داده شود تا ارسال‌ها را نیز به عنوان راه حل، انتخاب کند. </word>
-  <word key="solved_stats_from_cutoff" js="0">Statistics Cutoff</word>
-  <word key="solved_stats_from_cutoff_desc" js="0"><![CDATA[هر گونه موضوعی که به عنوان حل شده علامت‌گذاری شده باشد و قدیمی‌تر از بازه زمانی تنظیم شده در اینجا منتشر شده باشد، از <a href='{internal.app=forums&module=stats&controller=solved&tab=time}' target='_blank'>آمار زمان تا حل</a> برای این انجمن حذف خواهد شد. توجه داشته باشید که آمارها روزانه یکبار ساخته می‌شوند، بنابراین تغییرات اعمال شده در اینجا ممکن است به طور فوری اعمال نشوند.]]></word>
-  <word key="rebuilding_starter_ids" js="0">بازسازی ID های شروع کننده های موضوع</word>
-  <word key="chart_forums" js="0">فیلتر توسط تالارهای گفتگو</word>
-  <word key="forums_topic_post" js="0">ارسال های تالار</word>
-  <word key="forums_topic" js="0">موضوع های تالار</word>
-  <word key="forums_topic_pl" js="0">موضوع ها</word>
-  <word key="menu__forums_forums_settings" js="0">تنظیمات</word>
-  <word key="forums_popular_now" js="0">موضوع پرطرفدار</word>
-  <word key="forums_popular_now_desc" js="0">موضوعاتی که پرطرفدار هستند متمایز از بقیه نمایش می یابند.</word>
-  <word key="posts_in_the_last" js="0">ارسال در</word>
-  <word key="acplogs__forums_settings" js="0">تنظیمات تالارهای گفتگو بروزرسانی شد</word>
-  <word key="topics" js="0">موضوع</word>
-  <word key="questions" js="0">سوال</word>
-  <word key="topic_settings" js="0">تنظیمات موضوع</word>
-  <word key="question_settings" js="0">تنظیمات سوال</word>
-  <word key="forums_questions_downvote" js="0">به سوال ها می توان امتیاز منفی داد؟</word>
-  <word key="forums_answers_downvote" js="0">به پاسخ ها می توان امتیاز منفی داد؟</word>
-  <word key="forums_new_questions" js="0">سوال های جدید</word>
-  <word key="forums_new_questions_desc" js="0">سوال های جدید در هنگام بازدید از تالار در ابتدا نمایش می یابند.</word>
-  <word key="forums_new_questions_best" js="0">سوال هایی که دارای بهترین پاسخ نیستند.</word>
-  <word key="forums_new_questions_any" js="0">سوال هایی که هیچ پاسخی ندارند.</word>
-  <word key="forums_rss" js="0">فعال بودن خوراک RSS؟</word>
-  <word key="forums_topics_per_page" js="0">موضوع ها در هر صفحه</word>
-  <word key="forums_default_view" js="0">نمایش پیشفرض تالارها</word>
-  <word key="forums_default_view_table" js="0">جدول: حالت سنتی که در تالارهای گفتگو به کار برده می شود و همه چیز به صورت جدولی لیست می گردد</word>
-  <word key="forums_default_view_grid" js="0">شبکه ای: تالارهای گفتگو به صورت کارت و به حالت مشبک نمایش داده می شوند.</word>
-  <word key="forums_default_view_fluid" js="0">شناور: محیط پویا اما ساده تر در لیست کردن موضوع ها همراه با جعبه فیلترینگ تالارهای گفتگو .</word>
-  <word key="forums_default_view_fluid_desc" js="0">بهترین وضعیت برای حالت شناور داشتن تالارهای گفتگو کم با کمترین پیچیدگی درختی است. در حالت شناور تنها تا 3 مرحله زیر تالارهای گفتگو نمایش داده خواهند شد.</word>
-  <word key="forums_default_view_choose" js="0">توانایی انتخاب حالت نمایش؟</word>
-  <word key="forums_default_view_choose_desc" js="0">می توانید تعیین نمایید کاربران چه حالاتی را برای نمایش تالار ها می توانند انتخاب کنند</word>
-  <word key="forums_default_view_choose_none" js="0">به کاربران اجازه انتخاب نده</word>
-  <word key="forums_fluid_pinned" js="0">حفظ حالت موضوع های مهم</word>
-  <word key="forums_fluid_pinned_desc" js="0">در صورتی که فعال باشد، در حالت شناور، موضوع هایی که مهم شده اند  در بالای لیست قرار می گیرند</word>
-  <word key="forums_default_view_choose_error" js="0">شما باید حداقل دو نما را برای حق انتخاب کاربران تعیین کنید</word>
-  <word key="archiving" js="0">بایگانی کردن</word>
-  <word key="archiving_blurb" js="0">اگر سایت بسیار بزرگی دارید، با استفاده از بایگانی کردن مطالب می توانید حجم جدول ذخیره سازی ارسال های پایگاه داده خود را کاهش دهید.بایگانی کردن موضوعات روش جایگزینی برای حذف موضوع ها می باشد که این امکان را می دهد که موضوع ها همچنان قابل مشاهده باشند، اما در جدول جداگانه ای از پایگاه داده قرار دارند.موضوع هایی که بایگانی شده اند امکان ویرایش و یا ارسال پاسخ را ندارند. شما می توانید بعد از بایگانی در آوردن آن ها دوباره تغییرات خود را اعمال نمایید.</word>
-  <word key="archiving_blurb_cloud" js="0"><![CDATA[آرشیو کردن موضوعات قدیمی <strong>غیرمهم</strong> و <strong>غیر ویژه</strong> امکان اداره بهتر سایت شما را فراهم می‌کند. موضوعات آرشیو شده قابلیت ارسال یا ویرایش ندارند و در نتایج جستجو نمایش داده نمی‌شوند. اگر نظرتان عوض شد، می‌توانید موضوعات را از حالت آرشیو خارج کنید.]]></word>
-  <word key="archiving_blurb_cloud_notforced" js="0"><![CDATA[بایگانی موضوعات قدیمی <strong>non- مهم شده </strong> و  <strong>non- ویژه شده </strong> در سایت های بزرگتر به عملکرد روان سایت شما کمک می کند. موضوعات بایگانی شده نمی توانند در آن پست شوند یا ویرایش شوند و در نتایج جستجو نشان داده نمی شوند. وقتی سایت شما به اندازه خاصی رسید ، بایگانی موضوعات قدیمی لازم است.]]></word>
-  <word key="disable_cloud_archiving" js="0">بایگانی را غیرفعال کنید</word>
-  <word key="archive_topics_where" js="0"><![CDATA[بایگانی کردن موضوعات در زمانی که  <em>تمام</em>  شرایط زیر صحیح باشند ...]]></word>
-  <word key="archive_topic_forums" js="0">در تالارهای گفتگو</word>
-  <word key="archive_topic_not_forums" js="0">در تالارهای گفتگو</word>
-  <word key="archive_topic_pinned" js="0">مهم شده/غیرمهم شده</word>
-  <word key="archive_topic_featured" js="0">ویژه شده/غیر ویژه شده</word>
-  <word key="archive_topic_state" js="0">قفل شده/باز شده</word>
-  <word key="unlocked" js="0">باز شده</word>
-  <word key="archive_topic_approved" js="0">پنهان شده/آشکار شده</word>
-  <word key="archive_topic_poll" js="0">نظرسنجی</word>
-  <word key="topic_has_poll" js="0">دارای نظرسنجی</word>
-  <word key="topic_does_not_have_poll" js="0">دارا نبودن نظرسنجی</word>
-  <word key="poll_with_recent_vote" js="0">آخرین رای نظرسنجی : %s</word>
-  <word key="archive_topic_post" js="0">پاسخ</word>
-  <word key="archive_topic_view" js="0">بازدید</word>
-  <word key="archive_topic_rating" js="0">امتیاز</word>
-  <word key="archive_topic_starter" js="0">شروع شده توسط</word>
-  <word key="archive_topic_starter_not" js="0">شروع شده توسط</word>
-  <word key="archive_topics_not_where" js="0"><![CDATA[اما نه زمانی که <em>تمام</em> شرایط زیر صحیح باشند ...]]></word>
-  <word key="archive_not_topic_post" js="0">ارسال</word>
-  <word key="archive_not_topic_view" js="0">بازدید</word>
-  <word key="archive_not_topic_rating" js="0">امتیاز</word>
-  <word key="archive_last_post" js="0">آخرین ارسال</word>
-  <word key="archive_last_post_cloud" js="0">آخرین پست</word>
-  <word key="archive_last_post_suffix" js="0">سال پیش</word>
-  <word key="archive_not_last_post" js="0">آخرین ارسال</word>
-  <word key="archive_storage" js="0">ذخیره سازی ارسال های بایگانی شده</word>
-  <word key="archive_storage_location" js="0">انتقال ارسال های بایگانی شده به</word>
-  <word key="archive_storage_location_desc" js="0">اگر شما قبلا بایگانی کردن را تنظیم کرده اید و می خواهید مکان ذخیره سازی را تغییر دهید، باید به صورتی دستی تمامی ارسال هایی را که بایگانی شده اند را انتقال دهید. برای اطلاعات بیشتر می توانید با پشتیبانی فنی تماس بگیرید.</word>
-  <word key="archive_storage_location_local" js="0">یک جدول از پایگاه داده کنونی مورد استفاده</word>
-  <word key="archive_storage_location_remote" js="0">یک پایگاه داده مجزا</word>
-  <word key="greater_than" js="0">بیشتر از</word>
-  <word key="less_than" js="0">کمتر از</word>
-  <word key="archive_rules_effects" js="0">تعداد موضوعاتی که با توجه به قوانین تعیین شده شامل بایگانی می شوند</word>
-  <word key="forum_sort_key" js="0">چیدمان پیش فرض</word>
-  <word key="forum_sort_key_qa" js="0">مرتب کردن پیش فرض</word>
-  <word key="archive_settings" js="0">تنظیمات بایگانی کردن</word>
-  <word key="archive_settings_cloud" js="0">کجا بایگانی شود...</word>
-  <word key="archive_on" js="0">فعال بودن بایگانی کردن؟</word>
-  <word key="task__archive" js="0">بایگانی کردن مطالب.</word>
-  <word key="task__unarchive" js="0">لغو بایگانی پست ها.</word>
-  <word key="remove_archive_exlude" js="0">اجازه به بایگانی شدن این موضوع</word>
-  <word key="unarchive" js="0">از بایگانی در آوردن</word>
-  <word key="unarchive_confirm" js="0">از بایگانی خارج کردن این موضوع باعث می شود در آینده دیگر این موضوع دوباره بایگانی نشود.بعد از تایید در حدود {# [1:دقیقه][?:دقیقه]} زمان خواهد برد که موضوع از بایگانی به طور کامل خارج شود.</word>
-  <word key="uanrchive_settings_change" js="0">بعضی از موضوع ها هم اکنون بایگانی شده اند اما با تنظیمات کنونی بایگانی شما مطابقت ندارند. آیا می خواهید این موضوع ها را از بایگانی خارج کنید؟</word>
-  <word key="restore_unmatched_settings" js="0">بله، موضوعاتی که با تنظیمات آرشیو مطابقت ندارد را به حالت اولیه باز گردان</word>
-  <word key="leave_archived_topics" js="0">خیر، موضوع های آرشیو شده فعلی ، آرشیو شده باقی بمانند.</word>
-  <word key="archive_remote_sql_host" js="0">میزبان</word>
-  <word key="archive_remote_sql_user" js="0">نام کاربری</word>
-  <word key="archive_remote_sql_pass" js="0">گذرواژه</word>
-  <word key="archive_remote_sql_database" js="0">نام پایگاه داده</word>
-  <word key="archive_remote_sql_database_desc" js="0">پایگاه داده باید از قبل ایجاد شده باشد. اگر نمی دانید چگونه یک پایگاه داده بسازید با پشتیبانی فضای میزبانی خود تماس بگیرید.</word>
-  <word key="archive_sql_port" js="0">درگاه</word>
-  <word key="archive_sql_port_desc" js="0">اگر مطمئن نیستید، مقدار پیش فرض را تغییر ندهید.</word>
-  <word key="archive_sql_socket" js="0">سوکت</word>
-  <word key="archive_sql_socket_desc" js="0">اگر چیزی وارد نشود، از پیش فرض سرور استفاده می شود. اگر از مقدار آن مطمئن نیستید، این بخش را خالی رها کنید.</word>
-  <word key="archive_sql_tbl_prefix" js="0">پیشوند جدول</word>
-  <word key="archive_sql_tbl_prefix_desc" js="0">اگر تعیین شود از پیشوند در جدول بایگانی استفاده می شود. توصیه می گردد این بخش خالی باشد.</word>
-  <word key="archive_remote_db_error" js="0">مشکلی با اتصال به پایگاه داده از راه دور با این جزئیات پیش آمده است : %s</word>
-  <word key="acplogs__archive_settings" js="0">تنظیمات بایگانی ویرایش گردید</word>
-  <word key="archived_topic_missing_posts" js="0">ارسال‌های این موضوع درحال حاضر در دسترس نیستند، لطفا چند دقیقه دیگر امتحان کنید.</word>
-  <word key="archived_topic_missing_posts_admin" js="0">اطلاعات خطاها (فقط به مدیرکل نمایش می دهد)</word>
-  <word key="perm_forum_perm__label" js="0"></word>
-  <word key="perm_forum_perm__view" js="0">مشاهده تالار</word>
-  <word key="perm_forum_perm__view_rest" js="0"><![CDATA[مشاهده تالار <br><small>(شامل {# [1:مورد][?:مورد]})</small>]]></word>
-  <word key="perm_forum_perm__read" js="0">خواندن موضوعات</word>
-  <word key="perm_forum_perm__read_pass" js="0"><![CDATA[مشاهده موضوع ها <br><small>(اگر  گذرواژه صحیح وارد شود)</small>]]></word>
-  <word key="perm_forum_perm__read_qa" js="0">خواندن سوال ها</word>
-  <word key="perm_forum_perm__read_qa_pass" js="0"><![CDATA[خواندن سوال ها<br><small>(اگر  گذرواژه صحیح وارد شود)</small>]]></word>
-  <word key="perm_forum_perm__read2" js="0">خواندن موضوعات خود</word>
-  <word key="perm_forum_perm__read2_pass" js="0"><![CDATA[مشاهده موضوع های خود <br><small>(اگرگذرواژه صحیح وارد شود)</small>]]></word>
-  <word key="perm_forum_perm__read2_qa" js="0">خواندن سوال های خودتان</word>
-  <word key="perm_forum_perm__read2_qa_pass" js="0"><![CDATA[خواندن سوال های خودتان<br><small>(اگرگذرواژه  صحیح وارد شود)</small>]]></word>
-  <word key="perm_forum_perm__add" js="0">ارسال موضوع جدید</word>
-  <word key="perm_forum_perm__add_rest" js="0"><![CDATA[ارسال موضوع جدید<br><small>(شامل {# [1:مورد][?:مورد]})</small>]]></word>
-  <word key="perm_forum_perm__reply" js="0">ارسال پاسخ به موضوع ها</word>
-  <word key="perm_forum_perm__reply_rest" js="0"><![CDATA[ارسال پاسخ به موضوع ها <br><small>(شامل {# [1:موضوع][?:موضوع]})</small> ]]></word>
-  <word key="perm_forum_perm__add_qa" js="0">پرسیدن سوال جدید</word>
-  <word key="perm_forum_perm__add_qa_rest" js="0"><![CDATA[پرسیدن سوال جدید<br><small>(همراه با {# [1:مورد][?:مورد]} انتخاب شده از مطالب)</small>]]></word>
-  <word key="perm_forum_perm__reply_qa" js="0">ارسال پاسخ</word>
-  <word key="perm_forum_perm__reply_qa_rest" js="0"><![CDATA[ارسال پاسخ <br><small>(شامل {# [1:پاسخ][?:پاسخ]})</small>]]></word>
-  <word key="perm_forum_perm__attachments" js="0">دریافت پیوست ها</word>
-  <word key="posts_number" js="0">{!# [1:ارسال][?:ارسال]}</word>
-  <word key="posts_no_number" js="0">{!# [1:ارسال][?:ارسال]}</word>
-  <word key="replies_number" js="0">{# [1:پاسخ][?:پاسخ]}</word>
-  <word key="replies_no_number" js="0"> {!# [1:پاسخ][?:پاسخ]} </word>
-  <word key="redirect_hits" js="0">{# [1:بازدید][?:بازدید]}</word>
-  <word key="answers_number" js="0">{# [1:پاسخ][?:پاسخ]}</word>
-  <word key="answers_no_number" js="0">{!# [1:پاسخ][?:پاسخ]}</word>
-  <word key="votes_number" js="0"> {# [1:رای][?:رای]} </word>
-  <word key="votes_no_number" js="1">{!# [-1:رای][1:رای][?:رای]}</word>
-  <word key="queued_topics_badge" js="0">{# [1:موضوع][?:موضوع] در انتظار تایید}</word>
-  <word key="queued_posts_badge" js="0">{# [1:ارسال در انتظار تایید][?:ارسال در انتظار تایید]}</word>
-  <word key="queued_topics" js="0">موضوع های تایید نشده</word>
-  <word key="queued_posts" js="0">موضوع های دارای ارسال های تایید نشده</word>
-  <word key="start_new_topic" js="0">ایجاد موضوع جدید</word>
-  <word key="start_new_topic_lc" js="0">آغاز موضوع جدید</word>
-  <word key="start_new_topic_desc" js="0">ایجاد موضوع جدید در این تالار</word>
-  <word key="ask_a_question" js="0">پرسیدن سوال</word>
-  <word key="ask_a_question_lc" js="0">پرسیدن سوال</word>
-  <word key="ask_a_question_desc" js="0">پرسیدن سوال در این تالار گفتگو</word>
-  <word key="answer_this_question" js="0">پاسخ به این سوال</word>
-  <word key="reply_to_this_topic" js="0">ارسال پاسخ به این موضوع</word>
-  <word key="mark_forum_read" js="0">انتخاب تالارها به عنوان خوانده شده</word>
-  <word key="mark_forum_read_title" js="0">علامت زدن همه موضوع ها به عنوان خوانده شده</word>
-  <word key="forum_password_bad" js="0"> گذرواژه نادرست است.</word>
-  <word key="topic_details" js="0">جزئیات موضوع</word>
-  <word key="topic_mainTab" js="0">مطلب</word>
-  <word key="question_mainTab" js="0">محتوا</word>
-  <word key="question_title" js="0">سوال</word>
-  <word key="topic_title" js="0">عنوان</word>
-  <word key="topic_tags" js="0">برچسب ها</word>
-  <word key="topic_content" js="0">محتوای موضوع</word>
-  <word key="topic_auto_follow" js="0"></word>
-  <word key="topic_auto_follow_suffix" js="0">مرا بعد از ارسال پاسخ به این موضوع آگاه کن</word>
-  <word key="topic_pollTab" js="0">نظر سنجی</word>
-  <word key="topic_poll" js="0"></word>
-  <word key="topic_open_time" js="0">زمان باز کردن موضوع</word>
-  <word key="topic_close_time" js="0">زمان بستن موضوع</word>
-  <word key="topic_date" js="0">انتشار</word>
-  <word key="topic_type" js="0">فیلتر</word>
-  <word key="all_topics" js="0">همه</word>
-  <word key="open_topics" js="0">باز شده</word>
-  <word key="popular_now" js="0">پرطرفدار</word>
-  <word key="locked_topics" js="0">موضوع قفل شده</word>
-  <word key="poll" js="0">نظرسنجی</word>
-  <word key="moved_topics" js="0">منتقل شد</word>
-  <word key="topics_i_started" js="0">موضوع هایی که من شروع کرده ام</word>
-  <word key="topics_i_posted_in" js="0">موضوع هایی که من در آن ارسال داشته ام</word>
-  <word key="questions_i_asked" js="0">سوال هایی که من پرسیده ام</word>
-  <word key="questions_i_posted_in" js="0">سوال هایی که من پاسخ داده ام</word>
-  <word key="question_answered" js="0">سوال های با بهترین پاسخ</word>
-  <word key="question_not_answered" js="0">سوال های بدون بهترین پاسخ</word>
-  <word key="last_post" js="0">تاریخ آخرین ارسال</word>
-  <word key="last_poster" js="0">نام آخرین ارسال کننده</word>
-  <word key="topic_starter" js="0">نام آغاز کننده موضوع</word>
-  <word key="question_asker" js="0">نام کاربری که سوال پرسیده است</word>
-  <word key="topic_started" js="0">تاریخ شروع</word>
-  <word key="topic_started_date" js="0">آغاز شده در %s</word>
-  <word key="replies" js="0">پاسخ</word>
-  <word key="sort_direction" js="0">جهت مرتب سازی</word>
-  <word key="sort_num_replies" js="0">بیشترین ارسال</word>
-  <word key="sort_question_rating" js="0">بیشترین آرا</word>
-  <word key="asc" js="0">مرتب سازی (آخرین اولین/ براساس حروف الفبا)</word>
-  <word key="desc" js="0">نزولی (جدیدترین در ابتدا)</word>
-  <word key="time_frame" js="0">آخرین پاسخ</word>
-  <word key="since_last_visit" js="0">آخرین ورود من به سایت (%s)</word>
-  <word key="forum_home" js="0">صفحه اول تالار</word>
-  <word key="all_questions" js="0">تمامی سوالات این تالارهای گفتگو</word>
-  <word key="featured_question" js="0">سوال ویژه</word>
-  <word key="most_popular_questions" js="0">سوال های پرطرفدار</word>
-  <word key="from_the_past_30_days" js="0">از 30 روز گذشته</word>
-  <word key="explore_questions_title" js="0">گشتن در میان سوال ها</word>
-  <word key="new_questions" js="0">سوال جدید</word>
-  <word key="awaiting_an_answer" js="0">در انتظار پاسخ</word>
-  <word key="best_answer_by" js="0">بهترین پاسخ توسط %s، %s</word>
-  <word key="ask_byline" js="0">سوال شده توسط %s ، %s</word>
-  <word key="ask_byline_itemprop" js="0">سوال شده توسط %s ، %s</word>
-  <word key="ask_byline_no_date" js="0">سوال شده توسط %s</word>
-  <word key="forum_rss_title_topics" js="0">آخرین موضوع های %s</word>
-  <word key="forum_rss_title_questions" js="0"> %s سوال آخر </word>
-  <word key="first_post" js="0">اولین ارسال</word>
-  <word key="latest_post" js="0">آخرین ارسال</word>
-  <word key="latest_answer" js="0">آخرین جواب</word>
-  <word key="first_unread_post_hover" js="0">اولین خوانده نشده</word>
-  <word key="best_answer_post" js="0">بهترین پاسخ</word>
-  <word key="topic_started_by" js="0">آغاز شده توسط %s</word>
-  <word key="topic" js="0">موضوع</word>
-  <word key="answer_count" js="0">{# [1:پاسخ][?:پاسخ]} به این سوال تاکنون داده شده است</word>
-  <word key="reply_count" js="0"> {# [1:ارسال][?:ارسال]} در این موضوع قرار دارد</word>
-  <word key="best_answer_tooltip" js="0">بهترین پاسخ به این پرسش</word>
-  <word key="vote_answer_up" js="0">رای مثبت به این پاسخ</word>
-  <word key="vote_answer_down" js="0">رای منفی به این پاسخ</word>
-  <word key="vote_question_up" js="0">رای مثبت به این سوال</word>
-  <word key="vote_question_down" js="0">رای منفی به این سوال</word>
-  <word key="remove_your_vote" js="0">حذف رای شما</word>
-  <word key="best_answers" js="0">بهترین پاسخ</word>
-  <word key="set_as_best_answer" js="0">علامت زدن به عنوان بهترین پاسخ</word>
-  <word key="unset_as_best_answer" js="0">عدم انتخاب به عنوان بهترین پاسخ</word>
-  <word key="sort_by_answers" js="0">مرتب سازی بر اساس امتیاز</word>
-  <word key="sort_by_date" js="0">مرتب سازی بر اساس تاریخ</word>
-  <word key="select_forum" js="0">انتخاب تالار</word>
-  <word key="create_new_topic" js="0">ایجاد موضوع جدید</word>
-  <word key="ask_new_question" js="0">پرسیدن سوال جدید</word>
-  <word key="no_answers" js="0">هنوز برای این سوال پاسخی ارسال نشده است</word>
-  <word key="no_forum_posts" js="0">تا کنون مطلبی ارسال نشده است</word>
-  <word key="no_forum_posts_password" js="0">هیچ ارسالی برای نمایش نیست</word>
-  <word key="no_posts_returned" js="0">هیچ مطلبی برای نمایش وجود ندارد</word>
-  <word key="topic_pl" js="0">موضوع ها</word>
-  <word key="topic_pl_lc" js="0">موضوع</word>
-  <word key="post_pl" js="0">پست ها</word>
-  <word key="post_pl_lc" js="0">پست ها</word>
-  <word key="archivedpost_pl" js="0">پست های بایگانی شده</word>
-  <word key="archivedpost_pl_lc" js="0">پست های بایگانی شده</word>
-  <word key="topic__comment_placeholder" js="0">ارسال پاسخ به این موضوع ...</word>
-  <word key="question__comment_placeholder" js="0">پاسخ به این سوال ...</word>
-  <word key="moderator_actions" js="0">مدیریت موضوع</word>
-  <word key="toggle_this_category" js="0">تغییر حالت این دسته</word>
-  <word key="topic_locked" js="0">این موضوع قفل است</word>
-  <word key="topic_pinned" js="0">این موضوع مهم شد</word>
-  <word key="topic_hidden" js="0">این موضوع پنهان است</word>
-  <word key="topic_featured" js="0">این موضوع ویژه شد</word>
-  <word key="create_topic_locked" js="0">موضوع را قفل کن</word>
-  <word key="create_topic_pinned" js="0">موضوع را مهم کن</word>
-  <word key="create_topic_hidden" js="0">پنهان کردن موضوع</word>
-  <word key="create_topic_featured" js="0">موضوع را ویژه کن</word>
-  <word key="mark_topic_read" js="0">علامت زدن این موضوع به خوانده شده</word>
-  <word key="answered" js="0">دارای بهترین پاسخ است</word>
-  <word key="awaiting_answer" js="0">در انتظار بهترین پاسخ</word>
-  <word key="forum_requires_password" js="0"> گذرواژه را وارد کنید</word>
-  <word key="enter_forum" js="0">تالار را وارد نمایید</word>
-  <word key="enter_forum_password_1" js="0">برای مشاهده ی %s مستلزم ارایه گذرواژه می باشد.  اگر گذرواژه را می دانید، آن را در پایین وارد کنید.</word>
-  <word key="forums_comments" js="0">{!# [1:پاسخ][?:پاسخ]}</word>
-  <word key="forums_num_views" js="0">{!# [1:بازدید][?:بازدید]} </word>
-  <word key="share_this_post" js="0">به اشتراک گذاری این ارسال</word>
-  <word key="subforums" js="0">زیر دسته های تالار :</word>
-  <word key="subforums_header" js="0">زیر دسته های تالار</word>
-  <word key="subforums_header_category" js="0">تالار</word>
-  <word key="reply_to_topic" js="0">ارسال پاسخ به این موضوع</word>
-  <word key="link_to_post" js="0">لینک ارسال</word>
-  <word key="share_externally" js="0">به اشتراک گذاری در سایت های دیگر</word>
-  <word key="featured_topics" js="0">موضوع ویژه شده</word>
-  <word key="no_new_posts" js="0">بدون ارسال جدید در این موضوع</word>
-  <word key="new_posts" js="0">ارسال جدید در این موضوع</word>
-  <word key="featured_topic" js="0">موضوع ویژه شده</word>
-  <word key="next_question" js="0">سوال بعدی</word>
-  <word key="next_topic" js="0">موضوع بعدی</word>
-  <word key="prev_question" js="0">سوال قبلی</word>
-  <word key="prev_topic" js="0">موضوع قبلی</word>
-  <word key="topic_create_state" js="0">بعد از ارسال موضوع ...</word>
-  <word key="topic_information" js="0">اطلاعات موضوع</word>
-  <word key="topic_moderator_options" js="0">گزینه های مدیریتی</word>
-  <word key="submit_question" js="0">ارسال سوال</word>
-  <word key="submit_topic" js="0">ارسال موضوع</word>
-  <word key="submit_topic_edit" js="0">ویرایش موضوع</word>
-  <word key="submit_question_edit" js="0">ویرایش سوال</word>
-  <word key="topic_submit_comment" js="0">ثبت پاسخ</word>
-  <word key="edit_question" js="0">ویرایش سوال</word>
-  <word key="edit_topic" js="0">ویرایش موضوع</word>
-  <word key="edit_reply" js="0">ویرایش مطلب</word>
-  <word key="go_to_forum" js="0">رفتن به %s</word>
-  <word key="go_back_to_forum" js="0">رفتن به فهرست موضوع ها</word>
-  <word key="go_back_to_qa_forum" js="0">رفتن به لیست سوال ها</word>
-  <word key="topic_is_archived" js="0">بایگانی شده</word>
-  <word key="topic_archived_desc" js="0">این موضوع بایگانی و قفل شده و دیگر امکان ارسال پاسخ نیست.</word>
-  <word key="count_topics_in_forum" js="0">{#  [1:موضوع][?:موضوع] در این تالار قرار دارد} </word>
-  <word key="count_questions_in_forum" js="0"> {# [1:سوال][?:سوال] در این تالار قرار دارد} </word>
-  <word key="view_next_unread" js="0">موضوع خوانده نشده بعدی</word>
-  <word key="view_next_unread_question" js="0">سوال بعدی خوانده نشده</word>
-  <word key="view_next_unread_title" js="0">رفتن به موضوع بعدی که دارای مطالب جدید است</word>
-  <word key="view_next_unread_question_title" js="0">رفتن به سوال بعدی که دارای پاسخ های جدید است</word>
-  <word key="hide_all_signatures" js="0">پنهان کردن تمامی امضا ها</word>
-  <word key="hide_members_signature" js="0">پنهان کردن امضا %s</word>
-  <word key="go_to_new_location" js="0">رفتن به موقعیت جدید این موضوع</word>
-  <word key="topic_moved_to" js="0"><![CDATA[این موضوع به تالار <a منتقل شده است]]></word>
-  <word key="question_moved_to" js="0"><![CDATA[سوال به تالار <a منتقل شده است]]></word>
-  <word key="topic_merged_to" js="0"><![CDATA[موضوع با <a ادغام شد.]]></word>
-  <word key="question_merged_to" js="0"><![CDATA[سوال با <a ادغام شد.]]></word>
-  <word key="this_topic" js="0">این موضوع</word>
-  <word key="this_forum" js="0">این تالار</word>
-  <word key="forum_id" js="0">تالار</word>
-  <word key="announce_forums" js="0">تالارهای گفتگو</word>
-  <word key="embed_topic" js="0">موضوع تالار</word>
-  <word key="questions_with_best_answers" js="0">سوال های با بهترین پاسخ</word>
-  <word key="questions_without_best_answers" js="0">سوال های بدون بهترین پاسخ</word>
-  <word key="this_is_a_popular_post" js="0">این ارسال پرطرفدار است.</word>
-  <word key="rate_this_topic" js="0">امتیاز دادن به این موضوع:</word>
-  <word key="rate_this_question" js="0">امتیاز دادن به این سوال:</word>
-  <word key="sign_in_rate_question" js="0">وارد حساب خود شوید تا بتوانید به این پرسش امتیاز دهید</word>
-  <word key="sign_in_rate_answer" js="0">وارد حساب خود شوید تا بتوانید به این پاسخ امتیاز دهید</word>
-  <word key="no_questions_in_forum" js="0">تا کنون هیچ سوالی در این تالار پرسیده نشده است</word>
-  <word key="no_topics_in_forum" js="0">تا کنون هیچ موضوعی در این تالار ایجاد نشده است</word>
-  <word key="submit_first_question" js="0">اولین سوال را بپرسید</word>
-  <word key="submit_first_topic" js="0">ایجاد اولین موضوع</word>
-  <word key="topic_pending_approval" js="0">این موضوع هنوز پذیرفته نشده و هم اکنون تنها توسط مدیران قابل رویت می باشد.</word>
-  <word key="topic_locked_can_comment" js="0">این موضوع قفل شده است، اما مجوزهای شما این امکان را میدهد که پاسخ های جدیدی اضافه کنید.</word>
-  <word key="topic_poll_can_comment" js="0">این موضوع فقط نظرسنجی می باشد، اما دسترسی شما اجازه ارسال پاسخ را میدهد.</word>
-  <word key="topic_locked_cannot_comment" js="0">این موضوع  برای عدم ارسال قفل گردیده است.</word>
-  <word key="ip_prefix" js="0">IP: %s</word>
-  <word key="popular_questions_title" js="0">سوال های پرطرفدار از ماه قبل</word>
-  <word key="no_popular_questions" js="0">سوال پرطرفداری برای نمایش هم اکنون وجود ندارد</word>
-  <word key="new_questions_title_no_answer" js="0">سوال های بدون جواب</word>
-  <word key="new_questions_title_no_best" js="0">سوال های بدون بهترین جواب</word>
-  <word key="no_new_questions" js="0">سوال جدیدی برای نمایش هم اکنون وجود ندارد</word>
-  <word key="topic_delete_title" js="0">حذف این موضوع</word>
-  <word key="approve_title_topic" js="0">تایید این موضوع</word>
-  <word key="no_perm_topic_password" js="0">موضوع به علت اینکه در تالار محافظت شده با گذرواژه می باشد قابل نمایش نیست.</word>
-  <word key="no_perm_topic_min_posts" js="0">این موضوع قابل نمایش نمی باشد به این دلیل که برای مشاهده مطالب این تالار نیاز به حداقل {# [1:ارسال][?:ارسال] می باشد.</word>
-  <word key="no_perm_post_password" js="0">این ارسال قابل نمایش نمی باشد به این دلیل که این تالار برای مشاهده نیاز به گذرواژه دارد.</word>
-  <word key="no_perm_post_min_posts" js="0">این ارسال قابل نمایش نمی باشد به این دلیل که برای مشاهده مطالب این تالار نیاز به حداقل {# [1:ارسال][?:ارسال] می باشد.</word>
-  <word key="enter_password" js="0"> گذرواژه را وارد نمایید</word>
-  <word key="topic_unlocks_at" js="0">موضوع به صورت اتوماتیک %s در %s از حالت قفل خارج میگردد</word>
-  <word key="topic_unlocks_at_short" js="0">خارج شدن از حالت فقل در %s</word>
-  <word key="topic_locks_at" js="0">موضوع به صورت اتوماتیک %s در %s قفل میشود</word>
-  <word key="topic_locks_at_short" js="0">قفل در %s</word>
-  <word key="club_node_forums" js="0">انجمن‌های کلوپ</word>
-  <word key="topic_meta_unread" js="0">پاسخ های خوانده نشده</word>
-  <word key="forum_follower_count" js="0">{# [1:دنبال کننده][?:دنبال کننده]} </word>
-  <word key="topic_follower_count" js="0">{# [1:دنبال کننده][?:دنبال کننده]} </word>
-  <word key="forums_topic_list_snippet" js="0">نمای گسترش یافته: نمایش عنوان ها به همراه پیش نمایش ارسال</word>
-  <word key="forums_topic_list_list" js="0">نمای متراکم: نمایش عنوان ها به صورت لیست</word>
-  <word key="topic_snippet_last_reply" js="0"><![CDATA[آخرین پاسخ توسط %s, <a به آخرین پست'>%s</a>]]></word>
-  <word key="topic_posted_in_groups" js="0">ارسال ها توسط %s</word>
-  <word key="filter_hidden_topics" js="0">موضوع های پنهان</word>
-  <word key="filter_hidden_posts_in_topics" js="0">موضوع های همراه با ارسال های پنهان</word>
-  <word key="moderation_log" js="0">تاریخچه مدیریتی</word>
-  <word key="cookie_forumpass_*_description" js="0">این کوکی‌ها برای  احراز هویت در انجمن‌های محافظت شده با رمز عبور استفاده می‌شوند. ممکن است چندین کوکی با نام‌های مشابه وجود داشته باشد که * به جای شناسه انجمن قرار می‌گیرد.</word>
-  <word key="saved_actions" js="0">اقدامات ذخیره شده</word>
-  <word key="saved_actions_sg" js="0">اقدام ذخیره شده</word>
-  <word key="mm_title" js="0">نام</word>
-  <word key="mm_forums" js="0">تالار</word>
-  <word key="topic_properties" js="0">ویژگی ها</word>
-  <word key="mm_leave" js="0">بدون تغییر</word>
-  <word key="topic_state" js="0">بستن/باز کردن</word>
-  <word key="topic_pin" js="0">مهم کردن/غیر مهم کردن</word>
-  <word key="topic_approve" js="0">پنهان کردن/آشکار کردن</word>
-  <word key="topic_move" js="0">انتقال به</word>
-  <word key="topic_move_none" js="0">عدم انتقال</word>
-  <word key="topic_move_link" js="0">گذاشتن آدرس جدید در مکان قبلی؟</word>
-  <word key="topic_title_st" js="0">افزودن به ابتدای عنوان</word>
-  <word key="topic_title_end" js="0">افزودن به انتهای عنوان</word>
-  <word key="add_reply" js="0">افزودن پاسخ</word>
-  <word key="topic_reply" js="0">افزودن پاسخ؟</word>
-  <word key="topic_reply_content" js="0">پاسخ</word>
-  <word key="topic_reply_postcount" js="0">شمارش ارسال ها</word>
-  <word key="can_use_saved_actions" js="0">توانایی استفاده از عملیات های مدیریتی ذخیره شده؟</word>
-  <word key="modlog__saved_action" js="0">Ran a saved action on topic</word>
-  <word key="modlog__unarchived_topic" js="0"><![CDATA[موضوع از آرشیو خارج شد: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__removed_archive_exclude_topic" js="0">حالت 'حذف از بایگانی' از یک موضوع حذف شد</word>
-  <word key="queue_deleting_legacy_topics" js="0">حذف داده‌های قدیمی موضوعات</word>
-  <word key="queue_deleting_legacy_posts" js="0">حذف داده‌های قدیمی ارسال‌ها</word>
-  <word key="queue_fixing_hidden_first_post" js="0">به‌روزرسانی موضوعاتی که به‌طور نادرست مخفی شده‌اند</word>
-  <word key="queue_rebuilding_new_topic_flag" js="0">بازسازی پرچم موضوع جدید در ارسال‌ها</word>
-  <word key="queue_rebuilding_solved_posts" js="0">بازسازی فهرست پست های حل شده</word>
-  <word key="block_forumStatistics" js="0">آمار انجمن</word>
-  <word key="block_forumStatistics_desc" js="0">نمایش آمار عمومی انجمن</word>
-  <word key="total_topics" js="0">کل موضوعات</word>
-  <word key="total_posts" js="0">کل پست‌ها</word>
-  <word key="block_latestTopics" js="0">آخرین موضوع‌ها</word>
-  <word key="block_latestTopics_desc" js="0">نمایش آخرین موضوع‌های ارسال شده</word>
-  <word key="view_this_topic" js="0">مشاهده موضوع %s</word>
-  <word key="block_hotTopics" js="0">هم‌اکنون محبوب</word>
-  <word key="block_hotTopics_desc" js="0">نمایش موضوعاتی که در حال حاضر محبوب هستند</word>
-  <word key="block_featuredTopics" js="0">موضوع‌های ویژه‌شده</word>
-  <word key="block_featuredTopics_desc" js="0">نمایش موضوعاتی که در حال حاضر ویژه هستند</word>
-  <word key="block_topicFeed" js="0">خوراک موضوع</word>
-  <word key="block_topicFeed_desc" js="0">ایجاد یک خوراک از موضوعات بر اساس گزینه‌های مرتب‌سازی و ترتیب دلخواه</word>
-  <word key="block_postFeed" js="0">خوراک پست</word>
-  <word key="block_postFeed_desc" js="0">ایجاد یک خوراک از پست‌ها بر اساس گزینه‌های مرتب‌سازی و ترتیب دلخواه</word>
-  <word key="digest_area_forums_topic" js="0">موضوع‌ها</word>
-  <word key="digest_area_forums_forum" js="0">انجمن‌ها</word>
-  <word key="x_created_topic_in" js="0">%s یک موضوع در %s ایجاد کرد</word>
-  <word key="x_asked_new_question" js="0">%s یک سوال جدید در %s پرسید</word>
-  <word key="x_replied_to_a_topic" js="0">%s به یک موضوع پاسخ داد</word>
-  <word key="x_answered_a_question" js="0">%s به یک سوال پاسخ داد</word>
-  <word key="loc_forums_viewing_topic" js="0">در حال مشاهده موضوع: %s</word>
-  <word key="loc_forums_viewing_topic_action" js="0">%s درحال خواندن یک موضوع است</word>
-  <word key="loc_forums_viewing_forum" js="0">در حال مشاهده انجمن: %s</word>
-  <word key="loc_forums_viewing_forum_action" js="0">٪s درحال مرور یک تالار است</word>
-  <word key="loc_forums_creating_topic" js="0">در حال ایجاد موضوع در: %s</word>
-  <word key="loc_forums_creating_topic_action" js="0">%s درحال ایجاد یک موضوع است</word>
-  <word key="loc_forums_index" js="0">در مشاهده صفحه اول انجمن‌ها</word>
-  <word key="loc_forums_index_action" js="0">%s درحال مشاهده یک تالار است</word>
-  <word key="ad_forum_listing" js="0">پس از اولین موضوع در هر انجمن</word>
-  <word key="ad_topic_view" js="0">پس از اولین پست در هر موضوع</word>
-  <word key="ad_fluid_index_view" js="0">نمایش موضوع به صورت آبشاری، بین ردیف‌های موضوع</word>
-  <word key="ad_fluid_index_view_number" js="0">نمایش این تبلیغ بعد از هر</word>
-  <word key="ad_fluid_index_view_number_suffix" js="0">ردیف موضوع در حالت نمایش آبشاری</word>
-  <word key="ad_fluid_index_view_repeat" js="0">تکرار شده</word>
-  <word key="ad_fluid_index_view_repeat_suffix" js="0">بار</word>
-  <word key="stats_new_topics" js="0">موضوع‌ها</word>
-  <word key="stats_new_posts" js="0">ارسال‌ها</word>
-  <word key="stats_topics_tab_total" js="0">همه موضوع‌ها</word>
-  <word key="stats_topics_tab_byforum" js="0">موضوعات بر اساس انجمن</word>
-  <word key="stats_topics_tab_noposts" js="0">موضوعات بدون ارسال</word>
-  <word key="stats_topics_tab_solved" js="0">موضوع‌های حل شده بر اساس انجمن</word>
-  <word key="stats_topics_title_solved" js="0">موضوع‌های حل شده بر اساس انجمن</word>
-  <word key="stats_topics_tab_groups" js="0">موضوعات حل شده بر اساس گروه</word>
-  <word key="stats_topics_title" js="0">موضوعات بر اساس دوره زمانی</word>
-  <word key="stats_topics_title_byforum" js="0">موضوعات بر اساس انجمن</word>
-  <word key="stats_topics_tab_unsolved" js="0">موضوعات بدون حل</word>
-  <word key="topics_noposts_tid" js="0">شناسه موضوع</word>
-  <word key="topics_noposts_title" js="0">عنوان</word>
-  <word key="topics_noposts_state" js="0">وضعیت</word>
-  <word key="topics_noposts_start_date" js="0">شروع شده</word>
-  <word key="topics_noposts_starter_id" js="0">نویسنده</word>
-  <word key="topics_noposts_views" js="0">بازدیدها</word>
-  <word key="topics_noposts_forum_id" js="0">انجمن</word>
-  <word key="topics_noposts_approved" js="0">تأیید شده</word>
-  <word key="stats_posts_tab_total" js="0">تمام ارسال‌ها</word>
-  <word key="stats_posts_tab_byforum" js="0">ارسال‌ها بر اساس انجمن</word>
-  <word key="stats_posts_title" js="0">ارسال‌ها بر اساس دوره زمانی</word>
-  <word key="stats_posts_title_byforum" js="0">ارسال‌ها بر اساس انجمن</word>
-  <word key="stats_percentagesolved" js="0">درصد حل شده‌ها</word>
-  <word key="stats_percentagesolved_desc" js="0">درصد موضوع های حل شده در مقایسه با تعداد کل موضوع های ارسال شده</word>
-  <word key="stats_solved_tooltip" js="0">%s موضوع از مجموع %s موضوع، حل شده است</word>
-  <word key="stats_solved_tooltip_prev" js="0">%s موضوع از مجموع %s موضوع، حل شده است که بر اساس میزان %s%% است</word>
-  <word key="stats_averagetimesolved" js="0">میانگین زمانی پیدا شدن راه حل</word>
-  <word key="stats_averagetimesolved_desc" js="0">متوسط زمانی که از زمان ایجاد موضوع تا زمان حل آن، طول کشیده است</word>
-  <word key="menu__forums_stats_questions" js="0">سوال‌ها</word>
-  <word key="stats_question_ratings_title" js="0">رای های بالا/پایین سوال‌ها در طول زمان</word>
-  <word key="stats_question_ratings_negative" js="0">امتیاز منفی</word>
-  <word key="stats_question_ratings_positive" js="0">امتیاز مثبت</word>
-  <word key="r__questions" js="0">سوال‌ها</word>
-  <word key="r__questions_manage" js="0">توانایی مشاهده آمار سوال‌ها؟</word>
-  <word key="menu__forums_stats_solvers" js="0">برترین حل‌کنندگان</word>
-  <word key="top_solvers" js="0">برترین حل‌کنندگان</word>
-  <word key="top_solvers_name" js="0">نام کاربری</word>
-  <word key="top_solvers_count" js="0">تعداد حل‌شده</word>
-  <word key="top_solvers_solved_date" js="0">بازه زمانی</word>
-  <word key="top_solvers_date" js="0">تاریخ آخرین حل</word>
-  <word key="top_solvers_member_group_id" js="0">گروه</word>
-  <word key="widget_feed_container_topic" js="0">انجمن‌ها</word>
-  <word key="block_topicFeed_title" js="0">موضوع‌ها</word>
-  <word key="block_postFeed_title" js="0">ارسال‌ها</word>
-  <word key="block_poll" js="0">نظرسنچی</word>
-  <word key="block_poll_desc" js="0">ایجاد بلوک نظرسنجی از موضوع دارای نظرسنجی</word>
-  <word key="widget_poll_tid" js="0">موضوع</word>
-  <word key="widget_poll_tid_desc" js="0">شروع به تایپ نام موضوع کنید</word>
-  <word key="poll_view_topic" js="0">نمایش موضوع</word>
-  <word key="poll_widget_no_poll" js="0">موضوع انتخاب شده دارای نظرسنجی فعال نمی باشد.</word>
-  <word key="__api_forums_posts" js="0">ارسال‌ها</word>
-  <word key="__api_forums_topics" js="0">موضوع‌ها</word>
-  <word key="__api_forums_forums" js="0">انجمن‌ها</word>
-  <word key="recommend_post" js="0">ارسال پیشنهاد شده</word>
-  <word key="recommended_posts" js="0">ارسال‌های توصیه شده</word>
-  <word key="enable_topic_moderation" js="0">فعال کردن تایید کردن ارسال</word>
-  <word key="disable_topic_moderation" js="0">غیر فعال کردن تایید کردن ارسال</word>
-  <word key="topic_moderation_enabled" js="0">تایید کردن ارسال فعال شد</word>
-  <word key="enable_topic_moderation_confirm" js="0">اگر فعال باشد، همه دیدگاه ها قبل از اینکه در پست قابل نمایش باشند باید توسط مدیریت تایید شوند.</word>
-  <word key="disable_topic_moderation_confirm" js="0">اگر غیرفعال باشد، دیدگاه ها جدید دیگر نیاز به تایید مدیریت ندارند.</word>
-  <word key="unsolve_content" js="0">حذف از راه حل</word>
-  <word key="solve_content" js="0">انتخاب به عنوان راه حل</word>
-  <word key="this_is_a_solved_post" js="0">راه حل</word>
-  <word key="solved_and_go" js="0">برو به راه حل</word>
-  <word key="this_is_solved" js="0">حل شده</word>
-  <word key="unsolved_topics" js="0">موضوعات حل نشده</word>
-  <word key="solved_topics" js="0">موضوعات حل شده</word>
-  <word key="widget_feed_status_solved" js="0">حل شده</word>
-  <word key="solved_either" js="0">حل شده و حل نشده</word>
-  <word key="solved_solved" js="0">حل شده</word>
-  <word key="solved_unsolved" js="0">حل نشده</word>
-  <word key="solved_byline" js="0">توسط %s حل شده</word>
-  <word key="forums_solved_topic_reengage" js="0">ارسال ایمیل به نویسنده برای انتخاب یک پاسخ به عنوان راه‌حل</word>
-  <word key="forums_solved_topic_reengage_prefix" js="0">اگر موضوع حل نشده است و از زمان آغاز موضوع</word>
-  <word key="forums_solved_topic_reengage_suffix" js="0">روز  یا بیشتر گذشته باشد</word>
-  <word key="forums_solved_topic_reengage_never" js="0">هرگز به نویسنده جهت درخواست ایمیل زده نشود</word>
-  <word key="forums_solved_stats_time" js="0">مدت زمان حل شدن (بر اساس روز)</word>
-  <word key="forums_solved_stats_percentage" js="0">درصد حل شده‌ها</word>
-  <word key="solved_stats_rebuild_started" js="0">بازسازی آمار شروع شد</word>
-  <word key="solved_stats_rebuild_button" js="0">بازسازی آمار حل شده</word>
-  <word key="solved_rebuilding_stats" js="0">بازسازی آمار حل شده برای انجمن %s</word>
-  <word key="solved_stats_chart_desc" js="0">داده‌های این نمودار هر روز یکبار به‌روزرسانی می‌شوند.</word>
-  <word key="forums_simple_name_with_container" js="0"><![CDATA[توسط %s در <a href='%s'>%s</a>	]]></word>
-  <word key="forums_show_all_forums" js="0">حالت جدول</word>
-  <word key="forums_show_all_forums_tooltip" js="0">نمایش دسته‌ها و انجمن‌ها در جدول</word>
-  <word key="forum_simple_view_last_post" js="0">آخرین فعالت</word>
-  <word key="forums_show_fluid_forums" js="0">حالت شناور</word>
-  <word key="forums_show_fluid_forums_tooltip" js="0">نمایش همه موضوع‌ها با کادر فیلتر انجمن</word>
-  <word key="forums_simple_view_change_tooltip" js="0">تغییر حالت نمایش</word>
-  <word key="forums_simple_filter_by" js="0">فیلتر کردن موضوع‌ها با انجمن</word>
-  <word key="forums_simple_dialog_title" js="0">فیلتر کردن با انجمن</word>
-  <word key="done_forum_filtering" js="0">انجام شد</word>
-  <word key="forums_chosen_forums" js="0">این انجمن‌ها</word>
-  <word key="forums_view_list_method" js="0">نمای لیست پیش فرض موضوع</word>
-  <word key="forums_view_list_choose" js="0">اعضا می توانند انتخاب کنند؟</word>
-  <word key="forums_view_list_choose_desc" js="0">آیا می خواهید به اعضای خود اجازه دهید بین دیدگاه ها جابجا شوند یا خیر. وقتی روی &quot;نه&quot; تنظیم می شود ، اعضا همیشه از نمای لیست پیش فرض موضوع استفاده می کنند.</word>
-  <word key="topicactivity_created" js="0">ایجاد شده</word>
-  <word key="topicactivity_topposters" js="0">بیشترین ارسال‌ها در این موضوع</word>
-  <word key="topicactivity_topposters_qa" js="0">بیشترین ارسال‌ها برای این سوال</word>
-  <word key="topicactivity_popularposts" js="0">ارسال‌های محبوب</word>
-  <word key="topicactivity_populardays" js="0">روزهای محبوب</word>
-  <word key="topicactivity_images" js="0">تصاویر ارسال شده</word>
-  <word key="topicactivity_number_posts" js="0">{# [1:ارسال][?:ارسال]} </word>
-  <word key="forums_topic_activity" js="0">دستگاه ها</word>
-  <word key="forums_topic_activity_desktop_on" js="0">رایانه ها / تبلت ها</word>
-  <word key="forums_topic_activity_mobile_on" js="0">دستگاه های موبایل</word>
-  <word key="forums_topic_activity_mobile_on_desc" js="0">این همیشه در زیر اولین پست برای دستگاه های تلفن همراه نشان داده می شود</word>
-  <word key="forums_topic_activity_desktop" js="0">موقعیت در رایانه / تبلت</word>
-  <word key="forums_topic_activity_desktop_sidebar" js="0">نوار کناری</word>
-  <word key="forums_topic_activity_desktop_post" js="0">زیر اولین پست</word>
-  <word key="forums_topics_activity_pages_show_unlimited" js="0">همیشه نشان بده</word>
-  <word key="forums_topics_activity_pages_show" js="0">شاخص</word>
-  <word key="forums_topics_activity_pages_show_prefix" js="0">وقتی تعداد صفحات حداقل باشد</word>
-  <word key="topic_summary_settings" js="0">تنظیمات خلاصه موضوع</word>
-  <word key="forums_topic_activity_features" js="0">محتوا</word>
-  <word key="forums_topic_activity_features_popularDays" js="0">روزهای محبوب</word>
-  <word key="forums_topic_activity_features_popularDays_desc" js="0">لیستی از 4 روزی که بیشترین پست را داشته است</word>
-  <word key="forums_topic_activity_features_topPost" js="0">بهترین پست ها</word>
-  <word key="forums_topic_activity_features_topPost_desc" js="0">لیستی از 3 پست با بیشترین واکنش مثبت</word>
-  <word key="forums_topic_activity_features_uploads" js="0">عکس های ارسال شده</word>
-  <word key="forums_topics_show_meta" js="0">نمایش</word>
-  <word key="forums_topic_show_meta_time" js="0">فاصله زمانی زیاد بین پست ها</word>
-  <word key="forums_topic_show_meta_moderation" js="0">اعتدال بین رویدادها و پست ها</word>
-  <word key="forums_topic_show_meta_moderation_desc" js="0"><![CDATA[از بخش <a href='{internal.app=core&module=members&controller=groups}'>تنظیمات گروه ها</a> می توانید، تعیین نمایید چه گروه هایی می توانند رخداد های مدیریتی را مشاهده کنند.]]></word>
-  <word key="forums_mod_actions_anon" js="0">نمایش مدیران در کنار رخدادهای مدیریتی</word>
-  <word key="forums_mod_actions_anon_desc" js="0">اگر غیر فعال شود، نام مدیری که این اقدام را انجام خواهد داد از دیگر کاربران که دسترسی مدیریت در انجمن ندارند، مخفی خواهند ماند.</word>
-  <word key="404_forums_topic" js="0">موضوع مورد نظر شما پیدا نشد.</word>
-  <word key="403_forums_topic" js="0">شما مجوز مشاهده این موضوع را ندارید.</word>
-  <word key="mobilenavigation_Topics" js="0">همه موضوعات</word>
-  <word key="mobilenavigation_Forums" js="0">تالارها</word>
-  <word key="app_forums" js="0">تالارها</word>
-  <word key="app_create_new_topic" js="0">موضوع جدیدی ایجاد کنید</word>
-  <word key="app_topics_title" js="0">موضوعات</word>
-  <word key="app_subforums_title" js="0">زیر تالارها</word>
-  <word key="app_no_forum" js="0">این تالار وجود ندارد.</word>
-  <word key="app_no_topic" js="0">این موضوع وجود ندارد.</word>
-  <word key="app_incorrect_forum_password" js="0">رمز ورود به این تالار ارائه نشده است</word>
-  <word key="app_no_post" js="0">این پگاسخ وجود ندارد.</word>
-  <word key="app_invalid_topic" js="0">این موضوع قابل بارگذاری نیست.</word>
-  <word key="app_not_question" js="0">این موضوع قابل رای دادن نیست.</word>
-  <word key="app_cannot_vote" js="0">شما نمی‌توانید روی این سوال نظرسنجی ارسال کنید.</word>
-  <word key="app_error_voting_question" js="0">در نظرسنجی سوال مشکلی پیش آمده است.</word>
-  <word key="app_replace_best_answer_title" js="0">تایید</word>
-  <word key="app_replace_best_answer_text" js="0">آیا مطمئن هستید که می خواهید بهترین پاسخ فعلی را با این پاسخ جایگزین کنید؟</word>
-  <word key="app_question_asked_by" js="0">سوال توسط {{name}} پرسیده شده</word>
-  <word key="app_this_is_best_answer" js="0">بهترین پاسخ این موضوع</word>
-  <word key="app_all_topics" js="0">همه موضوعات</word>
-  <word key="app_all_topics_desc" js="0">نمایش همه موضوع ها از همه تالارها</word>
-  <word key="app_create_topic" js="0">ایجاد موضوع</word>
-  <word key="app_confirm_discard_topic" js="0">آیا مطمئن هستید که می‌خواهید این موضوع را بدون ارسال حذف کنید؟</word>
-  <word key="app_confirm_discard_post" js="0">آیا مطمئن هستید که می‌خواهید این پاسخ را بدون ارسال حذف کنید؟</word>
-  <word key="app_title_required" js="0">عنوان ضروری است</word>
-  <word key="app_title_required_desc" js="0">باید عنوانی برای موضوع وارد کنید.</word>
-  <word key="app_post_required" js="0">پست ضروری است</word>
-  <word key="app_post_required_desc" js="0">شما باید یک پست وارد کنید.</word>
-  <word key="app_error_posting_topic" js="0">متأسفیم ، در ارسال این موضوع خطایی روی داد.</word>
-  <word key="app_error_posting_post" js="0">متأسفیم ، در ارسال این پاسخ خطایی روی داد.</word>
-  <word key="app_topic_title" js="0">عنوان موضوع</word>
-  <word key="app_post_title" js="0">پست</word>
-  <word key="app_topic_cannot_reply" js="0">نمی‌توانید پاسخ بفرستید</word>
-  <word key="app_topic_locked_can_comment" js="0">فقل شده است؛ اما شما میتوانید پاسخ بنویسید...</word>
-  <word key="app_topic_poll_can_comment" js="0">فقط نظرسنجی، اما شما میتوانید پاسخ بنویسید...</word>
-  <word key="app_topic_locked_cannot_comment" js="0">شما اجازه ارسال پاسخ را ندارید؛ زیرا این تاپیک قفل شده است.</word>
-  <word key="app_topic_restricted_cannot_comment" js="0">حساب کاربری شما برای ارسال پست محدود شده است.</word>
-  <word key="app_topic_unacknowledged_warning_cannot_post" js="0">شما اخطاری دریافت کرده اید که قبل از ارسال پست باید آن را تأیید کنید.</word>
-  <word key="app_topic_member_exceeded_posts_per_day" js="0">شما به حداکثر تعداد پست هایی که در روز می توانید ارسال کنید رسیدید.</word>
-  <word key="AchievementAction__AnswerMarkedBest" js="0">ارسال به عنوان بهترین پاسخ انتخاب شد</word>
-  <word key="achievement_filter_AnswerMarkedBest_forum" js="0">افزودن یک موقعیت شرطی</word>
-  <word key="achievement_filter_AnswerMarkedBest_forum_prefix" js="0">سوال در انجمن فوق است</word>
-  <word key="achievement_filter_AnswerMarkedBest_poster" js="0">به کاربری که پاسخ را ارسال کرده است</word>
-  <word key="achievement_filter_AnswerMarkedBest_asker" js="0">به کاربری که سوال اصلی را ارسال کرده است</word>
-  <word key="achievement_filter_AnswerMarkedBest_nth" js="0">افزودن یک ره‌شمار شرطی</word>
-  <word key="achievement_filter_AnswerMarkedBest_nth_suffix" js="0">مین دفعه ای که مطلب ارسال شده در این انجمن به عنوان بهترین پاسخ انتخاب شده است</word>
-  <word key="AchievementAction__AnswerMarkedBest_log_subject" js="0">پاسخ ارسال شده به %s به عنوان بهترین پاسخ انتخاب شد</word>
-  <word key="AchievementAction__AnswerMarkedBest_log_other" js="0">سوال %s یک پاسخ دارد که به عنوان بهترین پاسخ انتخاب شد</word>
-  <word key="AchievementAction__AnswerMarkedBest_log_deleted" js="0">یک سوال پاک شد</word>
-  <word key="AchievementAction__AnswerMarkedBest_title" js="0">بهترین پاسخ</word>
-  <word key="forumMarkedRead" js="1">انجمن به عنوان خوانده شده انتخاب شد</word>
-  <word key="topicMarkedRead" js="1">موضوع به عنوان خوانده شده انتخاب شد</word>
-  <word key="js_num_topic_posts" js="1">این موضوع دارای {# [1:ارسال][?:ارسال]} است</word>
-  <word key="votes_no_number" js="1">{!# [-1:رای][1:رای][?:رای]}</word>
-  <word key="topicsFromAllForums" js="1">نمایش موضوع‌ها از همه انجمن‌ها</word>
-  <word key="topicsFromXForums" js="1">نمایش موضوع‌ها از {# [1:انجمن][?:انجمن]}</word>
-  <word key="markForumAsReadConfirm" js="1">آیا شما مطمئن هستید که می خواهید تمامی موضوع‌های این انجمن را به عنوان خوانده شده علامت بزنید؟</word>
-  <word key="js_vote_answer_up" js="1">رای مثبت به این پاسخ</word>
-  <word key="js_vote_answer_down" js="1">رای منفی به این پاسخ</word>
-  <word key="js_remove_your_vote" js="1">حذف رای شما</word>
+<word key="__app_forums" js="0">تالارهای گفتگو</word>
+<word key="frontnavigation_forums" js="0">تالارهای گفتگو</word>
+<word key="__indefart_post" js="0">یک ارسال در یک موضوع</word>
+<word key="__indefart_topic" js="0">یک موضوع</word>
+<word key="__indefart_answer" js="0">پاسخی برای یک سوال</word>
+<word key="__indefart_question" js="0">یک سوال</word>
+<word key="__defart_post" js="0">ارسال یک موضوع</word>
+<word key="__defart_post_plural" js="0">{!#[1:ارسال][?:ارسال]} در موضوع</word>
+<word key="__defart_topic" js="0">موضوع</word>
+<word key="__defart_topic_plural" js="0">{!#[1:موضوع][?:موضوع]} </word>
+<word key="__defart_answer" js="0">پاسخ به یک سوال</word>
+<word key="__defart_answer_plural" js="0">{!#[1:پاسخ][?:پاسخ]} برای سوال</word>
+<word key="__defart_question" js="0">سوال</word>
+<word key="__defart_question_plural" js="0">{!#[1:سوال][?:سوال]}</word>
+<word key="topic_container" js="0">تالارهای گفتگو</word>
+<word key="search_contextual_item_forums" js="0">این تالار</word>
+<word key="search_contextual_item_topic" js="0">این موضوع</word>
+<word key="module__forums_forums" js="0">تالارهای گفتگو</word>
+<word key="module__forums_stats" js="0">آمار</word>
+<word key="filestorage__forums_Icons" js="0">نماد تالارهای گفتگو</word>
+<word key="filestorage__forums_Cards" js="0">کارت‌های انجمن</word>
+<word key="post" js="0">پست</word>
+<word key="post_lc" js="0">پست</word>
+<word key="answer" js="0">پاسخ</word>
+<word key="answer_lc" js="0">پاسخ</word>
+<word key="editor__forums_Forums" js="0">تالارهای گفتگو و موضوعات</word>
+<word key="acp_search_title_forums_Forums" js="0">تالارهای گفتگو</word>
+<word key="menu__forums_forums" js="0">تالارهای گفتگو</word>
+<word key="menu__forums_forums_forums" js="0">تالارهای گفتگو</word>
+<word key="menu__forums_forums_savedActions" js="0">اقدامات ذخیره شده</word>
+<word key="menu__forums_stats" js="0">تالارهای گفتگو</word>
+<word key="menu__forums_stats_topics" js="0">آمار موضوع های جدید</word>
+<word key="menu__forums_stats_posts" js="0">آمار ارسال های جدید</word>
+<word key="menu__forums_stats_solved" js="0">حل‌شده</word>
+<word key="r__forums" js="0">تالارهای گفتگو</word>
+<word key="r__forums_manage" js="0">توانایی مشاهده تالارهای گفتگو؟</word>
+<word key="r__forums_add" js="0">توانایی ایجاد تالارهای گفتگو؟</word>
+<word key="r__forums_edit" js="0">توانایی ویرایش تالارهای گفتگو؟</word>
+<word key="r__forums_perms" js="0">توانایی مدیریت سطح دسترسی تالارهای گفتگو؟</word>
+<word key="r__forums_massManageContent" js="0">توانایی حذف/ جا به جایی گسترده موضوع هادر تالارهای گفتگو؟</word>
+<word key="r__forums_delete" js="0">توانایی حذف تالارهای گفتگو؟</word>
+<word key="r__archive_manage" js="0">توانایی مدیریت تنظیمات بایگانی کردن؟</word>
+<word key="r__settings_access" js="0">توانایی دسترسی به تنظیمات؟</word>
+<word key="r__forum_settings" js="0">توانایی مدیریت تنظیمات تالارهای گفتگو؟</word>
+<word key="r__savedActions" js="0">کارهای ذخیره شده</word>
+<word key="r__savedActions_manage" js="0">توانایی مشاهده عملیات ذخیره شده؟</word>
+<word key="r__savedActions_add" js="0">توانایی ایجاد عملیات ذخیره شده؟</word>
+<word key="r__savedActions_edit" js="0">توانایی ویرایش عملیات ذخیره شده؟</word>
+<word key="r__savedActions_delete" js="0">توانایی حذف عملیات ذخیره شده؟</word>
+<word key="r__topics" js="0">آمار موضوع های جدید</word>
+<word key="r__topics_manage" js="0">می تواند آمار مربوط به موضوع های جدید را مشاهده کند</word>
+<word key="r__posts" js="0">آمار پست های جدید</word>
+<word key="r__posts_manage" js="0">می تواند آمار مربوط به پست های جدید را مشاهده کند</word>
+<word key="modperms__core_Content_forums_Topic" js="0">تالارهای گفتگو</word>
+<word key="can_pin_topic" js="0">توانایی مهم کردن موضوع ها / پرسش ها؟</word>
+<word key="can_unpin_topic" js="0">توانایی غیرمهم کردن موضوع ها / پرسش ها؟</word>
+<word key="can_feature_topic" js="0">توانایی ویژه کردن موضوع ها / پرسش ها؟</word>
+<word key="can_unfeature_topic" js="0">توانایی عدم ویژه کردن موضوع ها / پرسش ها؟</word>
+<word key="can_edit_topic" js="0">توانایی ویرایش موضوع ها / پرسش ها؟</word>
+<word key="can_hide_topic" js="0">توانایی پنهان کردن موضوع ها / پرسش ها؟</word>
+<word key="can_unhide_topic" js="0">توانایی آشکار کردن موضوع ها / پرسش ها؟</word>
+<word key="can_view_hidden_topic" js="0">توانایی مشاهده موضوع ها / پرسش های پنهان؟</word>
+<word key="can_move_topic" js="0">توانایی انتقال موضوع ها / پرسش ها؟</word>
+<word key="can_move_topic_desc" js="0">قادر خواهد بود که موضوع ها/سوالات را فقط در تالارهایی که دسترسی مدیریت دارد جابجا کند، نه در هر تالاری.</word>
+<word key="can_lock_topic" js="0">توانایی قفل موضوع ها / پرسش ها؟</word>
+<word key="can_unlock_topic" js="0">توانایی بازکردن موضوع ها / پرسش های قفل شده؟</word>
+<word key="can_reply_to_locked_topic" js="0">توانایی ارسال پاسخ به موضوع ها / پرسش های قفل شده؟</word>
+<word key="can_delete_topic" js="0">توانایی حذف موضوع ها / پرسش ها؟</word>
+<word key="can_split_merge_topic" js="0">توانایی تقسیم و یکی کردن موضوع ها / پرسش ها؟</word>
+<word key="can_edit_post" js="0">توانایی ویرایش ارسال ها / پاسخ ها؟</word>
+<word key="can_hide_post" js="0">توانایی پنهان کردن ارسال ها / پاسخ ها؟</word>
+<word key="can_unhide_post" js="0">توانایی آشکار کردن ارسال ها / پاسخ ها؟</word>
+<word key="can_view_hidden_post" js="0">توانایی مشاهده ارسال ها / پاسخ های پنهان شده؟</word>
+<word key="can_delete_post" js="0">توانایی حذف ارسال ها / پاسخ ها؟</word>
+<word key="can_read_all_topics" js="0">توانایی مشاهده تمامی موضوع ها / پرسش ها؟</word>
+<word key="can_read_all_topics_desc" js="0">بعضی از تالارهای گفتگو فقط برای نمایش موضوع ها / سوال ها برای کاربرانی که در آن تالارها ارسال شده اند تنظیم شده است. زمانی که این تنظیم فعال باشد مدیران تنها کسانی هستند که بدون ارسال مطلب در آن تالارها می توانند همه موضوع ها / سوال های آن تالار را مشاهده کنند.</word>
+<word key="can_set_best_answer" js="0">توانایی انتخاب بهترین پاسخ برای پرسش ها و موضوع ها؟</word>
+<word key="can_feature_comments_topic" js="0">توانایی انتخاب ارسال ها به عنوان پیشنهاد شده در موضوع؟</word>
+<word key="can_unfeature_comments_topic" js="0">توانایی حذف ارسال های پیشنهاد شده در موضوع؟</word>
+<word key="can_add_item_message_topic" js="0">توانایی ارسال پیام در موضوع؟</word>
+<word key="can_edit_item_message_topic" js="0">توانایی ویرایش پیام ها در موضوع ها؟</word>
+<word key="can_delete_item_message_topic" js="0">توانایی حذف پیام ها در موضوع ها؟</word>
+<word key="can_toggle_item_moderation_topic" js="0">توانایی فعال/غیرفعال کردن امکانات مدیریتی در موضوع‌ها؟</word>
+<word key="can_future_publish_topic" js="0">توانایی انتخاب تاریخ انتشار در آینده؟</word>
+<word key="can_view_future_topic" js="0">توانایی مشاهده موارد در انتظار انتشار دیگر کاربران؟</word>
+<word key="forums" js="0">تالارهای گفتگو</word>
+<word key="forums_sg" js="0">تالارهای گفتگو</word>
+<word key="forums_sg_lc" js="0">انجمن</word>
+<word key="forums_add_child" js="0">ایجاد زیر تالار گفتگو</word>
+<word key="forums_add_child_cat" js="0">ایجاد تالارهای گفتگو</word>
+<word key="all_public" js="0">همه عمومی‌ها</word>
+<word key="forum_name" js="0">نام</word>
+<word key="forum_description" js="0">توضیحات</word>
+<word key="forum_description_placeholder" js="0">افزودن توضیحات ...</word>
+<word key="forum_type" js="0">نوع</word>
+<word key="forum_type_normal" js="0">گفتگو</word>
+<word key="forum_type_normal_desc" js="0">کاربران می توانند موضوع جدید آغاز نمایند که دیگر کاربرن می توانند به آن پاسخ دهند. پاسخ ها بر اساس زمان ارسال مرتب می شوند.</word>
+<word key="forum_type_qa" js="0">سوال</word>
+<word key="forum_type_qa_desc" js="0">کاربران می توانند سوال خود را مطرح کنند تا دیگر کاربران به آن پاسخ دهند. پاسخ ها بر اساس رای دیگر کاربران نمایش می یابد و مطلبی که دارای بیشترین رای باشد ابتدا نمایش می یابد.</word>
+<word key="forum_type_category" js="0">دسته</word>
+<word key="forum_type_category_desc" js="0">دسته ها فقط در بر دارنده تالار ها هستند و نمی توان در آن ها مطلبی ارسال کرد.</word>
+<word key="forum_type_redirect" js="0">منتقل شونده</word>
+<word key="forum_type_redirect_desc" js="0">انتقال کاربران به مکان دیگر پس از کلیک کردن.</word>
+<word key="forum_password_on" js="0">محافظت با گذرواژه؟</word>
+<word key="forum_password_on_desc" js="0">در زمان فعال بودن، کاربرانی که سطح دسترسی آنها اجازه می دهد به تالار دسترسی داشته باشند باید برای ورود گذرواژه را وارد کنند. کاربرانی که قادر به دسترسی به این تالار نیستند از آنها  گذرواژه خواسته نمی شود. گذرواژه فقط برای این تالار اعمال می شود و اگر این تالار دارای زیر دسته هایی باشد، گذرواژه برای آنها نیاز نمی باشد.<br> موضوع های ارسال شده در انجمن هایی که با گذرواژه محافظت می شوند، هیچ اعلامیه ای برای ارسال های جدید در هیچ جایی (سایدبار، سربرگ، فوتر یا بلوکی و غیره) ارسال نمی شود.</word>
+<word key="forum_password" js="0"> گذرواژه</word>
+<word key="forum_password_override" js="0">عدم نیاز به گذرواژه</word>
+<word key="forum_display" js="0">تنظیمات نمایش</word>
+<word key="forum_topicfilter" js="0">فیلتر پیش فرض</word>
+<word key="forum_rules" js="0">قوانین</word>
+<word key="forum_show_rules" js="0">نمایش قوانین؟</word>
+<word key="forum_show_rules_none" js="0">نمایش داده نشود</word>
+<word key="forum_show_rules_link" js="0">نمایش آدرس قوانین</word>
+<word key="forum_show_rules_link_desc" js="0">قوانین در یک صفحه مجزا نمایش می یابد و آدرس آن در هدر تالار قرار می گیرد</word>
+<word key="forum_show_rules_full" js="0">نمایش قوانین</word>
+<word key="forum_show_rules_full_desc" js="0">قوانین در هدر تالار به صورت مستقیم نمایش می یابد</word>
+<word key="forum_rules_title" js="0">عنوان قوانین</word>
+<word key="forum_rules_text" js="0">قوانین</word>
+<word key="bw_fluid_view" js="0">فعال سازی حالت شناور ترکیبی؟</word>
+<word key="bw_fluid_view_desc" js="0">وقتی فعال شود، همه‌ی موضوعات این انجمن و زیرانجمن‌های مرتبط با آن در یک لیست تکی همراه با جعبه فیلتر نمایش داده می‌شود که این اجازه را به اعضای شما می‌دهد موضوعات مربوط به زیرانجمن‌های خاصی را فیلتر کنند.</word>
+<word key="bw_fluid_view__warning" js="0">حالت شناور ترکیبی را نمی‌توان فعال کرد زیرا این انجمن هیچ زیرانجمنی ندارد.</word>
+<word key="combined_fluid_view" js="0">حالت شناور ترکیبی</word>
+<word key="forum_settings" js="0">تنظیمات تالارهای گفتگو</word>
+<word key="posting_settings" js="0">تنظیمات ارسال</word>
+<word key="forum_allow_poll" js="0">اجازه ایجاد نظرسنجی؟</word>
+<word key="posts" js="0">ارسال ها</word>
+<word key="forum_preview_posts" js="0">ارسال ها باید پذیرفته شوند؟</word>
+<word key="forum_preview_posts_qa" js="0">ارسال ها باید پذیرفته شوند؟</word>
+<word key="forum_preview_posts_topics" js="0">موضوع های جدید</word>
+<word key="forum_preview_posts_questions" js="0">سوال های جدید</word>
+<word key="forum_preview_posts_posts" js="0">پاسخ ها</word>
+<word key="forum_preview_posts_answers" js="0">پاسخ ها</word>
+<word key="forum_inc_postcount" js="0">شمارش ارسال ها؟</word>
+<word key="forum_inc_postcount_desc" js="0">اگر غیر فعال باشد، در این تالار هر مقدار کاربر مطلبی ارسال کند به تعداد ارسال های آن اضافه نمی گردد. معمولا از این تنظیم برای ایجاد تالار های آزمایشی استفاده می گردد.</word>
+<word key="forum_redirect_url" js="0">آدرس انتقالی</word>
+<word key="forum_redirect_hits" js="0">شمارشگر انتقال ها</word>
+<word key="forum_redirect_hits_desc" js="0">تعداد دفعاتی که کاربران بر روی تالار کلیک کرده و منتقل شده اند، که در لیست تالار ها نمایش می یابد. شمارشگر به طور خودکار افزایش می یابد اما شما می توانید به صورت دستی آن را تنظیم کنید.</word>
+<word key="forum_permission_custom_error" js="0">پیام خطای اختصاصی عدم دسترسی</word>
+<word key="forum_permission_custom_error_desc" js="0">اگر این پیام درج شود، برای کاربرانی که اجازه دسترسی به این تالار را ندارند ولی تلاش کرده اند که آن را مشاهده کنند نمایش می یابد.</word>
+<word key="forum_permerror_placeholder" js="0">افزودن پیام خطا ...</word>
+<word key="forum_skin_id" js="0">برتری پوسته</word>
+<word key="forum_skin_id_desc" js="0">در هنگام مشاهده این تالار، بدون در نظر گرفتن تنظیمات کاربر، پوسته انتخاب شده برای کاربر نمایش داده می شود.</word>
+<word key="forum_skin_id_default" js="0">-بدون تغییر-</word>
+<word key="forum_display_forum" js="0">نحوه نمایش تالار</word>
+<word key="forum_display_topic" js="0">نحوه نمایش موضوع</word>
+<word key="forum_display_question" js="0">نحوه نمایش سوال</word>
+<word key="forum_forum_allow_rating" js="0">فعال بودن امتیاز دهی ستاره ای؟</word>
+<word key="forum_forum_allow_rating_desc" js="0">در بخش <a href="{internal.app=core&amp;amp;module=members&amp;amp;controller=groups}">تنظیمات گروه کاربری</a> می توانید تعیین نمایید چه گروه های کاربری می توانند امتیاز دهند</word>
+<word key="posting_requirements" js="0">نیازمندی های ارسال</word>
+<word key="forum_min_posts_view" js="0">حداقل ارسال برای مشاهده تالار</word>
+<word key="forum_min_posts_post" js="0">حداقل ارسال برای ارسال مطلب</word>
+<word key="forum_can_view_others" js="0">کاربران می توانند موضوع های ارسالی دیگران را ببینند؟</word>
+<word key="forum_can_view_others_desc" js="0">مدیران (در بخش هایی که دسترسی دارند) می توانند تمامی موضوعات را مشاهده نمایند. از این تنظیم می توانید برای ایجاد یک تالار که کاربران می توانند به صورت خصوصی با مدیران ارتباط داشته باشند استفاده کنید.</word>
+<word key="forum_can_view_others_qa" js="0">توانایی مشاهده سوالات دیگران توسط کاربران؟</word>
+<word key="forum_can_view_others_qa_desc" js="0">مدیران (در بخش هایی که دسترسی دارند) می توانند تمامی سوال ها را مشاهده نمایند. از این تنظیم می توانید برای ایجاد یک تالار پشتیبانی اختصاصی استفاده نمایید.</word>
+<word key="forum_can_view_others_club" js="0">کاربران می توانند موضوع‌های ارسال شده توسط دیگر کاربران را مشاهده کنند؟</word>
+<word key="forum_can_view_others_club_desc" js="0">شما و سایر مدیران یا رهبران این کلوپ می‌توانید همه موضوعات را ببینید. می توانید از این تنظیم برای ایجاد یک انجمن استفاده کنید که در آن کاربران می توانند به صورت خصوصی با مدیران کلوپ ارتباط برقرار کنند.</word>
+<word key="forum_permission_showtopic" js="0">کاربرانی که مجوز خواندن تالار را ندارند می توانند تالار را باز کنند؟</word>
+<word key="forum_permission_showtopic_desc" js="0">اگر کاربری مجوز مشاهده تالار را داشته باشد اما مجوز خواندن موضوع ها را نداشته باشد، این تنظیم این امکان را می دهد که کاربر عناوین موضوع های تالار را مشاهده نماید.</word>
+<word key="forum_permission_showtopic_qa" js="0">کاربرانی که مجوز خواندن تالار را ندارند می توانند تالار را باز کنند؟</word>
+<word key="forum_permission_showtopic_qa_desc" js="0">اگر کاربری مجوز مشاهده تالار را داشته باشد اما مجوز خواندن موضوع ها را نداشته باشد، این تنظیم این امکان را می دهد که کاربر عناوین سوال ها را مشاهده نماید.</word>
+<word key="forum_disable_sharelinks" js="0">فعال بودن به اشتراک گذاری؟</word>
+<word key="forum_disable_sharelinks_desc" js="0"><a href="{internal.app=core&amp;amp;module=promotion&amp;amp;controller=sharelinks}">تنظیمات به اشتراک گذاری</a></word>
+<word key="forum_tag_predefined" js="0">برچسب های تعریف شده</word>
+<word key="forum_tag_predefined_unlimited" js="0">استفاده از پیش فرض</word>
+<word key="forum_tag_predefined_desc" js="0">اگر از سیستم بسته استفاده می شود، کاربران باید از این برچسب ها انتخاب نمایند. اگر از سیستم باز استفاده می شود، برچسب های وارد شده در اینجا به عنوان برچسب پیشنهادی، نمایش داده خواهد شد.</word>
+<word key="forum_ipseo_priority" js="0">اولویت در نقشه سایت</word>
+<word key="forum_ipseo_priority_desc" js="0">مقدار اولویت در نقشه سایت، نشان دهنده میزان مهم بودن آن صفحه در برابر دیگر صفحه های سایت می باشد که برای موتورهای جستجو این کار در نقشه سایت بیان می شود.<a href="{internal.app=core&amp;amp;module=promotion&amp;amp;controller=seo&amp;amp;tab=sitemap}">تنظیمات نقشه سایت</a></word>
+<word key="forum_qa_rate_questions" js="0">چه کسی می تواند به سوال امتیاز دهد؟</word>
+<word key="forum_qa_rate_questions_desc" js="0">سوال هایی که در بازه زمانی 30 روزه بهترین امتیاز را کسب کرده اند در تالار به عنوان سوال های پرطرفدار نمایش می یابند.</word>
+<word key="forum_qa_rate_answers" js="0">چه کسی می تواند به پاسخ ها امتیاز دهد؟</word>
+<word key="forum_qa_rate_answers_desc" js="0">پاسخ ها بر اساس بیشترین امتیاز مرتب می شوند.</word>
+<word key="bw_enable_answers_member" js="0">کاربر سوال کننده می تواند بهترین پاسخ را انتخاب کند؟</word>
+<word key="bw_enable_answers_member_desc" js="0">بهترین پاسخ همیشه قبل از دیگر پاسخ ها نمایش می یابد.</word>
+<word key="forum_icon" js="0">نماد</word>
+<word key="forum_icon_desc" js="0">آیکون در کنار انجمن در فهرست انجمن‌ها نمایش داده می‌شود. این آیکون به طور خودکار محو می‌شود تا نشان دهد که آیا موضوعات خوانده نشده‌ای در انجمن وجود دارد یا خیر.<br>اگر هیچ آیکونی ارائه نشود، آیکون پیش‌فرض استفاده می‌شود.</word>
+<word key="forum_parent_id" js="0">تالار مادر</word>
+<word key="forum_parent_id_error" js="0">فقط دسته ها می توانند بدون والد باشند.</word>
+<word key="forums_posts_per_page" js="0">ارسال ها در هر صفحه</word>
+<word key="add_forum" js="0">افزودن تالار گفتگو</word>
+<word key="edit_forum" js="0">ویرایش تالار</word>
+<word key="node_no_parentf" js="0">بدون والد</word>
+<word key="forum_use_feature_color" js="0">استفاده از رنگ ویژه؟</word>
+<word key="forum_use_feature_color_desc" js="0">رنگ ویژه، نام تالارهای گفتگو را به صورت یک نشان متفاوت در زمان استفاده در توضیحات نمایش خواهد داد.</word>
+<word key="forum_feature_color" js="0">رنگ ویژه</word>
+<word key="forum_card_image" js="0">تصویر کارت شبکه</word>
+<word key="forum_card_image_desc" js="0">هنگام مشاهده انجمن ها به صورت شبکه‌ای، تصویر انتخابی شما به عنوان پس زمینه ظاهر می شود.</word>
+<word key="bw_enable_answers_moderator" js="0">فعال سازی حالت حل شده؟</word>
+<word key="bw_enable_answers_moderator_desc" js="0">مدیران (و به صورت اختیاری ایجاد کننده‌گان موضوع) می توانند ارسال‌ها را به عنوان راه حل، انتخاب کنند.</word>
+<word key="bw_enable_answers__member" js="0">اجازه انتخاب به ایجاد کننده موضوع جهت علامت زدن به عنوان حل شده؟</word>
+<word key="bw_enable_answers__member_desc" js="0">اختیار به ایجاد کننده موضوع داده شود تا ارسال‌ها را نیز به عنوان راه حل، انتخاب کند. </word>
+<word key="solved_stats_from_cutoff" js="0">قطع آمار</word>
+<word key="solved_stats_from_cutoff_desc" js="0"><![CDATA[Any topics marked as solved that were posted older than the timeframe configured here will be excluded from <a href='{internal.app=forums&module=stats&controller=solved&tab=time}' target='_blank'>Time to Solved</a> statistics for this forum. Note that statistics are built once daily, so changes here may not take effect immediately.]]></word>
+<word key="rebuilding_starter_ids" js="0">بازسازی ID های شروع کننده های موضوع</word>
+<word key="chart_forums" js="0">فیلتر توسط تالارهای گفتگو</word>
+<word key="forums_topic_post" js="0">ارسال های تالار</word>
+<word key="forums_topic" js="0">موضوع های تالار</word>
+<word key="forums_topic_pl" js="0">موضوع ها</word>
+<word key="menu__forums_forums_settings" js="0">تنظیمات</word>
+<word key="forums_popular_now" js="0">موضوع پرطرفدار</word>
+<word key="forums_popular_now_desc" js="0">موضوعاتی که پرطرفدار هستند متمایز از بقیه نمایش می یابند.</word>
+<word key="posts_in_the_last" js="0">ارسال در</word>
+<word key="acplogs__forums_settings" js="0">تنظیمات تالارهای گفتگو بروزرسانی شد</word>
+<word key="topics" js="0">موضوع</word>
+<word key="questions" js="0">سوال</word>
+<word key="topic_settings" js="0">تنظیمات موضوع</word>
+<word key="question_settings" js="0">تنظیمات سوال</word>
+<word key="forums_questions_downvote" js="0">به سوال ها می توان امتیاز منفی داد؟</word>
+<word key="forums_answers_downvote" js="0">به پاسخ ها می توان امتیاز منفی داد؟</word>
+<word key="forums_new_questions" js="0">سوال های جدید</word>
+<word key="forums_new_questions_desc" js="0">سوال های جدید در هنگام بازدید از تالار در ابتدا نمایش می یابند.</word>
+<word key="forums_new_questions_best" js="0">سوال هایی که دارای بهترین پاسخ نیستند.</word>
+<word key="forums_new_questions_any" js="0">سوال هایی که هیچ پاسخی ندارند.</word>
+<word key="forums_rss" js="0">فعال بودن خوراک RSS؟</word>
+<word key="forums_topics_per_page" js="0">موضوع ها در هر صفحه</word>
+<word key="forums_default_view" js="0">نمایش پیشفرض تالارها</word>
+<word key="forums_default_view_table" js="0">جدول: حالت سنتی که در تالارهای گفتگو به کار برده می شود و همه چیز به صورت جدولی لیست می گردد</word>
+<word key="forums_default_view_grid" js="0">شبکه ای: تالارهای گفتگو به صورت کارت و به حالت مشبک نمایش داده می شوند.</word>
+<word key="forums_default_view_fluid" js="0">شناور: محیط پویا اما ساده تر در لیست کردن موضوع ها همراه با جعبه فیلترینگ تالارهای گفتگو .</word>
+<word key="forums_default_view_fluid_desc" js="0">بهترین وضعیت برای حالت شناور داشتن تالارهای گفتگو کم با کمترین پیچیدگی درختی است. در حالت شناور تنها تا 3 مرحله زیر تالارهای گفتگو نمایش داده خواهند شد.</word>
+<word key="forums_default_view_choose" js="0">توانایی انتخاب حالت نمایش؟</word>
+<word key="forums_default_view_choose_desc" js="0">می توانید تعیین نمایید کاربران چه حالاتی را برای نمایش تالار ها می توانند انتخاب کنند</word>
+<word key="forums_default_view_choose_none" js="0">به کاربران اجازه انتخاب نده</word>
+<word key="forums_fluid_pinned" js="0">حفظ حالت موضوع های مهم</word>
+<word key="forums_fluid_pinned_desc" js="0">در صورتی که فعال باشد، در حالت شناور، موضوع هایی که مهم شده اند  در بالای لیست قرار می گیرند</word>
+<word key="forums_default_view_choose_error" js="0">شما باید حداقل دو نما را برای حق انتخاب کاربران تعیین کنید</word>
+<word key="archiving" js="0">بایگانی کردن</word>
+<word key="archiving_blurb" js="0">اگر سایت بسیار بزرگی دارید، با استفاده از بایگانی کردن مطالب می توانید حجم جدول ذخیره سازی ارسال های پایگاه داده خود را کاهش دهید.بایگانی کردن موضوعات روش جایگزینی برای حذف موضوع ها می باشد که این امکان را می دهد که موضوع ها همچنان قابل مشاهده باشند، اما در جدول جداگانه ای از پایگاه داده قرار دارند.موضوع هایی که بایگانی شده اند امکان ویرایش و یا ارسال پاسخ را ندارند. شما می توانید بعد از بایگانی در آوردن آن ها دوباره تغییرات خود را اعمال نمایید.</word>
+<word key="archiving_blurb_cloud" js="0">آرشیو کردن موضوعات قدیمی <strong>غیرمهم</strong> و <strong>غیر ویژه</strong> امکان اداره بهتر سایت شما را فراهم می‌کند. موضوعات آرشیو شده قابلیت ارسال یا ویرایش ندارند و در نتایج جستجو نمایش داده نمی‌شوند. اگر نظرتان عوض شد، می‌توانید موضوعات را از حالت آرشیو خارج کنید.</word>
+<word key="archiving_blurb_cloud_notforced" js="0">بایگانی موضوعات قدیمی <strong>non- مهم شده </strong> و  <strong>non- ویژه شده </strong> در سایت های بزرگتر به عملکرد روان سایت شما کمک می کند. موضوعات بایگانی شده نمی توانند در آن پست شوند یا ویرایش شوند و در نتایج جستجو نشان داده نمی شوند. وقتی سایت شما به اندازه خاصی رسید ، بایگانی موضوعات قدیمی لازم است.</word>
+<word key="disable_cloud_archiving" js="0">بایگانی را غیرفعال کنید</word>
+<word key="archive_topics_where" js="0">بایگانی کردن موضوعات در زمانی که  <em>تمام</em>  شرایط زیر صحیح باشند ...</word>
+<word key="archive_topic_forums" js="0">در تالارهای گفتگو</word>
+<word key="archive_topic_not_forums" js="0">در تالارهای گفتگو</word>
+<word key="archive_topic_pinned" js="0">مهم شده/غیرمهم شده</word>
+<word key="archive_topic_featured" js="0">ویژه شده/غیر ویژه شده</word>
+<word key="archive_topic_state" js="0">قفل شده/باز شده</word>
+<word key="unlocked" js="0">باز شده</word>
+<word key="archive_topic_approved" js="0">پنهان شده/آشکار شده</word>
+<word key="archive_topic_poll" js="0">نظرسنجی</word>
+<word key="topic_has_poll" js="0">دارای نظرسنجی</word>
+<word key="topic_does_not_have_poll" js="0">دارا نبودن نظرسنجی</word>
+<word key="poll_with_recent_vote" js="0">آخرین رای نظرسنجی : %s</word>
+<word key="archive_topic_post" js="0">پاسخ</word>
+<word key="archive_topic_view" js="0">بازدید</word>
+<word key="archive_topic_rating" js="0">امتیاز</word>
+<word key="archive_topic_starter" js="0">شروع شده توسط</word>
+<word key="archive_topic_starter_not" js="0">شروع شده توسط</word>
+<word key="archive_topics_not_where" js="0">اما نه زمانی که <em>تمام</em> شرایط زیر صحیح باشند ...</word>
+<word key="archive_not_topic_post" js="0">ارسال</word>
+<word key="archive_not_topic_view" js="0">بازدید</word>
+<word key="archive_not_topic_rating" js="0">امتیاز</word>
+<word key="archive_last_post" js="0">آخرین ارسال</word>
+<word key="archive_last_post_cloud" js="0">آخرین پست</word>
+<word key="archive_last_post_suffix" js="0">سال پیش</word>
+<word key="archive_not_last_post" js="0">آخرین ارسال</word>
+<word key="archive_storage" js="0">ذخیره سازی ارسال های بایگانی شده</word>
+<word key="archive_storage_location" js="0">انتقال ارسال های بایگانی شده به</word>
+<word key="archive_storage_location_desc" js="0">اگر شما قبلا بایگانی کردن را تنظیم کرده اید و می خواهید مکان ذخیره سازی را تغییر دهید، باید به صورتی دستی تمامی ارسال هایی را که بایگانی شده اند را انتقال دهید. برای اطلاعات بیشتر می توانید با پشتیبانی فنی تماس بگیرید.</word>
+<word key="archive_storage_location_local" js="0">یک جدول از پایگاه داده کنونی مورد استفاده</word>
+<word key="archive_storage_location_remote" js="0">یک پایگاه داده مجزا</word>
+<word key="greater_than" js="0">بیشتر از</word>
+<word key="less_than" js="0">کمتر از</word>
+<word key="archive_rules_effects" js="0">تعداد موضوعاتی که با توجه به قوانین تعیین شده شامل بایگانی می شوند</word>
+<word key="forum_sort_key" js="0">چیدمان پیش فرض</word>
+<word key="forum_sort_key_qa" js="0">مرتب کردن پیش فرض</word>
+<word key="archive_settings" js="0">تنظیمات بایگانی کردن</word>
+<word key="archive_settings_cloud" js="0">کجا بایگانی شود...</word>
+<word key="archive_on" js="0">فعال بودن بایگانی کردن؟</word>
+<word key="task__archive" js="0">بایگانی کردن مطالب.</word>
+<word key="task__unarchive" js="0">لغو بایگانی پست ها.</word>
+<word key="remove_archive_exlude" js="0">اجازه به بایگانی شدن این موضوع</word>
+<word key="unarchive" js="0">از بایگانی در آوردن</word>
+<word key="unarchive_confirm" js="0">از بایگانی خارج کردن این موضوع باعث می شود در آینده دیگر این موضوع دوباره بایگانی نشود.بعد از تایید در حدود {# [1:دقیقه][?:دقیقه]} زمان خواهد برد که موضوع از بایگانی به طور کامل خارج شود.</word>
+<word key="uanrchive_settings_change" js="0">بعضی از موضوع ها هم اکنون بایگانی شده اند اما با تنظیمات کنونی بایگانی شما مطابقت ندارند. آیا می خواهید این موضوع ها را از بایگانی خارج کنید؟</word>
+<word key="restore_unmatched_settings" js="0">بله، موضوعاتی که با تنظیمات آرشیو مطابقت ندارد را به حالت اولیه باز گردان</word>
+<word key="leave_archived_topics" js="0">خیر، موضوع های آرشیو شده فعلی ، آرشیو شده باقی بمانند.</word>
+<word key="archive_remote_sql_host" js="0">میزبان</word>
+<word key="archive_remote_sql_user" js="0">نام کاربری</word>
+<word key="archive_remote_sql_pass" js="0">گذرواژه</word>
+<word key="archive_remote_sql_database" js="0">نام پایگاه داده</word>
+<word key="archive_remote_sql_database_desc" js="0">پایگاه داده باید از قبل ایجاد شده باشد. اگر نمی دانید چگونه یک پایگاه داده بسازید با پشتیبانی فضای میزبانی خود تماس بگیرید.</word>
+<word key="archive_sql_port" js="0">درگاه</word>
+<word key="archive_sql_port_desc" js="0">اگر مطمئن نیستید، مقدار پیش فرض را تغییر ندهید.</word>
+<word key="archive_sql_socket" js="0">سوکت</word>
+<word key="archive_sql_socket_desc" js="0">اگر چیزی وارد نشود، از پیش فرض سرور استفاده می شود. اگر از مقدار آن مطمئن نیستید، این بخش را خالی رها کنید.</word>
+<word key="archive_sql_tbl_prefix" js="0">پیشوند جدول</word>
+<word key="archive_sql_tbl_prefix_desc" js="0">اگر تعیین شود از پیشوند در جدول بایگانی استفاده می شود. توصیه می گردد این بخش خالی باشد.</word>
+<word key="archive_remote_db_error" js="0">مشکلی با اتصال به پایگاه داده از راه دور با این جزئیات پیش آمده است : %s</word>
+<word key="acplogs__archive_settings" js="0">تنظیمات بایگانی ویرایش گردید</word>
+<word key="archived_topic_missing_posts" js="0">ارسال‌های این موضوع درحال حاضر در دسترس نیستند، لطفا چند دقیقه دیگر امتحان کنید.</word>
+<word key="archived_topic_missing_posts_admin" js="0">اطلاعات خطاها (فقط به مدیرکل نمایش می دهد)</word>
+<word key="perm_forum_perm__label" js="0"></word>
+<word key="perm_forum_perm__view" js="0">مشاهده تالار</word>
+<word key="perm_forum_perm__view_rest" js="0">مشاهده تالار <br><small>(شامل {# [1:مورد][?:مورد]})</small></word>
+<word key="perm_forum_perm__read" js="0">خواندن موضوعات</word>
+<word key="perm_forum_perm__read_pass" js="0">مشاهده موضوع ها <br><small>(اگر  گذرواژه صحیح وارد شود)</small></word>
+<word key="perm_forum_perm__read_qa" js="0">خواندن سوال ها</word>
+<word key="perm_forum_perm__read_qa_pass" js="0">خواندن سوال ها<br><small>(اگر  گذرواژه صحیح وارد شود)</small></word>
+<word key="perm_forum_perm__read2" js="0">خواندن موضوعات خود</word>
+<word key="perm_forum_perm__read2_pass" js="0">مشاهده موضوع های خود <br><small>(اگرگذرواژه صحیح وارد شود)</small></word>
+<word key="perm_forum_perm__read2_qa" js="0">خواندن سوال های خودتان</word>
+<word key="perm_forum_perm__read2_qa_pass" js="0">خواندن سوال های خودتان<br><small>(اگرگذرواژه  صحیح وارد شود)</small></word>
+<word key="perm_forum_perm__add" js="0">ارسال موضوع جدید</word>
+<word key="perm_forum_perm__add_rest" js="0">ارسال موضوع جدید<br><small>(شامل {# [1:مورد][?:مورد]})</small></word>
+<word key="perm_forum_perm__reply" js="0">ارسال پاسخ به موضوع ها</word>
+<word key="perm_forum_perm__reply_rest" js="0">ارسال پاسخ به موضوع ها <br><small>(شامل {# [1:موضوع][?:موضوع]})</small> </word>
+<word key="perm_forum_perm__add_qa" js="0">پرسیدن سوال جدید</word>
+<word key="perm_forum_perm__add_qa_rest" js="0">پرسیدن سوال جدید<br><small>(همراه با {# [1:مورد][?:مورد]} انتخاب شده از مطالب)</small></word>
+<word key="perm_forum_perm__reply_qa" js="0">ارسال پاسخ</word>
+<word key="perm_forum_perm__reply_qa_rest" js="0">ارسال پاسخ <br><small>(شامل {# [1:پاسخ][?:پاسخ]})</small></word>
+<word key="perm_forum_perm__attachments" js="0">دریافت پیوست ها</word>
+<word key="posts_number" js="0">{!# [1:ارسال][?:ارسال]}</word>
+<word key="posts_no_number" js="0">{!# [1:ارسال][?:ارسال]}</word>
+<word key="replies_number" js="0">{# [1:پاسخ][?:پاسخ]}</word>
+<word key="replies_no_number" js="0"> {!# [1:پاسخ][?:پاسخ]} </word>
+<word key="redirect_hits" js="0">{# [1:بازدید][?:بازدید]}</word>
+<word key="answers_number" js="0">{# [1:پاسخ][?:پاسخ]}</word>
+<word key="answers_no_number" js="0">{!# [1:پاسخ][?:پاسخ]}</word>
+<word key="votes_number" js="0"> {# [1:رای][?:رای]} </word>
+<word key="votes_no_number" js="1">{!# [-1:رای][1:رای][?:رای]}</word>
+<word key="queued_topics_badge" js="0">{# [1:موضوع][?:موضوع] در انتظار تایید}</word>
+<word key="queued_posts_badge" js="0">{# [1:ارسال در انتظار تایید][?:ارسال در انتظار تایید]}</word>
+<word key="queued_topics" js="0">موضوع های تایید نشده</word>
+<word key="queued_posts" js="0">موضوع های دارای ارسال های تایید نشده</word>
+<word key="start_new_topic" js="0">ایجاد موضوع جدید</word>
+<word key="start_new_topic_lc" js="0">آغاز موضوع جدید</word>
+<word key="start_new_topic_desc" js="0">ایجاد موضوع جدید در این تالار</word>
+<word key="ask_a_question" js="0">پرسیدن سوال</word>
+<word key="ask_a_question_lc" js="0">پرسیدن سوال</word>
+<word key="ask_a_question_desc" js="0">پرسیدن سوال در این تالار گفتگو</word>
+<word key="answer_this_question" js="0">پاسخ به این سوال</word>
+<word key="reply_to_this_topic" js="0">ارسال پاسخ به این موضوع</word>
+<word key="mark_forum_read" js="0">انتخاب تالارها به عنوان خوانده شده</word>
+<word key="mark_forum_read_title" js="0">علامت زدن همه موضوع ها به عنوان خوانده شده</word>
+<word key="forum_password_bad" js="0"> گذرواژه نادرست است.</word>
+<word key="topic_details" js="0">جزئیات موضوع</word>
+<word key="topic_mainTab" js="0">مطلب</word>
+<word key="question_mainTab" js="0">محتوا</word>
+<word key="question_title" js="0">سوال</word>
+<word key="topic_title" js="0">عنوان</word>
+<word key="topic_tags" js="0">برچسب ها</word>
+<word key="topic_content" js="0">محتوای موضوع</word>
+<word key="topic_auto_follow" js="0"></word>
+<word key="topic_auto_follow_suffix" js="0">مرا بعد از ارسال پاسخ به این موضوع آگاه کن</word>
+<word key="topic_pollTab" js="0">نظر سنجی</word>
+<word key="topic_poll" js="0"></word>
+<word key="topic_open_time" js="0">زمان باز کردن موضوع</word>
+<word key="topic_close_time" js="0">زمان بستن موضوع</word>
+<word key="topic_date" js="0">انتشار</word>
+<word key="topic_type" js="0">فیلتر</word>
+<word key="all_topics" js="0">همه</word>
+<word key="open_topics" js="0">باز شده</word>
+<word key="popular_now" js="0">پرطرفدار</word>
+<word key="locked_topics" js="0">موضوع قفل شده</word>
+<word key="poll" js="0">نظرسنجی</word>
+<word key="moved_topics" js="0">منتقل شد</word>
+<word key="topics_i_started" js="0">موضوع هایی که من شروع کرده ام</word>
+<word key="topics_i_posted_in" js="0">موضوع هایی که من در آن ارسال داشته ام</word>
+<word key="questions_i_asked" js="0">سوال هایی که من پرسیده ام</word>
+<word key="questions_i_posted_in" js="0">سوال هایی که من پاسخ داده ام</word>
+<word key="question_answered" js="0">سوال های با بهترین پاسخ</word>
+<word key="question_not_answered" js="0">سوال های بدون بهترین پاسخ</word>
+<word key="last_post" js="0">تاریخ آخرین ارسال</word>
+<word key="last_poster" js="0">نام آخرین ارسال کننده</word>
+<word key="topic_starter" js="0">نام آغاز کننده موضوع</word>
+<word key="question_asker" js="0">نام کاربری که سوال پرسیده است</word>
+<word key="topic_started" js="0">تاریخ شروع</word>
+<word key="topic_started_date" js="0">آغاز شده در %s</word>
+<word key="replies" js="0">پاسخ</word>
+<word key="sort_direction" js="0">جهت مرتب سازی</word>
+<word key="sort_num_replies" js="0">بیشترین ارسال</word>
+<word key="sort_question_rating" js="0">بیشترین آرا</word>
+<word key="asc" js="0">مرتب سازی (آخرین اولین/ براساس حروف الفبا)</word>
+<word key="desc" js="0">نزولی (جدیدترین در ابتدا)</word>
+<word key="time_frame" js="0">آخرین پاسخ</word>
+<word key="since_last_visit" js="0">آخرین ورود من به سایت (%s)</word>
+<word key="forum_home" js="0">صفحه اول تالار</word>
+<word key="all_questions" js="0">تمامی سوالات این تالارهای گفتگو</word>
+<word key="featured_question" js="0">سوال ویژه</word>
+<word key="most_popular_questions" js="0">سوال های پرطرفدار</word>
+<word key="from_the_past_30_days" js="0">از 30 روز گذشته</word>
+<word key="explore_questions_title" js="0">گشتن در میان سوال ها</word>
+<word key="new_questions" js="0">سوال جدید</word>
+<word key="awaiting_an_answer" js="0">در انتظار پاسخ</word>
+<word key="best_answer_by" js="0">بهترین پاسخ توسط %s، %s</word>
+<word key="ask_byline" js="0">سوال شده توسط %s ، %s</word>
+<word key="ask_byline_itemprop" js="0">سوال شده توسط %s ، %s</word>
+<word key="ask_byline_no_date" js="0">سوال شده توسط %s</word>
+<word key="forum_rss_title_topics" js="0">آخرین موضوع های %s</word>
+<word key="forum_rss_title_questions" js="0"> %s سوال آخر </word>
+<word key="first_post" js="0">اولین ارسال</word>
+<word key="latest_post" js="0">آخرین ارسال</word>
+<word key="latest_answer" js="0">آخرین جواب</word>
+<word key="first_unread_post_hover" js="0">اولین خوانده نشده</word>
+<word key="best_answer_post" js="0">بهترین پاسخ</word>
+<word key="topic_started_by" js="0">آغاز شده توسط %s</word>
+<word key="topic" js="0">موضوع</word>
+<word key="answer_count" js="0">{# [1:پاسخ][?:پاسخ]} به این سوال تاکنون داده شده است</word>
+<word key="reply_count" js="0"> {# [1:ارسال][?:ارسال]} در این موضوع قرار دارد</word>
+<word key="best_answer_tooltip" js="0">بهترین پاسخ به این پرسش</word>
+<word key="vote_answer_up" js="0">رای مثبت به این پاسخ</word>
+<word key="vote_answer_down" js="0">رای منفی به این پاسخ</word>
+<word key="vote_question_up" js="0">رای مثبت به این سوال</word>
+<word key="vote_question_down" js="0">رای منفی به این سوال</word>
+<word key="remove_your_vote" js="0">حذف رای شما</word>
+<word key="best_answers" js="0">بهترین پاسخ</word>
+<word key="set_as_best_answer" js="0">علامت زدن به عنوان بهترین پاسخ</word>
+<word key="unset_as_best_answer" js="0">عدم انتخاب به عنوان بهترین پاسخ</word>
+<word key="sort_by_answers" js="0">مرتب سازی بر اساس امتیاز</word>
+<word key="sort_by_date" js="0">مرتب سازی بر اساس تاریخ</word>
+<word key="select_forum" js="0">انتخاب تالار</word>
+<word key="create_new_topic" js="0">ایجاد موضوع جدید</word>
+<word key="ask_new_question" js="0">پرسیدن سوال جدید</word>
+<word key="no_answers" js="0">هنوز برای این سوال پاسخی ارسال نشده است</word>
+<word key="no_forum_posts" js="0">تا کنون مطلبی ارسال نشده است</word>
+<word key="no_forum_posts_password" js="0">هیچ ارسالی برای نمایش نیست</word>
+<word key="no_posts_returned" js="0">هیچ مطلبی برای نمایش وجود ندارد</word>
+<word key="topic_pl" js="0">موضوع ها</word>
+<word key="topic_pl_lc" js="0">موضوع</word>
+<word key="post_pl" js="0">پست ها</word>
+<word key="post_pl_lc" js="0">پست ها</word>
+<word key="archivedpost_pl" js="0">پست های بایگانی شده</word>
+<word key="archivedpost_pl_lc" js="0">پست های بایگانی شده</word>
+<word key="topic__comment_placeholder" js="0">ارسال پاسخ به این موضوع ...</word>
+<word key="question__comment_placeholder" js="0">پاسخ به این سوال ...</word>
+<word key="moderator_actions" js="0">مدیریت موضوع</word>
+<word key="toggle_this_category" js="0">تغییر حالت این دسته</word>
+<word key="topic_locked" js="0">این موضوع قفل است</word>
+<word key="topic_pinned" js="0">این موضوع مهم شد</word>
+<word key="topic_hidden" js="0">این موضوع پنهان است</word>
+<word key="topic_featured" js="0">این موضوع ویژه شد</word>
+<word key="create_topic_locked" js="0">موضوع را قفل کن</word>
+<word key="create_topic_pinned" js="0">موضوع را مهم کن</word>
+<word key="create_topic_hidden" js="0">پنهان کردن موضوع</word>
+<word key="create_topic_featured" js="0">موضوع را ویژه کن</word>
+<word key="mark_topic_read" js="0">علامت زدن این موضوع به خوانده شده</word>
+<word key="answered" js="0">دارای بهترین پاسخ است</word>
+<word key="awaiting_answer" js="0">در انتظار بهترین پاسخ</word>
+<word key="forum_requires_password" js="0"> گذرواژه را وارد کنید</word>
+<word key="enter_forum" js="0">تالار را وارد نمایید</word>
+<word key="enter_forum_password_1" js="0">برای مشاهده ی %s مستلزم ارایه گذرواژه می باشد.  اگر گذرواژه را می دانید، آن را در پایین وارد کنید.</word>
+<word key="forums_comments" js="0">{!# [1:پاسخ][?:پاسخ]}</word>
+<word key="forums_num_views" js="0">{!# [1:بازدید][?:بازدید]} </word>
+<word key="share_this_post" js="0">به اشتراک گذاری این ارسال</word>
+<word key="subforums" js="0">زیر دسته های تالار :</word>
+<word key="subforums_header" js="0">زیر دسته های تالار</word>
+<word key="subforums_header_category" js="0">تالار</word>
+<word key="reply_to_topic" js="0">ارسال پاسخ به این موضوع</word>
+<word key="link_to_post" js="0">لینک ارسال</word>
+<word key="share_externally" js="0">به اشتراک گذاری در سایت های دیگر</word>
+<word key="featured_topics" js="0">موضوع ویژه شده</word>
+<word key="no_new_posts" js="0">بدون ارسال جدید در این موضوع</word>
+<word key="new_posts" js="0">ارسال جدید در این موضوع</word>
+<word key="featured_topic" js="0">موضوع ویژه شده</word>
+<word key="next_question" js="0">سوال بعدی</word>
+<word key="next_topic" js="0">موضوع بعدی</word>
+<word key="prev_question" js="0">سوال قبلی</word>
+<word key="prev_topic" js="0">موضوع قبلی</word>
+<word key="topic_create_state" js="0">بعد از ارسال موضوع ...</word>
+<word key="topic_information" js="0">اطلاعات موضوع</word>
+<word key="topic_moderator_options" js="0">گزینه های مدیریتی</word>
+<word key="submit_question" js="0">ارسال سوال</word>
+<word key="submit_topic" js="0">ارسال موضوع</word>
+<word key="submit_topic_edit" js="0">ویرایش موضوع</word>
+<word key="submit_question_edit" js="0">ویرایش سوال</word>
+<word key="topic_submit_comment" js="0">ثبت پاسخ</word>
+<word key="edit_question" js="0">ویرایش سوال</word>
+<word key="edit_topic" js="0">ویرایش موضوع</word>
+<word key="edit_reply" js="0">ویرایش مطلب</word>
+<word key="go_to_forum" js="0">رفتن به %s</word>
+<word key="go_back_to_forum" js="0">رفتن به فهرست موضوع ها</word>
+<word key="go_back_to_qa_forum" js="0">رفتن به لیست سوال ها</word>
+<word key="topic_is_archived" js="0">بایگانی شده</word>
+<word key="topic_archived_desc" js="0">این موضوع بایگانی و قفل شده و دیگر امکان ارسال پاسخ نیست.</word>
+<word key="count_topics_in_forum" js="0">{#  [1:موضوع][?:موضوع] در این تالار قرار دارد} </word>
+<word key="count_questions_in_forum" js="0"> {# [1:سوال][?:سوال] در این تالار قرار دارد} </word>
+<word key="view_next_unread" js="0">موضوع خوانده نشده بعدی</word>
+<word key="view_next_unread_question" js="0">سوال بعدی خوانده نشده</word>
+<word key="view_next_unread_title" js="0">رفتن به موضوع بعدی که دارای مطالب جدید است</word>
+<word key="view_next_unread_question_title" js="0">رفتن به سوال بعدی که دارای پاسخ های جدید است</word>
+<word key="hide_all_signatures" js="0">پنهان کردن تمامی امضا ها</word>
+<word key="hide_members_signature" js="0">پنهان کردن امضا %s</word>
+<word key="go_to_new_location" js="0">رفتن به موقعیت جدید این موضوع</word>
+<word key="topic_moved_to" js="0">این موضوع به تالار <a منتقل شده است</word>
+<word key="question_moved_to" js="0">سوال به تالار <a منتقل شده است</word>
+<word key="topic_merged_to" js="0">موضوع با <a ادغام شد.</word>
+<word key="question_merged_to" js="0">سوال با <a ادغام شد.</word>
+<word key="this_topic" js="0">این موضوع</word>
+<word key="this_forum" js="0">این تالار</word>
+<word key="forum_id" js="0">تالار</word>
+<word key="announce_forums" js="0">تالارهای گفتگو</word>
+<word key="embed_topic" js="0">موضوع تالار</word>
+<word key="questions_with_best_answers" js="0">سوال های با بهترین پاسخ</word>
+<word key="questions_without_best_answers" js="0">سوال های بدون بهترین پاسخ</word>
+<word key="this_is_a_popular_post" js="0">این ارسال پرطرفدار است.</word>
+<word key="rate_this_topic" js="0">امتیاز دادن به این موضوع:</word>
+<word key="rate_this_question" js="0">امتیاز دادن به این سوال:</word>
+<word key="sign_in_rate_question" js="0">وارد حساب خود شوید تا بتوانید به این پرسش امتیاز دهید</word>
+<word key="sign_in_rate_answer" js="0">وارد حساب خود شوید تا بتوانید به این پاسخ امتیاز دهید</word>
+<word key="no_questions_in_forum" js="0">تا کنون هیچ سوالی در این تالار پرسیده نشده است</word>
+<word key="no_topics_in_forum" js="0">تا کنون هیچ موضوعی در این تالار ایجاد نشده است</word>
+<word key="submit_first_question" js="0">اولین سوال را بپرسید</word>
+<word key="submit_first_topic" js="0">ایجاد اولین موضوع</word>
+<word key="topic_pending_approval" js="0">این موضوع هنوز پذیرفته نشده و هم اکنون تنها توسط مدیران قابل رویت می باشد.</word>
+<word key="topic_locked_can_comment" js="0">این موضوع قفل شده است، اما مجوزهای شما این امکان را میدهد که پاسخ های جدیدی اضافه کنید.</word>
+<word key="topic_poll_can_comment" js="0">این موضوع فقط نظرسنجی می باشد، اما دسترسی شما اجازه ارسال پاسخ را میدهد.</word>
+<word key="topic_locked_cannot_comment" js="0">این موضوع  برای عدم ارسال قفل گردیده است.</word>
+<word key="ip_prefix" js="0">IP: %s</word>
+<word key="popular_questions_title" js="0">سوال های پرطرفدار از ماه قبل</word>
+<word key="no_popular_questions" js="0">سوال پرطرفداری برای نمایش هم اکنون وجود ندارد</word>
+<word key="new_questions_title_no_answer" js="0">سوال های بدون جواب</word>
+<word key="new_questions_title_no_best" js="0">سوال های بدون بهترین جواب</word>
+<word key="no_new_questions" js="0">سوال جدیدی برای نمایش هم اکنون وجود ندارد</word>
+<word key="topic_delete_title" js="0">حذف این موضوع</word>
+<word key="approve_title_topic" js="0">تایید این موضوع</word>
+<word key="no_perm_topic_password" js="0">موضوع به علت اینکه در تالار محافظت شده با گذرواژه می باشد قابل نمایش نیست.</word>
+<word key="no_perm_topic_min_posts" js="0">این موضوع قابل نمایش نمی باشد به این دلیل که برای مشاهده مطالب این تالار نیاز به حداقل {# [1:ارسال][?:ارسال] می باشد.</word>
+<word key="no_perm_post_password" js="0">این ارسال قابل نمایش نمی باشد به این دلیل که این تالار برای مشاهده نیاز به گذرواژه دارد.</word>
+<word key="no_perm_post_min_posts" js="0">این ارسال قابل نمایش نمی باشد به این دلیل که برای مشاهده مطالب این تالار نیاز به حداقل {# [1:ارسال][?:ارسال] می باشد.</word>
+<word key="enter_password" js="0"> گذرواژه را وارد نمایید</word>
+<word key="topic_unlocks_at" js="0">موضوع به صورت اتوماتیک %s در %s از حالت قفل خارج میگردد</word>
+<word key="topic_unlocks_at_short" js="0">خارج شدن از حالت فقل در %s</word>
+<word key="topic_locks_at" js="0">موضوع به صورت اتوماتیک %s در %s قفل میشود</word>
+<word key="topic_locks_at_short" js="0">قفل در %s</word>
+<word key="club_node_forums" js="0">انجمن‌های کلوپ</word>
+<word key="topic_meta_unread" js="0">پاسخ های خوانده نشده</word>
+<word key="forum_follower_count" js="0">{# [1:دنبال کننده][?:دنبال کننده]} </word>
+<word key="topic_follower_count" js="0">{# [1:دنبال کننده][?:دنبال کننده]} </word>
+<word key="forums_topic_list_snippet" js="0">نمای گسترش یافته: نمایش عنوان ها به همراه پیش نمایش ارسال</word>
+<word key="forums_topic_list_list" js="0">نمای متراکم: نمایش عنوان ها به صورت لیست</word>
+<word key="topic_snippet_last_reply" js="0">آخرین پاسخ توسط %s, <a به آخرین پست'>%s</a></word>
+<word key="topic_posted_in_groups" js="0">ارسال ها توسط %s</word>
+<word key="filter_hidden_topics" js="0">موضوع های پنهان</word>
+<word key="filter_hidden_posts_in_topics" js="0">موضوع های همراه با ارسال های پنهان</word>
+<word key="moderation_log" js="0">تاریخچه مدیریتی</word>
+<word key="cookie_forumpass_*_description" js="0">این کوکی‌ها برای  احراز هویت در انجمن‌های محافظت شده با رمز عبور استفاده می‌شوند. ممکن است چندین کوکی با نام‌های مشابه وجود داشته باشد که * به جای شناسه انجمن قرار می‌گیرد.</word>
+<word key="saved_actions" js="0">اقدامات ذخیره شده</word>
+<word key="saved_actions_sg" js="0">اقدام ذخیره شده</word>
+<word key="mm_title" js="0">نام</word>
+<word key="mm_forums" js="0">تالار</word>
+<word key="topic_properties" js="0">ویژگی ها</word>
+<word key="mm_leave" js="0">بدون تغییر</word>
+<word key="topic_state" js="0">بستن/باز کردن</word>
+<word key="topic_pin" js="0">مهم کردن/غیر مهم کردن</word>
+<word key="topic_approve" js="0">پنهان کردن/آشکار کردن</word>
+<word key="topic_move" js="0">انتقال به</word>
+<word key="topic_move_none" js="0">عدم انتقال</word>
+<word key="topic_move_link" js="0">گذاشتن آدرس جدید در مکان قبلی؟</word>
+<word key="topic_title_st" js="0">افزودن به ابتدای عنوان</word>
+<word key="topic_title_end" js="0">افزودن به انتهای عنوان</word>
+<word key="add_reply" js="0">افزودن پاسخ</word>
+<word key="topic_reply" js="0">افزودن پاسخ؟</word>
+<word key="topic_reply_content" js="0">پاسخ</word>
+<word key="topic_reply_postcount" js="0">شمارش ارسال ها</word>
+<word key="can_use_saved_actions" js="0">توانایی استفاده از عملیات های مدیریتی ذخیره شده؟</word>
+<word key="modlog__saved_action" js="0">Ran a saved action on topic</word>
+<word key="modlog__unarchived_topic" js="0">موضوع از آرشیو خارج شد: <a href='%s'>%s</a></word>
+<word key="modlog__removed_archive_exclude_topic" js="0">حالت 'حذف از آرشیو' از موضوع برداشته شد: <a href='%s'>%s</a></word>
+<word key="queue_deleting_legacy_topics" js="0">Deleting legacy topic data</word>
+<word key="queue_deleting_legacy_posts" js="0">Deleting legacy post data</word>
+<word key="queue_fixing_hidden_first_post" js="0">Updating incorrectly hidden topics</word>
+<word key="queue_rebuilding_new_topic_flag" js="0">Rebuilding new topic flag in posts</word>
+<word key="queue_rebuilding_solved_posts" js="0">بازسازی فهرست پست های حل شده</word>
+<word key="block_forumStatistics" js="0">آمار انجمن</word>
+<word key="block_forumStatistics_desc" js="0">نمایش آمار عمومی انجمن</word>
+<word key="total_topics" js="0">کل موضوعات</word>
+<word key="total_posts" js="0">کل پست‌ها</word>
+<word key="block_latestTopics" js="0">آخرین موضوع‌ها</word>
+<word key="block_latestTopics_desc" js="0">نمایش آخرین موضوع‌های ارسال شده</word>
+<word key="view_this_topic" js="0">مشاهده موضوع %s</word>
+<word key="block_hotTopics" js="0">هم‌اکنون محبوب</word>
+<word key="block_hotTopics_desc" js="0">نمایش موضوعاتی که در حال حاضر محبوب هستند</word>
+<word key="block_featuredTopics" js="0">موضوع‌های ویژه‌شده</word>
+<word key="block_featuredTopics_desc" js="0">نمایش موضوعاتی که در حال حاضر ویژه هستند</word>
+<word key="block_topicFeed" js="0">خوراک موضوع</word>
+<word key="block_topicFeed_desc" js="0">ایجاد یک خوراک از موضوعات بر اساس گزینه‌های مرتب‌سازی و ترتیب دلخواه</word>
+<word key="block_postFeed" js="0">خوراک پست</word>
+<word key="block_postFeed_desc" js="0">ایجاد یک خوراک از پست‌ها بر اساس گزینه‌های مرتب‌سازی و ترتیب دلخواه</word>
+<word key="digest_area_forums_topic" js="0">موضوع‌ها</word>
+<word key="digest_area_forums_forum" js="0">انجمن‌ها</word>
+<word key="x_created_topic_in" js="0">%s created a topic in %s</word>
+<word key="x_asked_new_question" js="0">%s asked a new question in %s</word>
+<word key="x_replied_to_a_topic" js="0">%s replied to a topic</word>
+<word key="x_answered_a_question" js="0">%s answered a question</word>
+<word key="loc_forums_viewing_topic" js="0">در حال مشاهده موضوع: %s</word>
+<word key="loc_forums_viewing_topic_action" js="0">%s درحال خواندن یک موضوع است</word>
+<word key="loc_forums_viewing_forum" js="0">در حال مشاهده انجمن: %s</word>
+<word key="loc_forums_viewing_forum_action" js="0">٪s درحال مرور یک تالار است</word>
+<word key="loc_forums_creating_topic" js="0">در حال ایجاد موضوع در: %s</word>
+<word key="loc_forums_creating_topic_action" js="0">%s درحال ایجاد یک موضوع است</word>
+<word key="loc_forums_index" js="0">در مشاهده صفحه اول انجمن‌ها</word>
+<word key="loc_forums_index_action" js="0">%s درحال مشاهده یک تالار است</word>
+<word key="ad_forum_listing" js="0">After the first topic in each forum</word>
+<word key="ad_topic_view" js="0">After the first post in each topic</word>
+<word key="ad_fluid_index_view" js="0">Fluid view topic listing, between topic rows</word>
+<word key="ad_fluid_index_view_number" js="0">Show this advert after every</word>
+<word key="ad_fluid_index_view_number_suffix" js="0">topic rows when in fluid view mode</word>
+<word key="ad_fluid_index_view_repeat" js="0">Repeated</word>
+<word key="ad_fluid_index_view_repeat_suffix" js="0">times</word>
+<word key="stats_new_topics" js="0">Topics</word>
+<word key="stats_new_posts" js="0">Posts</word>
+<word key="stats_topics_tab_total" js="0">همه موضوع‌ها</word>
+<word key="stats_topics_tab_byforum" js="0">Topics By Forum</word>
+<word key="stats_topics_tab_noposts" js="0">Topics With No Posts</word>
+<word key="stats_topics_tab_solved" js="0">موضوع‌های حل شده بر اساس انجمن</word>
+<word key="stats_topics_title_solved" js="0">موضوع‌های حل شده بر اساس انجمن</word>
+<word key="stats_topics_tab_groups" js="0">Solved Topics By Group</word>
+<word key="stats_topics_title" js="0">Topics by time period</word>
+<word key="stats_topics_title_byforum" js="0">Topics by forum</word>
+<word key="stats_topics_tab_unsolved" js="0">Unsolved Topics</word>
+<word key="topics_noposts_tid" js="0">Topic ID</word>
+<word key="topics_noposts_title" js="0">Title</word>
+<word key="topics_noposts_state" js="0">Status</word>
+<word key="topics_noposts_start_date" js="0">Started</word>
+<word key="topics_noposts_starter_id" js="0">Author</word>
+<word key="topics_noposts_views" js="0">Views</word>
+<word key="topics_noposts_forum_id" js="0">Forum</word>
+<word key="topics_noposts_approved" js="0">Approved</word>
+<word key="stats_posts_tab_total" js="0">All Posts</word>
+<word key="stats_posts_tab_byforum" js="0">Posts By Forum</word>
+<word key="stats_posts_title" js="0">Posts by time period</word>
+<word key="stats_posts_title_byforum" js="0">Posts by forum</word>
+<word key="stats_percentagesolved" js="0">درصد حل شده‌ها</word>
+<word key="stats_percentagesolved_desc" js="0">درصد موضوع های حل شده در مقایسه با تعداد کل موضوع های ارسال شده</word>
+<word key="stats_solved_tooltip" js="0">%s موضوع از مجموع %s موضوع، حل شده است</word>
+<word key="stats_solved_tooltip_prev" js="0">%s موضوع از مجموع %s موضوع، حل شده است که بر اساس میزان %s%% است</word>
+<word key="stats_averagetimesolved" js="0">میانگین زمانی پیدا شدن راه حل</word>
+<word key="stats_averagetimesolved_desc" js="0">متوسط زمانی که از زمان ایجاد موضوع تا زمان حل آن، طول کشیده است</word>
+<word key="menu__forums_stats_questions" js="0">سوال‌ها</word>
+<word key="stats_question_ratings_title" js="0">رای های بالا/پایین سوال‌ها در طول زمان</word>
+<word key="stats_question_ratings_negative" js="0">امتیاز منفی</word>
+<word key="stats_question_ratings_positive" js="0">امتیاز مثبت</word>
+<word key="r__questions" js="0">سوال‌ها</word>
+<word key="r__questions_manage" js="0">توانایی مشاهده آمار سوال‌ها؟</word>
+<word key="menu__forums_stats_solvers" js="0">Top Solvers</word>
+<word key="top_solvers" js="0">Top Solvers</word>
+<word key="top_solvers_name" js="0">Username</word>
+<word key="top_solvers_count" js="0">Solved Count</word>
+<word key="top_solvers_solved_date" js="0">Date Range</word>
+<word key="top_solvers_date" js="0">Last Solution Date</word>
+<word key="top_solvers_member_group_id" js="0">Group</word>
+<word key="widget_feed_container_topic" js="0">انجمن‌ها</word>
+<word key="block_topicFeed_title" js="0">موضوع‌ها</word>
+<word key="block_postFeed_title" js="0">ارسال‌ها</word>
+<word key="block_poll" js="0">نظرسنچی</word>
+<word key="block_poll_desc" js="0">ایجاد بلوک نظرسنجی از موضوع دارای نظرسنجی</word>
+<word key="widget_poll_tid" js="0">موضوع</word>
+<word key="widget_poll_tid_desc" js="0">Start typing the name of the topic</word>
+<word key="poll_view_topic" js="0">نمایش موضوع</word>
+<word key="poll_widget_no_poll" js="0">موضوع انتخاب شده دارای نظرسنجی فعال نمی باشد.</word>
+<word key="__api_forums_posts" js="0">ارسال‌ها</word>
+<word key="__api_forums_topics" js="0">موضوع‌ها</word>
+<word key="__api_forums_forums" js="0">انجمن‌ها</word>
+<word key="recommend_post" js="0">ارسال پیشنهاد شده</word>
+<word key="recommended_posts" js="0">ارسال‌های توصیه شده</word>
+<word key="enable_topic_moderation" js="0">فعال کردن تایید کردن ارسال</word>
+<word key="disable_topic_moderation" js="0">غیر فعال کردن تایید کردن ارسال</word>
+<word key="topic_moderation_enabled" js="0">تایید کردن ارسال فعال شد</word>
+<word key="enable_topic_moderation_confirm" js="0">اگر فعال باشد، همه دیدگاه ها قبل از اینکه در پست قابل نمایش باشند باید توسط مدیریت تایید شوند.</word>
+<word key="disable_topic_moderation_confirm" js="0">اگر غیرفعال باشد، دیدگاه ها جدید دیگر نیاز به تایید مدیریت ندارند.</word>
+<word key="unsolve_content" js="0">حذف از راه حل</word>
+<word key="solve_content" js="0">انتخاب به عنوان راه حل</word>
+<word key="this_is_a_solved_post" js="0">راه حل</word>
+<word key="solved_and_go" js="0">برو به راه حل</word>
+<word key="this_is_solved" js="0">حل شده</word>
+<word key="unsolved_topics" js="0">موضوعات حل نشده</word>
+<word key="solved_topics" js="0">موضوعات حل شده</word>
+<word key="widget_feed_status_solved" js="0">حل شده</word>
+<word key="solved_either" js="0">حل شده و حل نشده</word>
+<word key="solved_solved" js="0">حل شده</word>
+<word key="solved_unsolved" js="0">حل نشده</word>
+<word key="solved_byline" js="0">توسط %s حل شده</word>
+<word key="forums_solved_topic_reengage" js="0">ارسال ایمیل به نویسنده برای انتخاب یک پاسخ به عنوان راه‌حل</word>
+<word key="forums_solved_topic_reengage_prefix" js="0">اگر موضوع حل نشده است و از زمان آغاز موضوع</word>
+<word key="forums_solved_topic_reengage_suffix" js="0">روز  یا بیشتر گذشته باشد</word>
+<word key="forums_solved_topic_reengage_never" js="0">هرگز به نویسنده جهت درخواست ایمیل زده نشود</word>
+<word key="forums_solved_stats_time" js="0">مدت زمان حل شدن (بر اساس روز)</word>
+<word key="forums_solved_stats_percentage" js="0">درصد حل شده‌ها</word>
+<word key="solved_stats_rebuild_started" js="0">Statistics rebuild started</word>
+<word key="solved_stats_rebuild_button" js="0">Rebuild Solved Statistics</word>
+<word key="solved_rebuilding_stats" js="0">Rebuilding solved statistics for forum %s</word>
+<word key="solved_stats_chart_desc" js="0">داده‌های این نمودار هر روز یکبار به‌روزرسانی می‌شوند.</word>
+<word key="forums_simple_name_with_container" js="0">توسط %s در <a href='%s'>%s</a>	</word>
+<word key="forums_show_all_forums" js="0">حالت جدول</word>
+<word key="forums_show_all_forums_tooltip" js="0">نمایش دسته‌ها و انجمن‌ها در جدول</word>
+<word key="forum_simple_view_last_post" js="0">آخرین فعالت</word>
+<word key="forums_show_fluid_forums" js="0">حالت شناور</word>
+<word key="forums_show_fluid_forums_tooltip" js="0">نمایش همه موضوع‌ها با کادر فیلتر انجمن</word>
+<word key="forums_simple_view_change_tooltip" js="0">تغییر حالت نمایش</word>
+<word key="forums_simple_filter_by" js="0">فیلتر کردن موضوع‌ها با انجمن</word>
+<word key="forums_simple_dialog_title" js="0">فیلتر کردن با انجمن</word>
+<word key="done_forum_filtering" js="0">انجام شد</word>
+<word key="forums_chosen_forums" js="0">این انجمن‌ها</word>
+<word key="forums_view_list_method" js="0">نمای لیست پیش فرض موضوع</word>
+<word key="forums_view_list_choose" js="0">اعضا می توانند انتخاب کنند؟</word>
+<word key="forums_view_list_choose_desc" js="0">آیا می خواهید به اعضای خود اجازه دهید بین دیدگاه ها جابجا شوند یا خیر. وقتی روی "نه" تنظیم می شود ، اعضا همیشه از نمای لیست پیش فرض موضوع استفاده می کنند.</word>
+<word key="topicactivity_created" js="0">ایجاد شده</word>
+<word key="topicactivity_topposters" js="0">بیشترین ارسال‌ها در این موضوع</word>
+<word key="topicactivity_topposters_qa" js="0">بیشترین ارسال‌ها برای این سوال</word>
+<word key="topicactivity_popularposts" js="0">ارسال‌های محبوب</word>
+<word key="topicactivity_populardays" js="0">روزهای محبوب</word>
+<word key="topicactivity_images" js="0">تصاویر ارسال شده</word>
+<word key="topicactivity_number_posts" js="0">{# [1:ارسال][?:ارسال]} </word>
+<word key="forums_topic_activity" js="0">دستگاه ها</word>
+<word key="forums_topic_activity_desktop_on" js="0">رایانه ها / تبلت ها</word>
+<word key="forums_topic_activity_mobile_on" js="0">دستگاه های موبایل</word>
+<word key="forums_topic_activity_mobile_on_desc" js="0">این همیشه در زیر اولین پست برای دستگاه های تلفن همراه نشان داده می شود</word>
+<word key="forums_topic_activity_desktop" js="0">موقعیت در رایانه / تبلت</word>
+<word key="forums_topic_activity_desktop_sidebar" js="0">نوار کناری</word>
+<word key="forums_topic_activity_desktop_post" js="0">زیر اولین پست</word>
+<word key="forums_topics_activity_pages_show_unlimited" js="0">همیشه نشان بده</word>
+<word key="forums_topics_activity_pages_show" js="0">شاخص</word>
+<word key="forums_topics_activity_pages_show_prefix" js="0">وقتی تعداد صفحات حداقل باشد</word>
+<word key="topic_summary_settings" js="0">تنظیمات خلاصه موضوع</word>
+<word key="forums_topic_activity_features" js="0">محتوا</word>
+<word key="forums_topic_activity_features_popularDays" js="0">روزهای محبوب</word>
+<word key="forums_topic_activity_features_popularDays_desc" js="0">لیستی از 4 روزی که بیشترین پست را داشته است</word>
+<word key="forums_topic_activity_features_topPost" js="0">بهترین پست ها</word>
+<word key="forums_topic_activity_features_topPost_desc" js="0">لیستی از 3 پست با بیشترین واکنش مثبت</word>
+<word key="forums_topic_activity_features_uploads" js="0">عکس های ارسال شده</word>
+<word key="forums_topics_show_meta" js="0">نمایش</word>
+<word key="forums_topic_show_meta_time" js="0">فاصله زمانی زیاد بین پست ها</word>
+<word key="forums_topic_show_meta_moderation" js="0">اعتدال بین رویدادها و پست ها</word>
+<word key="forums_topic_show_meta_moderation_desc" js="0">از بخش <a href='{internal.app=core&amp;module=members&amp;controller=groups}'>تنظیمات گروه ها</a> می توانید، تعیین نمایید چه گروه هایی می توانند رخداد های مدیریتی را مشاهده کنند.</word>
+<word key="forums_mod_actions_anon" js="0">نمایش مدیران در کنار رخدادهای مدیریتی</word>
+<word key="forums_mod_actions_anon_desc" js="0">اگر غیر فعال شود، نام مدیری که این اقدام را انجام خواهد داد از دیگر کاربران که دسترسی مدیریت در انجمن ندارند، مخفی خواهند ماند.</word>
+<word key="404_forums_topic" js="0">موضوع مورد نظر شما پیدا نشد.</word>
+<word key="403_forums_topic" js="0">شما مجوز مشاهده این موضوع را ندارید.</word>
+<word key="mobilenavigation_Topics" js="0">همه موضوعات</word>
+<word key="mobilenavigation_Forums" js="0">تالارها</word>
+<word key="app_forums" js="0">تالارها</word>
+<word key="app_create_new_topic" js="0">موضوع جدیدی ایجاد کنید</word>
+<word key="app_topics_title" js="0">موضوعات</word>
+<word key="app_subforums_title" js="0">زیر تالارها</word>
+<word key="app_no_forum" js="0">این تالار وجود ندارد.</word>
+<word key="app_no_topic" js="0">این موضوع وجود ندارد.</word>
+<word key="app_incorrect_forum_password" js="0">رمز ورود به این تالار ارائه نشده است</word>
+<word key="app_no_post" js="0">این پگاسخ وجود ندارد.</word>
+<word key="app_invalid_topic" js="0">این موضوع قابل بارگذاری نیست.</word>
+<word key="app_not_question" js="0">این موضوع قابل رای دادن نیست.</word>
+<word key="app_cannot_vote" js="0">شما نمی‌توانید روی این سوال نظرسنجی ارسال کنید.</word>
+<word key="app_error_voting_question" js="0">در نظرسنجی سوال مشکلی پیش آمده است.</word>
+<word key="app_replace_best_answer_title" js="0">تایید</word>
+<word key="app_replace_best_answer_text" js="0">آیا مطمئن هستید که می خواهید بهترین پاسخ فعلی را با این پاسخ جایگزین کنید؟</word>
+<word key="app_question_asked_by" js="0">سوال توسط {{name}} پرسیده شده</word>
+<word key="app_this_is_best_answer" js="0">بهترین پاسخ این موضوع</word>
+<word key="app_all_topics" js="0">همه موضوعات</word>
+<word key="app_all_topics_desc" js="0">نمایش همه موضوع ها از همه تالارها</word>
+<word key="app_create_topic" js="0">ایجاد موضوع</word>
+<word key="app_confirm_discard_topic" js="0">آیا مطمئن هستید که می‌خواهید این موضوع را بدون ارسال حذف کنید؟</word>
+<word key="app_confirm_discard_post" js="0">آیا مطمئن هستید که می‌خواهید این پاسخ را بدون ارسال حذف کنید؟</word>
+<word key="app_title_required" js="0">عنوان ضروری است</word>
+<word key="app_title_required_desc" js="0">باید عنوانی برای موضوع وارد کنید.</word>
+<word key="app_post_required" js="0">پست ضروری است</word>
+<word key="app_post_required_desc" js="0">شما باید یک پست وارد کنید.</word>
+<word key="app_error_posting_topic" js="0">متأسفیم ، در ارسال این موضوع خطایی روی داد.</word>
+<word key="app_error_posting_post" js="0">متأسفیم ، در ارسال این پاسخ خطایی روی داد.</word>
+<word key="app_topic_title" js="0">عنوان موضوع</word>
+<word key="app_post_title" js="0">پست</word>
+<word key="app_topic_cannot_reply" js="0">نمی‌توانید پاسخ بفرستید</word>
+<word key="app_topic_locked_can_comment" js="0">فقل شده است؛ اما شما میتوانید پاسخ بنویسید...</word>
+<word key="app_topic_poll_can_comment" js="0">فقط نظرسنجی، اما شما میتوانید پاسخ بنویسید...</word>
+<word key="app_topic_locked_cannot_comment" js="0">شما اجازه ارسال پاسخ را ندارید؛ زیرا این تاپیک قفل شده است.</word>
+<word key="app_topic_restricted_cannot_comment" js="0">حساب کاربری شما برای ارسال پست محدود شده است.</word>
+<word key="app_topic_unacknowledged_warning_cannot_post" js="0">شما اخطاری دریافت کرده اید که قبل از ارسال پست باید آن را تأیید کنید.</word>
+<word key="app_topic_member_exceeded_posts_per_day" js="0">شما به حداکثر تعداد پست هایی که در روز می توانید ارسال کنید رسیدید.</word>
+<word key="AchievementAction__AnswerMarkedBest" js="0">ارسال به عنوان بهترین پاسخ انتخاب شد</word>
+<word key="achievement_filter_AnswerMarkedBest_forum" js="0">افزودن یک موقعیت شرطی</word>
+<word key="achievement_filter_AnswerMarkedBest_forum_prefix" js="0">سوال در انجمن فوق است</word>
+<word key="achievement_filter_AnswerMarkedBest_poster" js="0">به کاربری که پاسخ را ارسال کرده است</word>
+<word key="achievement_filter_AnswerMarkedBest_asker" js="0">به کاربری که سوال اصلی را ارسال کرده است</word>
+<word key="achievement_filter_AnswerMarkedBest_nth" js="0">افزودن یک ره‌شمار شرطی</word>
+<word key="achievement_filter_AnswerMarkedBest_nth_suffix" js="0">مین دفعه ای که مطلب ارسال شده در این انجمن به عنوان بهترین پاسخ انتخاب شده است</word>
+<word key="AchievementAction__AnswerMarkedBest_log_subject" js="0">پاسخ ارسال شده به %s به عنوان بهترین پاسخ انتخاب شد</word>
+<word key="AchievementAction__AnswerMarkedBest_log_other" js="0">سوال %s یک پاسخ دارد که به عنوان بهترین پاسخ انتخاب شد</word>
+<word key="AchievementAction__AnswerMarkedBest_log_deleted" js="0">یک سوال پاک شد</word>
+<word key="AchievementAction__AnswerMarkedBest_title" js="0">بهترین پاسخ</word>
+<word key="forumMarkedRead" js="1">انجمن به عنوان خوانده شده انتخاب شد</word>
+<word key="topicMarkedRead" js="1">موضوع به عنوان خوانده شده انتخاب شد</word>
+<word key="js_num_topic_posts" js="1">این موضوع دارای {# [1:ارسال][?:ارسال]} است</word>
+<word key="votes_no_number" js="1">{!# [-1:رای][1:رای][?:رای]}</word>
+<word key="topicsFromAllForums" js="1">نمایش موضوع‌ها از همه انجمن‌ها</word>
+<word key="topicsFromXForums" js="1">نمایش موضوع‌ها از {# [1:انجمن][?:انجمن]}</word>
+<word key="markForumAsReadConfirm" js="1">آیا شما مطمئن هستید که می خواهید تمامی موضوع‌های این انجمن را به عنوان خوانده شده علامت بزنید؟</word>
+<word key="js_vote_answer_up" js="1">رای مثبت به این پاسخ</word>
+<word key="js_vote_answer_down" js="1">رای منفی به این پاسخ</word>
+<word key="js_remove_your_vote" js="1">حذف رای شما</word>
  </app>
 </language>

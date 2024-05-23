@@ -47,7 +47,7 @@
   <word key="can_unhide_record" js="0">توانایی آشکار کردن %s؟</word>
   <word key="can_view_hidden_record" js="0">توانایی مشاهده %s پنهان شده؟</word>
   <word key="can_move_record" js="0">توانایی انتقال %s؟</word>
-  <word key="can_move_record_desc" js="0">تنها بین دسته هایی که می توانند محتوای جدید را درون آن ایجاد شوند شما قادر خواهید بود حرکت کنید</word>
+  <word key="can_move_record_desc" js="0">تنها بین دسته هایی که می توانند محتوای جدید را درون آن ایجاد شوند شما قادر خواهید بود، انتقال دهید</word>
   <word key="can_lock_record" js="0">توانایی قفل کردن %s؟</word>
   <word key="can_unlock_record" js="0">توانایی بازکردن %s؟</word>
   <word key="can_reply_to_locked_record" js="0">توانایی پاسخ دهی به %s قفل شده؟</word>
@@ -114,7 +114,7 @@
   <word key="modperms__cms_Databases" js="0">پایگاه های داده</word>
   <word key="can_content_revisions_content" js="0">توانایی مدیریت نسخه‌های پیشنویس ها؟</word>
   <word key="can_content_edit_meta_tags" js="0">توانایی مدیریت متا تگ ها؟</word>
-  <word key="can_content_edit_meta_tags_desc" js="0">کاربر بتواند در زمان ساخت / ویرایش مطالب تگ‌های meta keywords و description بیافزاید / ویرایش کند.</word>
+  <word key="can_content_edit_meta_tags_desc" js="0"><![CDATA[کاربر بتواند در زمان ساخت / ویرایش مطالب تگ‌های meta keywords و description بیافزاید / ویرایش کند.]]></word>
   <word key="can_content_edit_record_slugs" js="0">توانایی مدیریت نام  رکوردها؟</word>
   <word key="can_content_edit_record_slugs_desc" js="0">نام FURL برای نمایش نامی است که در URL مخصوص مطلب به کار می‌رود</word>
   <word key="can_content_view_others_records" js="0">توانایی مشاهده همه رکوردها</word>
@@ -260,7 +260,7 @@
   <word key="cms_template_group_exists" js="0">این گروه قالب از قبل وجود دارد.</word>
   <word key="cms_template_title_exists" js="0">عنوان قالب از قبل وجود دارد.</word>
   <word key="database_form_template_link" js="0">ویرایش قالب‌ها</word>
-  <word key="cms_block_list_key" js="0">{block=&quot;%s&quot;}</word>
+  <word key="cms_block_list_key" js="0">{block="%s"}</word>
   <word key="cms_theme_template_custom" js="0">قالب‌های اختصاصی</word>
   <word key="cms_theme_template_default" js="0">قالب‌های پیش‌فرض</word>
   <word key="delete_db_confirm_detail_msg" js="0">هر فیلدی در دیگر پایگاه‌های داده که به این پایگاه داده متصل است، به صورت خودکار حذف خواهد شد.</word>
@@ -277,7 +277,7 @@
   <word key="perm_content_page_perm__label" js="0"></word>
   <word key="perm_content_page_perm__view" js="0">مشاهده صفحه</word>
   <word key="content_page_form_tab__details" js="0">جزئیات </word>
-  <word key="content_page_form_tab__meta" js="0">عنوان و متا تگ‌ </word>
+  <word key="content_page_form_tab__meta" js="0"><![CDATA[عنوان و متا تگ‌ ]]></word>
   <word key="content_page_form_tab__content" js="0">محتوا</word>
   <word key="page_name" js="0">نام صفحه</word>
   <word key="page_title" js="0">عنوان صفحه</word>
@@ -314,7 +314,7 @@
   <word key="cms_err_db_does_not_exist" js="0">پایگاه داده وجود ندارد.</word>
   <word key="cms_err_db_in_use_other_page" js="0">از پایگاه داده افزوده شده، صفحه دیگری در حال استفاده است.</word>
   <word key="content_acp_page_builder_msg_new" js="0">محتوای این صفحه را بلافاصله پس از ایجاد، می توانید ویرایش نمایید.</word>
-  <word key="content_acp_page_builder_msg_edit" js="0"><![CDATA[با بازدید از <a href='%s' target='_blank' rel='noopener'>صفحه</a> می توانید محتوای صفحه را ویرایش نمایید.]]></word>
+  <word key="content_acp_page_builder_msg_edit" js="0"><![CDATA[می‌توانید محتوای این صفحه را با بازدید از صفحه <a href='%s' target='_blank' rel='noopener'> ویرایش کنید.</a>]]></word>
   <word key="content_launch_page_builder" js="0">باز کردن صفحه‌ ساز</word>
   <word key="content_launch_page_view" js="0">مشاهده صفحه</word>
   <word key="page_theme" js="0">پوسته</word>
@@ -477,7 +477,7 @@
   <word key="field_upload_is_image" js="0">نوع بارگذاری</word>
   <word key="cms_field_no_type_warning" js="0">نوع گزینه اختصاصی %s وجود ندارد، لطفاً یک نوع فیلد معتبر را انتخاب کنید.</word>
   <word key="field_display_opts_title" js="0"><![CDATA[این فیلد به عنوان عنوان رکورد تنظیم شده است. عنوان در لیست فیلدهای سفارشی وقتی در قالب‌های پیش‌فرض نمایش داده می‌شود، در آن وجود ندارد. شما می‌توانید گزینه‌های نمایشی را اینجا برای هنگام استفاده از <span class='ipsType_monospace'>{$record->customFieldDisplayByKey('title_key', ['display|listing'])|raw}</span> تنظیم کنید. همیشه با استفاده از <span class='ipsType_monospace'>$record->_title</span> عنوان مقاله را دریافت خواهید کرد.]]></word>
-  <word key="field_display_opts_content" js="0"><![CDATA[This field is set to be the record content. The content field is not included in the list of custom fields when displayed in the default templates. You can adjust the display options here for when using <span class='ipsType_monospace'>{$record->customFieldDisplayByKey('content_key', ['display|listing'])|raw}</span>. Using <span class='ipsType_monospace'>$record->_content</span> will always get the article formatted content.]]></word>
+  <word key="field_display_opts_content" js="0"><![CDATA[ین قسمت قرار است به عنوان محتوای ضبط شده باشد. قسمت محتوا هنگام نمایش در الگوهای پیش فرض در لیست قسمتهای سفارشی موجود نیست. برای استفاده از <span class='ipsType_monospace'>{$record->customFieldDisplayByKey('content_key', ['display|listing'])|raw}</span>. Using <span class='ipsType_monospace'>$record->_coمی توانید گزینه های نمایش را در اینجا تنظیم کنید. با استفاده از <span class='ipsType_monospace'>$record->_content</span> محتوای قالب بندی شده مقاله به دست می آید. ]]></word>
   <word key="field_date_time_override" js="0">منطقه زمانی</word>
   <word key="field_date_time_time" js="0">اجازه به وارد کردن زمان</word>
   <word key="field_date_timezone" js="0">منطقه زمانی</word>
@@ -514,8 +514,8 @@
   <word key="category_has_perms_desc" js="0">در هنگام فعال بودن، شما می‌توانید دسترسی گروه کاربری را مستقل از پایگاه داده والد تعیین کنید</word>
   <word key="category_can_view_others" js="0">کاربران می توانند رکوردهای ارسال شده توسط دیگر کاربران را مشاهده کنند؟</word>
   <word key="category_can_view_others_desc" js="0"><![CDATA[مدیران می توانند (در صورت اجازه) همه سوابق را مشاهده کنند. شما می توانید از این تنظیمات برای ایجاد مقوله ای استفاده کنید که کاربران بتوانند به طور خصوصی با مدیران ارتباط برقرار کنند.<br> سوابق ارسال شده در گروهی که به دیگران امکان مشاهده سوابق را نمی دهد ، در هیچ نوار کناری ، سرصفحه یا پاورقی نمایش داده نمی شود.]]></word>
-  <word key="category_can_view_others_database_desc" js="0">مدیران می توانند (در صورت اجازه) همه سوابق را مشاهده کنند. شما می توانید از این تنظیمات برای ایجاد یک دیتابیس استفاده کنید که در آن کاربران بتوانند به طور خصوصی با کارکنان ارتباط برقرار کنند. - سوابق ارسال شده در یک دیتابیس که به دیگران امکان مشاهده سوابق را نمی دهد ، در هیچ بخشی از ساید بار ، سربرگ یا پاورقی نمایش داده نمی شود.</word>
-  <word key="category_show_records_desc" js="0">اگر &quot;نه&quot; را انتخاب کنید ، فقط زیر شاخه ها در این گروه نمایش داده می شوند. اگر بله را انتخاب کنید ، زیر شاخه ها و سوابق نمایش داده می شوند.</word>
+  <word key="category_can_view_others_database_desc" js="0"><![CDATA[مدیران می‌توانند (در جایی که اجازه دارند) همه رکوردها را ببینند. می‌توانید از این تنظیم برای ایجاد پایگاه‌داده‌ای استفاده کنید که در آن کاربران بتوانند به‌صورت خصوصی با کارکنان ارتباط برقرار کنند.<br>سوابق ارسال شده در پایگاه‌داده‌ای که به دیگران اجازه مشاهده سوابق را نمی‌دهد، در هیچ نوار کناری، سرصفحه یا بلوک پاورقی نشان داده نمی‌شوند.]]></word>
+  <word key="category_show_records_desc" js="0">اگر "نه" را انتخاب کنید ، فقط زیر شاخه ها در این گروه نمایش داده می شوند. اگر بله را انتخاب کنید ، زیر شاخه ها و سوابق نمایش داده می شوند.</word>
   <word key="content_content_form_header__meta" js="0">متا تگ‌ ها و عنوان</word>
   <word key="category_meta_keywords" js="0">متا تگ کلمات کیلیدی</word>
   <word key="category_meta_description" js="0">متا تگ توضیحات</word>
@@ -632,7 +632,7 @@
   <word key="database_lang_ia" js="0">مقاله بدون اندازه</word>
   <word key="database_lang_ia_desc" js="0">به طور پیش فرض رکورد است </word>
   <word key="database_all_editable" js="0">ویرایش به صورت ویکی</word>
-  <word key="database_all_editable_desc" js="0">فعال بودن این گزینه باعث می‌شود کاربران بتواند هر مطلب قفل نشده‌ای را ویرایش کنند. اگر فعال نباشد کاربر فقط ارسال‌های خودش را می‌تواند ویرایش کند (اگر دسترسی داشته باشد).</word>
+  <word key="database_all_editable_desc" js="0"><![CDATA[فعال بودن این گزینه باعث می‌شود کاربران بتواند هر مطلب قفل نشده‌ای را ویرایش کنند. اگر فعال نباشد کاربر فقط ارسال‌های خودش را می‌تواند ویرایش کند (اگر دسترسی داشته باشد).]]></word>
   <word key="cms_bitoptions_indefinite_own_edit" js="0">ویرایش مطالب خود به صورت نامحدود</word>
   <word key="cms_bitoptions_indefinite_own_edit_desc" js="0"><![CDATA[فعال کردن این گزینه به نویسندگان رکورد اجازه می دهد تا مطالب قفل نشده خود را ویرایش کنند و البته شامل ویرایش نامحدود رکورد های مخفی نمی شود.<br />هنگامی که این ویژگی فعال نیست  از مجوز ویرایش محتوا <a href='{internal.app=core&module=members&controller=groups}'>گروه های کاربری </a> استفاده می شود.]]></word>
   <word key="database_revisions" js="0">ذخیره کردن نسخه‌ها</word>
@@ -658,7 +658,7 @@
   <word key="database_field_direction" js="0">مرتب سازی</word>
   <word key="database_field_perpage" js="0">مطلب در هر صفحه</word>
   <word key="database_comments_perpage" js="0">Comments per page</word>
-  <word key="database_comments_perpage_desc" js="0"><![CDATA[If set to "Inherit", then will use the value of Records per page, <strong>or</strong> will use the Posts per page setting in the Forums application, if the database is using forums for comments.]]></word>
+  <word key="database_comments_perpage_desc" js="0"><![CDATA[اگر روی "والد" تنظیم شود، از مقدار رکوردها در هر صفحه استفاده می‌کند، <strong>یا</strong> از تنظیمات پست‌ها در هر صفحه استفاده می‌کند. در برنامه Forums، اگر پایگاه داده از انجمن ها برای نظرات استفاده می کند.]]></word>
   <word key="database_comments_perpage_inherit" js="0">Inherit</word>
   <word key="database_field__id" js="0">ID مطلب</word>
   <word key="database_field__member" js="0">ID کاربر</word>
@@ -676,7 +676,7 @@
   <word key="content_database_form_options_forums" js="0">تالار‌ها</word>
   <word key="database_forum_record" js="0">ارسال موضوع</word>
   <word key="database_forum_record__desc" js="0">ارسال یک موضوع به تالار گفتگوی معین در هر زمان یک رکورد جدید اضافه می شود.</word>
-  <word key="database_forum_record__rebuild" js="0"><![CDATA[<a href='%s' data-ipsDialog data-ipsDialog-title='Rebuild Synchronized Topic Content''>یکپارچه سازی دوباره محتوای موضوعات </a>. ]]></word>
+  <word key="database_forum_record__rebuild" js="0"><![CDATA[<a href='%s' data-ipsDialog data-ipsDialog-title='یکپارچه سازی دوباره محتوای موضوعات'>یکپارچه سازی دوباره محتوای موضوعات </a>.]]></word>
   <word key="database_forum_comments" js="0">استفاده از تالارهای گفتگو برای دیدگاه ها</word>
   <word key="database_forum_comments_desc" js="0">دیدگاه ها به صورت پاسخ ارسال می شوند. اگر نحوه ذخیره سازی نظرات را تغییر دهید ، نظرات موجود دیگر نمایش داده نمی شوند. اگر این تنظیم را تغییر دهید ، در انجمن ها یا در پایگاه داده نظرات داخلی کپی نمی شود.</word>
   <word key="database_forum_comments_in_progress" js="0"><![CDATA[ <strong>انتقال نظر در حال انجام است، شما نمی‌توانید این تنظیم را تغییر دهید تا پایان انجام شود.</strong>]]></word>
@@ -709,14 +709,14 @@
   <word key="content_database_noun_ia" js="0">یک مطلب</word>
   <word key="content_acp_err_db_creation_fail" js="0">ساخت پایگاه داده با شکست مواجه شد: %s</word>
   <word key="database_cat_index_type" js="0">ورودی پایگاه داده</word>
-  <word key="database_display_index_as_categories" js="0"><![CDATA[<span data-lang='index_as_categories'> نمایش دسته‌ها </span>]]></word>
+  <word key="database_display_index_as_categories" js="0"><![CDATA[<span data-lang='index_as_categories'>نمایش دسته‌ها</span>]]></word>
   <word key="database_display_index_as_articles" js="0">نمایش مطالب مانند مقاله ها</word>
   <word key="database_display_index_as_articles_desc" js="0">این مطلب نمایش داده شده در یک مقاله یا وبلاگ بیش از محتوایش را نمایش دهد</word>
   <word key="database_template_featured" js="0">الگوهای مقالات</word>
   <word key="database_template_form" js="0">افزودن/ویرایش الگو</word>
   <word key="database_featured_perpage" js="0">مطالب برای نمایش</word>
   <word key="database_featured_pagination" js="0">پذیرش صفحه‌ بندی</word>
-  <word key="database_featured_pagination_desc" js="0">اگر سوابق بیشتری نسبت به مقدار &quot;Records برای نشان دادن&quot; وجود داشته باشد ، در صورت فعال بودن لینک های صفحه بندی نشان داده می شوند</word>
+  <word key="database_featured_pagination_desc" js="0">اگر سوابق بیشتری نسبت به مقدار "رکوردها برای نشان دادن" وجود داشته باشد ، در صورت فعال بودن لینک های صفحه بندی نشان داده می شوند</word>
   <word key="database_featured_sort" js="0">مرتب کردن</word>
   <word key="database_featured_direction" js="0">مرتب سازی</word>
   <word key="cms_download_db" js="1">دریافت پایگاه داده</word>
@@ -733,11 +733,11 @@
   <word key="database_use_categories_desc" js="0">شما می توانید به صورت اختیاری از دسته ها استفاده نکنید، به این معنی که صفحه اصلی پیش فرض برای این پایگاه داده لیست ثبت است و نام رده به URL اضافه نمی شود.</word>
   <word key="database_use_categories_impossible" js="0">شما در این پایگاه داده %s دسته دارید. شما برای ذخیره داده ها در این پایگاه داده به طور مستقیم فقط 1 دسته میتوانید داشته باشید.</word>
   <word key="database_use_categories_yes" js="0"><![CDATA[<strong>بله</strong>، اجازه می دهد که سوابق در دسته های مختلف ذخیره شوند ]]></word>
-  <word key="database_use_categories_no" js="0"><![CDATA[<strong> خیر </ strong> ، سوابق را مستقیماً در پایگاه داده ذخیره کنید]]></word>
-  <word key="database_allow_club_categories" js="0">Allow categories in Clubs</word>
+  <word key="database_use_categories_no" js="0"><![CDATA[<strong> خیر </strong> ، سوابق را مستقیماً در پایگاه داده ذخیره کنید]]></word>
+  <word key="database_allow_club_categories" js="0">تمامی دسته‌ها در کلوپ‌ها</word>
   <word key="database_allow_club_categories_desc" js="0">This database must also be included in a Page to use this feature. Note you cannot turn off this setting if club categories currently exist.</word>
-  <word key="database_allow_club_categories_yes" js="0"><![CDATA[<strong>Yes</strong>, allow categories to be created in Clubs]]></word>
-  <word key="database_allow_club_categories_no" js="0"><![CDATA[<strong>No</strong>, only use regular categories]]></word>
+  <word key="database_allow_club_categories_yes" js="0"><![CDATA[<strong>بله</strong>، اجازه ایجاد دسته‌ها در کلوپ‌ها]]></word>
+  <word key="database_allow_club_categories_no" js="0"><![CDATA[<strong>خیر</strong>، فقط از دسته‌های معمولی استفاده کنید]]></word>
   <word key="cms_db_cats_disabled" js="0"><![CDATA[<em> دسته‌ای استفاده نشده است </em>]]></word>
   <word key="database_featured_featured" js="0">فقط نمایش مطالب ویژه</word>
   <word key="cms_bitoptions_comments" js="0">پذیرش دیدگاه ها</word>
@@ -799,7 +799,7 @@
   <word key="media_size" js="0">سایز فایل</word>
   <word key="media_dims" js="0">ابعاد</word>
   <word key="media_parent" js="0">والد </word>
-  <word key="cms_media_key" js="0">دیدن برچسب صفحه ها و قالب</word>
+  <word key="cms_media_key" js="0"><![CDATA[دیدن برچسب صفحه ها و قالب]]</word>
   <word key="cms_key_view" js="0"><![CDATA[این کلید را می توان در بلوک ها ، صفحات و قالب ها برای به دست آوردن آدرس این رسانه مورد استفاده قرار داد.<br> آدرس فعلی برای این مورد: %s .]]></word>
   <word key="cms_delete_folder_media" js="0">حذف پوشه</word>
   <word key="media_url_desc" js="0">این URL را در هر قالب یا محتوایی برای لینک مستقیم به مدیا وارد کنید.</word>
@@ -851,7 +851,7 @@
   <word key="content_view_revisions" js="0">نسخه‌ها</word>
   <word key="content_view_revisions_none" js="0">نسخه‌ای برای نمایش یافت نشد</word>
   <word key="content_revision_record_title" js="0">همه نسخه‌های '%s' </word>
-  <word key="content_revision_button_view" js="0">مشاهده و بازگردانی</word>
+  <word key="content_revision_button_view" js="0"><![CDATA[مشاهده و بازگردانی]]></word>
   <word key="content_revision_button_delete" js="0">حذف</word>
   <word key="content_record_revision_title_revision" js="0">نسخه</word>
   <word key="content_record_revision_title_record" js="0">کنونی</word>
@@ -950,7 +950,7 @@
   <word key="block_Categories" js="0">فهرست دسته پایگاه داده</word>
   <word key="block_Categories_desc" js="0">نمایش فهرستی از دسته‌های این پایگاه داده در صفحه</word>
   <word key="cms_err_no_databases_to_use" js="0">پایگاه داده ای قابل افزودن نیست</word>
-  <word key="cms_widget_filters_remember_text" js="0">فیلترها را به یاد داشته باش</word>
+  <word key="cms_widget_filters_remember_text" js="0"><![CDATA[&nbsp; فیلترها را به خاطر بسپار]]></word>
   <word key="cms_widget_filters_remember" js="0"></word>
   <word key="block_Blocks" js="0">بلوک اختصاصی</word>
   <word key="block_Blocks_desc" js="0">انتخاب یکی از بلوک‌های اختصاصی ساخته شده</word>

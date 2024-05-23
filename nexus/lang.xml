@@ -23,10 +23,10 @@
   <word key="renew_weeks" js="0">{!#[1:هفته][?:# هفته]} </word>
   <word key="renew_months" js="0"> {!#[1:ماه][?:# ماه]} </word>
   <word key="renew_years" js="0"> {!#[1:سال][?:# سال]} </word>
-  <word key="renew_days_no_term" js="0">{!#[1:day][?:days]}</word>
-  <word key="renew_weeks_no_term" js="0">{!#[1:week][?:weeks]}</word>
-  <word key="renew_months_no_term" js="0">{!#[1:month][?:months]}</word>
-  <word key="renew_years_no_term" js="0">{!#[1:year][?:years]}</word>
+  <word key="renew_days_no_term" js="0">{!#[1:روز][?:روز]}</word>
+  <word key="renew_weeks_no_term" js="0">{!#[1:هفته][?:هفته]}</word>
+  <word key="renew_months_no_term" js="0">{!#[1:ماه][?:ماه]}</word>
+  <word key="renew_years_no_term" js="0">{!#[1:سال][?:سال]}</word>
   <word key="product_reviews_container" js="0">محصول</word>
   <word key="default_menu_item_support" js="0">پشتیبانی</word>
   <word key="default_menu_item_my_details" js="0">جزئیات من</word>
@@ -39,7 +39,7 @@
   <word key="__defart_product_reviews" js="0">بررسی محصولات</word>
   <word key="__defart_product_reviews_plural" js="0">{!#[1:نقد][?:نقد]}</word>
   <word key="__defart_product" js="0">محصول</word>
-  <word key="__defart_product_plural" js="0">{!#[1:product][?:products]}</word>
+  <word key="__defart_product_plural" js="0">{!#[1:محصول][?:محصول]}</word>
   <word key="plus_tax_rate" js="0">+ %s</word>
   <word key="complete_profile_app__nexus_CustomerFields" js="0">فیلدهای مشتری</word>
   <word key="profile_step_subaction_customer_fields" js="0">فیلدها</word>
@@ -65,7 +65,7 @@
   <word key="filestorage__nexus_PackageGroups" js="0">گروه های محصول</word>
   <word key="filestorage__nexus_PackageFields" js="0">فیلدهای محصولات</word>
   <word key="filestorage__nexus_PurchaseFields" js="0">فیلدهای خرید</word>
-  <word key="filestorage__nexus_Gateways" js="0">Payment Gateways</word>
+  <word key="filestorage__nexus_Gateways" js="0">درگاه‌های پرداخت</word>
   <word key="ipAddresses__nexus_Transactions" js="0">تراکنش‌ها</word>
   <word key="ipAddresses__nexus_CustomerHistory" js="0">تاریخچه مشتری</word>
   <word key="ipAddresses__nexus_Payouts" js="0">برداشت‌ ها</word>
@@ -88,10 +88,10 @@
   <word key="contact_nexus_department" js="0">ایجاد درخواست پشتیبانی</word>
   <word key="contact_nexus" js="0">بخش</word>
   <word key="contact_nexus_no_departments" js="0">ارسال به واحد های فروشگاه به عنوان یک درخواست پشتیبانی</word>
-  <word key="contact_nexus_no_departments_desc" js="0"><![CDATA[شما هیچ واحدی ایجاد نکرده اید.<br />ایجاد <a href='{internal.app=nexus&module=support&controller=settings&tab=departments&do=form}' target='_blank' rel='noopener'>واحد جدید</a>]]></word>
+  <word key="contact_nexus_no_departments_desc" js="0"><![CDATA[شما هیچ واحدی ایجاد نکرده اید.<br/>ایجاد <a href='{internal.app=nexus&module=support&controller=settings&tab=departments&do=form}' target='_blank' rel='noopener'>واحد جدید</a>]]></word>
   <word key="contact_nexus_title" js="0">درخواست پاسخ به پشتیبانی ایجاد شده از طریق فرم تماس با ما</word>
   <word key="contact_nexus_title_with_name" js="0">Support Request from %s created via Contact Us Form</word>
-  <word key="nexus_nodeletedept_contactus" js="0"><![CDATA[بخشی که شما برای حذف آن اقدام کرده اید در حال حاضر به عنوان گروه اصلی در تماس با ما انتخاب شده است. قبل از اینکه بتوانید این بخش را حذف کنید، باید <a href='{internal.app=core&module=settings&controller=contactus}'> تنظیمات تماس با ما <</a> را تنظیم کنید.]]></word>
+  <word key="nexus_nodeletedept_contactus" js="0"><![CDATA[بخشی که شما برای حذف آن اقدام کرده اید در حال حاضر به عنوان گروه اصلی در تماس با ما انتخاب شده است. قبل از اینکه بتوانید این بخش را حذف کنید، باید <a href='{internal.app=core&module=settings&controller=contactus}'> تنظیمات تماس با ما </a> را تنظیم کنید.]]></word>
   <word key="gateway_deleted" js="0">درگاه حذف شده</word>
   <word key="menu__nexus_stock_gateways" js="0">روش های پرداخت</word>
   <word key="payment_methods" js="0">روش های پرداخت</word>
@@ -139,23 +139,23 @@
   <word key="stripe_type_native" js="0">ویژگی های مرورگر (پرداخت اپل / پرداخت گوگل)</word>
   <word key="stripe_type_native_desc" js="0"><![CDATA[کاربران با دستگاه / مرورگر پشتیبانی شده می توانند از ویژگی های بومی مرورگر برای پرداخت (از جمله Apple Pay یا Google Pay) استفاده کنند.<br>این گزینه <a href='{external.https}' target='_blank' rel='noopener'>نیاز به HTTPS دارد</a>، و برای پرداخت اپل، شما نیز نیاز دارید <a href='{external.stripe_applepay_register}' target='_blank' rel='noopener'>دامنه خود را ثبت کنید</a>. ]]></word>
   <word key="stripe_type_alipay" js="0">Alipay</word>
-  <word key="stripe_type_alipay_desc" js="0"><![CDATA[A popular payment method in China. Users will be redirected to the Alipay website to complete checkout. <a href='{external.alipay}' target='_blank' rel='noopener'>Learn more about Alipay</a>]]></word>
+  <word key="stripe_type_alipay_desc" js="0"><![CDATA[روش پرداخت محبوب در چین. کاربران برای تکمیل تسویه حساب به وب سایت Alipay هدایت می شوند. <a href='{external.alipay}' target='_blank' rel='noopener'>درباره Alipay بیشتر بدانید</a>]]></word>
   <word key="stripe_type_bancontact" js="0">Bancontact</word>
-  <word key="stripe_type_bancontact_desc" js="0"><![CDATA[A popular payment method in Belgium. Users will be redirected to the Bancontact website to complete checkout. <a href='{external.bancontact}' target='_blank' rel='noopener'>Learn more about Bancontact</a>]]></word>
+  <word key="stripe_type_bancontact_desc" js="0"><![CDATA[روش پرداخت محبوب در بلژیک. کاربران برای تکمیل تسویه حساب به وب سایت Bancontact هدایت می شوند. <a href='{external.bancontact}' target='_blank' rel='noopener'>درباره Bancontact بیشتر بیاموزید</a>]]></word>
   <word key="stripe_type_giropay" js="0">Giropay</word>
-  <word key="stripe_type_giropay_desc" js="0"><![CDATA[A popular payment method in Germany. Users will be redirected to the Giropay website to complete checkout. <a href='{external.giropay}' target='_blank' rel='noopener'>Learn more about Giropay</a>]]></word>
+  <word key="stripe_type_giropay_desc" js="0"><![CDATA[روش پرداخت محبوب در آلمان. کاربران برای تکمیل تسویه حساب به وب سایت Giropay هدایت می شوند. <a href='{external.giropay}' target='_blank' rel='noopener'>درباره Giropay بیشتر بیاموزید</a>]]></word>
   <word key="stripe_type_ideal" js="0">دلخواه</word>
-  <word key="stripe_type_ideal_desc" js="0"><![CDATA[A popular payment method in the Netherlands. Users will be redirected to the iDEAL website to complete checkout. <a href='{external.ideal}' target='_blank' rel='noopener'>Learn more about iDEAL</a>]]></word>
+  <word key="stripe_type_ideal_desc" js="0"><![CDATA[روش پرداخت محبوب در هلند. کاربران برای تکمیل تسویه حساب به وب سایت iDEAL هدایت می شوند. <a href='{external.ideal}' target='_blank' rel='noopener'>درباره iDEAL بیشتر بیاموزید</a>]]></word>
   <word key="stripe_type_sofort" js="0">SOFORT</word>
-  <word key="stripe_type_sofort_desc" js="0"><![CDATA[A popular payment method in Europe. Users will be redirected to the SOFORT website to complete checkout. <a href='{external.sofort}' target='_blank' rel='noopener'>Learn more about SOFORT</a>]]></word>
+  <word key="stripe_type_sofort_desc" js="0"><![CDATA[روش پرداخت محبوب در اروپا. کاربران برای تکمیل تسویه حساب به وب سایت SOFORT هدایت می شوند. <a href='{external.sofort}' target='_blank' rel='noopener'>درباره SOFORT بیشتر بیاموزید</a>]]></word>
   <word key="stripe_webhook" js="0">Webhook</word>
-  <word key="stripe_webhook_blurb" js="0"><![CDATA[You must <a href='{external.stripe_webhooks}' target='_blank' rel='noopener'>create a webhook</a> on your Stripe account specifying this URL as the endpoint:<br><pre class='ipsCode'>%s</pre>]]></word>
+  <word key="stripe_webhook_blurb" js="0"><![CDATA[شما باید <a href='{external.stripe_webhooks}' target='_blank' rel='noopener'>یک هوک ایجاد کنید</a> در حساب Stripe شما که این URL را به عنوان نقطه پایانی مشخص می کند:<br><pre class='ipsCode'>%s</pre>]]></word>
   <word key="stripe_webhook_secret" js="0">Webhook Signing Secret</word>
   <word key="stripe_webhook_secret_desc" js="0">When viewing the webhook in your Stripe account you will see a button to reveal the signing secret. The value will not be verified, so ensure the correct secret is provided.</word>
   <word key="stripe_webhook_invalid" js="0">هیچ وب هوکی تنظیم نشده است یا همه انواع رویداد مورد نیاز را فعال نمی کند. کارهای زیر لازم است : %s</word>
   <word key="stripe_basic_settings" js="0">تنظیمات اصلی</word>
   <word key="stripe_keys" js="0">کلید</word>
-  <word key="stripe_keys_blurb" js="0"><![CDATA[Provide the Standard API keys from the <a href='{external.stripe_keys}' target='_blank' rel='noopener'>API section of your Stripe account</a>.]]></word>
+  <word key="stripe_keys_blurb" js="0"><![CDATA[کلیدهای API استاندارد را از بخش <a href='{external.stripe_keys}' target='_blank' rel='noopener'>بخش API ارائه کنید حساب Stripe شما</a>.]]></word>
   <word key="stripe_type_desc" js="0">To allow users to choose, set up multiple Stripe payment methods.</word>
   <word key="stripe_cards" js="0">کاربران مجاز به ذخیره اطلاعات کارت باشند؟</word>
   <word key="stripe_cards_desc" js="0">اطلاعات کارت در سرور Stripe ذخیره می شود و نه در سرور شما.</word>
@@ -178,8 +178,8 @@
   <word key="stripe_address_postal_code_check_fail" js="0">Zip check failed</word>
   <word key="stripe_3ds_pass" js="0">3DSecure authenticated</word>
   <word key="stripe_3ds_fail" js="0">3DSecure not authenticated</word>
-  <word key="stripe_3ds_pass_version" js="0"><![CDATA[3DSecure authenticated <small>(v%s)</small>]]></word>
-  <word key="stripe_3ds_fail_version" js="0"><![CDATA[3DSecure not authenticated <small>(v%s)</small>]]></word>
+  <word key="stripe_3ds_pass_version" js="0"><![CDATA[3DSecure تأیید شده <small>(v%s)</small>]]></word>
+  <word key="stripe_3ds_fail_version" js="0"><![CDATA[3DSecure احراز هویت نشده است <small>(v%s)</small>]]></word>
   <word key="stripe_3ds_not_supported" js="0">3DSecure not supported for this card</word>
   <word key="stripe_3ds_not_checked" js="0">3DSecure not checked</word>
   <word key="stripe_tokenization_apple_pay" js="0">پرداخت اپل</word>
@@ -215,7 +215,7 @@
   <word key="stripe_apple_verificationfile" js="0">Apple Pay Verification File</word>
   <word key="gateway__AuthorizeNet" js="0"> Authorize.Net</word>
   <word key="authorizenet_login" js="0">API شناسه ورود </word>
-  <word key="authorizenet_login_desc" js="0"><![CDATA[<a href='{external.authorizenet_keys}' target='_blank' rel='noopener'>دریافت شناسه ورود و کلید تراکنش</a> ]]></word>
+  <word key="authorizenet_login_desc" js="0"><![CDATA[<a href='{external.authorizenet_keys}' target='_blank' rel='noopener'>شناسه ورود و کلید تراکنش خود را دریافت کنید</a >]]></word>
   <word key="authorizenet_tran_key" js="0">کلید تراکنش</word>
   <word key="authorizenet_method" js="0">API</word>
   <word key="authorizenet_AIM" js="0">روش پیشرفته ادغام (AIM)</word>
@@ -230,7 +230,7 @@
   <word key="authorizenet_hash_desc" js="0">استفاده از هش MD5 دیگر توسط Autorizize.NET توصیه نمی شود. کلید امضاء خود را در بالا وارد کنید تا در عوض از آن استفاده کنید.</word>
   <word key="authorizenet_desc" js="0"><![CDATA[<a href='{external.authorizenet_hash}' target='_blank' rel='noopener'>دریافت هش MD5</a>]]></word>
   <word key="authorizenet_processor" js="0">پردازش پرداخت</word>
-  <word key="authorizenet_processor_desc" js="0">از این مورد برای نشان دادن انواع کارتهای قابل قبول به کاربران استفاده می شود. اگر نمی دانید از چه نوعی از پردازش های پرداخت استفاده می کنید. می توانید گزینه &quot;نمی دانم&quot; را انتخاب کنید تا تمام انواع نمایش یابند. گرچه اگر یک نوع پشتیبانی نشده ثبت شود، رد خواهد شد. شما می توانید با Authorize.Net برای آنکه بدانید از چه نوع پردازشی در حساب شما استفاده شده و یا آن را تغییر دهید ، تماس بگیرید.</word>
+  <word key="authorizenet_processor_desc" js="0">از این مورد برای نشان دادن انواع کارتهای قابل قبول به کاربران استفاده می شود. اگر نمی دانید از چه نوعی از پردازش های پرداخت استفاده می کنید. می توانید گزینه "نمی دانم" را انتخاب کنید تا تمام انواع نمایش یابند. گرچه اگر یک نوع پشتیبانی نشده ثبت شود، رد خواهد شد. شما می توانید با Authorize.Net برای آنکه بدانید از چه نوع پردازشی در حساب شما استفاده شده و یا آن را تغییر دهید ، تماس بگیرید.</word>
   <word key="dont_know" js="0">نمی‌دانم</word>
   <word key="gateway__TwoCheckout" js="0">2Checkout</word>
   <word key="twocheckout_api_username" js="0">نام کاربری API</word>
@@ -245,10 +245,10 @@
   <word key="invalid_gateway" js="0">تراکنش %s نمی تواند پردازش شود زیرا دروازه پرداخت نامعتبر است</word>
   <word key="gateway_deprecated" js="0">The %s payment method has been deprecated and will be removed in a future version. Please make plans to switch to an alternative payment method.</word>
   <word key="gateway__Braintree" js="0">Braintree</word>
-  <word key="gateway__Braintree_desc" js="0"><![CDATA[Requires comprehensive application process. <a href='{external.braintree_doc}' rel='noopener' target='_blank' >More information</a>]]></word>
+  <word key="gateway__Braintree_desc" js="0"><![CDATA[نیاز به فرآیند درخواست جامع دارد. <a href='{external.braintree_doc}' rel='noopener' target='_blank' >اطلاعات بیشتر</a>]]></word>
   <word key="braintree_basic_settings" js="0">تنظیمات پایه</word>
   <word key="braintree_keys" js="0">کلیدها</word>
-  <word key="braintree_keys_blurb" js="0"><![CDATA[Obtain these keys from the <a href='{external.braintree_keys}' target='_blank' rel='noopener'>API section of your Braintree account settings</a>.]]></word>
+  <word key="braintree_keys_blurb" js="0"><![CDATA[این کلیدها را از <a href='{external.braintree_keys}' target='_blank' rel='noopener'>بخش API Braintree خود دریافت کنید تنظیمات حساب</a>.]]></word>
   <word key="braintree_merchant_id" js="0">Merchant ID</word>
   <word key="braintree_public_key" js="0">کلید عمومی</word>
   <word key="braintree_private_key" js="0">کلید خصوصی</word>
@@ -256,11 +256,11 @@
   <word key="braintree_type" js="0">پرداخت با</word>
   <word key="braintree_type_desc" js="0">To allow users to choose, set up multiple Braintree payment methods.</word>
   <word key="braintree_type_paypal" js="0">پی‌پال</word>
-  <word key="braintree_type_paypal_desc" js="0"><![CDATA[Users will be taken to PayPal to pay with their PayPal account.<br>This option requires you to have linked your Braintree and PayPal accounts. <a href='{external.braintree_paypal}' target='_blank' rel='noopener'>Learn more</a>]]></word>
+  <word key="braintree_type_paypal_desc" js="0"><![CDATA[کاربران برای پرداخت با حساب PayPal خود به PayPal منتقل می‌شوند.<br>این گزینه مستلزم این است که حساب‌های Braintree و PayPal خود را مرتبط کرده باشید. <a href='{external.braintree_paypal}' target='_blank' rel='noopener'>بیشتر بیاموزید</a>]]></word>
   <word key="braintree_paypal_vault" js="0">Use Vault?</word>
   <word key="braintree_paypal_vault_desc" js="0">در صورت فعال بودن، کاربران گزینه ای برای ذخیره حساب PayPal خود مانند کارت اعتباری خواهند داشت. هزینه های بازپرداخت بدون مجوز مجدد به صورت خودکار پرداخت می شود.</word>
   <word key="braintree_paypal_credit" js="0">Offer PayPal Credit?</word>
-  <word key="braintree_paypal_credit_desc" js="0"><![CDATA[If enabled, users will see a PayPal Credit button alongside the normal PayPal Checkout button. They can use this to apply for a line of credit. You will be paid the full amount up front with no additional fee, but the customer will be able to pay over time. <a href='{external.braintree_paypal_credit}' target='_blank' rel='noopener'>Learn more</a>]]></word>
+  <word key="braintree_paypal_credit_desc" js="0"><![CDATA[اگر فعال باشد، کاربران یک دکمه اعتبار PayPal را در کنار دکمه عادی PayPal Checkout مشاهده خواهند کرد. آنها می توانند از این برای درخواست خط اعتباری استفاده کنند. کل مبلغ از قبل بدون هیچ هزینه اضافی به شما پرداخت می شود، اما مشتری می تواند به مرور زمان پرداخت کند. <a href='{external.braintree_paypal_credit}' target='_blank' rel='noopener'>بیشتر بیاموزید</a>]]></word>
   <word key="braintree_type_card" js="0">کارت</word>
   <word key="braintree_type_card_desc" js="0">Users enter their card details directly on the checkout screen.</word>
   <word key="braintree_cards" js="0">اجازه به کاربران برای ذخیره اطلاعات کارت؟</word>
@@ -269,7 +269,7 @@
   <word key="braintree_3d_secure" js="0">استفاده از 3D Secure؟</word>
   <word key="braintree_3d_secure_desc" js="0"><![CDATA[همچنین با نام‌های Verified by Visa، Mastercard SecureCode و نام‌های دیگر شناخته می‌شود، 3D Secure یک سیستم است که برای تأیید هویت مشتری قبل از انجام خرید استفاده می‌شود و در صورت وجود اختلافات تقلبی مسئولیت ضرر ناشی از تقلب را از تاجر به بانک صاحب کارت منتقل می‌کند.<br>اگرچه 3D Secure شما را از هزینه‌های تقلبی محافظت می‌کند، اما ممکن است تجربه پرداخت مشتریان شما را با انجام مراحل اضافی متأثر کند.<br>قبل از اینکه این گزینه را می‌توانید استفاده کنید، باید ابتدا آن را در حساب Braintree خود فعال کنید. <a href='{external.braintree_3dsecure}' target='_blank' rel='noopener'>بیشتر بدانید</a>]]></word>
   <word key="braintree_type_venmo" js="0">Venmo</word>
-  <word key="braintree_type_venmo_desc" js="0"><![CDATA[Users will be taken to the Venmo app to pay with their Venmo account. Will only be available to users on mobile devices which can install the Venmo app.<br>This option supports USD transactions only and requires you to have enabled Venmo in your Braintree account. <a href='{external.braintree_venmo}' target='_blank' rel='noopener'>Learn more</a>]]></word>
+  <word key="braintree_type_venmo_desc" js="0"><![CDATA[کاربران برای پرداخت با حساب Venmo خود به برنامه Venmo منتقل خواهند شد. فقط برای کاربران دستگاه‌های تلفن همراهی که می‌توانند برنامه Venmo را نصب کنند در دسترس خواهد بود.<br>این گزینه فقط از تراکنش‌های USD پشتیبانی می‌کند و باید Venmo را در حساب Braintree خود فعال کرده باشید. <a href='{external.braintree_venmo}' target='_blank' rel='noopener'>بیشتر بیاموزید</a>]]></word>
   <word key="braintree_venmo_vault" js="0">Use Vault?</word>
   <word key="braintree_venmo_vault_desc" js="0">در صورت فعال بودن، کاربران گزینه ای برای ذخیره حساب Venmo خود مانند کارت اعتباری خواهند داشت. هزینه های بازپرداخت بدون مجوز مجدد به صورت خودکار پرداخت می شود.</word>
   <word key="braintree_venmo_profile" js="0">Venmo Merchant Profile ID</word>
@@ -278,15 +278,15 @@
   <word key="braintree_auth_error" js="0">The authentication details provided (Merchant ID, Public Key and/or Private Key) are incorrect.</word>
   <word key="braintree_account" js="0">حساب کاربری</word>
   <word key="braintree_webhook_header" js="0">Webhook</word>
-  <word key="braintree_webhook" js="0"><![CDATA[You must create a webhook in the <a href='{external.braintree_keys}' target='_blank' rel='noopener'>Webhooks section of your Braintree account settings</a>. Select all Notification types for Disputes (Opened, Lost, and Won) and specify this URL as the endpoint:<br><pre class='ipsCode'>%s</pre><strong>Important:</strong> This will not be verified so ensure it has been set up correctly.]]></word>
+  <word key="braintree_webhook" js="0"><![CDATA[شما باید یک هوک در بخش <a href='{external.braintree_keys}' target='_blank' rel='noopener'>وبقلاب ایجاد کنید تنظیمات حساب Braintree شما</a>. همه انواع اعلان را برای اختلافات (باز، گمشده و برنده) انتخاب کنید و این URL را به عنوان نقطه پایانی مشخص کنید:<br><pre class='ipsCode'>%s</pre><strong>مهم:</strong> تأیید نمی شود، بنابراین مطمئن شوید که به درستی تنظیم شده است.]]></word>
   <word key="braintree_type_applepay" js="0">Apple Pay</word>
   <word key="braintree_type_applepay_desc" js="0"><![CDATA[کاربران دستگاه‌های پشتیبانی شده iOS یا macOS می‌توانند با استفاده از جزئیات کارتی که در Apple Pay ذخیره شده است، پرداخت کنند.<br> برای استفاده از این گزینه، <a href='{external.https}' target='_blank' rel='noopener'>پروتکل HTTPS مورد نیاز است</a> و همچنین نیاز به <a href='{external.braintree_applepay_register}' target='_blank' rel='noopener'>ثبت دامنه خود دارید</a>.]]></word>
   <word key="braintree_type_googlepay" js="0">سرویس پرداخت Google Pay</word>
-  <word key="braintree_type_googlepay_desc" js="0"><![CDATA[Users will be able to pay by with card details stored in Google Pay.<br>This option <a href='{external.https}' target='_blank' rel='noopener'>requires HTTPS</a>, must be <a href='{external.braintree_googlepay}' target='_blank' rel='noopener'>enabled on your Braintree account</a>, and you also need to <a href='{external.braintree_googlepay_register}' target='_blank' rel='noopener'>register your domain</a>.]]></word>
+  <word key="braintree_type_googlepay_desc" js="0"><![CDATA[کاربران می‌توانند با جزئیات کارت ذخیره‌شده در Google Pay پرداخت کنند.<br>این گزینه هدف <a href='{external.https}' ='_blank' rel='noopener'>به HTTPS نیاز دارد</a>، باید <a href='{external.braintree_googlepay}' target='_blank' rel='noopener'>در حساب Braintree شما فعال باشد</a> ، و همچنین باید <a href='{external.braintree_googlepay_register}' target='_blank' rel='noopener'>دامنه خود را ثبت کنید</a>.]]></word>
   <word key="braintree_googlepay_merchant" js="0">Google Pay Merchant ID</word>
   <word key="braintree_googlepay_merchant_desc" js="0">This will be given to you when you register your domain with Google.</word>
   <word key="braintree_advanced_fraud" js="0">استفاده از ابزارهای پیشرفته ضد تقلب؟</word>
-  <word key="braintree_advanced_fraud_desc" js="0"><![CDATA[You must first <a href='{external.braintree_advanced_fraud}' target='_blank' rel='noopener'>enable Advanced Fraud Tools on your Braintree account</a>.]]></word>
+  <word key="braintree_advanced_fraud_desc" js="0"><![CDATA[شما باید ابتدا <a href='{external.braintree_advanced_fraud}' target='_blank' rel='noopener'>ابزارهای کلاهبرداری پیشرفته را در Braintree خود فعال کنید حساب</a>.]]></word>
   <word key="braintree_risk_level" js="0">Kount Decision:</word>
   <word key="braintree_dispute_reason_cancelled_recurring_transaction" js="0">The customer claims that you continued to charge them after a subscription was canceled.</word>
   <word key="braintree_dispute_reason_credit_not_processed" js="0">The customer claims that the purchased product was returned or the transaction was otherwise canceled, but you have not yet provided a refund or credit.</word>
@@ -379,11 +379,11 @@
   <word key="transaction_number" js="0"> تراکنش #%d</word>
   <word key="transaction_approve" js="0">پذیرش</word>
   <word key="transaction_approve_from_dispute" js="0">هرگونه خرید ، در صورت لزوم با شرایط تمدید جدید اگر قابل اجرا است مجدداً انجام می شود .ممکن است شما بخواهید این را بررسی کنید. </word>
-  <word key="transaction_capture" js="0">ضبط و تصویب</word>
+  <word key="transaction_capture" js="0"><![CDATA[ضبط و تصویب]]></word>
   <word key="transaction_capture_err" js="0">دروازه قادر به ثبت پرداخت نمیباشد ، از انجام تراکنش خودداری کرده و به مشتری اطلاع دهید تا دوباره پرداخت را ارسال کند . </word>
   <word key="transaction_status_err" js="0">این درخواست در این تراکنش غیرقابل انجام است .</word>
   <word key="transaction_void" js="0">باطل شده</word>
-  <word key="transaction_void_err" js="0"><![CDATA[دروازه قادر به اتمام پرداخت نبود. اگر این پرداخت به صورت خودکار انجام شده است که نیاز به کاری نیست، در غیر این صورت می توانید این خطا را نادیده بگیرید. <a href='%s'>نادیده گرفتن</a> ]]></word>
+  <word key="transaction_void_err" js="0"><![CDATA[Gateway قادر به لغو پرداخت نبود. اگر درگاه قبلاً پرداخت را به طور خودکار باطل کرده است یا در غیر این صورت لازم نیست با درگاه باطل شود، می توانید این خطا را لغو کنید. <a href='%s'> لغو</a>]]></word>
   <word key="transaction_flag_review" js="0">علامت گذاری برای نقد و بررسی</word>
   <word key="transaction_refund" js="0">استرداد</word>
   <word key="transaction_refund_desc" js="0">این مبلغ در واقع به مشتری از طریق روش پرداخت بازگردانده می شود.</word>
@@ -399,8 +399,8 @@
   <word key="refund_full" js="0">مبلغ کامل (%s)</word>
   <word key="refund_full_remaining" js="0">میزان باقی مانده (%s)</word>
   <word key="refund_credit_amount" js="0">مقدار</word>
-  <word key="refund_amount_descwarn" js="0"><![CDATA[<span class="ipsType_issue"><i class="fa fa-exclamation-triangle"></i> مشتری قبلا %s اعتبار دریافت کرده است. ممکن است بخواهد مبلغ بازپرداختی کمتر از مبلغ کامل را بپردازد یا اعتبار قبلا داده شده را دریافت کند تا از بازپرداخت و میزان اعتبار بیشتر از مبلغ معامله جلوگیری شود.</span> ]]></word>
-  <word key="refund_credit_amount_descwarn" js="0"><![CDATA[<span class="ipsType_issue"><i class="fa fa-exclamation-triangle"></i> مشتری قبلا %s بازپرداخت دریافت کرده است. ممکن است بخواهید کمتر از مبلغ کامل اعتباری بپردازید تا از بازپرداخت و میزان اعتبار بیشتر از مبلغ معامله جلوگیری شود</span>.]]></word>
+  <word key="refund_amount_descwarn" js="0"><![CDATA[<span class="ipsType_issue"><i class="fa fa-exclamation-triangle"></i> مشتری قبلاً ٪ دریافت کرده است اعتباری ممکن است بخواهید کمتر از مبلغ کامل بازپرداخت کنید یا اعتباری که قبلا داده شده را معکوس کنید تا از بازپرداخت و مبلغ اعتبار بیشتر از مبلغ تراکنش جلوگیری کنید.</span>]]></word>
+  <word key="refund_credit_amount_descwarn" js="0"><![CDATA[<span class="ipsType_issue"><i class="fa fa-exclamation-triangle"></i> مشتری قبلاً ٪ دریافت کرده است بازپرداخت ممکن است بخواهید کمتر از مبلغ کامل اعتبار دهید تا از بازپرداخت و مبلغ اعتبار بیشتر از مبلغ تراکنش جلوگیری کنید.</span>]]></word>
   <word key="refund_reverse_credit" js="0">معکوس اعتبار %s؟</word>
   <word key="refund_reverse_credit_desc" js="0">در صورت انتخاب، اعتباری که قبلا داده بود از حساب کاربر حذف می شود.</word>
   <word key="refund_reason" js="0">دلیل بازپرداخت</word>
@@ -532,7 +532,7 @@
   <word key="maxmind_free_y" js="0">Known free email address</word>
   <word key="maxmind_high_risk_y" js="0">Known high-risk email address</word>
   <word key="maxmind_tracking_code" js="0">Tracking Code</word>
-  <word key="maxmind_tracking_code_desc" js="0"><![CDATA[Using the Device Tracking Add-On for minFraud on you community improves the ability to detect fraud. The device tracking add-on uses cookies and local storage as one method of distinguishing unique devices. <a href='{external.maxmind_tracking}' target='_blank' rel='noopener'>Learn more</a>.]]></word>
+  <word key="maxmind_tracking_code_desc" js="0"><![CDATA[استفاده از افزونه ردیابی دستگاه برای minFraud در انجمن شما، توانایی تشخیص کلاهبرداری را بهبود می بخشد. افزونه ردیابی دستگاه از کوکی‌ها و ذخیره‌سازی محلی به عنوان یکی از روش‌های تشخیص دستگاه‌های منحصربه‌فرد استفاده می‌کند. <a href='{external.maxmind_tracking}' target='_blank' rel='noopener'>بیشتر بیاموزید</a>.]]></word>
   <word key="menu__nexus_payments_paymentsettings" js="0">تنظیمات</word>
   <word key="payment_settings" js="0">تنظیمات پرداخت</word>
   <word key="currencies" js="0">ارز</word>
@@ -552,13 +552,13 @@
   <word key="nexus_require_billing_domain" js="0">خرید نام دامنه</word>
   <word key="nexus_require_billing_other" js="0">پرداخت هزینه های دیگر</word>
   <word key="nexus_require_billing_other_desc" js="0">شامل حسابهای اضافی اعتباری، هزینه های حمایتی پرداخت هزینه برای هر یک از وقایع، هزینه های ارتقاء و هزینه های متفاوتی از صورتحساب های دستی ایجاد می شود.</word>
-  <word key="nexus_require_billing_desc" js="0"><![CDATA[If you disable any of these options beware that without a billing address:<ul><li>Some <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=gateways}' target='_blank' rel='noopener'>payment methods</a> will not be able to be used, including PayPal for card payments, 2CheckOut and some Authorize.Net processors. Any payment methods which are set to only be available to certain countries will not be available.</li><li>If any <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=tax}' target='_blank' rel='noopener'>tax rates</a> use a rate that is dependent on the customer's location, the default tax rate will be used.</li><li>Any <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=fraud}' target='_blank' rel='noopener'>Anti-Fraud Rules</a> which act on the customer's billing address will assume the customer is not in the country specified by them.</li><li>If <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=nexus_MaxMind}' target='_blank' rel='noopener'>MaxMind</a> integration is enabled, it's ability to accurately detect fraud will be impeded.</li></ul>It is recommended if you use any of these features that you leave all options checked so customers are always asked for a billing address.]]></word>
+  <word key="nexus_require_billing_desc" js="0"><![CDATA[اگر هر یک از این گزینه ها را غیرفعال می کنید مراقب باشید که بدون آدرس صورتحساب:<ul><li>برخی از <a href='{internal.app=nexus&module =payments&controller=paymentsettings&tab=gateways}' target='_blank' rel='noopener'>روش‌های پرداخت</a>، از جمله PayPal برای پرداخت کارت، 2CheckOut و برخی از پردازنده‌های Authorize.Net قابل استفاده نیستند. هر روش پرداختی که تنظیم شده است فقط برای برخی کشورها در دسترس باشد، در دسترس نخواهد بود.</li><li>در صورت وجود <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=tax}' target='_blank ' rel='noopener'>نرخ‌های مالیاتی</a> از نرخی استفاده می‌کنند که به موقعیت مکانی مشتری بستگی دارد، نرخ مالیات پیش‌فرض استفاده می‌شود.</li><li>هر گونه <a href='{internal.app= nexus&module=payments&controller=paymentsettings&tab=fraud}' target='_blank' rel='noopener'>قوانین مبارزه با تقلب</a> که بر اساس آدرس صورتحساب مشتری عمل می‌کند، فرض را بر این می‌گذارد که مشتری در کشوری که توسط آنها مشخص شده است نیست.</a> li><li>اگر ادغام <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=nexus_MaxMind}' target='_blank' rel='noopener'>MaxMind</a> فعال باشد، می‌تواند تشخیص دقیق کلاهبرداری با مشکل مواجه خواهد شد.</li></ul>توصیه می‌شود در صورت استفاده از هر یک از این ویژگی‌ها، همه گزینه‌ها را علامت بزنید تا همیشه از مشتریان آدرس صورت‌حساب خواسته شود.]]></word>
   <word key="nexus_minimum_order" js="0">حداقل مبلغ سفارش</word>
-  <word key="nexus_tac" js="0">شرایط و قوانین</word>
+  <word key="nexus_tac" js="0"><![CDATA[شرایط و شرایط]]></word>
   <word key="nexus_tac_none" js="0">نمایش داده نشود</word>
   <word key="nexus_tac_button" js="0">نمایش یک لینک به شرایط و ضوابط در پرداخت</word>
-  <word key="nexus_tac_checkbox" js="0">مشتریان را وادار کنید تا اعلام کنند که شرایط و ضوابط را در هنگام پرداخت می پذیرند.</word>
-  <word key="nexus_tac_link" js="0">لینک به شرایط و قوانین</word>
+  <word key="nexus_tac_checkbox" js="0"><![CDATA[مشتریان را مجبور کنید هنگام تسویه حساب شرایط و ضوابط را قبول دارند]]></word>
+  <word key="nexus_tac_link" js="0"><![CDATA[لینک به شرایط و قوانین]]></word>
   <word key="nexus_checkreg" js="0">پرداخت به صورت مهمان</word>
   <word key="nexus_checkreg_desc" js="0">هنگامی که یک مهمان بررسی می کند از آنها خواسته می شود که یک حساب کاربری ایجاد کنند. حساب تا زمانی که پرداخت مجاز نباشد ایجاد نمی شود.</word>
   <word key="nexus_checkreg_usernames" js="0">از کاربر درخواست یک نام جهت نمایش شود؟</word>
@@ -649,7 +649,7 @@
   <word key="invoice_status_err" js="0">عمل درخواست شده را نمی توان در این فاکتور انجام داد. </word>
   <word key="invoice_reissue" js="0">چاپ مجدد</word>
   <word key="invoice_reissue_confirm" js="0">صدور مجدد فاکتور تاریخ فاکتور را به امروز تغییر خواهد داد.</word>
-  <word key="invoice_reissue_yes" js="0">چاپ مجدد و ارسال ایمیل</word>
+  <word key="invoice_reissue_yes" js="0"><![CDATA[انتشار مجدد و ارسال ایمیل]]></word>
   <word key="invoice_reissue_no" js="0">چاپ مجدد</word>
   <word key="invoice_delete_warning" js="0">حذف یک صورتحساب تنها منجر به حذف از بایگانی می شود. توصیه می کنیم در صورت تمایل ابتدا صورتحساب را لغو نمایید.</word>
   <word key="invoice_unpaid_consequences" js="0">علامت‌گذاری این فاکتور به عنوان پرداخت نشده اثرات زیر را دنبال می کند :</word>
@@ -708,7 +708,7 @@
   <word key="cm_invoice_generate_desc" js="0"><![CDATA[اگر مشتری اعتبار حساب کاربری یا کارت اعتباری در فایل دارد، پرداخت در این زمان انجام می‌شود، در غیر این صورت، مشتری به ایمیل دستور پرداخت داده شده در آن ارسال می‌شود.<br> معمولاً بهتر است این تنظیم را به نسبت نزدیک به تاریخ انقضای مشتری قرار دهید تا مشتری قبل از انتظارش متقاضی نشود. با این حال، اگر محصولاتی را می‌فروشید که قطعی سرویس مشکل‌ساز خواهد بود، باید این تنظیم را به اندازه کافی طولانی کنید تا مشتری همیشه زمان کافی برای ارسال پرداخت قبل از انقضا داشته باشد یا از تنظیم مهلت زمانی (Grace Period) در هر محصول برای اجازه دادن به مشتری برای پرداخت در زمانی اضافی استفاده کنید.<br><strong>اگر اشتراک PayPal فعال باشد</strong>: صورتحساب‌ها در زمان پرداخت خودکار تولید می‌شوند، مستقل از ارزش تنظیمات این گزینه.]]></word>
   <word key="cm_invoice_warning" js="0">اخطار به مشتری در مورد خرید اگر پرداخت پایان یافته باشد</word>
   <word key="cm_invoice_warning_suffix" js="0">روز قبل از پرداخت صورتحساب تولید می شود</word>
-  <word key="cm_invoice_warning_desc" js="0"><![CDATA[If the product has a custom email set to send when the purchase will expire soon, this setting controls when that is sent.<br>For all other purchases, an email is only sent if a customer has account credit or a card on file (i.e. when payment will be taken automatically).]]></word>
+  <word key="cm_invoice_warning_desc" js="0"><![CDATA[اگر برای محصولی ایمیل متفاوتی برای اطلاع رسانی ها ثبت شده باشد، در زمانی که محصول بزودی منقضی خواهد شد، این تنظیم این اجازه را به شما می دهد که تعیین کنید چه زمانی ایمیل ارسال شود.<br>برای دیگر خرید ها، اگر مشتری در حساب خود اعتبار داشته باشد، ایمیل به صورت خودکار ارسال خواهد شد.( به طور مثال، در هنگامی که پرداخت خودکار انجام خواهد شد).]]></word>
   <word key="cm_invoice_expireafter" js="0">پرداخت صورتحساب ها در</word>
   <word key="cm_invoice_expireafter_desc" js="0">هنگامی که مشتری سفارش خود را از طریق فروشگاه انجام می دهد ، یا خریدی که قبلاً خریداری کرده است به دلیل پایان یافتن، فاکتور تولید می شود. ممکن است شما بخواهید یک بازه زمانی تعیین کنید که مشتری مجبور به پرداخت فاکتور باشد تا در صورت تغییر قیمت محصول در فروشگاه شما، مشتری با یک فاکتور قدیمی نتواند فاکتور را با قیمت قدیمی بپردازد یا مشتریان نمی توانند خریدهای منقضی شده قبلی را تمدید کنند.</word>
   <word key="invoice_flow" js="0">جریان صورتحساب</word>
@@ -801,7 +801,7 @@
   <word key="tax_rate_type" js="0">Rate Type</word>
   <word key="tax_rate_type_single" js="0">Single Rate</word>
   <word key="tax_rate_type_single_desc" js="0">میزان بسته به آدرس صورتحساب مشتری متفاوت است، اما هیچ نرخ جداگانه برای مشتریان مخالف به کسب و کار وجود ندارد.</word>
-  <word key="tax_rate_type_business" js="0"><![CDATA[Separate Consumer &amp; Business Rates]]></word>
+  <word key="tax_rate_type_business" js="0"><![CDATA[نرخ مالیات و جدا کردن مصرف کنندگان]]></word>
   <word key="tax_rate_type_business_desc" js="0">شما دو نرخ ارائه خواهید داد: یکی برای مصرف کنندگان و دیگری برای شریک های تجاری. هنگام بررسی اینکه کدام یک باید استفاده شود ، از مشتری پرسیده می شود (هیچ تأییدی انجام نشده است).</word>
   <word key="tax_rate_type_eu" js="0">European Union VAT Rates</word>
   <word key="tax_rate_type_eu_desc" js="0">شما سه نرخ ارائه خواهید کرد: یکی برای مصرف کنندگان ، دیگری برای مشتریانی که مالیات بر ارزش افزوده در اتحادیه اروپا ندارند (هیچ تأییدی در مورد این وضعیت انجام نشده است) و دیگری برای مشاغل دارای مالیات بر ارزش افزوده ثبت شده در اتحادیه اروپا (مشتری نیاز به ارائه یک شماره مالیات بر ارزش افزوده معتبر که با سیستم تبادل اطلاعات مالیات بر ارزش افزوده کمیسیون اروپا بررسی می شود).</word>
@@ -876,7 +876,7 @@
   <word key="q_rate_min" js="0">تعداد موارد بین:</word>
   <word key="q_rate_max" js="0">و:</word>
   <word key="q_rate_price" js="0">هزینه ارسال</word>
-  <word key="mailsub__nexus_shipment" js="0"><![CDATA[اعلامیه حمل برای {$shipment->invoice->title|raw}]]></word>
+  <word key="mailsub__nexus_shipment" js="0"><![CDATA[اعلان ارسال برای {$shipment->invoice->title|raw}]]></word>
   <word key="err_no_easypost" js="0">EasyPost was not able to provide any rates for this product. This may happen if the product shipment address is one the carriers cannot ship to. Contact EasyPost for more information or choose an alternative shipping method.</word>
   <word key="err_err_easypost" js="0">There was an error contacting EasyPost. Contact technical support for more information or choose an alternative shipping method.</word>
   <word key="shipment_details" js="0">جزئیات حمل و نقل</word>
@@ -884,7 +884,7 @@
   <word key="enhancements__nexus_MaxMind_desc" js="0">این سرویس با تحلیل تراکنش ها، مانع از امکان جعل تراکنش ها و باعث شناسایی کلاهبرداری در فروشگاه های اینترنتی می گردد. می توان از این اطلاعات در ترکیب با قوانین تقلب برای تأیید دستی یا رد تراکنش ها به طور خودکار استفاده کرد .</word>
   <word key="maxmind_enable" js="0">فعال سازی یکپارچه سازی با MaxMind؟</word>
   <word key="maxmind_key" js="0">کلید مجوز</word>
-  <word key="maxmind_key_desc" js="0"><![CDATA[<a href='{external.maxmind_key}' target='_blank' rel='noopener'>کلید مجوز خود را دریافت کنید </a>. برای بهترین نتایج، مطمئن شوید که حساب شما برای استفاده از<a href='{external.maxmind_version}' target='_blank' rel='noopener'> نسخه 1.3 یا بالاتر تنظیم شده است</a>.]]></word>
+  <word key="maxmind_key_desc" js="0"><![CDATA[<a href='{external.maxmind_key}' target='_blank' rel='noopener'>کلید مجوز خود را دریافت کنید</a>. برای بهترین نتایج، مطمئن شوید که حساب شما <a href='{external.maxmind_version}' target='_blank' rel='noopener'>برای استفاده از نسخه 1.3 یا بالاتر</a> تنظیم شده است.]]></word>
   <word key="maxmind_upgrade_version" js="0">For better results, upgrade your MaxMind account to version 1.3 or above</word>
   <word key="maxmind_error" js="0">اگر یک خطا در برقراری ارتباط با MaxMind وجود دارد</word>
   <word key="maxmind_error_okay" js="0">ادامه این تراکنش</word>
@@ -944,7 +944,7 @@
   <word key="cm_address" js="0">آدرس صورتحساب</word>
   <word key="new_billing_address" js="0">آدرس صورتحساب</word>
   <word key="new_shipping_address" js="0">آدرس‌های ارسال</word>
-  <word key="checkout_pay" js="0">پذیرش و پرداخت</word>
+  <word key="checkout_pay" js="0"><![CDATA[پذیرش و پرداخت]]></word>
   <word key="billing_address_required" js="0">شما باید یک آدرس صورتحساب مشخص کنید.</word>
   <word key="shipping_address_required" js="0">شما باید یک آدرس حمل و نقل ارائه دهید.</word>
   <word key="checkout_shipping" js="0">نحوه ارسال</word>
@@ -954,9 +954,9 @@
   <word key="payment_received" js="0">پرداخت دریافت شد</word>
   <word key="total_to_pay" js="0">مجموع پرداختی ها</word>
   <word key="i_agree_to_tac" js="0">من با %s موافق هستم</word>
-  <word key="you_agree_to_tac" js="0"><![CDATA[با کلیک بر روی دکمه تایید شما با <a href='%s' target='_blank' rel='noopener'> قوانین و شرایط استفاده</a> موافقت خود را اعلام می کنید.]]></word>
+  <word key="you_agree_to_tac" js="0"><![CDATA[با کلیک کردن روی دکمه تأیید، با <a href='%s' target='_blank' rel='noopener'><strong> موافقت می کنید شرایط و ضوابط</strong></a>.]]></word>
   <word key="you_must_agree_to_tac" js="0">شما باید با شرایط و ضوابط موافقت نمایید.</word>
-  <word key="terms_and_conditions" js="0">شرایط و ضوابط</word>
+  <word key="terms_and_conditions" js="0"><![CDATA[شرایط و قوانین بازار]]></word>
   <word key="account_credit_with_amount" js="0">اعتبار حساب (%s)</word>
   <word key="account_credit_amount" js="0">شما %s در حساب خود اعتبار دارید.</word>
   <word key="module__nexus_checkout" js="0">پرداخت نهایی</word>
@@ -977,7 +977,7 @@
   <word key="coupon_not_started" js="0">این کوپن درحال حاضر پذیرفته نمی شود.</word>
   <word key="coupon_not_in_conjunction" js="0">کوپن %s قابل استفاده همراه با کوپن های دیگر نیست.</word>
   <word key="err_no_shipping_methods" js="0">ما نمی توانیم محصولات انتخاب شده را به آدرس حمل و نقل شما را تحویل دهیم. لطفا برای اطلاعات بیشتر با ما تماس بگیرید.</word>
-  <word key="err_no_shipping_methods_admin" js="0"><![CDATA[هیچ قیمت حمل و نقلی وجود ندارد که از آن برای این منظور استفاده شود. برای مثال، اگر تمام نرخ حمل و نقل را محدود به کشورهای خاص کرده باشید و آدرس حمل و نقل مشتری در یکی از این کشورها نیست. در دسترس بودن هزینه های حمل و نقل نیز می تواند تحت تأثیر تقریبی کل سفارش یا وزن یا کمیت موارد حمل و نقل قرار گیرد. به مدیریت سایت > فروشگاه > ارسال ها > نرخ حمل و نقل بروید تا هزینه حمل و نقل موجود را پیکربندی کنید.]]></word>
+  <word key="err_no_shipping_methods_admin" js="0"><![CDATA[هیچ نرخ حمل و نقلی تنظیم نشده است که بتوان از آن برای این سفارش استفاده کرد. این ممکن است اتفاق بیفتد، برای مثال، اگر تمام نرخ های حمل و نقل شما محدود به کشورهای خاصی باشد و آدرس حمل و نقل مشتری در یکی از این کشورها نباشد. در دسترس بودن نرخ های حمل و نقل نیز می تواند تحت تأثیر جمع فرعی سفارش یا وزن یا مقدار اقلامی که قرار است ارسال شوند، باشد. برای پیکربندی نرخ های حمل و نقل موجود، به Admin CP > Commerce > Shipments > Shipping Rates بروید.]]></word>
   <word key="continue_to_shipping" js="0">ادامه برای گزینه حمل و نقل</word>
   <word key="continue_to_review" js="0">ادامه ی بررسی سفارش</word>
   <word key="order_review" js="0">بررسی سفارش</word>
@@ -1319,7 +1319,7 @@
   <word key="history_payout_processed" js="0">درخواست برداشت %s %s  پردازش شده است</word>
   <word key="history_payout_dismissed" js="0">درخواست برداشت %s %s انجام شد</word>
   <word key="history_lkey_activated" js="0">کلید مجوز برای %s فعال شده است.</word>
-  <word key="history_lkey_reset" js="0">License key for %s reset%s. Now %s, was %s.</word>
+  <word key="history_lkey_reset" js="0">کلید مجوز %s برای بازگردانی %s%s در حال حاضر %s بود.</word>
   <word key="history_download_with_purchase" js="0">دریافت شده برای %s% s</word>
   <word key="history_download" js="0">دریافت %s </word>
   <word key="history_support_by_email" js="0">ایمیل های دریافتی از</word>
@@ -1390,7 +1390,7 @@
   <word key="members_purchases" js="0">%s's خریداری شده</word>
   <word key="purchase_no_member" js="0">مشتری ای با این خرید وجود ندارد .</word>
   <word key="mass_change_all_purchases" js="0">Change / Cancel Purchases</word>
-  <word key="mass_change_purchases_explain" js="0"><![CDATA[This allows you to change or cancel <strong>all purchases</strong> of this product. This can be used if you want to retire a product. Once you submit the form, the changes will be processed in the background: you will be able to see the progress on the AdminCP Dashboard. There is no way to stop this process once it has begun or to reverse the effects.]]></word>
+  <word key="mass_change_purchases_explain" js="0"><![CDATA[این به شما امکان می‌دهد <strong>همه خریدهای</strong> این محصول را تغییر دهید یا لغو کنید. اگر می خواهید محصولی را بازنشسته کنید، می توان از این مورد استفاده کرد. پس از ارسال فرم، تغییرات در پس‌زمینه پردازش می‌شوند: می‌توانید پیشرفت را در داشبورد AdminCP مشاهده کنید. هیچ راهی برای متوقف کردن این فرآیند پس از شروع یا معکوس کردن اثرات وجود ندارد.]]></word>
   <word key="mass_change_purchases_type" js="0">What do you want to do?</word>
   <word key="mass_change_purchases_change" js="0">Upgrade / Downgrade</word>
   <word key="mass_change_purchases_expire" js="0">Remove Renewals</word>
@@ -1606,7 +1606,7 @@
   <word key="task__supportAutoresolve" js="0">علامت گذاری درخواست پشتیبانی قدیمی به عنوان حل شده.</word>
   <word key="task__supportAssignedReminder" js="0">ایمیل های یادآوری را به کاربرانی که درخواست های پشتیبانی آنها باز است ارسال می کند.</word>
   <word key="task__cartCleanup" js="0">حذف داده های سبد خرید رها شده.</word>
-  <word key="nexus_support_deprecated" js="0"><![CDATA[Support requests have been deprecated and will be removed in a future version. <a href='{external.deprecations_support}' target='_blank' rel='noopener'>What does this mean?</a> <a href='%s' class='ipsPos_right ipsButton ipsButton_primary ipsButton_veryVerySmall'>Dismiss</a>]]></word>
+  <word key="nexus_support_deprecated" js="0"><![CDATA[درخواست‌های پشتیبانی منسوخ شده‌اند و در نسخه‌های بعدی حذف خواهند شد. <a href='{external.deprecations_support}' target='_blank' rel='noopener'>این به چه معناست؟</a> <a href='%s' class='ipsPos_right ipsButton ipsButton_primary ipsButton_veryVerySmall'>نپذیرفتن< /a>]]></word>
   <word key="my_support_requests" js="0">درخواستهای پشتیبانی من</word>
   <word key="menu__nexus_support" js="0">پشتیبانی</word>
   <word key="support_title" js="0">عنوان</word>
@@ -1787,7 +1787,7 @@
   <word key="sf_departments" js="0">واحد ها</word>
   <word key="sf_departments_desc" js="0">از مشتریان در هنگام ارسال درخواست پشتیبانی در واحد ها درخواست خواهد شد تا این فیلد را تکمیل نمایند.</word>
   <word key="filestorage__nexus_Support" js="0">فیلدهای اختصاصی درخواست پشتیبانی</word>
-  <word key="sf_type_UserPass" js="0">نام کاربری و گذرواژه</word>
+  <word key="sf_type_UserPass" js="0"><![CDATA[نام کاربری و گذرواژه]]></word>
   <word key="sf_type_Ftp" js="0">جزئیات FTP</word>
   <word key="sf_validate_ftp" js="0">اعتبارسنجی جزئیات FTP؟</word>
   <word key="sf_validate_ftp_desc" js="0">اگر فعال شود، سیستم تلاش خواهد کرد اتصال FTP ایجاد کند و اگر جزئیات نادرست باشد، کاربر اجازه ادامه دادن را نخواهد داد.</word>
@@ -1824,7 +1824,7 @@
   <word key="ie_pop3_desc" js="0"> POP3 همانند یک سرویس گیرنده ایمیل بر روی دسکتاپ یا تلفن شما کار می کند. سیستم پشتیبانی به صورت دوره ای برای هر ایمیل جدید بررسی می شود و اگر پیام های جدید ، بازخوانی و پردازش آنها وجود داشته باشد (به این معنی که تاخیر در پیام دریافت شده به عنوان درخواست پشتیبانی وجود دارد).</word>
   <word key="ie_pop3_use" js="0">استفاده از POP3</word>
   <word key="ie_back" js="0">انتخاب یک روش متفاوت</word>
-  <word key="ie_test" js="0"><![CDATA[با ارسال ایمیل آزمایشی ، همه چیز را آزمایش کنید. برای دریافت ایمیل ابتدا باید <a href='{internal.app=nexus&module=support&controller=settings&tab=dep depart}'> بخش را راه اندازی کنید </a>. اگر کار نمی کند ، برای کمک با پشتیبانی فنی تماس بگیرید.]]></word>
+  <word key="ie_test" js="0"><![CDATA[با ارسال یک ایمیل آزمایشی همه چیز را تست کنید. برای دریافت ایمیل ها ابتدا باید <a href='{internal.app=nexus&module=support&controller=settings&tab=departments}'>یک بخش راه اندازی کنید</a>. اگر کار نکرد، برای کمک با پشتیبانی فنی تماس بگیرید.]]></word>
   <word key="ie_piping_perm" js="0">مجوزها را روی %s تنظیم کنید تا همه قابل اجرا باشند (معمولاً CHMOD 0777 یا 0755 در صورت اجرای suPHP). اگر مطمئن نیستید که چگونه این کار را انجام دهید ، باید با ارائه دهنده میزبان خود تماس بگیرید.</word>
   <word key="ie_piping_perm_ok" js="0">فایل قابل اجرا است</word>
   <word key="ie_piping_perm_err" js="0">فایل قابل اجرا نیست</word>
@@ -1898,7 +1898,7 @@
   <word key="request_not_associated" js="0">با خرید ارتباط ندارد</word>
   <word key="associate" js="0">وابسته</word>
   <word key="associate_purchase" js="0">خرید وابسته</word>
-  <word key="x_more_messages" js="0">{# [1:پیام دیگر][?:پیام دیگر]} ←</word>
+  <word key="x_more_messages" js="0"><![CDATA[← {# [1:پیام دیگر][?:پیام دیگر]}]]></word>
   <word key="my_departments" js="0">واحدهای من</word>
   <word key="stock_action" js="0">اقدام پیشفرض</word>
   <word key="department" js="0">واحد</word>
@@ -1954,18 +1954,18 @@
   <word key="hours_ago" js="0">ساعت قبل</word>
   <word key="support_stream_any_time" js="0">هر زمان</word>
   <word key="group_by_department" js="0">گروه بندی بر اساس واحد</word>
-  <word key="support_oldest_first" js="0">قدیمی ترین → جدیدترین</word>
-  <word key="support_newest_first" js="0">جدیدترین → قدیمی ترین</word>
+  <word key="support_oldest_first" js="0"><![CDATA[قدیمی ترین → جدیدترین]]></word>
+  <word key="support_newest_first" js="0"><![CDATA[جدیدترین → قدیمی ترین]]></word>
   <word key="staff_lock_blurb" js="0">در صورت پاسخ مشتری همچنان تعیین تکلیف می شود</word>
   <word key="stream_default_title" js="0">نتایج جستجو</word>
   <word key="support_honor_severity_sort" js="0">مرتب سازی براساس اولویت</word>
   <word key="support_no_honor_severity_sort" js="0">نادیده گرفتن اولویت ها در مرتب سازی</word>
   <word key="next_request_not_found" js="0">There are no more support requests matching your criteria.</word>
-  <word key="reply_action_status" js="0"><![CDATA[چک کردن این درخواست توسط %s به عنوان <strong>%s</strong>]]></word>
-  <word key="reply_action_moved" js="0"><![CDATA[%s این درخواست را به <strong>%s</strong> انتقال داده است]]></word>
-  <word key="reply_action_severity" js="0"><![CDATA[%s تغییر اولویت به <strong>%s</strong> ]]></word>
-  <word key="reply_action_associate" js="0"><![CDATA[%s این درخواست را همراه با صورت حساب <strong><a href='%s'>%s</a></strong> وابسته کرد  ]]></word>
-  <word key="reply_action_unassociate" js="0">%s unassociated this request from a purchase</word>
+  <word key="reply_action_status" js="0"><![CDATA[%s این درخواست را علامت‌گذاری کرد <strong>%s</strong>]]></word>
+  <word key="reply_action_moved" js="0">%s این درخواست را به <strong>%s</strong> انتقال داده است</word>
+  <word key="reply_action_severity" js="0">%s تغییر اولویت به <strong>%s</strong> </word>
+  <word key="reply_action_associate" js="0">%s این درخواست را همراه با صورت حساب <strong><a href='%s'>%s</a></strong> وابسته کرد  </word>
+  <word key="reply_action_unassociate" js="0">%s این درخواست را همراه با یک خرید وابسته کرد</word>
   <word key="reply_action_assign" js="0">%s این درخواست را به %s اختصاص داده است .</word>
   <word key="reply_action_unassign" js="0">%s این درخواست را از ارجاع به دیگر قسمت ها در آورد</word>
   <word key="reply_action_split_away_from" js="0"><![CDATA[%s این درخواست پشتیبانی را تقسیم کرد به <strong><a href='%s'>%s</a></strong>]]></word>
@@ -2050,21 +2050,21 @@
   <word key="staffnotify_note_header" js="0">%s یادداشتی به یک درخواست پشتیبانی اضافه کرد.</word>
   <word key="staffnotify_note_warning" js="0">در صورت پاسخ به این ایمیل جواب شما برای مشتری به صورت عمومی ارسال خواهد شد . </word>
   <word key="manage_notification_settings" js="0">مدیریت تنظیمات اعلامیه‌ ها</word>
-  <word key="mailsub__nexus_staffNotifyNew" js="0"><![CDATA[{$request->title}]]></word>
-  <word key="mailsub__nexus_staffNotifyReply" js="0"><![CDATA[{$message->item()->title}]]></word>
-  <word key="mailsub__nexus_staffNotifyNote" js="0"><![CDATA[{$message->item()->title}]]></word>
+  <word key="mailsub__nexus_staffNotifyNew" js="0"><![CDATA[{$request->title|raw}]]></word>
+  <word key="mailsub__nexus_staffNotifyReply" js="0"><![CDATA[پاسخ: {$message->item()->title|raw}]]></word>
+  <word key="mailsub__nexus_staffNotifyNote" js="0"><![CDATA[پاسخ: {$message->item()->title|raw}]]></word>
   <word key="your_reply_is_pending" js="0">یک پاسخ قبل از اینکه شما پاسخ خود را ارسال کنید، ارسال شده است. آیا هنوز هم تمایل به ارسال پاسخ خود را دارید؟</word>
-  <word key="mailsub__nexus_staffReplyPending" js="0"><![CDATA[{$message->item()->title} ]]></word>
+  <word key="mailsub__nexus_staffReplyPending" js="0"><![CDATA[{$message->item()->title|raw}]]></word>
   <word key="send_it" js="0">ارسال شد</word>
   <word key="discard_it" js="0">صرفه نظر کردن از آن</word>
   <word key="support_reply_not_pending" js="0">این پیام قبلا ارسال شده است.</word>
-  <word key="mailsub__nexus_autoresolveWarning" js="0"><![CDATA[{$request->title}]]></word>
+  <word key="mailsub__nexus_autoresolveWarning" js="0"><![CDATA[{$request->title|raw}]]></word>
   <word key="autoresolve_header" js="0">ما پاسخی از شما با توجه به درخواست '%s' دریافت نکرده ایم.</word>
   <word key="autoresolve_desc" js="0">اگر تا تاریخ %s پاسخی از شما دریافت نشود، مشکل شما حل شده فرض خواهد شد. اگر همچنان نیاز به کمک دارید لطفا به ما اطلاع دهید.</word>
   <word key="you_have_assigned_support_requests" js="0">این پیام به منزله یادآوری می باشد که شما برای درخواست پشتیبانی فوق معرفی گردیده اید:</word>
   <word key="mailsub__nexus_staffAssignedReminder" js="0">درخواستهای پشتیبانی اختصاص یافته</word>
   <word key="support_confirm_header" js="0">بابت تماس با ما متشکریم. به محض دریافت ایمیل شما و تایید آن در اسرع وقت به شما پاسخ خواهیم داد .</word>
-  <word key="mailsub__nexus_emailConfirmation" js="0"><![CDATA[{$request->title}]]></word>
+  <word key="mailsub__nexus_emailConfirmation" js="0"><![CDATA[{$request->title|raw}]]></word>
   <word key="support_request" js="0">درخواست پشتیبانی</word>
   <word key="mailsub__nexus_replyRequestLocked" js="0"><![CDATA[عطف به: {$request->title}]]></word>
   <word key="support_bounced" js="0">پاسخی که برای این درخواست پشتیبانی ارسال کرده اید به این علت که به عنوان حل شده، تعیین شده است، امکان ذخیره شدن ندارد.</word>
@@ -2115,7 +2115,7 @@
   <word key="feedback_ratings" js="0">بازخورد</word>
   <word key="average_rating" js="0">میانگین امتیاز ها</word>
   <word key="latest_feedback" js="0">آخرین بازخورد</word>
-  <word key="nexus_physical_deprecated" js="0"><![CDATA[Physical product sales have been deprecated and will be removed in a future version. <a href='{external.deprecations_physical_products}' target='_blank' rel='noopener'>What does this mean?</a> <a href='%s' class='ipsPos_right ipsButton ipsButton_primary ipsButton_veryVerySmall'>Dismiss</a>]]></word>
+  <word key="nexus_physical_deprecated" js="0"><![CDATA[فروش محصولات فیزیکی منسوخ شده است و در نسخه بعدی حذف خواهد شد. <a href='{external.deprecations_physical_products}' target='_blank' rel='noopener'>این به چه معناست؟</a> <a href='%s' class='ipsPos_right ipsButton ipsButton_primary ipsButton_veryVerySmall'>نپذیرفتن< /a>]]></word>
   <word key="menu__nexus_store" js="0">فروشگاه</word>
   <word key="menu__nexus_store_packages" js="0">محصولات</word>
   <word key="product_groups_add_child" js="0">ایجاد محصول در این گروه</word>
@@ -2135,11 +2135,11 @@
   <word key="p_name" js="0">نام</word>
   <word key="p_group" js="0">گروه‌ها</word>
   <word key="p_custom_fields" js="0">فیلدهای اختصاصی</word>
-  <word key="p_custom_fields_desc" js="0"><![CDATA[شما می توانید گزینه های اضافی را از طریق<a href='{internal.app=nexus&module=store&controller=fields}'> تنظیمات فیلدهای اختصاصی ایجاد کنید</a>. ]]></word>
+  <word key="p_custom_fields_desc" js="0"><![CDATA[می‌توانید گزینه‌های اضافی را در <a href='{internal.app=nexus&module=store&controller=fields}'>تنظیمات فیلد سفارشی</a> ایجاد کنید .]]></word>
   <word key="package_pricing" js="0">قیمت گذاری</word>
   <word key="p_base_price" js="0">قیمت</word>
   <word key="p_renews" js="0">تمدید؟</word>
-  <word key="p_renews_desc" js="0"><![CDATA[<a href='{internal.app=nexus&module=payments&controller=invoiceTimeline}' data-ipsDialog data-ipsDialog-title='جریان صورتحساب'> نمایش جدول چگونگی ساخت تمدید صورتحساب</a>]]></word>
+  <word key="p_renews_desc" js="0"><a href='{internal.app=nexus&amp;module=payments&amp;controller=invoiceTimeline}' data-ipsDialog data-ipsDialog-title='جریان صورتحساب'> نمایش جدول چگونگی ساخت تمدید صورتحساب</a></word>
   <word key="p_renew_options" js="0">گزینه های تمدید</word>
   <word key="p_initial_term" js="0">Initial Term</word>
   <word key="p_initial_term_desc" js="0">You can specify different initial and renewal terms to create trials. For example, if the initial term is $0 for 1 months and the renewal term is $10 for 1 year, users will get the first month free and then be charged $10 per year after.</word>
@@ -2156,8 +2156,8 @@
   <word key="p_desc_placeholder" js="0">افزودن توضیحات ...</word>
   <word key="package_registration" js="0">ثبت نام</word>
   <word key="p_reg" js="0">نمایش در فرم ثبت نام؟</word>
-  <word key="p_reg_desc" js="0"><![CDATA[شما می توانید کاربران را مجبور به خرید یک محصول در هنگام ثبت نام کنید از طریق<a href='{internal.app=nexus&module=store&controller=settings&searchResult=nexus_reg_force}'> تنظیمات فروشگاه </a>. ]]></word>
-  <word key="p_reg_err" js="0">برای اینکه یک بسته ای برای نمایش در فرم ثبت نام نمایش داده شود باید تنظیم شود تا در فروشگاه نشان داده شود و برای گروه %s در دسترس باشد. شما می توانید این تنظیمات را در زیر زبانه &quot;فروشگاه و خرید&quot; کنترل کنید.</word>
+  <word key="p_reg_desc" js="0"><![CDATA[شما می توانید هنگام ثبت نام در <a href='{internal.app=nexus&module=store&controller=settings&searchResult=nexus_reg_force}'> کاربران را مجبور به خرید محصول کنید تنظیمات فروشگاه</a>.]]></word>
+  <word key="p_reg_err" js="0"><![CDATA[برای اینکه یک بسته ای برای نمایش در فرم ثبت نام نمایش داده شود باید تنظیم شود تا در فروشگاه نشان داده شود و برای گروه %s در دسترس باشد. شما می توانید این تنظیمات را در زیر زبانه &quot;فروشگاه و خرید&quot; کنترل کنید.]]></word>
   <word key="package_relationships" js="0">روابط</word>
   <word key="package_associations" js="0">وابستگی</word>
   <word key="package_associations_desc" js="0">اگر شما محصولات زیادی دارید که به یکدیگر مرتبط هستند ، شما می توانید اجازه دهید آنها با یکدیگر به شکل روابط والد / فرزند در ارتباط باشد.</word>
@@ -2171,7 +2171,7 @@
   <word key="p_assoc_error" js="0">هیچ پیام خطایی برای محصول متصل، وجود ندارد</word>
   <word key="p_assoc_error_desc" js="0">این در صورتی نشان داده شده است که کاربر میخواهد محصولی را خریداری کند اما هیچ خریدی را که بتواند با آن در ارتباط باشد نداشته باشد.</word>
   <word key="p_assoc_error_placeholder" js="0">برای خرید این محصول باید ابتدا ...</word>
-  <word key="package_upgrade_downgrade" js="0">ارتقا و کاهش (تنّزل)</word>
+  <word key="package_upgrade_downgrade" js="0"><![CDATA[ارتقا و کاهش (تنّزل)]]></word>
   <word key="package_upgrade_downgrade_desc" js="0">اگر چندین محصول داشته باشید که برنامه های مختلفی برای یک سرویس خاص ایجاد می کنند، می توانید مشتریان را مجبور کنید که آنها را ارتقا دهند و یا کاهش دهند. تمام محصولات قابل اجرا باید در همان گروه باشند. توصیه می شود که تمام محصولات را برای انتخاب مجدد معادل تنظیم کنید.</word>
   <word key="p_allow_upgrading" js="0">مشتریان بتوانند از این محصول ارتقا پیدا کنند؟</word>
   <word key="p_allow_upgrading_desc" js="0">تمام محصولات در این گروه که قیمت بالاتری نسبت به این محصول دارند به عنوان گزینه هایی ارائه می شود.</word>
@@ -2233,21 +2233,21 @@
   <word key="lkey_Standard" js="0">استاندارد (XXXX-XXXX-XXXX-XXXX-XXXX)</word>
   <word key="lkey_Mdfive" js="0">MD5 (xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx)</word>
   <word key="p_lkey_uses" js="0">تعداد زمانی که میتوان از کلید مجوز استفاده کرد</word>
-  <word key="p_lkey_uses_desc" js="0"><![CDATA[<a href='{external.licenseapi}'> بر چگونگی API Key تاثیر می گذارد زمانی که درخواست های فعال را پردازش می کند</a> . ]]></word>
+  <word key="p_lkey_uses_desc" js="0"><![CDATA[بر نحوه <a href='{external.licenseapi}' target='_blank' rel='noopener'>API کلید مجوز</a> تأثیر می‌گذارد درخواست های فعال را رسیدگی می کند.]]></word>
   <word key="p_lkey_identifier" js="0">مشخص کننده</word>
   <word key="p_lkey_identifier_desc" js="0">اگر مشخص شود، این مقدار باید در تمام API همراه با کلید مجوز ارائه شود.</word>
   <word key="lkey_identifier_none" js="0">بدون شناسه</word>
   <word key="lkey_identifier_name" js="0">نام مشتری</word>
   <word key="lkey_identifier_email" js="0">آدرس ایمیل مشتری</word>
   <word key="lkey_identifier_username" js="0">نام نمایشی مشتری</word>
-  <word key="package_stock_adjustments" js="0">موجودی و تنظیمات قیمت</word>
+  <word key="package_stock_adjustments" js="0"><![CDATA[موجودی و تنظیمات قیمت]]></word>
   <word key="p_stock_price_type" js="0">موجودی و قیمت</word>
   <word key="p_stock_price_static" js="0">بدون در نظر گرفتن مقادیر فیلد اختصاصی از همان مبنا و قیمت استفاده شود.</word>
   <word key="p_stock_price_dynamic" js="0">از مبنا و قیمت های مختلف بر اساس مقادیر فیلد اختصاصی استفاده شود.</word>
-  <word key="p_stock_price_dynamic_desc" js="0"><![CDATA[برای استفاده از این گزینه باید حداقل یک فیلد انتخاب یا یک فیلد رادیویی <a href='{internal.app=nexus&module=store&controller=fields}'>از طریق تنظیمات فیلد های اختصاصی</a> ایجاد نمایید.]]></word>
+  <word key="p_stock_price_dynamic_desc" js="0"><![CDATA[برای استفاده از این گزینه باید حداقل یک فیلد انتخابی یا رادیویی در <a href='{internal.app=nexus&module=store&controller= ایجاد کنید fields}'>تنظیمات فیلد سفارشی</a>.]]></word>
   <word key="p_stock" js="0">موجودی در انبار</word>
   <word key="p_stock_dynamic_fields" js="0">شامل فیلد ها</word>
-  <word key="p_stock_dynamic_fields_desc" js="0"><![CDATA[شما می توانید گزینه های اضافی را از طریق <a href='{internal.app=nexus&module=store&controller=fields}'>تنظیمات فیلد های اختصاصی ایجاد کنید</a> - گزینه های (فقط یک مقدار) و یا فیلدهای رادیویی باید انتخاب شود. اگر فقط فیلدهای اختصاصی را در این محصول تغییر داده اید، قبل از اینکه این گزینه ها نمایش داده شود، باید ذخیره کنید. ]]></word>
+  <word key="p_stock_dynamic_fields_desc" js="0"><![CDATA[می‌توانید گزینه‌های اضافی را در <a href='{internal.app=nexus&module=store&controller=fields}'>تنظیمات فیلد سفارشی</a> ایجاد کنید - گزینه ها باید انتخابی (فقط یک مقدار) یا فیلدهای رادیویی باشند. اگر به تازگی فیلدهای سفارشی این محصول را تغییر داده اید، باید قبل از نمایش آن گزینه ها ذخیره کنید.]]></word>
   <word key="p_stock_dynamic_fields_noscript" js="0">فعال کردن جاوا اسکریپت برای مدیریت پویا موجودی و گزینه های قیمت .</word>
   <word key="base_price_adjustment" js="0">اصلاح قیمت</word>
   <word key="base_price_adjustment_desc" js="0">به قیمت افزوده خواهد می‌شود</word>
@@ -2260,7 +2260,7 @@
   <word key="p_loyalty_discounts" js="0">تخفیف های خرید قبلی</word>
   <word key="p_loyalty_discounts_desc" js="0">از این بخش می توان برای ایجاد یک تخفیف به شرطی که کاربر قبلا تعداد مشخصی از محصولات را خریداری کرده باشد استفاده کرد تا تمام خرید های بعدی این محصول ارزان تر شود. اعمال به خرید و خرید قبلی که در همان زمان ساخته می شوند.</word>
   <word key="p_bulk_discounts" js="0">تخفیف فروش</word>
-  <word key="p_bulk_discounts_desc" js="0">از این بخش می توان برای ایجاد یک تخفیف که در آن اگر تعداد معینی از محصولات با هم خریداری شوند، استفاده کرد. برای مثال &quot;یکی بخرید یکی رایگان دریافت کنید&quot; یا تخفیف در صورت خرید با محصول دیگر. فقط برای خریدهای هم زمان اعمال می شود.</word>
+  <word key="p_bulk_discounts_desc" js="0">از این بخش می توان برای ایجاد یک تخفیف که در آن اگر تعداد معینی از محصولات با هم خریداری شوند، استفاده کرد. برای مثال "یکی بخرید یکی رایگان دریافت کنید" یا تخفیف در صورت خرید با محصول دیگر. فقط برای خریدهای هم زمان اعمال می شود.</word>
   <word key="discount_customer_in_group" js="0">مشتری در این گروه هست</word>
   <word key="discount_check_secondary" js="0">همچنین گروه های ثانویه را بررسی کنید</word>
   <word key="discount_price_becomes" js="0">قیمت میشود</word>
@@ -2283,7 +2283,7 @@
   <word key="p_page" js="0">محتوا ناحیه کاربری</word>
   <word key="p_page_placeholder" js="0">افزودن محتوا...</word>
   <word key="p_page_desc" js="0">محتوا وارد شده در بخش زمانی نمایش داده می شود که مشتری خرید این محصول را انتخاب کند. شما می توانید از این فضا برای ارائه اطلاعات به دست آمده، همانند اطلاعات ، دانلود فایل و غیره استفاده کنید.</word>
-  <word key="p_support" js="0">نمایش دکمه &quot;ارسال درخواست پشتیبانی&quot;</word>
+  <word key="p_support" js="0">نمایش دکمه "ارسال درخواست پشتیبانی"</word>
   <word key="p_support_desc" js="0">این عمل مشتری را به لینک فرم درخواست پشتیبانی هدایت خواهد کرد و خرید انتخاب شده را به عنوان محصول مرتبط با خرید قرار می دهد.</word>
   <word key="p_support_department" js="0">واحد پشتیبانی انتخاب شده</word>
   <word key="p_support_department_desc" js="0">این بخش زمانی که از بخش «درخواست پشتیبانی» انتخاب شده باشد، استفاده خواهد شد. مشتری می تواند قبل از ارسال درخواست پشتیبانی آن را تغییر دهد.</word>
@@ -2296,7 +2296,7 @@
   <word key="package_notify" js="0">اطلاعیه</word>
   <word key="p_notify" js="0">اطلاعیه های خرید</word>
   <word key="p_notify_desc" js="0">یک ایمیل برای آدرس ایمیل داده شده بعد از خرید و تایید پرداخت ارسال خواهد شد.</word>
-  <word key="mailsub__nexus_purchaseNotify" js="0"><![CDATA[خرید {$purchase->name|raw}]]></word>
+  <word key="mailsub__nexus_purchaseNotify" js="0"><![CDATA[{$purchase->name|raw} خرید]]></word>
   <word key="p_reviewable" js="0">مشتریان بتوانند نقد و بررسی ارسال کنند؟</word>
   <word key="p_review_moderate" js="0">نقد و بررسی ها باید قبل نمایش تایید شوند؟</word>
   <word key="package_reviews" js="0">دیدگاه ها</word>
@@ -2304,7 +2304,7 @@
   <word key="p_methods" js="0">روش های پرداخت</word>
   <word key="p_methods_desc" js="0">مشتریان تنها با استفاده از روش های پرداخت انتخاب شده برای این محصول می توانند خرید و تمدید را انجام دهند. توجه داشته باشید که اگر برای دو محصول روشی وجود نداشته باشند، مشتریان قادر به خرید با هم آنها نخواهند بود.</word>
   <word key="p_group_renewals" js="0">گروه با والد؟</word>
-  <word key="p_group_renewals_desc" js="0">اگر فعال باشد، این خرید با محصولات والد گروه بندی خواهد شد و یک خرید واحد ایجاد می شود. یک اصطلاح تکمیل ایجاد خواهد شد و شما تنها می توانید اقدامات انجام شده (تمدید، لغو، و غیره) را در خرید گروهی و نه اجزای جداگانه آن انجام دهید. توجه داشته باشید که اگر در زمان دیگری محصول والد خریداری شود ، قیمت تنظیم نشده است و تاریخ تمدید والد تغییر نکرده است، به این معنی که مشتری با وجود پرداخت همان قیمت کمتر (و یا اگر آنها والد را خریداری کرده است، بیشتر) زمان تا تاریخ تمدید را دریافت کند. توصیه می شود که محصول والد را تنظیم کنید تا اجازه ندهید که مشتری پیش از آن تمدید کند.</word>
+  <word key="p_group_renewals_desc" js="0"><![CDATA[در صورت فعال بودن، این خرید با والد گروه بندی می شود و یک خرید واحد ایجاد می کند. یک عبارت تمدید واحد ایجاد می‌شود و شما فقط می‌توانید اقدامات (تمدید، لغو، و غیره) را روی خرید گروه‌بندی‌شده و نه اجزای تکی آن انجام دهید.<br>توجه داشته باشید که اگر در زمان دیگری با والدین خریداری شده باشد. ، قیمت تعدیل نمی شود و تاریخ تمدید والدین تغییر نمی کند، یعنی مشتری با وجود پرداخت همان قیمت، زمان کمتری (یا اگر خرید والدین را تمدید کرده باشد، بیشتر) تا تاریخ تمدید دریافت می کند. توصیه می شود محصول اصلی را طوری تنظیم کنید که از قبل به مشتری اجازه تمدید ندهد.]]></word>
   <word key="p_show" js="0">نمایش خریدها در بخش مشتری و پنل مدیریت کل؟</word>
   <word key="p_show_desc" js="0">شما همچنان قادر به مشاهده صورتحساب مربوط به خرید این محصول و حمل و نقل و سفارشات خواهید بود .این مورد میتواند برای محصولات فیزیکی یا محصولاتی که هیچ تمدیدی در جایی که خرید ها از سفارشات جدا میشوند مفید است .</word>
   <word key="package_client_area_renewals" js="0">تمدید؟</word>
@@ -2341,7 +2341,7 @@
   <word key="pg_filters_header" js="0">فیلترها</word>
   <word key="pg_price_filters" js="0">فیلترهای قیمت</word>
   <word key="custom_price_filter" js="0">اختصاصی</word>
-  <word key="pg_price_filters_desc" js="0"><![CDATA[کاربران قادر به فیلتر کردن برای محصولات با قیمت پایه در حدود مشخص شده می باشد. برای مثال، اگر شما مقدار <strong> $ 5 </strong> و <strong> $ 20 </strong> را وارد کنید، کاربر سه فیلتر <strong> $ 0- $ 5 </strong> ، <strong> $ 5- $ 20 </strong>، و <strong> $ 20 + </strong>را می بیند.]]></word>
+  <word key="pg_price_filters_desc" js="0"><![CDATA[کاربران می‌توانند محصولات با قیمت پایه را در آستانه‌های مشخص شده فیلتر کنند. حد بالای هر آستانه را وارد کنید: برای مثال، اگر مقادیر <strong>$5</strong> و <strong>$20</strong> را وارد کنید، کاربر سه فیلتر را مشاهده خواهد کرد: <strong>$0&ndash;$5</strong> >، <strong>$5&ndash;20$</strong> و <strong>$20+</strong>.]]></word>
   <word key="product_delete_blurb" js="0">خریدهای موجود از این کالا وجود دارد. اگر آن را حذف کنید، باز هم کاربران از آن متضرر خواهند شد، اما بیشتر مواردی که اتفاق می افتد زمانی که خرید منقضی شود یا دوباره فعال شود (مانند تغییرات گروهی) دیگر اتفاق نخواهد افتاد.</word>
   <word key="subscription_delete_blurb" js="0">مشترکان موجود در این طرح موجود هستند. اگر آن را حذف کنید، کاربران همچنان دارای هزینه خواهند بود، اما اگر آنها اجازه دهند که اشتراکشان منقضی شوند، آنها را به گروه اصلی خود منتقل نخواهند شد.</word>
   <word key="product_delete_review" js="0">Recommended Action: Change / Cancel Existing Purchases</word>
@@ -2355,7 +2355,7 @@
   <word key="product_delete_edit" js="0">ویرایش تنظیمات محصول</word>
   <word key="product_delete_confirm" js="0">حذف</word>
   <word key="package_not_in_store" js="0">در فروشگاه نیست</word>
-  <word key="product_ba_warning_tax" js="0"><![CDATA[نرخ مالیاتی که انتخاب کرده اید برای مکان های مختلف و / یا نوع مشتری نرخ های متفاوتی دارد ، با این حال <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=checkoutsettings&searchResult=form_nexus_require_billing}' target='_blank'> را تعیین کرده اید در هنگام خرید محصولات غیر فیزیکی ، از مشتریان برای آدرس صورتحساب خود درخواست می کنند </a>. این بدان معنی است که از مشتریان فقط نرخ مالیات پیش فرض کسر می شود.]]></word>
+  <word key="product_ba_warning_tax" js="0"><![CDATA[نرخ مالیاتی که انتخاب کرده‌اید نرخ‌های متفاوتی برای مکان‌ها و/یا نوع مشتری متفاوت دارد، با این حال شما <a href='{internal.app= را تنظیم کرده‌اید nexus&module=payments&controller=paymentsettings&tab=checkoutsettings&searchResult=form_nexus_require_billing}' target='_blank'>در هنگام خرید محصولات غیر فیزیکی از مشتریان آدرس صورتحساب خود را درخواست نکنید</a>. این بدان معناست که از مشتریان فقط نرخ مالیات پیش‌فرض دریافت می‌شود.]]></word>
   <word key="product_count_purchases" js="0">{# [1:Purchase][?:Purchases]}</word>
   <word key="product_count_active" js="0">{# [?:فعال]}</word>
   <word key="product_count_expired" js="0">{# [?:منقضی شده]}</word>
@@ -2377,7 +2377,7 @@
   <word key="cf_sticky_desc" js="0">اگر فعال باشد،آن را در کنار اسم خریدار نمایش میدهد.</word>
   <word key="cf_allow_attachments" js="0">پذیرش پیوست‌ها؟</word>
   <word key="custom_package_fields" js="0">فیلدهای اختصاصی</word>
-  <word key="custom_package_fields_blurb" js="0"><![CDATA[اگر شما فیلد رادیویی یا انتخابی ایجاد کنید، سپس می توانید موجودی انبار محصول و هزینه هر گزینه اختیاری موجود برای آن محصول را از قسمت  <a href='{internal.app=nexus&module=store&controller=packages}'>محصولات </a> ثبت کنید.]]></word>
+  <word key="custom_package_fields_blurb" js="0"><![CDATA[اگر فیلدهای انتخابی یا رادیویی ایجاد می‌کنید، سپس می‌توانید سطوح موجودی محصول و قیمت‌ها را به صورت جداگانه برای هر گزینه موجود در فیلد از <a href=' تنظیم کنید. {internal.app=nexus&module=store&controller=packages}'>محصولات</a>.]]></word>
   <word key="cf_purchase" js="0">نمایش در زمان خرید؟</word>
   <word key="cf_editable" js="0">مشتری میتواند آن را از قسمت کاربری خود ویرایش کند؟</word>
   <word key="cf_required" js="0">اجباری؟</word>
@@ -2389,7 +2389,7 @@
   <word key="buy" js="0">خرید</word>
   <word key="redeem" js="0">بازخرید</word>
   <word key="show_prices_in" js="0">نمایش قیمت در</word>
-  <word key="price_from" js="0"><![CDATA[<span class='cNexusPrice_from'> از</span> %s]]></word>
+  <word key="price_from" js="0"><![CDATA[<span class='cNexusPrice_from'>از</span> %s]]></word>
   <word key="price" js="0">قیمت</word>
   <word key="product_reviews" js="0">بررسی محصول</word>
   <word key="product_reviews_pl" js="0">بررسی‌ محصول</word>
@@ -2407,7 +2407,7 @@
   <word key="gift_voucher" js="0">کارت هدیه</word>
   <word key="gift_voucher_personalize" js="0">شخصی سازی</word>
   <word key="gift_voucher_personalize_desc" js="0">رنگ و پیام خود را وارد نمائید.</word>
-  <word key="gift_voucher_choose_amount" js="0">انتخاب مبلغ و سپس ارسال</word>
+  <word key="gift_voucher_choose_amount" js="0"><![CDATA[انتخاب مبلغ و سپس ارسال]]></word>
   <word key="gift_voucher_choose_amount_desc" js="0">مبلغ را انتخاب و سپس ارسال کنید.</word>
   <word key="gift_voucher_redeem" js="0">همین الان تمدید کن</word>
   <word key="gift_voucher_invalid_amount" js="0">شما باید یک مقدار را انتخاب کنید</word>
@@ -2445,14 +2445,14 @@
   <word key="existing_purchases" js="0">خریدهای موجود</word>
   <word key="err_subscription_qty" js="0">شما تنها مجاز به خرید یکی از این محصول ها هستید.</word>
   <word key="err_subscription_bought" js="0">شما مجاز به خرید فقط یک عدد از این محصول هستید و قبلا خریدتان را انجام داده اید.</word>
-  <word key="err_sub_subscription_bought" js="0"><![CDATA[You are only allowed to purchase one subscription, and you have already done so. <br><a href='{internal.app=nexus&module=subscriptions&controller=subscriptions}' class='ipsButton ipsButton_primary ipsSpacer_top'>Manage existing Subscription</a>]]></word>
+  <word key="err_sub_subscription_bought" js="0"><![CDATA[شما فقط مجاز به خرید یک اشتراک هستید و قبلاً این کار را انجام داده اید. <br><a href='{internal.app=nexus&module=subscriptions&controller=subscriptions}' class='ipsButton ipsButton_primary ipsSpacer_top'>مدیریت اشتراک موجود</a>]]></word>
   <word key="err_subscription_bought_login" js="0">شما تنها مجاز به خرید یکی از %s هستید ، و شما قبلا آن را انجام داده اید، پس امکان ادامه دادن با این خرید نیست.</word>
   <word key="err_subscription_in_cart" js="0">شما تنها مجاز به خرید یکی از این محصول ها هستید، و در حال حاضر یکی در سبد خرید شما موجود است.</word>
   <word key="err_group_cant_purchase" js="0">%s برای حساب شما موجود نیست.</word>
   <word key="cart" js="0">سبد خرید</word>
   <word key="checkout" js="0">پرداخت نهایی</word>
   <word key="empty_cart" js="0">خالی کردن سبد خرید</word>
-  <word key="review_and_checkout" js="0">مرور و پرداخت نهایی</word>
+  <word key="review_and_checkout" js="0"><![CDATA[بررسی و پرداخت نهایی]]></word>
   <word key="continue_shopping" js="0">ادامه خرید</word>
   <word key="review_cart_title" js="0">بررسی اقلام در سبد خرید و پرداخت</word>
   <word key="view_products_grid" js="0">نمایش جدولی</word>
@@ -2504,7 +2504,7 @@
   <word key="your_address_book" js="0">دفترچه آدرس‌های شما</word>
   <word key="add_new_address" js="0">افزودن آدرس جدید</word>
   <word key="browse_store" js="0">مرور فروشگاه</word>
-  <word key="about_product" js="0"><![CDATA[درباره <em> %s </em>]]></word>
+  <word key="about_product" js="0"><![CDATA[درباره <em>%s</em>]]></word>
   <word key="lb" js="0">پوند</word>
   <word key="kg" js="0">کیلوگرم</word>
   <word key="renewal_amount_with_pc_saving" js="0">%s (پس انداز %s%%) </word>
@@ -2542,7 +2542,7 @@
   <word key="nexus_store_popular" js="0">محصولات محبوب</word>
   <word key="nexus_store_popular_field" js="0">نمایش %s پرطرفدارترین محصولات در %s روز گذشته</word>
   <word key="nexus_reg_force" js="0">مجبور کردن کاربران برای خرید در هنگام ثبت نام؟</word>
-  <word key="nexus_reg_force_desc" js="0"><![CDATA[شما می توانید کنترل کنید که کدام محصول از محصولات قابل ارائه از طریق  <a href='{internal.app=nexus&module=store&controller=packages}'> صفحه محصولات</a> انتخاب شوند  .]]></word>
+  <word key="nexus_reg_force_desc" js="0"><![CDATA[شما می‌توانید کنترل کنید کدام محصولات از <a href='{internal.app=nexus&module=store&controller=packages}'>محصولات</a> ارائه شوند صفحه.]]></word>
   <word key="themesetting_cm_store_view" js="0">چیدمان پیش‌فرض فروشگاه</word>
   <word key="cm_store_view_grid" js="0">جدول</word>
   <word key="cm_store_view_list" js="0">لیستی</word>
@@ -2552,7 +2552,7 @@
   <word key="nexus_show_renew_option_savings_percent" js="0">به عنوان درصد</word>
   <word key="nexus_show_renew_option_savings_amount" js="0">به عنوان ارزش پولی</word>
   <word key="acplogs__nexus_store_settings" js="0">Store settings updated</word>
-  <word key="module__nexus_clients" js="0">صورت حساب و خریدها</word>
+  <word key="module__nexus_clients" js="0"><![CDATA[صورت حساب و خریدها]]></word>
   <word key="manage" js="0">مدیریت کردن</word>
   <word key="client_purchases" js="0">مدیریت خریدها</word>
   <word key="client_area_my_details" js="0">جزئیات من</word>
@@ -2599,7 +2599,7 @@
   <word key="edit_address_title" js="0">ویرایش آدرس</word>
   <word key="delete_address_title" js="0">حذف آدرس</word>
   <word key="delete_address_confirm" js="0">آیا شما از حذف این آدرس مطمئن هستید؟</word>
-  <word key="delete_address_confirm_billing" js="0"><![CDATA[آیا مطمئن هستید که می خواهید این آدرس را حذف کنید؟ <br> <br> لطفا توجه داشته باشید که برای پرداخت های تمدید خودکار یک آدرس صورتحساب اولیه لازم است. اگر آدرس دیگری را به عنوان آدرس صورتحساب اولیه خود تعیین نکردید ، قبل از انجام پرداختهای جدید برای تمدید ، موظف به انجام این کار هستید.]]></word>
+  <word key="delete_address_confirm_billing" js="0">آیا مطمئن هستید که می خواهید این آدرس را حذف کنید؟ <br> <br> لطفا توجه داشته باشید که برای پرداخت های تمدید خودکار یک آدرس صورتحساب اولیه لازم است. اگر آدرس دیگری را به عنوان آدرس صورتحساب اولیه خود تعیین نکردید ، قبل از انجام پرداختهای جدید برای تمدید ، موظف به انجام این کار هستید.</word>
   <word key="set_as_address" js="0">تنظیم آدرس پیش فرض برای :</word>
   <word key="address_billing" js="0">صورتحساب</word>
   <word key="address_billing_title" js="0">تنظیم این آدرس به عنوان شیوه پرداخت پیش‌فرض شما.</word>
@@ -2617,10 +2617,10 @@
   <word key="altcontact_add" js="0">افزودن یک رابط</word>
   <word key="altcontact_add_title" js="0">افزودن یک رابط جدید برای حساب کاربری شما</word>
   <word key="altcontact_email" js="0">آدرس ایمیل</word>
-  <word key="altcontact_email_desc" js="0"><![CDATA[اگر کاربر تاکنون در اینجا حساب کاربری نداشته، لازم است اول <a href='{internal.app=core&module=system&controller=register}'> یک حساب کاربری در اینجا بسازد </a>.]]></word>
+  <word key="altcontact_email_desc" js="0"><![CDATA[اگر کاربر از قبل حساب کاربری ندارد، ابتدا باید <a href='{internal.front.app=core&module=system&controller=رجیستر شود. register}'>یکی ایجاد کنید</a>.]]></word>
   <word key="altcontact_email_error" js="0">حساب کاربری با چنین آدرس ایمیلی وجود ندارد.</word>
   <word key="altcontact_email_self" js="0">شما نمی توانید خود را به عنوان یک تماس جایگزین اضافه کنید.</word>
-  <word key="altcontact_already_exists" js="0">That user is already one of your alternative contacts.</word>
+  <word key="altcontact_already_exists" js="0">این کاربر در حال حاضر یکی از مخاطبین جایگزین شما است.</word>
   <word key="altcontact_purchases" js="0">خریدها</word>
   <word key="altcontact_purchases_desc" js="0">کاربر قادر خواهد بود که خریدهای انتخاب شده و درخواست های پشتیبانی مربوط به آنها را مشاهده کند. همچنین کاربران قادر هستند با پشتیبانی برای مشکلات مربوط به خریدهای انتخاب شده، از طریق این حساب ارتباط داشته باشند.</word>
   <word key="altcontact_billing" js="0">همچنین این رابط برای مشاهده و پرداخت صورتحساب اجازه دارد؟</word>
@@ -2691,7 +2691,7 @@
   <word key="purchase_pending_invoice" js="0">یک صورتحساب در انتظار پرداخت برای این محصول وجود دارد .</word>
   <word key="purchase_renew_now" js="0">تمدید دوباره</word>
   <word key="purchase_renew_now_title" js="0">مجددا این خرید را پرداخت کنید</word>
-  <word key="purchase_cancel_renewal_confirm" js="0">The purchase will remain active until the expiry date and then will expire with no further renewals.</word>
+  <word key="purchase_cancel_renewal_confirm" js="0">خرید تا تاریخ اتمام فعال باقی می ماند و پس از آن بدون تمدید دوباره پایان خواهد یافت.</word>
   <word key="purchase_cancel_renewal" js="0">لغو تمدید</word>
   <word key="purchase_renewal_terms" js="0">شرایط تمدید</word>
   <word key="purchase_package_info" js="0">اطلاعات محصول</word>
@@ -2705,7 +2705,7 @@
   <word key="customerinfo_title" js="0">اطلاعات مشتری</word>
   <word key="print_gift_card" js="0">چاپ کارت هدیه</word>
   <word key="product_options_price_error" js="0">یک خطای تنظیم قیمت با گزینه های انتخاب شده شما رخ داده است. لطفا برای دریافت راهنمایی با ما تماس بگیرید.</word>
-  <word key="product_options_price_error_admin" js="0">لطفا تنظیمات مربوط به موجودی و قیمت برای این محصول را در کنترل پنل ادمین چک کنید و اطمینان حاصل کنید که فیلدهای مناسب انتخاب شده اند.</word>
+  <word key="product_options_price_error_admin" js="0"><![CDATA[لطفاً برگه تنظیمات سهام و قیمت این محصول را در ACP بررسی کنید و مطمئن شوید که فیلدهای مناسب انتخاب شده اند.]]></word>
   <word key="client_billing_agreements" js="0">موافقتنامه صورتحساب</word>
   <word key="billing_agreements_title" js="0">موافقتنامه های صدور صورتحساب شما</word>
   <word key="billing_agreements_info" js="0">موافقتنامه صورتحساب به طور خودکار برای تمدید پرداخت صورتحسابها استفاده می شود.</word>
@@ -2778,11 +2778,11 @@
   <word key="enhancements__nexus_EasyPost_desc" js="0">حمل و نقل آسان توسط USPS ، UPS ، DHL ، FedEx و غیره.</word>
   <word key="easypost_enable" js="0">فعال کردن یکپارچه سازی با EasyPost</word>
   <word key="easypost_api_key" js="0">کلید API سایت EasyPost</word>
-  <word key="easypost_api_key_desc" js="0"><![CDATA[کلید API را می توانید از <a href='{external.easypost_api_key}' target='_blank'>حساب کاربری EasyPost خود</a> دریافت نمایید.]]></word>
+  <word key="easypost_api_key_desc" js="0"><![CDATA[شما می توانید کلید API خود را از <a href='{external.easypost_api_key}' target='_blank' rel='noopener'>حساب EasyPost خود دریافت کنید </a>.]]></word>
   <word key="easypost_address_select" js="0">آدرس حمل و نقل</word>
   <word key="easypost_address_select_desc" js="0">This is the address that is provided to EasyPost as the 'From' address where you will send shipments from.</word>
   <word key="easypost_address_default" js="0">آدرس فیزیکی سایت (%s)</word>
-  <word key="easypost_address_default_desc" js="0"><![CDATA[Set in <a href='{internal.app=core&module=settings&controller=general}'>General Configuration</a>.]]></word>
+  <word key="easypost_address_default_desc" js="0"><![CDATA[تنظیم در <a href='{internal.app=core&module=settings&controller=general}'>پیکربندی عمومی</a>.]]></word>
   <word key="easypost_address_choose" js="0">دیگر</word>
   <word key="easypost_address_custom" js="0">آدرس ارسال کالا</word>
   <word key="easypost_phone" js="0">تفلن تماس شما</word>
@@ -2804,19 +2804,19 @@
   <word key="easypost_package_usps_LargeParcel" js="0">بسته بزرگ</word>
   <word key="easypost_package_usps_IrregularParcel" js="0">بسته پستی غیر معمول</word>
   <word key="easypost_package_usps_FlatRateEnvelope" js="0">پاکت نامه مسطح</word>
-  <word key="easypost_package_usps_FlatRateLegalEnvelope" js="0">Flat-Rate Legal Envelope</word>
-  <word key="easypost_package_usps_FlatRatePaddedEnvelope" js="0">Flat-Rate Padded Envelope</word>
-  <word key="easypost_package_usps_FlatRateGiftCardEnvelope" js="0">Flat-Rate Giftcard Envelope</word>
-  <word key="easypost_package_usps_FlatRateWindowEnvelope" js="0">Flat-Rate Window Envelope</word>
-  <word key="easypost_package_usps_FlatRateCardboardEnvelope" js="0">Flat-Rate Cardboard Envelope</word>
-  <word key="easypost_package_usps_SmallFlatRateEnvelope" js="0">Small Flat-Rate Envelope</word>
-  <word key="easypost_package_usps_SmallFlatRateBox" js="0">Small Flat-Rate Box</word>
-  <word key="easypost_package_usps_MediumFlatRateBox" js="0">Medium Flat-Rate Box</word>
-  <word key="easypost_package_usps_LargeFlatRateBox" js="0">Large Flat-Rate Box</word>
-  <word key="easypost_package_usps_RegionalRateBoxA" js="0">Regional-Rate Box A</word>
-  <word key="easypost_package_usps_RegionalRateBoxB" js="0">Regional-Rate Box B</word>
-  <word key="easypost_package_usps_RegionalRateBoxC" js="0">Regional-Rate Box C</word>
-  <word key="easypost_package_usps_LargeFlatRateBoardGameBox" js="0">Large Flat-Rate Board Game Box</word>
+  <word key="easypost_package_usps_FlatRateLegalEnvelope" js="0">پاکت حقوقی با نرخ ثابت</word>
+  <word key="easypost_package_usps_FlatRatePaddedEnvelope" js="0">پاکت پوشیده شده با نرخ ثابت</word>
+  <word key="easypost_package_usps_FlatRateGiftCardEnvelope" js="0">پاکت کارت هدیه با نرخ ثابت</word>
+  <word key="easypost_package_usps_FlatRateWindowEnvelope" js="0">پاکت پنجره با نرخ ثابت</word>
+  <word key="easypost_package_usps_FlatRateCardboardEnvelope" js="0">پاکت مقوایی با نرخ ثابت</word>
+  <word key="easypost_package_usps_SmallFlatRateEnvelope" js="0">پاکت کوچک با نرخ ثابت</word>
+  <word key="easypost_package_usps_SmallFlatRateBox" js="0">جعبه با نرخ ثابت کوچک</word>
+  <word key="easypost_package_usps_MediumFlatRateBox" js="0">جعبه با نرخ ثابت متوسط</word>
+  <word key="easypost_package_usps_LargeFlatRateBox" js="0">جعبه با نرخ ثابت بزرگ</word>
+  <word key="easypost_package_usps_RegionalRateBoxA" js="0">جعبه A با نرخ منطقه ای</word>
+  <word key="easypost_package_usps_RegionalRateBoxB" js="0">جعبه با نرخ منطقه ای B</word>
+  <word key="easypost_package_usps_RegionalRateBoxC" js="0">جعبه C با نرخ منطقه ای</word>
+  <word key="easypost_package_usps_LargeFlatRateBoardGameBox" js="0">جعبه بازی تخته ای بزرگ با نرخ ثابت</word>
   <word key="easypost_package_ups" js="0">بسته های پستی UPS</word>
   <word key="easypost_package_ups_UPSLetter" js="0">نامه UPS</word>
   <word key="easypost_package_ups_UPSExpressBox" js="0">جعبه اکسپرس UPS</word>
@@ -2849,20 +2849,20 @@
   <word key="epc_hs_tarrif" js="0">شماره تعرفه HS</word>
   <word key="epc_origin" js="0">کشور مبدا</word>
   <word key="epc_origin_unknown" js="0">- ناشناخته / نامشخص -</word>
-  <word key="shipment_cost_others" js="0"><![CDATA[مشتری %s در هزینه حمل و نقل برای این پرداخت کرد و <a href='{internal.app=nexus&module=payments&controller=invoices&do=view&id=%d}' target='_blank' rel='noopener'>%d سایر موارد </ a>.]]></word>
+  <word key="shipment_cost_others" js="0"><![CDATA[مشتری %s هزینه ارسال را برای این و <a href='{internal.app=nexus&module=payments&controller=invoices&do=view&id=%d} پرداخت کرد ' target='_blank' rel='noopener'>%d محموله دیگر</a>.]]></word>
   <word key="shipment_cost_noothers" js="0">مشتری مبلغ %s را برای ارسال مرسوله پرداخت کرده است.</word>
   <word key="shipment_label" js="0">برچسب حمل و نقل</word>
   <word key="easypost_show_rates" js="0">اجازه انتخاب امتیاز به مشتریان؟</word>
-  <word key="easypost_show_rates_0" js="0"><![CDATA[No - show the customer the <a href='{internal.app=nexus&module=payments&controller=shippingrates}' target='_blank' rel='noopener'>shipping rates I have set up</a>. I will choose if I want to use EasyPost and which rate to use when I ship the parcel.]]></word>
+  <word key="easypost_show_rates_0" js="0"><![CDATA[No - <a href='{internal.app=nexus&module=payments&controller=shippingrates}' target='_blank' rel='noopener را به مشتری نشان دهید '>نرخ حمل و نقل من تنظیم کرده ام</a>. من انتخاب می‌کنم که آیا می‌خواهم از EasyPost استفاده کنم و هنگام ارسال بسته از چه نرخی استفاده کنم.]]></word>
   <word key="easypost_show_rates_1" js="0">Yes - show the customer the available rates from EasyPost and charge them for the rate they choose.</word>
   <word key="easypost_tax" js="0">نرخ مالیات برای حمل و نقل</word>
   <word key="easypost_price_adjustment" js="0">تعدیل قیمت</word>
-  <word key="easypost_price_adjustment_desc" js="0"><![CDATA[The specified price will be added to the rate provided by EasyPost.<br>For example, if EasyPost says the shipping charge will be $10, and you enter $1 here, the customer will be charged $11.]]></word>
+  <word key="easypost_price_adjustment_desc" js="0"><![CDATA[قیمت مشخص شده به نرخ ارائه شده توسط EasyPost اضافه می شود.<br>به عنوان مثال، اگر EasyPost بگوید هزینه ارسال 10 دلار خواهد بود، و شما وارد کنید 1 دلار در اینجا، 11 دلار از مشتری دریافت می شود.]]></word>
   <word key="easypost_delivery_adjustment" js="0">گزارش تنظیم برآورد</word>
   <word key="easypost_delivery_adjustment_desc" js="0">The customer will be able to see the delivery estimates provided by EasyPost, with the specified adjustment. For example, if EasyPost says the estimated delivery is 3 days, and you enter 1 day here, the customer will see a delivery estimate of 4 days.</word>
   <word key="easypost_delivery_estimate" js="0">{# [1:روز][?:روز]}</word>
   <word key="easypost_test" js="0">تنظیمات تست و مشاهده نرخ ها</word>
-  <word key="easypost_test_blurb" js="0"><![CDATA[This tool will show you the available rates to ship the selected products to the chosen location. If you are experiencing issues with EasyPost, you can use this tool to see if any errors are occurring with certain products or destinations. Shipments will show the Physical Address from your <a href='{internal.app=core&module=settings&controller=general}' target='_blank' rel='noopener'>General Configuration</a> as the origin address.]]></word>
+  <word key="easypost_test_blurb" js="0"><![CDATA[این ابزار نرخ های موجود را برای ارسال محصولات انتخابی به مکان انتخابی به شما نشان می دهد. اگر با EasyPost مشکل دارید، می‌توانید از این ابزار استفاده کنید تا ببینید آیا خطایی در محصولات یا مقصدهای خاص رخ می‌دهد یا خیر. محموله‌ها نشانی فیزیکی را از <a href='{internal.app=core&module=settings&controller=general}' target='_blank' rel='noopener'>پیکربندی عمومی</a> شما به‌عنوان آدرس مبدا نشان می‌دهند.]]> </word>
   <word key="easypost_test_method" js="0">روش تست</word>
   <word key="easypost_test_method_1" js="0">انتخاب محصولاتی که قرار است حمل بشوند</word>
   <word key="easypost_test_method_0" js="0">مشخصات بسته پستی را بصورت دستی وارد کنید</word>
@@ -2871,7 +2871,7 @@
   <word key="easypost_test_height" js="0">ارتفاع بسته</word>
   <word key="easypost_test_weight" js="0">وزن بسته</word>
   <word key="easypost_test_products" js="0">محصولات</word>
-  <word key="easypost_test_products_desc" js="0"><![CDATA[The products must be set as physical and have their dimensions (height, length and width) and weight defined. <a href='{internal.app=nexus&module=store&controller=packages}'>Configure products</a>]]></word>
+  <word key="easypost_test_products_desc" js="0"><![CDATA[محصولات باید به صورت فیزیکی تنظیم شوند و ابعاد (ارتفاع، طول و عرض) و وزن آنها مشخص شده باشد. <a href='{internal.app=nexus&module=store&controller=packages}'>محصولات را پیکربندی کنید</a>]]></word>
   <word key="easypost_test_customer" js="0">مشتری</word>
   <word key="easypost_test_address" js="0">آدرس مقصد</word>
   <word key="easypost_test_not_physical" js="0">کالای %s به عنوان کالایی فیزیکی ثبت نشده است بنابرین قابل ارسال نیست.</word>
@@ -2879,7 +2879,7 @@
   <word key="easypost_test_no_length" js="0">The product %s has no length defined. You will need to edit the product and provide the length.</word>
   <word key="easypost_test_no_width" js="0">The product %s has no width defined. You will need to edit the product and provide the width.</word>
   <word key="easypost_test_no_weight" js="0">این محصول %s فاقد وزن تعریف شده است. شما نیاز به ویرایش محصول و ارائه وزن دارید.</word>
-  <word key="easypost_test_no_site_address" js="0"><![CDATA[شما باید <a href='{internal.app=core&module=settings&controller=general}'> یک آدرس فیزیکی برای آزمایش تنظیمات EasyPost تنظیم کنید </a> .]]></word>
+  <word key="easypost_test_no_site_address" js="0"><![CDATA[شما باید برای آزمایش EasyPost <a href='{internal.app=core&module=settings&controller=general}'>یک آدرس فیزیکی تنظیم کنید</a> تنظیمات.]]></word>
   <word key="easypost_carrier" js="0">حامل</word>
   <word key="easypost_service" js="0">سرویس</word>
   <word key="easypost_no_results" js="0">No carriers are able to ship that parcel to that location. Contact EasyPost or your carriers for more information.</word>
@@ -2895,7 +2895,7 @@
   <word key="advertisement_url" js="0">URL مقصد</word>
   <word key="advertisement_url_desc" js="0">وبگاه سایتی که کاربران پس از کلیک بر روی تبلیغ شما به آن سایت هدایت می شوند.</word>
   <word key="advertisement_image" js="0">تصویر</word>
-  <word key="advertisement_image_max_wh" js="0">اندازه ی تصویر باید کمتر از %s پیکسل باشد. تصویر با اندازه ی بزرگتر تغییر اندازه داده خواهد شد.</word>
+  <word key="advertisement_image_max_wh" js="0"><![CDATA[تصویر باید کمتر از %s&times;%spx باشد. اندازه تصاویر بزرگتر تغییر خواهد کرد.]]></word>
   <word key="advertisement_image_max_w" js="0">پهنای تصویر باید کمتر از %s پیکسل باشد. تصویر با اندازه ی بزرگتر تغییر اندازه داده خواهد شد.</word>
   <word key="advertisement_image_max_h" js="0">ارتفاع تصویر باید کمتر از %s پیکسل باشد. تصویر با اندازه‌ ی بزرگتر تغییر اندازه داده خواهد شد.</word>
   <word key="advertisement_pending_approval" js="0">درحال حاضر آگهی تبلیغاتی در صف تایید قرار دارد.</word>
@@ -2982,11 +2982,9 @@
   <word key="email_transaction_failed" js="0">متأسفانه مشکلی در پذیرش پرداخت شما وجود داشت. لطفا سفارش خود را در زیر چک کنید، سپس دوباره با کلیک روی دکمه هم اکنون میخواهم پرداخت کنم ، دوباره پرداخت خود را ارسال کنید.</word>
   <word key="email_transaction_wait" js="0">The following transaction is currently pending payment.</word>
   <word key="email_transaction_waiting" js="0">با تشکر از شما برای سفارش در %s. سفارش شما در انتظار پرداخت است، و دستور العمل برای انجام این کار به شرح زیر است. اطلاعات بیشتر سفارش شما پس از پرداخت ایمیل خواهد شد.</word>
-  <word key="email_held_approval" js="0"><![CDATA[Thank you for your order. Your payment for the invoice detailed below has been received and is <strong>currently being held for review</strong>.<br>
-At this stage, no further action is required from you. We will send you an additional email once your payment has been approved.]]></word>
+  <word key="email_held_approval" js="0">از سفارش شما متشکریم. پرداخت دریافت شده است و جزئیات صورتحساب شما به شرح زیر است <strong> در حال حاضر برای بررسی بیشتر برای شما ارسال شد </strong>.<br> در این مرحله، هیچ اقدام دیگری از طرف شما مورد نیاز نیست. بعد از پذیرفته شدن پرداخت ؛ ما به شما یک ایمیل دیگری ارسال خواهیم کرد.</word>
   <word key="email_held_approval_plain" js="0">از سفارش شما متشکریم. صورتحساب های پرداخت شده شما جهت بررسی برای شما ارسال میشود اگر تغییر دیگری از سمت شما انجام نشود ، بعد از تایید سفارش شما یک ایمیل تایید پرداخت برای شما ارسال میشود.</word>
-  <word key="email_gateway_pending" js="0"><![CDATA[Thank you for your order. Your payment for the invoice detailed below has been received and is <strong>currently processing</strong>.<br>
-At this stage, no further action is required from you. We will send you an additional email once your payment has been approved.]]></word>
+  <word key="email_gateway_pending" js="0">از سفارش شما متشکریم. پرداخت شما برای صورتحسابی که در زیر آمده است دریافت شده است و <strong> در حال پردازش است </strong>.<br> در این مرحله هیچ اقدام دیگری از سمت شما لازم نیست. پس از تأیید پرداخت شما، یک ایمیل دیگری برای شما ارسال میکنیم.</word>
   <word key="email_gateway_pending_plain" js="0">از سفارش شما متشکریم. جزئیات پرداخت شما برای صورتحسابی که در زیر آمده است دریافت شده است و در حال حاضر پردازش است. در این مرحله، هیچ اقدام دیگری از سمت شما لازم نیست. پس از تأیید پرداخت شما، ما برای شما یک ایمیل دیگری ارسال میکنیم.</word>
   <word key="email_order_placed" js="0">سفارش ثبت شد</word>
   <word key="email_view_order" js="0">مشاهده‌ی سفارش</word>
@@ -3207,7 +3205,7 @@ At this stage, no further action is required from you. We will send you an addit
   <word key="nexus_subs_invoice_grace_desc" js="0">اشتراک برای مدت زمان مشخص شده بعد از تاریخ پایان فعال خواهد ماند قبل از اینکه مزایای اعطا شده توسط اشتراک لغو شود. اگر مشتری در زمان مقرر پرداخت کند، تاریخ پایان فعلی به وسیله یک دوره تمدید به جای تاریخ پایان جدید ایجاد می شود.</word>
   <word key="nexus_sub_no_invoice" js="0">فاکتور را نمیتوان پیدا کرد</word>
   <word key="nexus_sub_no_purchase" js="0">خرید را نمیتوان پیدا کند</word>
-  <word key="nexus_sub_no_change_ba" js="0"><![CDATA[Subscriptions cannot be changed when an active PayPal subscription is in place, please <a href='{internal.app=nexus&module=clients&controller=billingagreements.clientsbillingagreements}'>cancel</a> it first.]]></word>
+  <word key="nexus_sub_no_change_ba" js="0"><![CDATA[اشتراک‌ها در صورت وجود اشتراک PayPal قابل تغییر نیستند، لطفاً <a href='{internal.app=nexus&module=clients&controller=billingagreements.clientsbillingagreements} ابتدا آن را لغو کنید.]]></word>
   <word key="nexus_no_sub" js="0">مدیریت اشتراک ها در حال حاضر فعال نیست</word>
   <word key="nexus_no_subs_package" js="0">هیچ برنامه اشتراکی نمیتوان پیدا کرد</word>
   <word key="nexus_no_subs_subs" js="0">امکان مکان‌یابی اشتراک کاربران نیست.</word>
@@ -3297,7 +3295,7 @@ At this stage, no further action is required from you. We will send you an addit
   <word key="nexus_require_billing_subscriptions" js="0">اشتراک های کاربری</word>
   <word key="nexus_subs_non_available" js="0">در این زمان هیچ اشتراک فعالی وجود ندارد.</word>
   <word key="nexus_subs_paid_flash_msg" js="0">با تشکر از پرداخت شما!</word>
-  <word key="nexus_sub_active_billingagreement_desc" js="0"><![CDATA[Since you have an active PayPal Subscription to pay the subscription renewal fee, this must be <a href='%s' class='ipsButton_link--negative'>cancelled</a> before changing your Subscription package. ]]></word>
+  <word key="nexus_sub_active_billingagreement_desc" js="0"><![CDATA[از آنجایی که اشتراک PayPal فعالی برای پرداخت هزینه تمدید اشتراک دارید، این باید <a href='%s' class='ipsButton_link-- منفی باشد قبل از تغییر بسته اشتراک خود '>لغو شد</a>. ]]></word>
   <word key="nexus_dont_delete_group" js="0">برخی از کاربران که بسته ها یا اشتراک ها را خریداری می کنند، زمانی که اشتراک آنها به پایان میرسد، به این گروه بازگشت می کنند. اگر این گروه را حذف کنید، آن دسته از کاربران به جای آن به گروه '%s' بازگردانده می شوند.</word>
   <word key="upgrade_fix_refund_transactions" js="0">بروز رسانی اطلاعات تراکنش</word>
   <word key="upgrade_fix_missing_addresses" js="0">تنظیم آدرسهای فاکتور گم شده</word>
@@ -3310,18 +3308,18 @@ At this stage, no further action is required from you. We will send you an addit
   <word key="email_transaction_hold" js="0">یک تراکنش برای تایید انتخاب شده است. یک مدیر باید قبل از پردازش سفارش این معامله آن را به صورت دستی تایید کند.</word>
   <word key="email_transaction_revw" js="0">یک تراکنش برای بررسی مجددا علامت گذاری شده است. یک مدیر باید قبل از پردازش  سفارش این معامله آن را به صورت دستی تایید کند.</word>
   <word key="email_transaction_dspd" js="0">یک تراکنش واجد شرایط است اقدام شما برای حل این اختلاف ضروری است تا مانع از بازگشت وجوه به مشتری شود.</word>
-  <word key="mailsub__nexus_acp_notification_Transaction" js="0"><![CDATA[تراکنش #{$transaction->name|raw} نیاز به اقدام دستی دارد]]></word>
+  <word key="mailsub__nexus_acp_notification_Transaction" js="0"><![CDATA[Transaction #{$transaction->id} به اقدام دستی نیاز دارد]]></word>
   <word key="acp_notification_Support" js="0">درخواستهای پشتیبانی باز</word>
   <word key="acpNotification_nexusSupport" js="0">{# [1:درخواست پشتیبانی باز][?:درخواست پشتیبانی باز ]} </word>
   <word key="acp_notification_Withdrawals" js="0">یک کاربر درخواست برداشت از حساب را کرده است</word>
   <word key="acpNotification_nexusWithdrawals" js="0">{# [1:درخواست تسویه][?:درخواست تسویه]} </word>
-  <word key="mailsub__nexus_acp_notification_Withdrawal" js="0"><![CDATA[خروج #{$transaction->name|raw} نیاز به تایید دارد]]></word>
+  <word key="mailsub__nexus_acp_notification_Withdrawal" js="0"><![CDATA[Withdrawal #{$withdrawal->id|raw} نیاز به تأیید دارد]]></word>
   <word key="email_notify_withdrawal" js="0">یک کاربر درخواست لغو اعتبار حساب خود را کرده است. یک مدیر برای تایید یا رد این درخواست مورد نیاز است .</word>
   <word key="acp_notification_Shipments" js="0">یک کالا آماده ارسال است</word>
   <word key="acpNotification_nexusShipments" js="0">{# [1: حمل‌ و نقل] [؟: حمل و نقل]} در حال انتظار برای ارسال</word>
-  <word key="mailsub__nexus_acp_notification_Shipment" js="0"><![CDATA[ محموله #{$transaction->name|raw}  آماده برای ارسال]]></word>
+  <word key="mailsub__nexus_acp_notification_Shipment" js="0"><![CDATA[Shipment #{$shipment->id} آماده ارسال]]></word>
   <word key="email_notify_shipment" js="0">کالای شما آماده ارسال است.</word>
-  <word key="acpNotification_nexusBACancelErrors" js="0">{# [1:PayPal Subscription Cancellation Error][?:PayPal Subscription Cancellation Errors]}</word>
+  <word key="acpNotification_nexusBACancelErrors" js="0">{# [1:خطای لغو توافقنامه صورتحساب] [?:خطاهای لغو توافقنامه صدور صورتحساب]}</word>
   <word key="acp_notification_Advertisement" js="0">یک آگهی خریداری شده است و نیاز به تایید دارد.</word>
   <word key="acpNotification_nexusAdvertisements" js="0">{# [1: آگهی در انتظار] [?: آگهی در انتظار}}</word>
   <word key="mailsub__nexus_acp_notification_Advertisement" js="0">یک آگهی خریداری شده است و نیاز به تایید دارد</word>
@@ -3373,7 +3371,7 @@ At this stage, no further action is required from you. We will send you an addit
   <word key="achievement_filter_Subscriptions_node_prefix" js="0">اشتراک‌ها</word>
   <word key="achievement_filter_Subscriptions_nth" js="0">افزودن یک ره‌شمار شرطی</word>
   <word key="achievement_filter_Subscriptions" js="0">افزودن فیلتر اشتراک</word>
-  <word key="achievement_filter_Subscription_nth_suffix" js="0"><![CDATA[<span data-role='مین'>مین</span> اشتراک او باشد]]></word>
+  <word key="achievement_filter_Subscription_nth_suffix" js="0"><![CDATA[<span data-role='th'>مین</span> اشتراک او باشد]]></word>
   <word key="AchievementAction__Subscription" js="0">کاربر یک اشتراک خرید</word>
   <word key="AchievementAction__Subscription_title" js="0">کاربر خرید کرده</word>
   <word key="AchievementAction__Subscription_title_generic" js="0">اشتراک</word>

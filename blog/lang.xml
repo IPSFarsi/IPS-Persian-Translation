@@ -35,7 +35,7 @@
   <word key="blog_enable_rating" js="0">فعال بودن امتیاز دهی وبلاگ</word>
   <word key="blog_settings_rss" js="0">تنظیمات RSS</word>
   <word key="blog_allow_rssimport" js="0">پذیرش وارد کردن RSS</word>
-  <word key="blog_allow_rssimport_desc" js="0"></word>
+  <word key="blog_allow_rssimport_desc" js="0"><![CDATA[اجازه دادن به کاربران برای وارد کردن فیدهای RSS، سایت شما را در معرض <a href='https://owasp.org/www-community/attacks/Server_Side_Request_Forgery' target='_blank' rel='noopener'>حملات SSRF</a> قرار خواهد داد. شما نباید به بلاگ اجازه واردات RSS را بدهید اگر به کاربران نااطمینان اجازه ایجاد بلاگ‌ها داده شده است، و شما فقط باید فیدهای RSS را از منابعی وارد کنید که مورد اعتماد هستند و اجازه نمی‌دهند محتوای ارسالی توسط کاربران در فید گنجانده شود.]]></word>
   <word key="blog_allow_rss" js="0">پذیرش خروجی RSS</word>
   <word key="blog_allow_grid" js="0">فعال کردن حالت نمایش شبکه ای</word>
   <word key="blog_allow_grid_desc" js="0"></word>
@@ -89,7 +89,7 @@
   <word key="blog_social_group" js="0">کاربران مجاز به خواندن این وبلاگ هستند</word>
   <word key="no_blog_author_selected" js="0">نویسنده وبلاگی انتخاب نشده است</word>
   <word key="modlog__action_delete_blog" js="0">وبلاگ %s شد</word>
-  <word key="modlog__action_delete_blog_stats" js="0">Deleted Blog</word>
+  <word key="modlog__action_delete_blog_stats" js="0">وبلاگ حذف شد</word>
   <word key="delete_blog_confirm" js="0">آیا شما از حذف این وبلاگ مطمئن هستید؟</word>
   <word key="delete_blog_warning" js="0"></word>
   <word key="submit_entry" js="0">ارسال یک نوشته وبلاگ جدید</word>
@@ -188,7 +188,7 @@
   <word key="blog_category_viewing" js="0">در حال مشاهده دسته %s</word>
   <word key="blog_category_select" js="0">مشاهده دسته</word>
   <word key="blog_rss_offline" js="0">خوراک RSS غیرفعال شد</word>
-  <word key="blog_rss_offline_admin" js="0">خوراک RSS غیرفعال است چون تنظیمات &quot;پذیرش خوراک RSS&quot; در پنل مدیریت غیرفعال است /یا از تنظیمات کلی وبلاگ غیرفعال است.</word>
+  <word key="blog_rss_offline_admin" js="0">خوراک RSS غیرفعال است چون تنظیمات "پذیرش خوراک RSS" در پنل مدیریت غیرفعال است /یا از تنظیمات کلی وبلاگ غیرفعال است.</word>
   <word key="blog_enable_rss" js="0">فعال بودن خوراک RSS</word>
   <word key="blog_enable_rss_desc" js="0">پذیرفتن این وبلاگ برای هماهنگی با دیگر وبلاگ‌ها با فعال کردن RSS</word>
   <word key="blog_rss_title" js="0">آخرین نوشته‌ها</word>
@@ -269,7 +269,7 @@
   <word key="g_blog_allowprivate_desc" js="0">وبلاگ‌های خصوصی تنها توسط کاربران انتخاب شده توسط مالک وبلاگ‌ قابل مشاهده هستند.</word>
   <word key="g_blog_allowpoll" js="0">توانایی افزودن نظرسنجی به نوشته‌ های وبلاگ؟</word>
   <word key="g_blog_allowcomment" js="0">توانایی ارسال دیدگاه ها در نوشته‌ ها؟</word>
-  <word key="g_blog_allowcomment_guestreg" js="0"><![CDATA[<a href='{internal.admin.app=core&module=settings&controller=posting&searchResult=post_before_registering}'>ارسال قبل از ثبت نام</a> فعال است اما با فعال سازی این گزینه، نادیده گرفته می شود.]]></word>
+  <word key="g_blog_allowcomment_guestreg" js="0"><![CDATA[<a href='{internal.admin.app=core&module=settings&controller=posting&searchResult=post_before_registering}'>ارسال قبل از ثبت‌نام</a> فعال است، اما زمانی که این تنظیم را فعال کنید، دور زده خواهد شد.]]><word>
   <word key="g_blog_allowownmod" js="0">توانایی مدیریت نوشته های وبلاگ خود؟</word>
   <word key="g_blog_allowownmod_desc" js="0">کاربر قادر خواهد بود: ویرایش دیدگاه ها و نوشته‌ها، حذف نوشته‌ها و دیدگاه ها و غیرفعال سازی ارسال دیدگاه در نوشته ها.</word>
   <word key="g_blog_allowdelete" js="0">توانایی حذف وبلاگ خود؟</word>

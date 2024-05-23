@@ -13,7 +13,7 @@
   <word key="convert_parent" js="0">تبدیل والد</word>
   <word key="convert_start_date" js="0">تاریخ شروع</word>
   <word key="convert_finished" js="0">پایان یافته؟</word>
-  <word key="convert_no_parent" js="0">بدون والد</word>
+  <word key="convert_no_parent" js="0"><![CDATA[<em>بدون والد</em>]]></word>
   <word key="convert_start" js="0">شروع جدید تبدیل</word>
   <word key="conversion_app_already_exists" js="0">یک تبدیل در حال حاضر برای این نرم‌افزار پیکربندی شده است. ما شما را به آن تبدیل می‌کنیم.</word>
   <word key="conversion_app_not_found" js="0">تبدیل مدیریتی که در حالت ویرایش بودید پیدا نشد</word>
@@ -69,7 +69,7 @@
   <word key="confirm_reconvert" js="0">آیا مطمئن هستید که می خواهید دوباره تبدیل کنید؟ اگر این مرحله را دوباره تکرار کنید، شما همچنین باید مراحل زیر را دوباره انجام دهید</word>
   <word key="reconvert_button" js="0">تبدیل دوباره</word>
   <word key="avatar_gallery_location" js="0">مسیر به پرونده‌های گالری آواتار</word>
-  <word key="convert_cms_info_message" js="0">توجه: مواردی که شامل HTML سفارشی می‌شوند، مانند صفحات و بلوک‌ها، ممکن است هنگام تبدیل به Invision Community به درستی کار نکنند. توصیه می‌شود که پس از اتمام تبدیل این موارد را مرور کرده و به‌روز کنید.</word>
+  <word key="convert_cms_info_message" js="0"><![CDATA[<strong>توجه:</strong> مواردی که حاوی HTML سفارشی‌سازی شده هستند، مانند صفحات و بلوک‌ها، ممکن است هنگام تبدیل به انجمن Invision به درستی کار نکنند. توصیه می شود پس از تکمیل تبدیل، این موارد را بررسی کرده و بر اساس آن به روز رسانی کنید.]]></word>
   <word key="convert_wp_typical_path" js="0">این معمولاً به این صورت است: /path/to/wordpress/wp-content/uploads</word>
   <word key="convert_ee_sig_attach_path" js="0">این معمولاً به این صورت است: /path/to/expressionengine/images/signature_attachments/</word>
   <word key="convert_ee_avatar_path" js="0">این معمولاً به این صورت است: /path/to/expressionengine/images/avatars/</word>
@@ -100,7 +100,7 @@
   <word key="convert_xf_preconvert" js="0">معمولاً می‌توانید این جزئیات را از فایل موجود در /path/to/xenforo/library/config.php به دست آورید</word>
   <word key="convert_coppermine_filehint" js="0">این معمولاً به این صورت است: /path/to/coppermine/albums</word>
   <word key="convert_photoplog_hint" js="0">این معمولاً به این صورت است: /path/to/photoplog/images</word>
-  <word key="convert_invision_mismatch" js="0">هر دو نصب Invision Community شما باید از نسخه یکسان استفاده کنند، لطفاً آن‌ها را به آخرین نسخه به روز رسانی کنید.</word>
+  <word key="convert_invision_mismatch" js="0"><![CDATA[هر دو نصب انجمن Invision شما <strong>باید</strong> از یک نسخه استفاده کنند، لطفاً آنها را به آخرین نسخه موجود ارتقا دهید.]]> </word>
   <word key="convert_invision_upload_path" js="0">این معمولاً به این صورت است: /path/to/ips4/uploads</word>
   <word key="convert_invision_upload_input" js="0">مسیر بارگذاری</word>
   <word key="convert_invision_upload_input_desc" js="0">منبع Invision Community شما باید تمام فایل‌ها را در مکان پیش‌فرض /uploads داشته باشد</word>
@@ -158,7 +158,7 @@
   <word key="cannot_convert_desc" js="0">این مرحله نمیتواند اجرا شود تا مراحل پیش از این اجرا شود.</word>
   <word key="waiting_previous_process" js="0">در انتظار اتمام یک چرخه تبدیل قبلی</word>
   <word key="no_conversion_app" js="0">تبدیلی که سعی در اجرای آن کردید پیدا نشد.</word>
-  <word key="converter_could_not_continue" js="0"></word>
+  <word key="converter_could_not_continue" js="0"><![CDATA[در انجام تبدیل مشکلی وجود داشت، چرخه قبلی هنوز در حال اجرا بود. لطفاً برای ادامه به <a href='{internal.app=convert&module=manage&controller=manage}'>تبدیل</a> برگردید.]]></word>
   <word key="convert_achievement_badges" js="0">تبدیل نشان ها</word>
   <word key="_convert_achievement_badges" js="0">نشان ها</word>
   <word key="convert_achievement_ranks" js="0">تبدیل درجه‌های دستاورد</word>
@@ -211,7 +211,7 @@
   <word key="create_field" js="0">ایجاد فیلد جدید</word>
   <word key="member_exists" js="0">نام کاربری %s به عنوان %s وجود دارد.</word>
   <word key="member_email_invalid" js="0">ایمیل عضو (%s) نامعتبر است، به جای آن از %s استفاده می‌شود.</word>
-  <word key="member_name_in_use" js="0">نام '%s' در حال استفاده است ، عضو تغییر نام داده شده به &quot;%s&quot;</word>
+  <word key="member_name_in_use" js="0">نام '%s' در حال استفاده است ، عضو تغییر نام داده شده به "%s"</word>
   <word key="member_name_too_long" js="0">نام '%s' بیش از حد طولانی است، نام عضو به '%s' تغییر نام داده شد</word>
   <word key="member_name_invalid_chars" js="0">نام '%s' شامل کاراکترهای نامعتبری بوده است، نام عضو به '%s' تغییر نام داده شد</word>
   <word key="member_missing_name" js="0">نام اعضا وجود ندارد، نام عضو به %s تغییر نام داده شد</word>
@@ -300,7 +300,7 @@
   <word key="_convert_forums_posts" js="0">پست‌ها</word>
   <word key="_convert_forums_archive_posts" js="0">پست‌های بایگانی شده</word>
   <word key="convert_forums_rss_imports" js="0">خوراک های RSS</word>
-  <word key="convert_forums_rss_imported" js="0">مطالب RSS درون ریزی شده</word>
+  <word key="convert_forums_rss_imported" js="0">مطالب RSS درون‌ریزی شده</word>
   <word key="_convert_forums_rss_imports" js="0">فیدهای RSS</word>
   <word key="_convert_forums_rss_imported" js="0">محتوای RSS وارد شده</word>
   <word key="convert_attachments" js="0">تبدیل پیوست‌ها</word>
@@ -355,7 +355,7 @@
   <word key="_convert_gallery_comments" js="0">نظرات تصاویر گالری</word>
   <word key="_convert_gallery_reviews" js="0">نقدهای تصاویر گالری</word>
   <word key="_convert_gallery_attachments" js="0">پیوست‌های تصاویر گالری</word>
-  <word key="members_gallery_category_desc" js="0">انواع کامیونیتی Invision نیاز دارند که همه‌ی آلبوم‌ها به یک دسته تعلق داشته باشند. لطفاً دسته‌ای را که می‌خواهید آلبوم‌های بدون دسته را در آن قرار دهید انتخاب کنید، یا گزینه &quot;هیچ‌کدام&quot; را انتخاب کنید تا به صورت خودکار یک دسته ایجاد شود.</word>
+  <word key="members_gallery_category_desc" js="0">انواع کامیونیتی Invision نیاز دارند که همه‌ی آلبوم‌ها به یک دسته تعلق داشته باشند. لطفاً دسته‌ای را که می‌خواهید آلبوم‌های بدون دسته را در آن قرار دهید انتخاب کنید، یا گزینه "هیچ‌کدام" را انتخاب کنید تا به صورت خودکار یک دسته ایجاد شود.</word>
   <word key="media_thumb_location" js="0">مکان تصاویر کوچک رسانه</word>
   <word key="convert_author_replies_to_comments" js="0">تبدیل پاسخ‌های نویسنده به نظرات؟</word>
   <word key="convert_author_replies_to_comments_desc" js="0">اگر بله باشد، پاسخ‌های نویسنده به نقدها به نظرات معمولی تبدیل می‌شوند و نقد در داخل نقل قول ظاهر می‌شود. اگر خیر باشد، پاسخ‌ها تبدیل نخواهند شد.</word>

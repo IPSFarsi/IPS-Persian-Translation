@@ -42,7 +42,7 @@
   <word key="menu_manager_preview_theme" js="0">پیش نمایش با استفاده از پوسته</word>
   <word key="menu_manager_back_to" js="0">بازگشت به %s</word>
   <word key="menu_manager_main_menu" js="0">فهرست اصلی</word>
-  <word key="menu_manager_dropdown_for" js="0">فهرست بازشونده برای &quot;%s&quot;</word>
+  <word key="menu_manager_dropdown_for" js="0">فهرست بازشونده برای "%s"</word>
   <word key="menu_manager_dropdown_edit" js="0">ویرایش فهرست بازشونده برای این مورد</word>
   <word key="menu_manager_dropdown_delete" js="0">حذف این مورد</word>
   <word key="menu_manager_extension" js="0">نوع</word>
@@ -106,7 +106,7 @@
   <word key="stream_edit_title" js="0">ویرایش عنوان جریان</word>
   <word key="stream_new_stream" js="0">ایجاد جریان</word>
   <word key="stream_button_update" js="0">نتایج بروزرسانی</word>
-  <word key="stream_button_save_update" js="0">ذخیره و بروزرسانی نتایج</word>
+  <word key="stream_button_save_update" js="0"><![CDATA[ذخیره و بروزرسانی نتایج]]></word>
   <word key="stream_button_cancel" js="0">لغو</word>
   <word key="stream_narrow_by_type" js="0">محدود کردن به نوع مطالب</word>
   <word key="stream_narrow_by_container" js="0">محدود کردن به</word>
@@ -282,7 +282,7 @@
   <word key="stream_guest_unfollowed_thing" js="0">شما دریافت اعلامیه های ایمیلی برای %s را متوقف کردید</word>
   <word key="stream_guest_unfollowed_all" js="0">شما تمامی اعلامیه ها برای تمامی جریان های مشترک شده را متوقف کردید.</word>
   <word key="streamsubscription_guest_all" js="0">لغو اشتراک همگی</word>
-  <word key="streamsubscription_guest_thing" js="0"><![CDATA[لغو اشتراک از ایمیل های خلاصه برای <em>%s</em>]]></word>
+  <word key="streamsubscription_guest_thing" js="0"><![CDATA[لغو اشتراک از خبرنامه ایمیل برای <em>%s</em>]]></word>
   <word key="guest_unsubscribe_choice" js="0">لغو اشتراک از</word>
   <word key="stream_view_more" js="0">نمایش بیشتر</word>
   <word key="acplog__streams_restored" js="0">جریان‌های فعالیت پیش‌فرض بازیابی شدند</word>
@@ -419,7 +419,7 @@
   <word key="editor_allowed_classes_desc" js="0">به طور پیش فرض، تمام کلاس های CSS به جز کلاس هایی خاص (مانند پسند، نقل قول و جعبه کد) حذف می شوند.</word>
   <word key="editor_allowed_classes_warn" js="0">گاهی اوقات بعضی از کلاس های CSS می توانند خطرناک باشند چرا که امکان دارد کاربر را وادار به انجام کاری نمایند که خطرناک است. شما تنها باید کلاس های CSS ای را اجازه پشتیبانی دهید که از عملکرد آن ها کاملا مطمئن هستید.</word>
   <word key="editor_allowed_datacontrollers" js="0">کنترل کننده های مجاز جاوا اسکریپت</word>
-  <word key="editor_allowed_datacontrollers_desc" js="0">صفت &quot;data-controller&quot; برای سیستم معنای ویژه ای دارید و به همین دلیل به طور پیش فرض هر مقدار دیگری حذف می گردد.</word>
+  <word key="editor_allowed_datacontrollers_desc" js="0">صفت "data-controller" برای سیستم معنای ویژه ای دارید و به همین دلیل به طور پیش فرض هر مقدار دیگری حذف می گردد.</word>
   <word key="editor_allowed_datacontrollers_warn" js="0">بعضی از کلاس های جاوا اسکریپت اجازه تغییر و دستکاری در مطالب ارسال شده را می دهد که خطرناک است.شما تنها باید کلاس های جاوا اسکریپتی  را اجازه پشتیبانی دهید که از عملکرد آن ها کاملا مطمئن بوده و امکان تغییر در مطالب ارسال توسط آن ها نمی باشد.</word>
   <word key="editor_allowed_formmsg" js="0">در زمان ارسال مطالب توسط کاربران، بخش هایی از آن که مخرب تشخیص داده شود، حذف می گردد. به طور مثال کاربری ممکن است برای هک کردن رمز عبور کاربران، یک فرم ورود در صفحه ایجاد نمایید تا رمز عبور کاربران را بدست بیاورد یا اینکه کدی ارسال کند که باعث خراب شدن ظاهر سایت گردد. این تنظیمات به شما این اجازه را می دهد که از قدرت این کد ها در صورت نیازتان کم کنید.</word>
   <word key="editor_allowed_iframe_bases" js="0">سایت های مجاز برای iframe</word>
@@ -540,14 +540,14 @@
   <word key="core_site_marked_as_read" js="0">سایت به عنوان خوانده شده علامت زده شد</word>
   <word key="browse" js="0">مرور</word>
   <word key="new_content" js="0">مطالب جدید</word>
-  <word key="view_this" js="0">اطلاعات بیشتر در مورد &quot;%s&quot;</word>
+  <word key="view_this" js="0"><![CDATA[اطلاعات بیشتر درباره "%s"]]></word>
   <word key="contact" js="0">تماس با ما</word>
   <word key="contact_admin" js="0">تماس با ما</word>
   <word key="contact_text" js="0">پیام شما</word>
   <word key="contact_name" js="0">نام شما</word>
   <word key="contact_sent" js="0">پیام شما ارسال شد</word>
   <word key="contact_sent_blurb" js="0">با تشکر از شما ، پیام شما برای مدیریت ارسال شد.</word>
-  <word key="contact_form_referrer" js="0"><![CDATA[The URL the user was on was <a href='%s' target='_blank'>%s</a>]]></word>
+  <word key="contact_form_referrer" js="0"><![CDATA[آدرس اینترنتی که کاربر در آن بوده است <a href='%s' target='_blank'>%s</a>]]></word>
   <word key="contact_form_referrer_plain" js="0">The URL the user was on was: %s</word>
   <word key="member_post_count" js="0">{# [1:ارسال][?:ارسال]}</word>
   <word key="you" js="0">شما</word>
@@ -673,7 +673,7 @@
   <word key="validate_my_account" js="0">اعتبار حساب من</word>
   <word key="existing_user" js="0">کاربر سایت هستید؟</word>
   <word key="coppa_verify" js="0">لطفا تاریخ تولد خود را وارد نمایید.</word>
-  <word key="coppa_verification_only" js="0"><![CDATA[این فقط برای تصدیق است - ما تاریخ تولد شما را <strong>ذخیره نمی کنیم</strong>.]]></word>
+  <word key="coppa_verification_only" js="0"><![CDATA[این تنها برای تایید است - ما تاریخ تولد شما را ذخیره <strong>نمی‌کنیم</strong>.]]></word>
   <word key="coppa_consent_required" js="0">رضایت مورد نیاز است</word>
   <word key="coppa_consent_required_desc" js="0"><![CDATA[برای ادامه این روند، ما نیاز به اجازه از طرف والدین و یا قیم قانونی داریم. <br> لطفا فرم زیر را چاپ و تکمیل کرده و برای ما ارسال نمایید.]]></word>
   <word key="coppa_print_form" js="0">چاپ فرم رضایت</word>
@@ -697,7 +697,7 @@
   <word key="request_password" js="0">بازیابی گذرواژه جدید</word>
   <word key="forgotten_password" js="0"> گذرواژه خود را فراموش کرده اید؟</word>
   <word key="no_validation_key" js="0">شما در انتظار تایید درخواست گذرواژه گمشده نیستید.</word>
-  <word key="lost_pass_expired" js="0"><![CDATA[لینکی که جهت بازنشانی گذرواژه خود استفاده کرده‌اید، منقضی شده است، لطفا <a href='{internal.app=core&module=system&controller=lostpass}'>لینک جدید درخواست دهید</a>. ]]></word>
+  <word key="lost_pass_expired" js="0"><![CDATA[لینکی که برای تنظیم مجدد رمز عبور خود استفاده کرده‌اید منقضی شده است، لطفاً <a href='{internal.app=core&module=system&controller=lostpass}'>یک لینک جدید درخواست کنید</a>.]]></word>
   <word key="lost_pass_confirm" js="0">درخواست بازنشانی گذرواژه با موفقیت انجام شد. یک ایمیل تایید اعتبار مجددا برای شما ارسال شد. لطفا طی چند دقیقه آینده ایمیل خود را چک کنید. ممکن است ایمیل ارسالی از طرف ما داخل پوشه Spam یا junk mail قرار گرفته باشد.</word>
   <word key="lost_pass_too_soon" js="0">شما به تازگی تقاضای بازنشانی گذرواژه خود را کرده اید. لطفا چند دقیقه صبر بفرمایید و بعد از آن ایمیل خود را بررسی کنید. ممکن است نامه ارسالی از طرف ما داخل پوشه Spam  یا junk mail قرار گرفته باشد.</word>
   <word key="reset_pass_instructions" js="0">لطفا  گذرواژه جدید را وارد کنید.</word>
@@ -1191,7 +1191,7 @@
   <word key="follow_guest_unfollow_all_desc" js="0"><![CDATA[<a href='{internal.front.app=core&module=system&controller=login&ref=%s.login}'> برای انتخاب موارد خاص برای متوقف کردن دریافت اعلان های ایمیل وارد سیستم شوید</a>.]]></word>
   <word key="follow_guest_unfollowed_thing" js="0">اکنون اعلان های ایمیل را برای '%s' متوقف کرده اید</word>
   <word key="follow_guest_unfollowed_all" js="0">شما در حال حاضر تمام اعلان های ایمیل را متوقف کردید</word>
-  <word key="follow_guest_followed_by" js="0"><![CDATA[دنبال شده توسط %s .%s نه؟ <a href='{internal.app=core&module=system&controller=login}'> ورود به سیستم </a>]]></word>
+  <word key="follow_guest_followed_by" js="0"><![CDATA[دنبال شده توسط %s. شما %s نیستید؟ <a href='{internal.front.app=core&module=system&controller=login.login}'>وارد شوید</a>]]></word>
   <word key="follow_guest_not_notified" js="0">شما برای این مورد اعلان های ایمیل دریافت نمی کنید</word>
   <word key="who_follows_this" js="0">دنبال کنندگان این مورد</word>
   <word key="unfollow" js="0">دنبال نکردن</word>
@@ -1306,7 +1306,7 @@
   <word key="login_err_locked_unlock" js="0">حساب کاربری شما قفل شده است، بعد از {# [1:دقیقه][?:دقیقه]} دوباره سعی کنید.</word>
   <word key="login_err_locked_nounlock" js="0">حساب کاربری شما قفل شده است. لطفاً بعداً دوباره تلاش کنید.</word>
   <word key="sign_in_with_these" js="0">یا ورود توسط یکی از این سرویس ها</word>
-  <word key="login_err_remote_validate" js="0"><![CDATA[شما باید ابتدا حساب خود را در یک سایت دیگر تایید اعتبار کنید تا بتوانید وارد شوید. لطفا برای تایید اعتبار <a href='%s' target='_blank'>اینجا</a> کلیک کنید.]]></word>
+  <word key="login_err_remote_validate" js="0"><![CDATA[شما باید حساب کاربری خود را در سایت دیگر تایید کنید قبل از اینکه بتوانید به طور موفقیت‌آمیز وارد شوید. لطفاً <a href='%s' target='_blank' rel='noopener'>اینجا کلیک کنید</a> برای تایید حساب کاربری خود.]]></word>
   <word key="login_connect_generic_error" js="0">در یکی از سایت های داخل شبکه ما هنگام پردازش درخواست ورود شما، خطایی رخ داده است.</word>
   <word key="invalid_login_as_user_key" js="0">کلید ورود امن یکسان نمی باشد</word>
   <word key="next_unread_not_found" js="0">هیچ مطلب خوانده نشده ای وجود ندارد.</word>
@@ -1423,7 +1423,7 @@
   <word key="form_multibyte_unicode_admin_cic" js="0"><![CDATA[مقدار وارد شده شامل نویسه ای است که مجاز نیست مانند Emoji. برای فعال کردن پشتیبانی استاندارد  <a href='{internal.admin.app=core&module=support&controller=support}'>با پشتیبانی تماس بگیرید</a> ]]></word>
   <word key="form_bad_captcha" js="0">شما از بخش بررسی امنیتی گذر نکرده اید. لطفا دوباره تلاش نمایید.</word>
   <word key="unexpected_captcha" js="0">تنظیمات کپچا معتبر نمی باشد.</word>
-  <word key="unexpected_captcha_admin" js="0"><![CDATA[تنظیمات کپچا وارد شده معتبر نیست. <a href='{internal.admin.app=core&module=membersettings&controller=spam&tab=captcha}'>پیکربندی</a>]]></word>
+  <word key="unexpected_captcha_admin" js="0"><![CDATA[تنظیمات CAPTCHA نامعتبر است. <a href='{internal.admin.app=core&module=moderation&controller=spam&tab=captcha}'>پیکربندی</a>]]></word>
   <word key="form_items_min" js="0">شما حداقل باید {# [1:مورد][?:مورد]} انتخاب نمایید</word>
   <word key="form_items_max" js="0">شما باید حداقل {# [1:مورد][?:مورد]} مورد داشته باشید.</word>
   <word key="form_tags_min" js="0">شما باید حداقل {# [1:برچسب][?:برچسب]} تعیین کنید.</word>
@@ -1502,23 +1502,23 @@
   <word key="delta_upgrade_fail_server" js="0">مشکلی در ارتباط با سرور بروز رسانی پیش آمده است. لطفا فایل بروز رسانی را دریافت و بر روی سرور خود بارگذاری نمایید یا با پشتیبانی فنی تماس بگیرید.</word>
   <word key="delta_upgrade_fail_client" js="0">مشکلی با دانلود فایل ها به سرور شما رخ داده است. لطفا خودتان فایل ها را دریافت و در سرور خود بارگذاری نمایید.</word>
   <word key="delta_upgrade_download" js="0">دریافت بروزرسانی</word>
-  <word key="delta_upgrade_download_full" js="0">همچنین می توانید کل بسته را با مراجعه به بخش کاربری IPS دریافت نمایید ←</word>
+  <word key="delta_upgrade_download_full" js="0"><![CDATA[همچنین می توانید کل بسته را با مراجعه به بخش کاربری IPS دریافت نمایید ←]]></word>
   <word key="delta_upgrade_go_to_clientarea" js="0">برای دریافت به بخش کاربری IPS مراجعه نمایید</word>
   <word key="delta_upgrade_manual_footer" js="0">هنگام که بارگذاری فایل به اتمام رسید، برای دکمه زیر برای ادامه کلیک کنید.</word>
   <word key="delta_upgrade_mismatch_versions" js="0"><![CDATA[شما نسخه %s برنامه %s را اجرا میکنید، اما نسخه%s  سایت ساز Invision موجود است. برای دانلود بروز رسانی، شما باید یک نسخه از تمام برنامه ها را اجرا کنید. اگر دیگر از برنامه %s استفاده نمی کنید، می توانید آن را در صفحه <a href='{internal.app=core&module=applications&controller=applications}'>برنامه ها حذف کنید</a> روش دیگر برای دانلود کامل بسته، مراجعه به <a href='{external.client_area}' target='_blank 'rel='noopener'> بخش مشتری است </a> از این بخش بازدید کنید.]]></word>
   <word key="upgrade_method" js="0">روش ارتقا</word>
   <word key="delta_upgrade_fail_cic_head" js="0">آخرین فایل ها در حال اعمال</word>
   <word key="delta_upgrade_fail_cic_desc" js="0">آخرین فایل ها برای این بروزرسانی به سایت شما اعمال می شود.</word>
-  <word key="delta_upgrade_fail_cic_cont" js="0"><![CDATA[شما ممکن است <span data-role='counter'>در 5 دقیقه ادامه دهید </span>. ]]></word>
+  <word key="delta_upgrade_fail_cic_cont" js="0"><![CDATA[شما می‌توانید در <span data-role='counter'>5 دقیقه</span> ادامه دهید.]]></word>
   <word key="r__upgrade" js="0">ارتقا</word>
   <word key="r__upgrade_manage" js="0">توانایی ارتقا سیستم IPS؟</word>
   <word key="upgrade_confirm_update" js="0">تایید ارتقا</word>
   <word key="upgrade_login" js="0">ورود</word>
   <word key="upgrade_ftp_details" js="0">مشخصات FTP</word>
-  <word key="upgrade_extract_update" js="0">دریافت و استخراج بروزرسانی</word>
+  <word key="upgrade_extract_update" js="0"><![CDATA[دانلود و استخراج به‌روزرسانی]]></word>
   <word key="upgrade_upgrade" js="0">ارتقا پایان یافت</word>
   <word key="upgrade_confirm_cic" js="0">ارتقا را تأیید کنید</word>
-  <word key="upgrade_apply_cic" js="0">دریافت و استخراج بروزرسانی</word>
+  <word key="upgrade_apply_cic" js="0"><![CDATA[دریافت و استخراج به‌روزرسانی]]></word>
   <word key="start_upgrade" js="0">آغاز ارتقا</word>
   <word key="delta_upgrade_downloading" js="0">در حال ارتباط با سرور دریافت ...</word>
   <word key="delta_upgrade_processing" js="0">در حال پردازش</word>
@@ -1527,8 +1527,8 @@
   <word key="delta_upgrade_upgradeLanguages" js="0">در حال ارتقا زبان ها</word>
   <word key="delta_upgrade_upgradeJavascript" js="0">در حال ارتقا فایل های جاوا اسکریپت</word>
   <word key="delta_upgrade_upgradeQueries" js="0">در حال ارتقا بانک اطلاعاتی</word>
-  <word key="delta_upgrade_applycic" js="0">آخرین فایل ها اعمال می شوند. این روند ممکن است مدتی طول بکشد. لطفا صبور باشید و صفحه را تازه نکنید.</word>
-  <word key="delta_upgrade_ftp_instructions" js="0"><![CDATA[به منظور بارگذاری بروز رسانی، شما باید مشخصات FTP سرور خود را تنظیم کنید. اگر سرور شما دسترسی FTP ندارد، برای دانلود بروزرسانی به صورت دستی <a href='%s'> اینجا را کلیک کنید</a>.]]></word>
+  <word key="delta_upgrade_applycic" js="0"><![CDATA[آخرین فایل‌ها در حال اعمال شدن هستند. این فرآیند ممکن است مدتی طول بکشد.<br>لطفاً صبور باشید و صفحه را تازه نکنید.]]></word>
+  <word key="delta_upgrade_ftp_instructions" js="0"><![CDATA[برای آپلود به‌روزرسانی، شما باید اطلاعات FTP سرور خود را ارائه دهید. اگر سرور شما به FTP دسترسی ندارد، <a href='%s'>اینجا کلیک کنید</a> تا به‌روزرسانی را به صورت دستی دانلود کنید.]]></word>
   <word key="delta_upgrade_ftp_details" js="0">مشخصات FTP</word>
   <word key="delta_upgrade_ftp_details_err" js="0">اتصال برقرار شد، اما تلاش برای بارگیری یک فایل انجام نشد. بررسی کنید که مسیری که شما ارائه کرده اید صحیح است و به کدام هستهInvision Community نصب شده است و کاربر FTP مجوز خواندن و نوشتن فایل ها را دارد.</word>
   <word key="delta_upgrade_ftp_details_no_match" js="0">یک اتصال برقرار شد، اما فایل conf_global.php در مسیر ارائه شده با conf_global.php برای این سایت مطابقت ندارد. بررسی کنید که مسیری که شما ارائه کرده اید، با جایی که سایت Invision Community نصب شده است، یکی باشد.</word>
@@ -1721,7 +1721,7 @@
   <word key="acpmenu_tab" js="0">زبانه فهرست</word>
   <word key="acpmenu_doaction" js="0">روش</word>
   <word key="acpmenu_restriction" js="0">محدودیت در کنترل پنل مدیریت</word>
-  <word key="acpmenu_restriction_desc" js="0">اگر تعیین شود، فقط مدیران کل که که این محدودیت برایشان فعال است قادر به مشاهده این مورد در فهرست خواهند بود.</word>
+  <word key="acpmenu_restriction_desc" js="0"><![CDATA[>اگر تعیین شود، فقط مدیران کل که که این محدودیت برایشان فعال است قادر به مشاهده این مورد در فهرست خواهند بود.]]></word>
   <word key="acpmenu_norestriction" js="0">-بدون محدودیت-</word>
   <word key="acprestrictions_addgroup" js="0">افزودن گروه محدود</word>
   <word key="acprestrictions_groupkey" js="0">کلید گروه</word>
@@ -1843,10 +1843,10 @@
   <word key="ext__MemberFilter" js="0">ارائه راههای فیلتر اعضا برای ارسال ایمیل انبوه وغیره.</word>
   <word key="ext__CommunityEnhancements" js="0">افزودن خدمات و API های طرف سوم به بخش سرویس های پنل مدیریت.</word>
   <word key="ext__ContentRouter" js="0">مشخص کردن آیتم های محتوایی مورد استفاده در نرم افزار.</word>
-  <word key="ext__CreateMenu" js="0">یک عنصر به بخش &quot;ایجاد ...&quot; اضافه می کند که در هدر تمامی صفحات نمایش می یابد.</word>
+  <word key="ext__CreateMenu" js="0">یک عنصر به بخش "ایجاد ..." اضافه می کند که در هدر تمامی صفحات نمایش می یابد.</word>
   <word key="ext__Dashboard" js="0">افزودن به پیشخوان پنل مدیریت.</word>
   <word key="ext__EditorLocations" js="0">مشخص کردن مکان ویرایشگر WYSIWYG استفاده شده در نرم افزار.</word>
-  <word key="ext__EditorMedia" js="0">اضافه کردن منابع رسانه ای اضافی به دکمه &quot;اضافه کردن رسانه های موجود&quot;، در ویرایشگر.</word>
+  <word key="ext__EditorMedia" js="0">اضافه کردن منابع رسانه ای اضافی به دکمه "اضافه کردن رسانه های موجود"، در ویرایشگر.</word>
   <word key="ext__FileStorage" js="0">مشخص کردن نوع فایل های استفاده شده توسط برنامه</word>
   <word key="ext__FrontNavigation" js="0">اضافه کردن زبانه ها و منوها به نوار ناوبری سراسری.</word>
   <word key="ext__GroupForm" js="0">افزودن تنظیمات گروه.</word>
@@ -1858,7 +1858,7 @@
   <word key="ext__MemberACPProfileTabs" js="0">اضافه کردن یک برگه به نمایه کاربر در AdminCP .</word>
   <word key="ext__MemberACPProfileBlocks" js="0">یک بلوک در AdminCP به نمایه کاربر اضافه کنید.</word>
   <word key="ext__MemberACPProfileContentTab" js="0">اضافه کردن یک تب به بلوک محتوای آمار در نمایه کاربر در AdminCP .</word>
-  <word key="ext__MemberRestrictions" js="0">نمایش محتوا و اضافه کردن زمینه های به فرم مربوط برای هشدارها و محدودیت در  بلوک نمایه کاربر در AdminCP .</word>
+  <word key="ext__MemberRestrictions" js="0"><![CDATA[نمایش محتوا و اضافه کردن زمینه های به فرم مربوط برای هشدارها و محدودیت در  بلوک نمایه کاربر در AdminCP .]]></word>
   <word key="ext__MemberExportPersonalInformation" js="0">اضافه کردن اطلاعات اضافی به اطلاعات شخصی فایل XML .</word>
   <word key="ext__MemberSync" js="0">اجرای کد زمانی که یک اکانت کاربری ایجاد، ویرایش ، ادغام و یا حذف میشود.</word>
   <word key="ext__ModCp" js="0">افزودن به پنل مدیران.</word>
@@ -1882,7 +1882,7 @@
   <word key="ext__RssImport" js="0">درون ریزی مطالب از خوراک RSS</word>
   <word key="app_offline_to_groups" js="0">این برنامه آفلاین است و تنها توسط %s قابل دسترسی است.</word>
   <word key="app_offline_to_all" js="0">این برنامه آفلاین است.</word>
-  <word key="app_force_disabled" js="0"><![CDATA[این برنامه به علت اینکه قدیمی می باشد، امکان فعال سازی آن تا زمانی که بروز شود، نیست. لطفا با رفتن به <a href='{external.client_area}' target='_blank' rel='noopener'>بخش مشتریان</a> آخرین نسخه IPS را دریافت نمایید.]]></word>
+  <word key="app_force_disabled" js="0"><![CDATA[این برنامه قدیمی است و تا زمانی که ارتقا داده نشود فعال نمی‌شود. لطفاً برای دانلود بسته کامل IPS Invision به <a href='{external.client_area}' target='_blank' rel='noopener'>مرکز مشتریان</a> خود مراجعه کنید.]]></word>
   <word key="app_ips_only" js="0">این عملکرد تنها برای برنامه های رسمی Invision در دسترس است.</word>
   <word key="dev_features" js="0">خصوصیت بارز</word>
   <word key="feature_title" js="0">عنوان</word>
@@ -1928,7 +1928,7 @@
   <word key="login_external_id" js="0">ستون ID</word>
   <word key="login_external_id_desc" js="0">نام ستون در جدول مشخص شده در بالا که شامل شناسه های منحصر به فرد برای کاربران است، اگر یکی در دسترس است. اگر چه این گزینه اختیاری است، ارائه یک ارزش نمی تواند مشکلات امنیتی و رفتار غیر منتظره ای را در هنگام تغییر نام ها و آدرس های ایمیل نمایش دهد.</word>
   <word key="login_external_username" js="0">ستون نام کاربری</word>
-  <word key="login_external_username_desc" js="0"><![CDATA[نام ستون در جدول مشخص شده در بالا که شامل نام‌های کاربری است. اگر نوع تأیید هویت را فقط به آدرس ایمیل تنظیم کنید، این مورد لازم نیست، اما در این شرایط (یا اگر <a href='{internal.app=core&module=membersettings&controller=profiles&tab=profilesettings&searchResult=form_username_characters}'>نام کاربری مجاز نباشد</a>)، از کاربران خواسته می‌شود بعد از ورود یک نام نمایشی ارائه دهند.]]></word>
+  <word key="login_external_username_desc" js="0"><![CDATA[نام ستونی در جدول مشخص شده در بالا که حاوی نام‌های کاربری است. اگر نوع احراز هویت را فقط روی آدرس ایمیل تنظیم کنید، اما در این شرایط (یا اگر نام کاربری <a href='{internal.app=core&module=membersettings&controller=profiles&tab=profilesettings&searchResult=form_username_characters}'>مجاز نیست، این مورد ضروری نیست. </a>)، از کاربران خواسته می شود که پس از ورود به سیستم، یک نام نمایشی ارائه کنند.]]></word>
   <word key="login_external_username_err" js="0">اگر احراز هویت شامل نام کاربری است، این فیلد اجباری است.</word>
   <word key="login_external_email" js="0">ستون ایمیل</word>
   <word key="login_external_email_desc" js="0">در این فیلد، نام ستونی از جدول را وارد نمایید که حاوی ایمیل های کاربری می باشد. اگر احراز هویت را بر روی فقط  نام کاربری قرار داده باشید نیاز به این بخش نمی باشد. در این حالت بعد از ورود از کاربر درخواست می گردد تا یک ایمیل وارد نماید.</word>
@@ -1938,7 +1938,7 @@
   <word key="login_external_encryption_other" js="0">غیره</word>
   <word key="login_external_encryption_desc" js="0">نوع فرمت ذخیره شده گذرواژه در بانک اطلاعاتی می باشد.</word>
   <word key="login_external_encryption_plain" js="0">متن ساده</word>
-  <word key="login_external_encryption_password_hash" js="0"><![CDATA[PHP's <code>password_hash()</code> function]]></word>
+  <word key="login_external_encryption_password_hash" js="0"><![CDATA[PHP <code>password_hash()</code> تابع]]></word>
   <word key="login_external_encryption_hash" js="0">کد هش گذرواژه</word>
   <word key="login_external_encryption_hash_desc" js="0"><![CDATA[باید یک رشته با مقدار هش شده <code>$providedPassword</code> برگرداند]]></word>
   <word key="login_external_encryption_validate" js="0">کد تاییدیه گذرواژه</word>
@@ -1946,7 +1946,7 @@
   <word key="login_external_encryption_custom_row" js="0">آرایه‌ای شامل ردیف دیتابیس که با نام کاربری یا آدرس ایمیل ارائه شده مطابقت دارد</word>
   <word key="login_external_encryption_custom_password" js="0">رمز عبور ارائه شده </word>
   <word key="login_external_extra" js="0">شرط های اضافی</word>
-  <word key="login_external_extra_desc" js="0"><![CDATA[اگر تعیین شود، در هنگام فراخوانی اطلاعات کاربری شرط اضافی در انتهای کوئری اضافه می گردد. (مثال: e.g. <code>active=1</code>)]]></word>
+  <word key="login_external_extra_desc" js="0"><![CDATA[در صورت مشخص شدن، هنگامی که پرس و جو برای بازیابی کاربر انجام می شود، عبارت اضافی مشخص شده در اینجا به انتهای پرس و جو اضافه می شود (به عنوان مثال <code> active=1</code>).]]></word>
   <word key="login_live_client" js="0">ID برنامه</word>
   <word key="login_live_client_desc" js="0">جهت دریافت اطلاعات مورد استفاده در این قسمت بر روی راهنما کلیک کنید.</word>
   <word key="login_live_secret" js="0">گذرواژه</word>
@@ -1956,10 +1956,10 @@
   <word key="login_real_name_google" js="0">نام حساب کاربری گوگل</word>
   <word key="login_real_name_microsoft" js="0">نام حساب کاربری مایکروسافت</word>
   <word key="login_real_name_disabled" js="0">درخواست از کاربر برای انتخاب نام نمایشی</word>
-  <word key="login_real_name_desc" js="0"><![CDATA[تنظیمات مربوط به <a href='{internal.app=core&module=membersettings&controller=profiles&tab=profilesettings&searchResult=form_username_characters}' target='_blank' rel='noopener'>کاراکتر های مجاز در نام های نمایشی</a> اعمال خواهد شد]]></word>
+  <word key="login_real_name_desc" js="0"><![CDATA[<a href='{internal.app=core&module=membersettings&controller=profiles&tab=profilesettings&searchResult=form_username_characters}' target='_blank' rel='noop تنظیم نویسه‌های مجاز در نام‌های نمایشی</a> اعمال می‌شود.]]></word>
   <word key="no_access_cp" js="0">شما مجوز دسترسی به پنل مدیریت را ندارید.</word>
-  <word key="cp_bad_ip" js="0"><![CDATA[آدرس IP شما در این نشست مطابقت ندارد.<a href='{external.disable_ip_check}' target='_blank' rel='noopener'>راهنما</a>]]></word>
-  <word key="ip_override_warn" js="0"><![CDATA[هم اکنون این تنظیم به علت قرار گرفتن کد <code>BYPASS_ACP_IP_CHECK</code> در فایل constants.php شما در نشست های پنل مدیریت نادیده گرفته می شود. <a href='{external.disable_ip_check}' target='_blank'>اطلاعات بیشتر</a> ]]></word>
+  <word key="cp_bad_ip" js="0"><![CDATA[آدرس IP شما با این جلسه مطابقت ندارد. <a href='{external.disable_ip_check}' target='_blank' rel='noopener'>راهنما</a>]]></word>
+  <word key="ip_override_warn" js="0"><![CDATA[این تنظیم در حال حاضر برای جلسات AdminCP لغو می شود زیرا ثابت <code>BYPASS_ACP_IP_CHECK</code> در فایل konstants.php شما فعال است. <a href='{external.disable_ip_check}' target='_blank' rel='noopener'>اطلاعات بیشتر</a>]]></word>
   <word key="login_live" js="0">ورود از طریق مایکروسافت</word>
   <word key="login_3p_bad" js="0">%s جزئیات ارائه شده را رد کرد. لطفا جزئیات وارد شده را بررسی و مجدداً سعی کنید.</word>
   <word key="login_facebook_app" js="0">App ID</word>
@@ -1971,7 +1971,7 @@
   <word key="login_facebook_https" js="0"><![CDATA[برای استفاده از ورود به فیس بوک باید یک گواهی SSL بدست آورید. برای اطلاعات بیشتر با ارائه دهنده میزبان خود تماس بگیرید. اگر قبلاً گواهی نامه دارید ، حتماً بررسی کنید <a href='{internal.app=core&module=settings&controller=login&do=httpsCheck}' data-ipsDialog> که درست پیکربندی شده است </a>.]]></word>
   <word key="login_facebook_https_cic" js="0"><![CDATA[به منظور استفاده از ورود با فیس بوک شما باید یک گواهی SSL تهیه کنید. <a href='{external.client_area}' target='_blank' rel='noopener'> برای اطلاعات بیشتر با ما تماس بگیرید </a> ]]></word>
   <word key="login_generic_allow_status_import" js="0">اجازه درون ریزی وضعیت ها؟</word>
-  <word key="login_ldap_err" js="0"><![CDATA[اگر می خواهید از سیستم ورود LDAP استفاده کنید، باید <a href='{external.php_ldap}' target='_blank' rel='noopener'>LDAP PHP extension</a> را روی سرور خود نصب کرده باشید.]]></word>
+  <word key="login_ldap_err" js="0"><![CDATA[برای استفاده از ورود به سیستم LDAP، سرور شما باید <a href='{external.php_ldap}' target='_blank' rel='noopener داشته باشد '>برنامه افزودنی LDAP PHP</a> نصب شد.]]></word>
   <word key="login_ldap_err_connect" js="0">مشخصات LDAP موجود معتبر نیست. لطفا تنظیمات LDAP را بررسی نمایید یا با مدیر سیستم خود تماس بگیرید.</word>
   <word key="ldap_header" js="0">LDAP Server Details</word>
   <word key="ldap_directory" js="0">LDAP Directory Details</word>
@@ -1986,7 +1986,7 @@
   <word key="ldap_uid_field" js="0">فیلد ID</word>
   <word key="ldap_uid_field_desc" js="0">The name of the field in the directory which contains unique identifiers for users.</word>
   <word key="ldap_name_field" js="0">فیلد نام نمایشی</word>
-  <word key="ldap_name_field_desc" js="0"><![CDATA[The name of the field in the directory which contains display names. This is not required if you set the Authentication Type to Email Address only, however, in that circumstance (or if the username <a href='{internal.app=core&module=membersettings&controller=profiles&tab=profilesettings&searchResult=form_username_characters}'>is not allowed</a>), users will be prompted to provide a display name after signing in.]]></word>
+  <word key="ldap_name_field_desc" js="0"><![CDATA[نام فیلد در فهرستی که حاوی نام‌های نمایشی است. اگر نوع احراز هویت را فقط روی آدرس ایمیل تنظیم کنید، اما در این شرایط (یا اگر نام کاربری <a href='{internal.app=core&module=membersettings&controller=profiles&tab=profilesettings&searchResult=form_username_characters}'>مجاز نیست، این مورد ضروری نیست. </a>)، از کاربران خواسته می شود که پس از ورود به سیستم، یک نام نمایشی ارائه کنند.]]></word>
   <word key="ldap_email_field" js="0">فیلد آدرس ایمیل</word>
   <word key="ldap_email_field_desc" js="0">The name of the field in the directory which contains the email addresses. This is not required if you set the Authentication Type to Username only, however, in that circumstance, users will be prompted to provide a email address after signing in.</word>
   <word key="ldap_filter" js="0">فیلتر اضافی</word>
@@ -2004,7 +2004,7 @@
   <word key="login_twitter_name_screen" js="0">نام کاربری توییتر</word>
   <word key="login_twitter_name_screen_desc" js="0">مثال: IPS</word>
   <word key="login_twitter_name_any" js="0">اعلام به کاربر جهت انتخاب نام</word>
-  <word key="login_twitter_name_desc" js="0"><![CDATA[اگر نام درون ریزی شده <a href='{internal.app=core&module=membersettings&controller=profiles&tab=settings&searchResult=username_characters}'>مجاز نباشد</a>، به کاربر گفته خواهد شد تا نامی جدید برای خود بعد از ورود تعریف نماید.]]></word>
+  <word key="login_twitter_name_desc" js="0"><![CDATA[اگر نام وارد شده <a href='{internal.app=core&module=membersettings&controller=profiles&tab=profilesettings&searchResult=form_username_characters}'>مجاز نیست</a >، از کاربران خواسته می شود که پس از ورود به سیستم، یک نام نمایشی ارائه کنند.]]></word>
   <word key="login_handler_Google" js="0">گوگل</word>
   <word key="login_google_id" js="0">شناسه مشتری</word>
   <word key="login_google_id_desc" js="0">جهت دریافت اطلاعات مورد استفاده در این قسمت بر روی راهنما کلیک کنید.</word>
@@ -2026,7 +2026,7 @@
   <word key="login_acp_will_reauth" js="0">کاربر هنگام ورود به AdminCP مجددا گذرواژه خود را وارد می کند تا بتواند این گزینه را فعال کند.</word>
   <word key="login_register" js="0">در زمانی که کاربر برای اولین بار وارد سایت شد</word>
   <word key="login_register_enabled" js="0">ایجاد حساب کاربری</word>
-  <word key="login_register_enabled_desc" js="0"><![CDATA[در صورت لزوم، از کاربر خواسته خواهد شد که یک نام نمایش دهنده و آدرس ایمیل ارائه دهد. تنظیمات <a href='{internal.app=core&module=settings&controller=login&tab=registration&searchResult=reg_auth_type}' target='_blank' rel='noopener'> روش اعتبارسنجی برای حسابهای جدید </a> اعمال خواهد شد، مگر اینکه آدرس ایمیل ارائه شده توسط ارائه شده توسط کنترل ورود به سیستم که در آن به صورت معتبر در نظر گرفته شده است.]]></word>
+  <word key="login_register_enabled_desc" js="0"><![CDATA[در صورت لزوم، از کاربر خواسته می شود نام نمایشی و آدرس ایمیل را ارائه دهد. تنظیم <a href='{internal.app=core&module=settings&controller=login&tab=registration&searchResult=reg_auth_type}' target='_blank' rel='noopener'>روش اعتبارسنجی برای حساب‌های جدید</a> اعمال می‌شود مگر اینکه آدرس ایمیل ارائه شده توسط کنترل کننده ورود که در این صورت اعتبار سنجی در نظر گرفته می شود.]]></word>
   <word key="login_register_disabled" js="0">نپذیرفتن ورود</word>
   <word key="login_register_disabled_desc" js="0"><![CDATA[ممکن است بخواهید این گزینه را انتخاب کنید اگر <a href='{internal.app=core&module=settings&controller=login&tab=registration&searchResult=allow_reg}' target='_blank' rel='noopener'> ثبت نام‌های غیرفعال </a> یا محدودیت های سنی سایت خود داشته باشید.]]></word>
   <word key="login_register_desc" js="0">اگر کاربر قبلا با این روش وارد نشده است، اما قبلا یک حساب کاربری با آدرس ایمیل ارائه شده توسط روش های ورود داشته باشد ، از کاربر خواسته می شود که حساب ها را به همان صورت که از صفحه تنظیمات حساب خود صرف نظر از این که چه تنظیماتی انجام داده است،تنظیم کند.</word>
@@ -2041,7 +2041,7 @@
   <word key="filestorage__core_Login" js="0">نماد روش های ورود</word>
   <word key="oauth_custom_button_color" js="0">رنگ دکمه ورود</word>
   <word key="oauth_custom_button_icon" js="0">لوگو</word>
-  <word key="oauth_custom_button_icon_desc" js="0">برای بهترین نتایج، از یک آیکون با پس زمینه شفاف استفاده نمایید. ، که در آن تصویر مربع و حداقل 48 × 48 پیکسل است.</word>
+  <word key="oauth_custom_button_icon_desc" js="0"><![CDATA[برای بهترین نتیجه، از یک نماد سفید ساده روی پس‌زمینه شفاف استفاده کنید، جایی که تصویر مربع است و حداقل 48 48 پیکسل.]]></word>
   <word key="oauth_custom_button_text" js="0">متن دکمه ورود</word>
   <word key="oauth_custom_button_text_invision_placeholder" js="0">ورود به سیستم با [نام سایت]</word>
   <word key="oauth_custom_button_text_custom_placeholder" js="0">ورود با [اسم سایت]</word>
@@ -2077,10 +2077,10 @@
   <word key="login_handler_Google_info" js="0"><![CDATA[برای به دست آوردن این جزئیات، <a href='{external.login_google}' target='_blank' rel='noopener'> ورود با حساب گوگل </a>را مطالعه کنید. URI Redirect برای استفاده <code>%s</code> می باشد]]></word>
   <word key="login_handler_Linkedin_info" js="0"><![CDATA[Follow the <a href='{external.login_linkedin}' target='_blank' rel='noopener'>LinkedIn Login</a> guide to obtain these details. The Redirect URL to use is <code>%s</code>]]></word>
   <word key="login_handler_Live_info" js="0"><![CDATA[Follow the <a href='{external.login_live}' target='_blank' rel='noopener'>Microsoft Login</a> guide to obtain these details. The Redirect URL to use is <code>%s</code>]]></word>
-  <word key="login_handler_Twitter_info" js="0"><![CDATA[برای به دست آوردن این جزئیات،  <a href='{external.login_twitter}' target='_blank' rel='noopener'>راهنمای ورود توییتر </a> را دنبال کنید. انتخاب URL Redirect برای استفاده است <code>%s</code>]]></word>
-  <word key="oauth_setup_error_generic" js="0"><![CDATA[The provider is not responding as expected. Check the application settings are correct and you have registered the correct Redirect URI.<br><code>%s</code>]]></word>
+  <word key="login_handler_Twitter_info" js="0">برای به دست آوردن این جزئیات،  <a href='{external.login_twitter}' target='_blank' rel='noopener'>راهنمای ورود توییتر </a> را دنبال کنید. انتخاب URL Redirect برای استفاده است <code>%s</code></word>
+  <word key="oauth_setup_error_generic" js="0"><![CDATA[ارائه دهنده مطابق انتظار پاسخ نمی دهد. بررسی کنید تنظیمات برنامه صحیح است و URI تغییر مسیر صحیح را ثبت کرده اید.<br><code>%s</code>]]></word>
   <word key="oauth_setup_error_secret" js="0">تنظیمات برنامه ارائه شده درست نیست.</word>
-  <word key="oauth1_setup_error" js="0"><![CDATA[ارائه دهنده همانطور که انتظار می رود پاسخ نمی دهد. بررسی کنید که تنظیمات برنامه صحیح است. <br><code>%s</code> ]]></word>
+  <word key="oauth1_setup_error" js="0">ارائه دهنده همانطور که انتظار می رود پاسخ نمی دهد. بررسی کنید که تنظیمات برنامه صحیح است. <br><code>%s</code> </word>
   <word key="account_management_settings" js="0">مدیریت حساب</word>
   <word key="account_management_email_pass" js="0">تغییرات ایمیل و گذرواژه</word>
   <word key="account_management_email_pass_blurb" js="0">شما نیاز ندارید این تنظیمات را تغییر دهید مگر اینکه سایت شما در ابتدا از یک روش ورود به سیستم استفاده کند که داده های حساب مانند پایگاه داده خروجی خارجی یا LDAP را مدیریت می کند.</word>
@@ -2108,11 +2108,11 @@
   <word key="allow_forgot_password_target" js="0">آدرس فراموشی گذرواژه</word>
   <word key="allow_forgot_password_desc" js="0">اگر روش ورود اولیه شما دارای محدودیت در گذرواژه های مجاز باشد ممکن است بخواهید این را تغییر دهید . اگر کاربر تنها با یک روش که از کلمه عبور استفاده نمی کند وارد شده است، با استفاده از ابزار رمز عبور فراموش شده، رمز عبور محلی برای آنها ایجاد می شود اگر ورودی استاندارد ورودی فعال باشد.</word>
   <word key="login_sync_email_changes" js="0">وقتی آدرس ایمیل محلی تغییر می کند</word>
-  <word key="login_sync_email_changes_desc" js="0"><![CDATA[i.e. when the member changes their email in their Account Settings (<a href='{internal.app=core&module=settings&controller=login&tab=accountsettings&searchResult=allow_email_changes}' target='_blank' rel='noopener'>if allowed</a>) or an administrator changes a member's email in the AdminCP.]]></word>
+  <word key="login_sync_email_changes_desc" js="0"><![CDATA[i.e. وقتی عضو ایمیل خود را در تنظیمات حساب خود تغییر می‌دهد (<a href='{internal.app=core&module=settings&controller=login&tab=accountsettings&searchResult=allow_email_changes}' target='_blank' rel='noopener'>در صورت مجاز بودن</a>) یا یک مدیر ایمیل یک عضو را در AdminCP تغییر می دهد.]]></word>
   <word key="login_sync_password_changes" js="0">هنگامی که گذرواژه داخلی تغییر کرد</word>
-  <word key="login_sync_password_changes_desc" js="0"><![CDATA[i.e. when the member changes their password in their Account Settings (<a href='{internal.app=core&module=settings&controller=login&tab=accountsettings&searchResult=allow_password_changes}' target='_blank' rel='noopener'>if allowed</a>), they use the forgot password tool, or an administrator changes a member's password in the AdminCP.]]></word>
+  <word key="login_sync_password_changes_desc" js="0"><![CDATA[i.e. هنگامی که عضو رمز عبور خود را در تنظیمات حساب خود تغییر می دهد (<a href='{internal.app=core&module=settings&controller=login&tab=accountsettings&searchResult=allow_password_changes}' target='_blank' rel='noopener'>در صورت مجاز بودن</a>) ، آنها از ابزار رمز عبور فراموش شده استفاده می کنند یا یک مدیر رمز عبور یک عضو را در AdminCP تغییر می دهد.]]></word>
   <word key="login_sync_name_changes" js="0">هنگامی که نام نمایشی داخلی تغییر کند</word>
-  <word key="login_sync_name_changes_desc" js="0"><![CDATA[به عنوان مثال وقتی کاربر، نام نمایشی خود را در تنظیمات حساب خود تغییر می دهد  (<a href='{internal.app=core&module=members&controller=groups&searchResult=group_username}' target='_blank' rel='noopener'>در صورت اجازه </a>) یا یک مدیر ارشد نام کاربری را در پنل مدیریت تغییر دهد.]]></word>
+  <word key="login_sync_name_changes_desc" js="0"><![CDATA[i.e. وقتی عضو نام نمایشی خود را در تنظیمات حساب خود تغییر می‌دهد (<a href='{internal.app=core&module=members&controller=groups&searchResult=group_username}' target='_blank' rel='noopener'>در صورت مجاز</a>) یا یک مدیر نام نمایشی یک عضو را در AdminCP تغییر می دهد.]]></word>
   <word key="login_sync_changes_yes" js="0">همگام سازی با پایگاه داده از راه دور</word>
   <word key="login_sync_changes_no" js="0">کاری نکن</word>
   <word key="login_sync_password_changes_no" js="0">کاری نکن</word>
@@ -2131,19 +2131,19 @@
   <word key="login_update_changes_no" js="0">کاری نکن</word>
   <word key="login_handler_InvisionCommunity" js="0">سایت دیگری بر اساس IPS</word>
   <word key="login_handler_InvisionCommunity_info_title" js="0">تنظیمات سایت</word>
-  <word key="login_handler_InvisionCommunity_info" js="0"><![CDATA[در سایت IPS دیگر، به <strong> پنل ادمین » سیستم » OAuth و REST  بروید و یک مشتری  OAuth  ایجاد کنید.</strong> برای کسب اطلاعات بیشتر، راهنمای <a href='{external.login_invision}' target='_blank' rel='noopener'>  اتصال دو سایت IPS را ببینید.</a>]]></word>
+  <word key="login_handler_InvisionCommunity_info" js="0"><![CDATA[در انجمن دیگر، به <strong>AdminCP &rarr; سیستم &rarr; API</strong>و یک OAuth Client ایجاد کنید. برای اطلاعات بیشتر، به راهنمای <a href='{external.login_invision}' target='_blank' rel='noopener'>اتصال دو انجمن Invision</a> مراجعه کنید.]]></word>
   <word key="oauth_invision_grant_type" js="0">روش ورود</word>
   <word key="oauth_invision_grant_type_desc" js="0">اطمینان حاصل کنید که همان گزینه را انتخاب کنید همانطور که در هنگام تنظیم سایت IPS دیگر انجام دادید.</word>
   <word key="invision_grant_type_authorization_code" js="0">دکمه (سبک شبکه اجتماعی)</word>
   <word key="invision_grant_type_authorization_code_desc" js="0">کاربر بر روی یک دکمه کلیک میکند که آنها را به سایت IPS دیگر هدایت میکند، جایی که آنها اجازه ورود به سیستم را میدهد، مانند ورود به سیستم با استفاده از یک شبکه اجتماعی.</word>
-  <word key="invision_grant_type_password" js="0">نام نمایشی یا ایمیل و رمز عبور</word>
+  <word key="invision_grant_type_password" js="0"><![CDATA[نام نمایشی یا ایمیل و رمز عبور]]></word>
   <word key="invision_grant_type_password_desc" js="0">کاربر عینا همان مشخصاتی که در سایت دیگر برای ورود وارده کرده است را اینجا وارد می کند اما بدون آنکه redirect صورت گیرد.</word>
   <word key="invision_grant_type_server_authorization_code" js="0">دکمه (سبک شبکه اجتماعی)</word>
   <word key="invision_grant_type_server_authorization_code_desc" js="0">کاربر بر روی دکمه ای کلیک می کند که آنها را به این سایت هدایت می کند که در آن ورود به سیستم را مجاز می سازد، مشابه با ورود به سیستم با استفاده از یک شبکه اجتماعی</word>
-  <word key="invision_grant_type_server_password" js="0">نام نمایشی یا ایمیل و گذرواژه</word>
+  <word key="invision_grant_type_server_password" js="0"><![CDATA[نام نمایشی یا ایمیل و گذرواژه]]></word>
   <word key="invision_grant_type_server_password_desc" js="0">کاربر مجوزهای مشابه ای را که برای ورود به این سایت به طور مستقیم بدون هدایت استفاده می کنند، وارد می کند.</word>
   <word key="oauth_invision_endpoint" js="0">آدرس دیگر سایت برپایه IPS</word>
-  <word key="oauth_invision_endpoint_internal" js="0">Enter the URL to the other community</word>
+  <word key="oauth_invision_endpoint_internal" js="0">آدرس دیگر سایت برپایه IPS را وارد کنید</word>
   <word key="oauth_wordpress_endpoint" js="0">آدرس سایت وردپرسی</word>
   <word key="login_handler_custom_oauth_info" js="0"><![CDATA[URI تغییر مسیر برای استفاده<code>{internal.interface.oauth/callback/}</code> است]]></word>
   <word key="login_handler_show_in_ucp" js="0">نمایش در تنظیمات حساب؟</word>
@@ -2218,7 +2218,7 @@
   <word key="any_group" js="0">- هر گروهی -</word>
   <word key="member_name_exists" js="0">نام نمایشی توسط کاربر دیگری در حال استفاده است.</word>
   <word key="member_name_exists_admin" js="0">این نام از طریق %s در حال استفاده است.</word>
-  <word key="member_email_exists" js="0">این آدرس ایمیل توسط کاربر دیگری استفاده شده است.</word>
+  <word key="member_email_exists" js="0"><![CDATA[این آدرس ایمیل توسط یک عضو دیگر استفاده می‌شود. <a href='%s'>آیا باید رمز عبور خود را بازنشانی کنید؟</a>]]></word>
   <word key="member_email_exists_admin" js="0">این آدرس ایمیل از طریق %s در حال استفاده است.</word>
   <word key="members_pass_change" js="0">خالی بگذارید مگر اینکه بخواهید  گذرواژه را تغییر دهید</word>
   <word key="member__core_BasicInformation" js="0">اطلاعات کاربری</word>
@@ -2313,7 +2313,7 @@
   <word key="acplog__members_edited_restrictions" js="0">ویرایش هشدارها / محدودیت ها برای کاربر : %s</word>
   <word key="acplog__members_edited_photo" js="0">عکس نمایه کاربر : %s ویرایش شده</word>
   <word key="acplog__members_edited_cover_photo" js="0">عکس کاور کاربر : %s ویرایش شده</word>
-  <word key="acplog__members_edited_login" js="0">ویرایش گزینه‌های همگام‌سازی ورود اجتماعی برای کاربر: %s</word>
+  <word key="acplog__members_edited_login" js="0">گزینه های همگام سازی ورود به سیستم با شبکه‌های اجتماعی را برای کاربر تغییر داد : %s</word>
   <word key="acplog__members_edited_login_unlink" js="0">جدا کردن گزینه ورود با سیستم اجتماعی برای کاربر : %s</word>
   <word key="acplog__members_disabled_autologin" js="0">غیرفعال کردن ورود اتوماتیک یک دستگاه برای کاربر : %s</word>
   <word key="acplog__members_deleted" js="0">کاربر حذف شد : %s</word>
@@ -2400,7 +2400,7 @@
   <word key="members_posts" js="0">تعداد ارسال</word>
   <word key="member_edit_promoted" js="0">کاربر ذخیره شد و به صورت خودکار به %s ارتقا داده شد</word>
   <word key="member_all_content" js="0">حذف تمام مطالب</word>
-  <word key="member_delete_message" js="0"><![CDATA[آیا مطمئن هستید که می خواهید <strong> به طور دائم </strong> این حساب کاربری را حذف کنید؟]]></word>
+  <word key="member_delete_message" js="0"><![CDATA[آیا مطمئن هستید که می‌خواهید این عضو را <strong>برای همیشه حذف کنید</strong>؟]]></word>
   <word key="member_delete_confirm" js="1">اخطار! با هوشیاری پیش بروید!</word>
   <word key="member_delete_confirm_desc" js="1">شما درحال حذف یک کاربر به صورت دائمی از تالار خود می باشید. این کار قابل بازگشت نیست. حساب های کاربری غیر قابل بازگشت میشوند.</word>
   <word key="reputation_remove_given" js="0">حذف اعتبار های داده شده</word>
@@ -2416,7 +2416,7 @@
   <word key="import_members_csv_file_err" js="0">فایل csv وارد شده معتبر نمی باشد.</word>
   <word key="import_column" js="0">ستون از فایل csv</word>
   <word key="import_as" js="0">درون ریزی به عنوان</word>
-  <word key="import_date_explain" js="0"><![CDATA[تقریبا <a href='{external.date_formats}' target='_blank' rel='noopener'>فرمت های تاریخ</a> تاریخ قابل استفاده هستند.]]></word>
+  <word key="import_date_explain" js="0"><![CDATA[مگر اینکه خلاف آن مشخص شده باشد، تاریخ‌ها می‌توانند در <a href='{external.date_formats}' target='_blank' rel='noopener'> بیشتر قالب‌ها باشند. </a>.]]></word>
   <word key="do_not_import" js="0">- چیزی درون ریزی نگردد -</word>
   <word key="import_basic_data" js="0">اطلاعات پایه</word>
   <word key="import_group" js="0">گروه</word>
@@ -2484,7 +2484,7 @@
   <word key="member_export_security_member" js="0">عضو</word>
   <word key="member_export_security_column" js="0">ستون</word>
   <word key="member_export_security_value" js="0">مقدار</word>
-  <word key="member_export_security_footer" js="0"><![CDATA[اگر شما داده ها را بررسی نموده و مطمئن هستید هیچ ریسک امنیتی ندارند شما می توانید <a href='{internal.app=core&module=members&controller=members&do=export&_step=export_choose_data&includeInsecure=1}' data-confirm data-confirmSubMessage='این کار باعث ایجاد سطر هایی خواهد شد که ممکن است خطرناک باشند. تنها زمانی این کار را انجام دهید که مطمئن باشید هیچ خطری وجود ندارد.'>لیست کامل را حتی با قسمت های ذکر شده دریافت نمایید</a>.]]></word>
+  <word key="member_export_security_footer" js="0">اگر شما داده ها را بررسی نموده و مطمئن هستید هیچ ریسک امنیتی ندارند شما می توانید <a href='{internal.app=core&amp;module=members&amp;controller=members&amp;do=export&amp;_step=export_choose_data&amp;includeInsecure=1}' data-confirm data-confirmSubMessage='این کار باعث ایجاد سطر هایی خواهد شد که ممکن است خطرناک باشند. تنها زمانی این کار را انجام دهید که مطمئن باشید هیچ خطری وجود ندارد.'>لیست کامل را حتی با قسمت های ذکر شده دریافت نمایید</a>.</word>
   <word key="members_manage_error" js="0">مشکلی با پردازش درخواست مربوطه رخ داده است، لطفا بعدا تلاش نمایید.</word>
   <word key="member_history" js="0">تاریخچه کاربر</word>
   <word key="member_history_member" js="0">تاریخچه کاربری %s</word>
@@ -2497,7 +2497,7 @@
   <word key="device_ips_from_member" js="0">ورود های %s</word>
   <word key="device_ips_from_member_info" js="0"><![CDATA[این جدول تمام آدرس های IP مربوط به %s را که از آنها برای ورود به تالارهای گفتگو با این دستگاه استفاده کرده است، نمایش می دهد. <a href="%s"> نمایش تمام IP های استفاده شده %1$s ←</a>]]></word>
   <word key="members_ips_info" js="0">این جدول تمام آدرس های IP ای که %s در سایت استفاده کرده است نمایش می دهد. از آنجایی که آدرس های IP در یک شبکه ثابت نیست، کاربران IP های مختلفی خواهند داشت. برای مثال اگر کاربر از طریق منزل وارد سایت شود و سپس در محل کار از سایت بازدید کند، شما در اینجا دو IP مختلف خواهید دید. به یاد داشته باشید که حتی اگر کاربر از یک مکان از سایت بازدید کند باز هم IP های مختلفی خواهد داشت و شما در اینجا IP های متفاوتی از او خواهید دید.</word>
-  <word key="geolocation_enable_service" js="0"><![CDATA[<a href='{internal.app=core&module=applications&controller=enhancements}' target='_blank'>فعال سازی سرویس GeoIP جهت تخمین موقعیت مکانی</a>]]></word>
+  <word key="geolocation_enable_service" js="0"><![CDATA[<a href='{internal.app=core&module=applications&controller=enhancements}' target='_blank' rel='noopener'>سرویس GeoIP را فعال کنید برای تخمین مکان</a>]]></word>
   <word key="device_table_ip_address" js="0">آدرس IP</word>
   <word key="device_table_location" js="0">* موقعیت برآورد شده</word>
   <word key="device_table_last_seen" js="0">آخرین ورود</word>
@@ -2534,7 +2534,7 @@
   <word key="device_handler_unknown_desc" js="0">کاربر ممکن است بعد از استفاده از ابزار بازیابی کلمه عبور به صورت خودکار وارد حساب کاربری خود شده باشد</word>
   <word key="new_device_email_intro" js="0">شما از دستگاه جدیدی وارد حساب کاربری خود شده اید که قبلا از آن استفاده نکرده اید.</word>
   <word key="new_device_email_footer" js="0">اگر شما بوده‌اید، لطفاً این ایمیل را نادیده بگیرید. در غیر این صورت شما باید حساب خود را بلافاصله امن کنید.</word>
-  <word key="new_device_email_action_1" js="0">بررسی فعالیت ها و امن کردن حساب کاربری</word>
+  <word key="new_device_email_action_1" js="0"><![CDATA[>بررسی فعالیت ها و امن کردن حساب کاربریامن]]></word>
   <word key="new_device_email_action_2" js="0">امن کردن حساب کاربری</word>
   <word key="device_list_secure_account" js="0">چیز مشکوکی دیده اید؟</word>
   <word key="secure_account" js="0">امن کردن حساب کاربری</word>
@@ -2570,8 +2570,8 @@
   <word key="set_password_title" js="0">در حال ایجاد کلمه عبور برای %s</word>
   <word key="set_password_stored" js="0">با تشکر، کلمه عبور ذخیره شد و شما هم اکنون وارد شدید.</word>
   <word key="active_account_integrations" js="0">یکپارچگی حساب های فعال</word>
-  <word key="devices_and_locations" js="0">موقعیت ها و دستگاه ها</word>
-  <word key="devices_and_ips" js="0">آدرس IP و دستگاه ها</word>
+  <word key="devices_and_locations" js="0"><![CDATA[مکان‌ها و دستگاه‌ها]]></word>
+  <word key="devices_and_ips" js="0"><![CDATA[آدرس IP و دستگاه ها]]></word>
   <word key="registration_ip" js="0">IP هنگام ثبت نام</word>
   <word key="last_used_ip" js="0">آخرین IP استفاده شده</word>
   <word key="view_all_ip_addresses" js="0">نمایش تمامی آدرس های IP</word>
@@ -2590,7 +2590,7 @@
   <word key="profile_data" js="0">اطلاعات نمایه</word>
   <word key="content_statistics" js="0">آمار مطالب</word>
   <word key="content_count_breakdown" js="0">تعداد مطالب به تفکیک</word>
-  <word key="warnings_and_restrictions" js="0">محدودیت ها و اخطار ها</word>
+  <word key="warnings_and_restrictions" js="0"><![CDATA[محدودیت‌ها و اخطارها]]></word>
   <word key="set_manually" js="0">تنظیم دستی</word>
   <word key="view_attachments" js="0">مشاهده پیوست ها</word>
   <word key="no_oauth_apps" js="0">هیچ برنامه ای از OAuth استفاده نمی کند</word>
@@ -2611,7 +2611,7 @@
   <word key="all_recent_account_activity" js="0">تمامی فعالیت های اخیر حساب کاربری</word>
   <word key="memberlog_app_core" js="0">امکانات</word>
   <word key="members_name_missing_as_reserved" js="0">بدون اسم</word>
-  <word key="members_name_missing_add" js="0"><![CDATA[<em>بدون اسم</em>]]></word>
+  <word key="members_name_missing_add" js="0"><![CDATA[<em>بدون نام</em>]]></word>
   <word key="member_reserved_pending_deletion" js="0">این کاربر به زودی به صورت خودکار حذف خواهد شد.</word>
   <word key="members_name_missing_as_reserved_tt" js="0"><![CDATA[اعضای ایجاد شده اخیر بدون نام یا آدرس ایمیل که هرگز بازدید نکرده اند به طور خودکار حذف می شوند. <br> این اتفاق ممکن است رخ دهد اگر ثبت نام آنها  با یک شبکه اجتماعی شروع شده و ثبت نام آنها کامل نشده باشد. اگر آنها به زودی وارد سیستم شوند ، از آنها خواسته می شود که جزئیات گمشده را ارائه دهند و سپس قادر به استفاده از حساب به طور معمول باشند ، در غیر این صورت این حساب به زودی حذف خواهد شد. ]]></word>
   <word key="member_reserved_external_email" js="0">این کاربر آدرس ایمیل ندارد</word>
@@ -2812,13 +2812,13 @@
   <word key="notifications_no_list" js="0">بدون لیست اعلامیه</word>
   <word key="notification__container" js="0">در %s</word>
   <word key="notifications__core_Content" js="0">مطالب مشترک شده</word>
-  <word key="notifications__core_MyStuff" js="0">اشاره ها و مطالب</word>
+  <word key="notifications__core_MyStuff" js="0"><![CDATA[اشاره‌ها و مطالب]]></word>
   <word key="notifications__core_MyStuff_desc" js="0">این اعلامیه ها در هنگام اشاره به شما در مطلبی، برای شما ارسال خواهند شد.</word>
   <word key="notifications__core_Likes" js="0">واکنش ها</word>
   <word key="notifications__core_Likes_desc" js="0">این اعلامیه ها هر زمان که کسی به محتوایی که پست کرده اید واکنش نشان دهد ارسال می شود.</word>
   <word key="notifications__core_Content_content" js="0">مطالب دنبال شده</word>
   <word key="notifications__core_Content_content_desc" js="0">این اعلان ها هر زمان فعالیت جدیدی در مورد مواردی که آن را دنبال می کنید وجود داشته باشد و تصمیم به دریافت سریع اعلان ها داشته باشید ، ارسال می شوند.</word>
-  <word key="notifications__core_Content_content_adminDdesc" js="0"><![CDATA[این اعلامیه ها در زمانی که فعالیت جدیدی در مطالبی که شما دنبال می کنید اتفاق افتد و شما درخواست ارسال فوری آن را کرده باشید، ارسال می شوند.br><strong>نکته:</strong> فقط بروی اعلامیه های که بر روی ارسال فوری تنظیم شده است، تاثیر گذار است و بر روی تنظیمات خلاصه های ارسالی روزانه و هفتگی تاثیری ندارد.]]></word>
+  <word key="notifications__core_Content_content_adminDdesc" js="0"><![CDATA[این اعلامیه ها در زمانی که فعالیت جدیدی در مطالبی که شما دنبال می کنید اتفاق افتد و شما درخواست ارسال فوری آن را کرده باشید، ارسال می شوند.br><strong>توجه:</strong> فقط بروی اعلامیه های که بر روی ارسال فوری تنظیم شده است، تاثیر گذار است و بر روی تنظیمات خلاصه های ارسالی روزانه و هفتگی تاثیری ندارد.]]></word>
   <word key="notifications__core_Content_members" js="0">کاربران دنبال کننده</word>
   <word key="notifications__core_Content_members_desc" js="0">این اعلامیه در هنگامی که کاربری را که دنبال می کنید مطلب جدیدی ارسال کرد، برای شما ارسال خواهد شد.</word>
   <word key="notifications__new_comment" js="0">زمانی که به محتواهایی که دنبال میکنید دیدگاه جدیدی ارسال شد</word>
@@ -2826,7 +2826,7 @@
   <word key="notifications__follower_content" js="0">زمانی شخصی که من آن را دنبال می کنم مطلبی ارسال کرد</word>
   <word key="notifications__follower_content_desc" js="0">فردی را که دنبال می کنم، مطلبی ارسال کرد</word>
   <word key="notifications__core_Profile" js="0">نمایه</word>
-  <word key="notifications__core_Profile_status" js="0">بروزرسانی وضعیت ها و دیدگاه های نمایه</word>
+  <word key="notifications__core_Profile_status" js="0"><![CDATA[بروزرسانی وضعیت‌ها و دیدگاه‌های نمایه]]></word>
   <word key="notifications__core_Profile_status_desc" js="0">این اعلامیه ها در زمانی که فردی در نمایه شما مطلبی ارسال کرد یا به یک وضعیت شما در نمایه تان پاسخ داد، ارسال می شوند.</word>
   <word key="notifications__core_Profile_follow" js="0">دنبال کنندگان جدید</word>
   <word key="notifications__core_Profile_follow_desc" js="0">این اعلامیه هنگامی که کاربری جدید شما را دنبال کرد، برای شما ارسال خواهد شد.</word>
@@ -2943,9 +2943,9 @@
   <word key="modlog__best_answer_unset" js="0">عدم تعیین ارسال #%s به عنوان بهترین پاسخ</word>
   <word key="modlog__best_answer_set_stats" js="0">Post set as best answer</word>
   <word key="modlog__best_answer_unset_stats" js="0">Post unset as best answer</word>
-  <word key="mailsub__core_admin_reg" js="0">حساب کاربری در {setting=&quot;board_name&quot;}  ایجاد شد</word>
+  <word key="mailsub__core_admin_reg" js="0">حساب کاربری در {setting="board_name"}  ایجاد شد</word>
   <word key="mailsub__core_contact_form" js="0">پیام کاربر از طریق فرم تماس با ما ارسال می شود</word>
-  <word key="mailsub__core_digest" js="0">خلاصه {setting=&quot;board_name&quot;} شما</word>
+  <word key="mailsub__core_digest" js="0">خلاصه {setting="board_name"} شما</word>
   <word key="mailsub__core_email_change" js="0">لطفا تغییر آدرس ایمیل خود را تایید کنید</word>
   <word key="mailsub__core_lost_password_init" js="0">کارهای لازم برای بازیابی گذرواژه</word>
   <word key="mailsub__core_notification_mention" js="0"><![CDATA[از شما در {$content->indefiniteArticle( $email->language )} توسط {$content->author()->name|raw} نامبرده شده است]]></word>
@@ -2967,8 +2967,8 @@
   <word key="mailsub__core_notification_member_follow" js="0"><![CDATA[{$member->name|raw} از حالا، شما را دنبال می کند]]></word>
   <word key="mailsub__core_notification_report_center" js="0"><![CDATA[{expression="\IPS\Member::load( $latestReport['report_by'] )->name" raw="true"} چیزی را گزارش کرده است]]></word>
   <word key="mailsub__core_notification_automatic_moderation" js="0">تعداد عملیات های مدیریت خودکار به سقف خود رسید</word>
-  <word key="mailsub__core_notification_unapproved_content" js="0"><![CDATA[{$member->name|raw}  {$email->language->addToStack("__indefart_" . $content::$title )} ارسال کرده است که نیاز به تایید دارد.]]></word>
-  <word key="mailsub__core_notification_unapproved_content_bulk" js="0"><![CDATA[{$member->name|raw} has posted new {$email->language->addToStack( $contentClass::$title . "_pl" )} requiring approval]]></word>
+  <word key="mailsub__core_notification_unapproved_content" js="0"><![CDATA[{$member->name|raw} {$email->language->addToStack("__indefart_" را پست کرده است. $content::$title ) } نیاز به تأیید دارد]]></word>
+  <word key="mailsub__core_notification_unapproved_content_bulk" js="0"><![CDATA[{$member->name|raw} {$email->language->addToStack($contentClass::$title . "_pl" جدید ارسال کرده است. )} نیاز به تأیید دارد]]></word>
   <word key="mailsub__core_upgrade" js="0">IPS نسخه {$latestVersion} هم اکنون در دسترس است</word>
   <word key="mailsub__core_unrouted" js="0"><![CDATA[پاسخ به: {$incomingEmail->subject}]]></word>
   <word key="mailsub__core_notification_unapproved_club" js="0"><![CDATA[{$club->owner->name|raw} یک کلوپ جدید ساخته است که نیاز به تایید دارد: {$club->name|raw}]]></word>
@@ -3299,7 +3299,7 @@
   <word key="sendgrid_api_key" js="0">کلید API مربوط به SendGrid</word>
   <word key="sendgrid_enable_need_details" js="0">برای فعال کردن یکپارچه سازی SendGrid باید یک کلید SendGrid API تهیه کنید.</word>
   <word key="sendgrid_bad_credentials" js="0">کلید API ارائه‌شده به نظر می‌آید نادرست باشد. لطفاً کلید API خود را بررسی کرده و دوباره امتحان کنید.</word>
-  <word key="sendgrid_bad_scopes" js="0">API Key معتبر است اما مجوزهای لازم را ندارد. شما باید دسترسی کامل به مجوز &quot;ارسال نامه&quot; را در تنظیمات کلید API فعال کنید.</word>
+  <word key="sendgrid_bad_scopes" js="0">API Key معتبر است اما مجوزهای لازم را ندارد. شما باید دسترسی کامل به مجوز "ارسال نامه" را در تنظیمات کلید API فعال کنید.</word>
   <word key="sendgrid_ip_pool" js="0">مخزن IP</word>
   <word key="sendgrid_ip_pool_desc" js="0">اگر شما برای خود IP اختصاصی تهیه کرده اید، لطفا در این بخش وارد نمایید.</word>
   <word key="sendgrid_ip_pool_none" js="0">از IP اختصاصی استفاده نکن</word>
@@ -3460,7 +3460,7 @@
   <word key="emailerrorlogs_mlog_content" js="0">بدنه ایمیل</word>
   <word key="view_email_error_body" js="0">مشاده متن ایمیل</word>
   <word key="resend_email_error" js="0">ارسال دوباره ایمیل</word>
-  <word key="view_full_smtp_log" js="0">مشاهده کامل رخداد نگاشت ←</word>
+  <word key="view_full_smtp_log" js="0"><![CDATA[مشاهده کامل رخداد نگاشت ←]]></word>
   <word key="acplog__emailerrorlog_settings" js="0">تنظیمات پاک سازی رخداد نگاشت خطای ایمیل ویرایش شد</word>
   <word key="emailerrorlogssettings" js="0">تنظیمات رخداد نگاشت خطای ایمیل</word>
   <word key="prune_emailerrorlogs" js="0">پاک سازی رخداد نگاشت ها</word>
@@ -3812,7 +3812,7 @@
   <word key="acplog__rebuilt_leaderboard" js="0">Rebuilt the leaderboard</word>
   <word key="tags_enabled" js="0">فعال بودن برچسب ها؟</word>
   <word key="tags_enabled_desc" js="0"><![CDATA[شما از بخش <a href="{internal.app=core&amp;module=members&amp;controller=groups}">تنظیمات گروه های کاربری</a> می توانید تعیین نماید کدام کاربران توانایی استفاده از برچسب را دارند.]]></word>
-  <word key="tags_can_prefix" js="0">فعال بودن پیشوندها؟</word>
+  <word key="tags_can_prefix" js="0">فعال‌بودن پیشوندها؟</word>
   <word key="tags_can_prefix_desc" js="0"><![CDATA[پیشوند ها، برچسب های ویژه ای هستند که قبل از عنوان موضوع نمایش می یابند.شما از بخش <a href="{internal.app=core&module=members&controller=groups}">تنظیمات گروه های کاربری</a> می توانید تعیین نماید کدام کاربران توانایی استفاده از پیشوند ها را دارند.]]></word>
   <word key="tags_open_system" js="0">نوع برچسب ها</word>
   <word key="tags_open_system_open" js="0">باز: کاربران از هر برچسبی که بخواهند آزادانه می توانند استفاده نمایند</word>
@@ -3996,7 +3996,7 @@
   <word key="site_address_desc" js="0">در صورت ثبت آدرس فیزیکی، این آدرس در بخش سیاست حریم خصوصی و در انتهای ایمیل های ارسالی سایت نمایش می یابد.</word>
   <word key="copyright_line" js="0">خط کپی رایت</word>
   <word key="copyright_line_desc" js="0">این متن اختیاری بوده و در انتهای صفحات سایت نمایش می یابد.</word>
-  <word key="copyright_line_placeholder" js="0">به طور مثال کپی رایت © 1385 برای .ipsfarsi.com</word>
+  <word key="copyright_line_placeholder" js="0"><![CDATA[به طور مثال کپی رایت © 1385 برای .ipsfarsi.com]]></word>
   <word key="relative_dates_enable" js="0">استفاده از تاریخ های مرتبط</word>
   <word key="upgrade_email" js="0">اعلامیه های ارتقا</word>
   <word key="upgrade_email_desc" js="0">یک ایمیل به آدرس ایمیل مشخص شده در هنگامی که نسخه جدید Invision Community منتشر شد ارسال خواهد شد.</word>
@@ -4029,7 +4029,7 @@
   <word key="site_social_profiles" js="0">نمایه های شبکه های اجتماعی</word>
   <word key="site_social_profiles_desc" js="0">آیکون های رسانه های اجتماعی را در هدر یا پاورقی سایت خود، در هر تنظیم پوسته خود، با پیوند به URL های نمایه اجتماعی وارد شده نمایش می دهد.</word>
   <word key="site_twitter_id" js="0">شناسه سایت در توییتر </word>
-  <word key="site_twitter_id_desc" js="0"><![CDATA[نام حساب کاربری توییتر @username با استفاده از <a href='{external.twitter-card}' target='_blank' rel='noopener'>Twitter Cards</a>. ]]></word>
+  <word key="site_twitter_id_desc" js="0"><![CDATA[نام کاربری سایت های X برای استفاده با <a href='{external.twitter-card}' target='_blank' rel=' noopener'>X کارت</a>.]]></word>
   <word key="site_twitter_id_placeholder" js="0">شناسه کاربری توییتر مانند @twitteruserid </word>
   <word key="site_site_elsewhere" js="0">سایت اصلی در مکانی دیگر؟</word>
   <word key="site_site_elsewhere_desc" js="0">اگر سایت شما وب‌سایت اصلی شما نیست، می‌توانید این تنظیم را فعال کنید تا جزئیات وب‌سایت اصلی خود را وارد کنید.</word>
@@ -4044,7 +4044,7 @@
   <word key="menu__core_applications_applications" js="0">برنامه ها</word>
   <word key="menu__core_applications_developer" js="0">مرکز توسعه</word>
   <word key="menu__core_settings" js="0">تنظیمات</word>
-  <word key="menu__core_settings_login" js="0">ورود و عضویت</word>
+  <word key="menu__core_settings_login" js="0"><![CDATA[ورود و عضویت]]></word>
   <word key="menu__core_settings_tags" js="0">برچسب ها</word>
   <word key="menu__core_settings_webapp" js="0">Web App</word>
   <word key="menu__core_discovery" js="0">جستجو مطالب</word>
@@ -4055,7 +4055,7 @@
   <word key="menu__core_members_groups" js="0">گروه های کاربری</word>
   <word key="menu__core_members_promotions" js="0">ارتقا گروه کاربری</word>
   <word key="menu__core_membersettings" js="0">تنظیمات کاربری</word>
-  <word key="menu__core_membersettings_reputation" js="0">واکنش ها</word>
+  <word key="menu__core_membersettings_reputation" js="0"><![CDATA[واکنش‌ها و اعتبار ها]]></word>
   <word key="menu__core_membersettings_ranks" js="0">درجه‌ها</word>
   <word key="menu__core_staff" js="0">مدیران</word>
   <word key="menu__core_staff_admin" js="0">مدیران کل</word>
@@ -4076,7 +4076,7 @@
   <word key="menu__core_overview_files" js="0">فایل ها</word>
   <word key="menu__core_editor_profanity" js="0">فیلتر کلمه های ناشایست</word>
   <word key="menu__core_settings_advanced" js="0">پیکربندی پیشرفته</word>
-  <word key="menu__core_settings_terms" js="0">قوانین و حریم شخصی</word>
+  <word key="menu__core_settings_terms" js="0"><![CDATA[قوانین و سیاست حفظ حریم خصوصی]]></word>
   <word key="menu__core_overview_dashboard" js="0">پیشخوان</word>
   <word key="menu__core_overview_notifications" js="0">اعلامیه های مدیریت</word>
   <word key="menu__core_membersettings_registration" js="0">عضویت</word>
@@ -4163,7 +4163,7 @@
   <word key="acplog__statskeywords_rebuilt" js="0">کلمات کلیدی بازسازی شدند</word>
   <word key="rebuilding_keywords" js="0">در حال بازسازی کلمات کلیدی برای %s</word>
   <word key="keywords_usage_over_time" js="0">استفاده از کلمات کلیدی در طول زمان</word>
-  <word key="keywords_usage_list" js="0">Keyword Uses</word>
+  <word key="keywords_usage_list" js="0">میزان استفاده از کلمات کلیدی</word>
   <word key="menu__core_stats_deviceusage" js="0">آمار دستگاه ها</word>
   <word key="r__deviceusage" js="0">آمار دستگاه ها</word>
   <word key="r__deviceusage_manage" js="0">توانایی مشاهده آمار دستگاه های استفاده شده؟</word>
@@ -4237,9 +4237,9 @@
   <word key="r__app_delete" js="0">توانایی حذف برنامه ها</word>
   <word key="r__app_install" js="0">توانایی نصب برنامه ها</word>
   <word key="r__module_manage" js="0">توانایی مدیریت ماژول ها</word>
-  <word key="r__login" js="0">ورود و عضویت</word>
+  <word key="r__login" js="0"><![CDATA[ورود و عضویت]]></word>
   <word key="r__login_manage" js="0">توانایی مدیریت راه اندازهای ورود</word>
-  <word key="r__login_access" js="0">توانایی دسترسی به صفحه ورود و عضویت</word>
+  <word key="r__login_access" js="0"><![CDATA[توانایی دسترسی به صفحه ورود و عضویت]]></word>
   <word key="r__login_settings" js="0">توانایی مدیریت تنظیمات ورود</word>
   <word key="r__registration_settings" js="0">توانایی مدیریت تنظیمات عضویت</word>
   <word key="r__login_account_management" js="0">توانایی مدیریت تنظیمات حساب کاربری</word>
@@ -4376,8 +4376,8 @@
   <word key="r__registrations_manage" js="0">توانایی مشاهده آمار جدید ثبت نام</word>
   <word key="r__toolbar" js="0">نوار ابزار ویرایشگر</word>
   <word key="r__toolbar_manage" js="0">مدیریت نوار ابزار ویرایشگر</word>
-  <word key="r__terms" js="0">قوانین و حریم شخصی</word>
-  <word key="r__terms_manage" js="0">توانایی مدیریت قوانین و سیاست حریم خصوصی؟</word>
+  <word key="r__terms" js="0"><![CDATA[شرایط و خط‌مشی رازداری]]></word>
+  <word key="r__terms_manage" js="0"><![CDATA[توانایی مدیریت بخش شرایط و خط‌مشی رازداری؟]]></word>
   <word key="r__webapp" js="0">Web App</word>
   <word key="r__webapp_manage" js="0">توانایی مدیریت تنظیمات Web App؟</word>
   <word key="r__member_history" js="0">توانایی مشاهده تاریخچه کاربر</word>
@@ -4388,8 +4388,8 @@
   <word key="r__spam_whitelist_delete" js="0">توانایی حذف از لیست محافظت اسپم</word>
   <word key="r__emailstats" js="0">آمار ایمیل</word>
   <word key="r__emailstats_manage" js="0">توانایی مشاهده آمار ایمیل</word>
-  <word key="r__privacy" js="0">درخواست‌های PII و حذف حساب</word>
-  <word key="r__privacy_manage" js="0">توانایی مدیریت درخواست‌های PII و حذف حساب؟</word>
+  <word key="r__privacy" js="0"><![CDATA[PII و حذف حساب]]></word>
+  <word key="r__privacy_manage" js="0"><![CDATA[توانایی مدیریت درخواست‌های PII و حذف حساب؟]]></word>
   <word key="r__mycharts" js="0">نمودارهای ذخیره شده</word>
   <word key="r__mycharts_manage" js="0">توانایی استفاده از «نمودارهای ذخیره شده»؟</word>
   <word key="menu__core_activitystats_emailstats" js="0">ایمیل ها</word>
@@ -4672,8 +4672,8 @@
   <word key="menutab__customization" js="0">شخصی سازی</word>
   <word key="menu__core_customization_themes" js="0">پوسته ها</word>
   <word key="themes_create_blurb" js="0"><![CDATA[با ایجاد پوسته جدید یک کپی از پوسته پیشفرض ساخته می شود که امکان اختصاصی سازی آن وجود دارد. همچنین شما می توانید پوسته های از قبل ساخته شده را نیز به سیستم از طریق فروشگاه IPS یا <a href='{internal.app=core&module=customization&controller=themes&do=upload}'>به صورت دستی بارگذاری</a> و اضافه کنید.]]></word>
-  <word key="themes_manual_install_warning" js="0">یکی از مکان‌هایی که می توانید پوسته‌های جدید برای سیستم خود تهیه کنید، بخش مارکت شرکت IPS می باشد. در صورتی که پوسته شما در مارکت IPS موجود نیست، می توانید از اینجا، پوسته خود را نصب کنید. دقت کنید، تنها پوسته‌های خود را از مکان و افرادی که اعتماد دارید، دریافت و نصب کنید، چرا که ممکن است همراه با پوسته، کد مخرب نیز بر روی سایت شما نصب شود.</word>
-  <word key="menu__core_customization_icons" js="0">آیکن ها و لوگوها</word>
+  <word key="themes_manual_install_warning" js="0"><![CDATA[<strong>مراقب باشید:</strong> طرح‌های زمینه سفارشی می‌توانند هر کدی را اجرا کنند: فقط تم‌های سفارشی را از منابعی که به آنها اعتماد دارید نصب کنید.]]></word>
+  <word key="menu__core_customization_icons" js="0"><![CDATA[آیکن‌ها و لوگوها]]></word>
   <word key="r__theme_sets" js="0">پوسته ها</word>
   <word key="r__theme_sets_manage" js="0">مدیریت پوسته ها</word>
   <word key="r__theme_easy_editor" js="0">می تواند از ویرایشگر حالت ساده استفاده کند</word>
@@ -4829,10 +4829,10 @@
   <word key="icons_homescreen_maskable" js="0">آیکون‌های Maskable</word>
   <word key="icons_homescreen_maskable_desc" js="0"><![CDATA[برخی از دستگاه‌ها اکنون به شما اجازه می‌دهند تا از <a href='{external.maskable_icons}' target='_blank' rel='noopener'>آیکون‌های قابل ماسک</a> برای بهتر نمایش لوگوی شما در صفحه خانگی دستگاه استفاده کنید. ابعاد حداقل توصیه شده برای این تصویر 512px x 512px هستند و تصاویر با ابعاد دیگر برای دستگاه‌های خاص به صورت خودکار تولید می‌شوند.]]></word>
   <word key="icons_favicon" js="0">Favicon</word>
-  <word key="icons_favicon_desc" js="0">تصویر فاوآیکون در کنار نام وب سایت در قسمت مختلف مرورگر کاربر، مانند برگه مرورگر و لیست نشانه ها، نشان داده می شود. ابعاد توصیه شده برای این تصویر 48 پیکسل در 48 پیکسل است.</word>
+  <word key="icons_favicon_desc" js="0"><![CDATA[تصویر فاوآیکون در کنار نام وب سایت در قسمت مختلف مرورگر کاربر، مانند برگه مرورگر و لیست نشانه ها، نشان داده می شود. ابعاد توصیه شده برای این تصویر 48 پیکسل در 48 پیکسل است]]></word>
   <word key="icons_sharer_logo" js="0">تصاویر به اشتراک گذاری پیش فرض</word>
   <word key="icons_sharer_logo_desc" js="0">تصاویر بارگذاری شده در اینجا هنگامی استفاده می شود که یک صفحه از طریق یک سرویس اجتماعی که از استاندارد Open Graph (مانند فیس بوک) پشتیبانی می کند، استفاده می شود و تصاویر خاصی برای نمایش محتوای ندارد.</word>
-  <word key="webapp_tab_icons" js="0">آیکون‌ها و تصاویر</word>
+  <word key="webapp_tab_icons" js="0"><![CDATA[آیکون‌ها و تصاویر]]></word>
   <word key="webapp_tab_manifest" js="0">مانیفست</word>
   <word key="icons_homescreen" js="0">آیکون برنامه</word>
   <word key="icons_homescreen_desc" js="0">تصویر بارگذاری شده در اینجا همراه با ارسال اعلامیه های سیستم عاملی مورد استفاده قرار می گیرد زمانی که یک کاربر وب سایت صفحه اصلی سایت در دستگاه های مختلف مانند iOS و Android ذخیره می کند. ابعاد توصیه شده برای این تصویر 512 پیکسل در 512 پیکسل است و تصاویری با اندازه های دیگر برای دستگاه های خاص به صورت خودکار تولید می شوند.</word>
@@ -5043,8 +5043,8 @@
   <word key="themesetting_primary_button" js="0">دکمه اصلی</word>
   <word key="themesetting_primary_button_font" js="0">خط دکمه اصلی</word>
   <word key="themesetting_profile_header" js="0">پس زمینه پیش فرض هدر نمایه</word>
-  <word key="themesetting_rating_hover" js="0">ستاره امتیاز دهی &quot;شناور&quot;</word>
-  <word key="themesetting_rating_on" js="0">ستاره امتیاز دهی &quot;انتخاب شده&quot;</word>
+  <word key="themesetting_rating_hover" js="0">ستاره امتیاز دهی "شناور"</word>
+  <word key="themesetting_rating_on" js="0">ستاره امتیاز دهی "انتخاب شده"</word>
   <word key="themesetting_responsive" js="0">فعال سازی واکنش گرایی</word>
   <word key="themesetting_rounded_photos" js="0">استفاده از تصویرهای گوشه گرد؟</word>
   <word key="themesetting_social_links_pos" js="0">موقعیت لینک شبکه اجتماعی</word>
@@ -5693,7 +5693,7 @@
   <word key="filestorage__core_ProfileField" js="0">فیلد های اختصاصی نمایه ها</word>
   <word key="filestorage__core_Promote" js="0">تصاویر بازنشر رسانه های اجتماعی</word>
   <word key="filestorage__core_Reaction" js="0">واکنش ها</word>
-  <word key="filestorage__core_Icons" js="0">آیکن ها و لوگوها</word>
+  <word key="filestorage__core_Icons" js="0"><![CDATA[آیکن‌ها و لوگوها]]></word>
   <word key="filestorage__core_Feature" js="0">تصویر شاخص</word>
   <word key="filestorage__core_ReferralBanners" js="0">بنر های معرفی</word>
   <word key="filestorage__core_Imageproxycache" js="0">کش تصویر پراکسی</word>
@@ -6001,14 +6001,14 @@
   <word key="change_email_explain_2" js="0">یک ایمیل به آدرس ایمیل که شما در پایین تعیین کرده اید، فرستاده شد و راهنمایی های لازم در آن شرح داده شده است.</word>
   <word key="change_password_admin_1" js="0">برای امنیت بیشتر خودتان، به علت اینکه شما مدیریت کل سایت هستید شما قادر به تغییر گذرواژه خود از این بخش نیستید. شما می توانید برای تغییر گذرواژه خود، طبق مراحل زیر عمل نمایید:</word>
   <word key="change_password_admin_2" js="0">ورود به پنل مدیریت</word>
-  <word key="change_password_admin_3" js="0">&quot;%s عزیز خوش آمدید&quot; بر روی فهرست بازشونده بالای صفحه کلیک کنید</word>
-  <word key="change_password_admin_4" js="0">&quot;ویرایش مشخصات کاربری&quot; را انتخاب کنید</word>
-  <word key="change_password_admin_5" js="0">بر روی &quot;تغییر&quot; گذرواژه  کلیک کنید</word>
+  <word key="change_password_admin_3" js="0">"%s عزیز خوش آمدید" بر روی فهرست بازشونده بالای صفحه کلیک کنید</word>
+  <word key="change_password_admin_4" js="0">"ویرایش مشخصات کاربری" را انتخاب کنید</word>
+  <word key="change_password_admin_5" js="0">بر روی "تغییر" گذرواژه  کلیک کنید</word>
   <word key="change_email_admin_1" js="0">برای امنیت بیشتر خودتان، به علت اینکه شما مدیریت کل سایت هستید شما قادر به تغییر ایمیل خود از این بخش نیستید. شما می توانید ایمیل خود را طبق مراحل زیر تغییر دهید:</word>
   <word key="change_email_admin_2" js="0">ورود به پنل مدیریت</word>
   <word key="change_email_admin_3" js="0">روی «ورود به سیستم به عنوان %s » در فهرست بازشونده بالای صفحه کلیک کنید</word>
-  <word key="change_email_admin_4" js="0">&quot;ویرایش مشخصات کاربری&quot; را انتخاب کنید</word>
-  <word key="change_email_admin_5" js="0">بر روی &quot;تغییر&quot; در ردیف ایمیل کلیک کنید</word>
+  <word key="change_email_admin_4" js="0">"ویرایش مشخصات کاربری" را انتخاب کنید</word>
+  <word key="change_email_admin_5" js="0">بر روی "تغییر" در ردیف ایمیل کلیک کنید</word>
   <word key="new_email" js="0">آدرس ایمیل جدید</word>
   <word key="current_email" js="0">آدرس ایمیل کنونی</word>
   <word key="current_password" js="0"> گذرواژه کنونی</word>
@@ -6099,7 +6099,7 @@
   <word key="attached_to_x_posts" js="0">استفاده شده در {# [1:ارسال][?:ارسال]}</word>
   <word key="ensure_signature_restrictions" js="0">لطفا مطمئن شوید که امضا شما مطابق قوانین باشد</word>
   <word key="ucp_change_email_prompt" js="0">آدرس ایمیل شما در سیستم ما مسدود شده است چرا که تعداد زیادی از پیام‌های ما را رد کرده است. لطفاً آدرس ایمیل خود را تغییر دهید تا امنیت حسابتان حفظ شود.</word>
-  <word key="terms" js="0">شرایط و سیاست حفظ حریم خصوصی</word>
+  <word key="terms" js="0"><![CDATA[شرایط و سیاست حفظ حریم خصوصی]]></word>
   <word key="terms_guidelines" js="0">قوانین سایت</word>
   <word key="gl_type" js="0">نوع</word>
   <word key="gl_internal" js="0">نمایش صفحه پیش فرض</word>
@@ -6115,10 +6115,10 @@
   <word key="privacy_title" js="0">عنوان</word>
   <word key="privacy_text" js="0">متن سیاست</word>
   <word key="privacy_link" js="0">آدرس</word>
-  <word key="terms_registration" js="0">شرایط عضویت</word>
+  <word key="terms_registration" js="0"><![CDATA[شرایط و قوانین ثبت نام]]></word>
   <word key="terms_privacy" js="0">سیاست حریم خصوصی</word>
   <word key="terms_dismissed" js="0">شرایط پذیرفته شد</word>
-  <word key="reg_rules" js="0">متن شرایط</word>
+  <word key="reg_rules" js="0"><![CDATA[متن شرایط]]></word>
   <word key="guest_terms_options" js="0">تنظیمات مهمان</word>
   <word key="guest_terms_bar" js="0">نمایش نوار تایید قوانین به مهمان؟</word>
   <word key="guest_terms_bar_text" js="0">متن برای نمایش</word>
@@ -6170,9 +6170,9 @@
   <word key="share_this_review" js="0">به اشتراک گذاری این نقد</word>
   <word key="link_to_review" js="0">لینک به نقد</word>
   <word key="menu__core_settings_posting" js="0">مطالب</word>
-  <word key="url_settings" js="0">آدرس ها</word>
+  <word key="url_settings" js="0"><![CDATA[لینک‌ها و آدرس‌های ایمیل]]></word>
   <word key="posting_general" js="0">عمومی</word>
-  <word key="posting_images" js="0">تصویرها و ویدیوها</word>
+  <word key="posting_images" js="0"><![CDATA[تصویرها و ویدیوها]]></word>
   <word key="posting_content" js="0">پست ها</word>
   <word key="posting_items" js="0">مطالب</word>
   <word key="post_before_registering" js="0">ارسال قبل از ثبت نام</word>
@@ -6202,17 +6202,17 @@
   <word key="url_filter_any_moderate" js="0">تایید مدیریت</word>
   <word key="url_filter_any_moderate_desc" js="0">اگر هرلینکی ارسال شد، محتوا برای اجازه مدیریت نگه داشته میشود.</word>
   <word key="links_external" js="0">اجبار به باز کردن لینک در پنجره جدید؟</word>
-  <word key="links_external_desc" js="0">با تنظیم بر روی بله، تمامی لینک هایی که به دیگر سایت ها هستند در پنجره جدید نمایش خواهند یافت.</word>
+  <word key="links_external_desc" js="0"><![CDATA[تنظیم این روی بله، همه پیوندهای ارسال شده به وب‌سایت‌های دیگر را مجبور می‌کند در یک پنجره جدید باز شوند.<br>تغییر این تنظیم فقط بر محتوای جدید تأثیر می‌گذارد. مگر اینکه <a data-confirm href='{internal.app=core&module=settings&controller=posting&do=rebuildUrlRels.csrf}'>محتوای موجود را بازسازی کنید</a>.]]></word>
   <word key="posts_add_nofollow" js="0">افزودن rel='nofollow' به آدرس های ارسالی کاربران؟</word>
-  <word key="posts_add_nofollow_desc" js="0">با فعال نمودن این گزینه موتورهای جستجو از آدرس های ارسالی کاربران طبعیت (follow) نخواهند کرد.</word>
+  <word key="posts_add_nofollow_desc" js="0"><![CDATA[Rel='nofollow' را به پیوندهای پست شده اضافه می‌کند که به وب‌سایت شما پیوند دارند. این توصیه می‌شود تا موتورهای جستجو بدانند که سایت شما به سایت‌هایی متصل نیست که کاربران به آن‌ها پیوند ارسال می‌کنند.<br>تغییر این تنظیم فقط بر محتوای جدید تأثیر می‌گذارد مگر اینکه <a href='{internal.app=core&module=settings&controller را تأیید کنید. =posting&do=rebuildUrlRels.csrf}'>بازسازی محتوای موجود</a>.]]></word>
   <word key="posts_add_nofollow_exclude" js="0">دامنه هایی که موتورهای جستجو آن ها را دنبال کنند</word>
-  <word key="posts_add_nofollow_exclude_desc" js="0">عبارت rel='nofollow' به هیچکدام از لینک هایی که از دامنه هایی که تعیین شده اند اضافه نخواهد شد. دامنه هایی که می خواهید این عبارت به آن ها اضافه نشوند را وارد نمایید.</word>
+  <word key="posts_add_nofollow_exclude_desc" js="0"><![CDATA[rel='nofollow' به هیچ پیوندی به دامنه‌های مشخص‌شده اضافه نخواهد شد. هر دامنه‌ای را اضافه کنید که سایت شما به آن متصل است یا روی آن کنترل دارد، یا با آن قرارداد تبلیغاتی دارید که از شما می‌خواهد اجازه دهید پیوندهای دامنه دنبال شود. فقط نام دامنه را به جای URL کامل ارائه دهید، به عنوان مثال "IPSFarsi.com" به جای "https://IPSFarsi.com".<br>تغییر این تنظیم فقط بر محتوای جدید تأثیر می گذارد مگر اینکه <a data-confirm href= '{internal.app=core&module=settings&controller=posting&do=rebuildUrlRels.csrf}'>بازسازی محتوای موجود</a>.]]></word>
   <word key="acplogs__url_filter_settings" js="0">تنظیمات فیلتر کردن آدرس ویرایش شد</word>
   <word key="acplogs__posting_general_settings" js="0">تنظیمات عمومی ارسال مطلب ویرایش شد</word>
   <word key="posting_attachments" js="0">پیوست ها</word>
   <word key="attach_allowed_types" js="0">نوع فایل های مجاز</word>
   <word key="attach_allowed_types_all" js="0">تمامی فایل ها</word>
-  <word key="attach_allowed_types_media" js="0">فقط تصویرها و ویدیوها</word>
+  <word key="attach_allowed_types_media" js="0"><![CDATA[فقط تصویرها و ویدیوها]]></word>
   <word key="attach_allowed_types_images" js="0">تنها تصاویر</word>
   <word key="attach_allowed_types_none" js="0">هیچ</word>
   <word key="attach_allowed_types_desc" js="0"><![CDATA[شما در بخش <a href='{internal.app=core&module=members&controller=groups&searchResult=g_attach}'>تنظیمات گروه های کاربری</a> می توانید تعیین نمایید که چه گروه های کاربری توانایی استفاده از پیوست ها را دارند و دارای چه محدودیت هایی هستند.]]></word>
@@ -6491,7 +6491,7 @@
   <word key="add_button" js="0">افزودن</word>
   <word key="close_widget" js="0">بستن ابزارک</word>
   <word key="close_warning" js="0">این هشدار را برای یک هفته غیرفعال کن</word>
-  <word key="reorder_widget" js="0">انتقال ابزارک</word>
+  <word key="reorder_widget" js="0">جابجایی ابزارک</word>
   <word key="admin_notes_last_update" js="0">آخرین بروزرسانی</word>
   <word key="block_core_OrigTables" js="0">جداول پشتیبان تبدیل کننده UTF-8</word>
   <word key="orig_cleanup_desc" js="0">داده پشتیبان گیری هنگام ارتقا به IPS 4.x انجام شد هم اکنون با خیال راحت آن را حذف کنید که اندازه پایگاه داده را کاهش می دهد و بهبود عملکرد کلی از سایت شما میشود.</word>
@@ -6625,10 +6625,10 @@
   <word key="onboard_next_steps_intro2" js="0"><![CDATA[همچنین شما با استفاده از جعبه جستجو که در بالای همه صفحات وجود دارد، تنظیم مورد نظر خود را پیدا کنید و با استفاده از <a href='{internal.app=core&module=support&controller=support}'>ابزار پشتیبانی</a> مشکلات خود را به صورت خودکار حل نمایید. آرزوی موفقیت برای شما داریم!]]></word>
   <word key="onboard_takeme" js="0">رفتن به بخش مربوطه</word>
   <word key="onboard_next_forums_title" js="0">ایجاد انجمن</word>
-  <word key="onboard_next_forums" js="0">زیرساخت انجمن خود را ایجاد نمایید تا کاربران بتوانند در مکان های مناسب بحث ها را آغاز نمایند. IPS از دو انجمن معمولی و پرسش و پاسخ پشتیبانی می کند.</word>
+  <word key="onboard_next_forums" js="0"><![CDATA[ساختار انجمن خود را تنظیم کنید تا اعضا بتوانند بحث‌های جدیدی را در مکان مناسب ایجاد کنند. انجمن Invision تالارهای گفتگو و پرسش و پاسخ منظم را ارائه می دهد.]]></word>
   <word key="onboard_next_groups" js="0">با تنظیم گروه های کاربری می توانید تعیین نمایید کاربران چه کارهایی می توانند انجام دهند و به چه بخش هایی دسترسی داشته باشند.</word>
   <word key="onboard_next_groups_title" js="0">گروه های کاربری</word>
-  <word key="onboard_next_staff_title" js="0">مدیریت کل و مدیران</word>
+  <word key="onboard_next_staff_title" js="0"><![CDATA[مدیریت‌کل و مدیران]]></word>
   <word key="onboard_next_staff" js="0">با افزودن مدیرکل و مدیران انجمن می توانید کارهای مدیریت انجمن را به کاربران دیگر بسپارید.</word>
   <word key="onboard_takeme_admins" js="0">مدیریت مدیران کل</word>
   <word key="onboard_takeme_mods" js="0">مدیریت مدیران انجمن</word>
@@ -6641,7 +6641,7 @@
   <word key="onboard_tab_identity" js="0">هویت سایت</word>
   <word key="onboard_msg_identity" js="0"><![CDATA[این بخش اجازه می دهد تا مشخصات اولیه سایت خود همچون اسم، آدرس و نمایه تان در شبکه های اجتماعی را تنظیم کنید.<br><br> اگر آدرسی وارد شود به طور خودکار در بخش حریم خصوصی و در تمامی ایمیل های ارسالی نمایش می یابد. در بعضی از کشورها این جزو قوانین است.]]></word>
   <word key="onboard_location_identity" js="0"><![CDATA[سیستم ( <i class='fa fa-cogs'></i> ) > تنظیمات > پیکربندی عمومی]]></word>
-  <word key="onboard_tab_appearance" js="0">لوگو و ظاهر</word>
+  <word key="onboard_tab_appearance" js="0"><![CDATA[لوگو و ظاهر]]></word>
   <word key="onboard_msg_appearance" js="0">با شخصی سازی ظاهر سایت و بارگذاری لوگو خود مطمئنا سایت شما متفاوت و یکتا از دیگر سایت ها خواهد شد. هر پوسته می تواند لوگو خاص خود را داشته باشد که از طریق تنظیمات هر پوسته قابل تغییر است که از همان لوگو برای ایمیل های ارسالی از طرف سایت استفاده خواهد شد.</word>
   <word key="onboard_location_appearance" js="0"><![CDATA[<strong>Favicon and application icons:</strong><br>Customization ( <i class='fa fa-paint-brush'></i> ) > Appearance > Icons & Logos<br><br><strong>Theme Logos:</strong><br>Customization ( <i class='fa fa-paint-brush'></i> ) > Appearance > Themes<br><br><strong>Email logos and colors:</strong><br>System ( <i class='fa fa-cogs'></i> ) > Settings > Email Settings]]></word>
   <word key="onboard_tab_tasks" js="0">کارها</word>
@@ -6650,7 +6650,7 @@
   <word key="onboard_tab_furls" js="0">بهینه سازی آدرس ها</word>
   <word key="onboard_msg_furls" js="0">با فعال کردن بهینه سازی آدرس ها می توانید از سئو سایت خود را بالا ببرید. البته به یاد داشته باشید نیاز است تا در سرور قبل از فعال سازی تنظیماتی انجام دهید.</word>
   <word key="onboard_location_furls" js="0"><![CDATA[سیستم ( <i class='fa fa-cogs'></i> ) > توسعه سایت > سئو سایت]]></word>
-  <word key="onboard_tab_privacyterms" js="0">قوانین و حریم شخصی</word>
+  <word key="onboard_tab_privacyterms" js="0"><![CDATA[شرایط و خط‌مشی رازداری]]></word>
   <word key="onboard_msg_privacyterms" js="0">قوانین و شرایط استفاده و حریم شخصی که تعیین کننده خط مشی سایت شما است را به کاربران می توانید نمایش دهید.</word>
   <word key="onboard_location_privacyterms" js="0"><![CDATA[سیستم ( <i class='fa fa-cogs'></i> ) > تنظیمات > قوانین و حریم شخصی]]></word>
   <word key="onboard_what_are_these" js="0">این تنظیمات چه فایده ای دارند؟</word>
@@ -7642,7 +7642,7 @@
   <word key="revoke_this_warning" js="0">لغو این اخطار</word>
   <word key="warning_go_to_content" js="0">برو به محتوای اصلی</word>
   <word key="warning_revoke_blurb" js="0">می خواهید تمام اقدامات هشدار به حالت اولیه بازگردند (حذف امتیازات هشدار و لغو تنبیه ها) یا فقط رخداد نگاشت حذف شود؟</word>
-  <word key="warning_revoke_undo" js="0">حرکت قبلی و حذف</word>
+  <word key="warning_revoke_undo" js="0"><![CDATA[حرکت قبلی و حذف]]></word>
   <word key="this_will_be_moderated" js="0">به علت اخطاری که دریافت کرده اید، این مطلب تا زمان تایید توسط مدیران، پنهان خواهد ماند.</word>
   <word key="mod_queue_message" js="0">مطالب شما نیاز است به تایید مدیران برسد</word>
   <word key="guest_post_mod_approval" js="0"><![CDATA[<strong> توجه: </ strong> مطلب ارسالی شما پس از تایید مدیریت برای همه قابل رویت خواهد بود.]]></word>
@@ -7656,7 +7656,7 @@
   <word key="member_existing_penalties" js="0"><![CDATA[<em>%s جریمه های موجود زیر را دارید ، تعیین جرایم جدید جایگزین آنها خواهد شد. </em>]]></word>
   <word key="plugins" js="0">افزونه ها</word>
   <word key="plugins_blurb" js="0"><![CDATA[افزونه ها باعث افزوده شدن امکانات جدید به سایت شما می شوند. شما می توانید افزونه ها را از <a href='{internal.app=core&module=marketplace&controller=marketplace}'>بازارچه IPS</a> یا <a href='{internal.app=core&module=applications&controller=plugins&do=install}' data-ipsDialog data-ipsDialog-title='Install Plugin'>به صورت دستی</a> بارگذاری و نصب کنید.]]></word>
-  <word key="plugins_manual_install_warning" js="0">یکی از مکان‌هایی که می توانید افزونه‌های جدید برای سیستم خود تهیه کنید، بخش مارکت شرکت IPS می باشد. در صورتی که افزونه شما در مارکت IPS موجود نیست، می توانید از اینجا، افزونه خود را نصب کنید. دقت کنید، تنها افزونه‌های خود را از مکان و افرادی که اعتماد دارید، دریافت و نصب کنید، چرا که ممکن است همراه با افزونه، کد مخرب نیز بر روی سایت شما نصب شود.</word>
+  <word key="plugins_manual_install_warning" js="0"><![CDATA[یکی از مکان‌هایی که می توانید افزونه‌های جدید برای سیستم خود تهیه کنید، بخش مارکت شرکت IPS می باشد. در صورتی که افزونه شما در مارکت IPS موجود نیست، می توانید از اینجا، افزونه خود را نصب کنید. دقت کنید، تنها افزونه‌های خود را از مکان و افرادی که اعتماد دارید، دریافت و نصب کنید، چرا که ممکن است همراه با افزونه، کد مخرب نیز بر روی سایت شما نصب شود.]]></word>
   <word key="menu__core_applications_plugins" js="0">افزونه ها</word>
   <word key="plugin_details" js="0">جزئیات افزونه</word>
   <word key="plugin_name" js="0">عنوان افزونه</word>
@@ -7849,7 +7849,7 @@
   <word key="replog_rate_comment_gave_no_in" js="0"><![CDATA[%s به %s <strong>امتیاز داد</strong>]]></word>
   <word key="replog_rate_comment_received" js="0"><![CDATA[%s از %s <strong>یک واکنش گرفت</strong> در]]></word>
   <word key="replog_rate_comment_received_no_in" js="0"><![CDATA[%s از %s <strong>یک واکنش گرفت</strong>]]></word>
-  <word key="replog_like_comment" js="0">%s را %s  پسندید که متلعق است به %s در</word>
+  <word key="replog_like_comment" js="0"><![CDATA[%s را %s  پسندید که متلعق است به %s در]]></word>
   <word key="replog_like_comment_no_in" js="0"><![CDATA[%s <a href='%s'>%s</a> که برای %s است، پسند کرد]]></word>
   <word key="replog_rate_item_gave" js="0"><![CDATA[%s به %s برای %s <strong>امتیاز داد</strong>،]]></word>
   <word key="replog_rate_item_gave_no_in" js="0"><![CDATA[%s برای %s <strong>امتیاز داد</strong>]]></word>
@@ -8768,7 +8768,7 @@
   <word key="rss_import" js="0">درون ریزی خوراک RSS/Atom</word>
   <word key="rss_import_sg" js="0">درون ریزی خوراک RSS/Atom</word>
   <word key="rss_import_url" js="0">وبگاه</word>
-  <word key="rss_import_invalid" js="0">آدرس وارد شده معتبر برای خوراک RSS/Atom نمی باشد.</word>
+  <word key="rss_import_invalid" js="0"><![CDATA[این فید RSS یا Atom معتبر نیست.<br>پاسخ در <a href='{internal.admin.app=core&module ثبت شد =support&controller=systemLogs}'>گزارش سیستم</a>.]]></word>
   <word key="rss_import_auth_user" js="0">نام کاربری احراز هویت HTTP</word>
   <word key="rss_import_auth_user_desc" js="0">بیشتر خوراک ها نیاز به احرازهویت ندارند و این فیلد می‌تواند خالی رها شود.</word>
   <word key="rss_import_auth_pass" js="0">گذرواژه اجازه دسترسی HTTP</word>
@@ -9405,7 +9405,7 @@
   <word key="suspended_until" js="0">معلق تا %s</word>
   <word key="suspended" js="0">معلق شده</word>
   <word key="member_banned" js="0">شما از این سایت محروم شده اید.</word>
-  <word key="member_banned_temp" js="0">شما دوباره در %s به سایت دسترسی خواهید داشت</word>
+  <word key="member_banned_temp" js="0"><![CDATA[حساب شما به حالت تعلیق درآمده است و بنابراین اجازه دسترسی به این سایت را ندارید. <br>تعلیق شما در <strong>%s</strong> برداشته می‌شود.]]></word>
   <word key="password_strength_meter" js="0">نمایش میزان امنیت گذرواژه</word>
   <word key="password_strength_meter_desc" js="0">هنگامی که یک کاربر در هنگام ثبت نام یا تغییر رمز عبور خود را انتخاب می کند، یک نوار نشان می دهد که رمز عبور انتخاب شده چه میزان قوی است.</word>
   <word key="password_strength_meter_enforce" js="0">حداقل میزان امنیت گذرواژه لازم؟</word>
@@ -9673,7 +9673,7 @@
   <word key="club_members" js="0">کاربران</word>
   <word key="club_active_members" js="0">کاربران فعال</word>
   <word key="club_expired_members" js="0">حق عضویت به اتمام رسیده است</word>
-  <word key="club_leaders" js="0">رهبران و مدیران</word>
+  <word key="club_leaders" js="0"><![CDATA[رهبران و مدیران]]></word>
   <word key="club_all_members" js="0">تمامی کاربران</word>
   <word key="club_members_count" js="0">{# [1:کاربر][?:کاربر]}</word>
   <word key="club_see_all_members" js="0">مشاهده همه کاربران</word>
@@ -9686,7 +9686,7 @@
   <word key="club_invited_by" js="0">دعوت شده توسط %s</word>
   <word key="club_leader" js="0">رهبر</word>
   <word key="club_moderator" js="0">مدیر</word>
-  <word key="club_leaders_and_moderators" js="0">رهبران و مدیران</word>
+  <word key="club_leaders_and_moderators" js="0"><![CDATA[رهبران و مدیران]]></word>
   <word key="club_requested_users" js="0">درخواست های دسترسی کاربران</word>
   <word key="club_requested_users_desc" js="0">تنها صاحبین کلوپ می توانند این لیست را مشاهده کنند</word>
   <word key="club_owner" js="0">صاحب</word>
@@ -10088,7 +10088,7 @@
   <word key="history_flagged_spammer_action_ban" js="0">حساب مسدود شد</word>
   <word key="history_flagged_spammer_action_disable" js="0">از ارسال محروم گردید</word>
   <word key="history_unflagged_spammer" js="0">حذف عنوان اسپمر %s.</word>
-  <word key="log_type_title_warning" js="0">هشدار ها و محدودیت ها</word>
+  <word key="log_type_title_warning" js="0"><![CDATA[هشدارها و محدودیت‌ها]]></word>
   <word key="history_received_warning_details" js="0">%d امتیاز اخطاری برای %s%s داده شد: %s</word>
   <word key="history_received_warning_no_penalties" js="0">بدون تنبیه</word>
   <word key="history_received_warning_no_changes" js="0">بدون تغییر به محدودیت</word>
@@ -10137,7 +10137,7 @@
   <word key="log_type_title_admin_mails" js="0">لیست پستی اشتراک ها</word>
   <word key="history_enabled_admin_mails" js="0">مشترک اخبار و بروزرسانی ها %s شده است.</word>
   <word key="history_disabled_admin_mails" js="0">لغو اشتراک اخبار و بروزرسانی %s.</word>
-  <word key="log_type_title_terms_acceptance" js="0">شرایط و قوانین پذیرش</word>
+  <word key="log_type_title_terms_acceptance" js="0"><![CDATA[شرایط و قوانین پذیرش]]></word>
   <word key="history_terms_accepted_privacy" js="0">سیاست حفظ حریم خصوصی را پذیرفته است.</word>
   <word key="history_terms_accepted_terms" js="0">شرایط و قوانین پذیرفته شد.</word>
   <word key="log_type" js="0">عمل</word>
@@ -10281,7 +10281,7 @@
   <word key="cookie_hasJS_description" js="0">This cookie is used to identify if Javascript is enabled in the browser.</word>
   <word key="cookie_standard_desc" js="0">این کوکی‌ها برای فعال‌سازی وظیفه‌های اصلی و اساسی مورد نیاز هستند و نمی‌توانند رد شوند.</word>
   <word key="cookie_language_description" js="0">این کوکی توسط مهمانان برای ذخیره تنظیمات زبان استفاده می‌شود.</word>
-  <word key="cookie_guestTermsDismissed_description" js="0">این کوکی برای شناسایی زمانی که نوار شرایط و مقررات مهمان برای گذشته شده است، استفاده می‌شود.</word>
+  <word key="cookie_guestTermsDismissed_description" js="0"><![CDATA[این کوکی برای شناسایی زمانی که نوار شرایط و ضوابط مهمان رد شده است استفاده می‌شود]]></word>
   <word key="files-1" js="0">فایل باز نمی شود: %s</word>
   <word key="files-2" js="0">فایل وجود ندارد: %s</word>
   <word key="files-4" js="0">فایل کپی نشد: %s</word>
@@ -10332,8 +10332,8 @@
   <word key="acp_notification_NewRegValidate" js="0">یک عضو جدید نیاز به تایید مدیر دارد</word>
   <word key="new_users_need_admin_validation" js="0">{! # [1: کاربر] [?: کاربر]} در انتظار اعتبار سنجی مدیر: %s</word>
   <word key="acp_notification_NewRegComplete_title" js="0">ثبت نام جدید تکمیل شده</word>
-  <word key="acp_notification_NewRegComplete_desc" js="0"><![CDATA[برای پیگیری ثبت نام های جدید، <a href='{internal.app=core&module=overview&controller=notifications&do=dismiss&id=}%d' data-action='dismiss'> مخفی کردن این اعلان </a> و دوباره برای کاربران بعدی ظاهر می شود.]]></word>
-  <word key="acp_notification_NewRegComplete_more" js="0"># [1: دیگر] [?:دیگران]}←</word>
+  <word key="acp_notification_NewRegComplete_desc" js="0"><![CDATA[برای پیگیری ثبت‌های جدید، <a href='{internal.app=core&module=overview&controller=notifications&do=dismiss&id=}%d' data-action ='dismiss'>این اعلان را پنهان کنید</a> و زمانی که عضو بعدی ثبت نام کرد، دوباره ظاهر می شود.]]></word>
+  <word key="acp_notification_NewRegComplete_more" js="0"><![CDATA[{# [1: دیگر] [?:دیگر]}←]]></word>
   <word key="acp_notification_Bulletin" js="0">اطلاعات مهم از Invision Power Services</word>
   <word key="user_flagged_as_spammer" js="0">علامت گذاری کاربر به عنوان اسپمر: %s</word>
   <word key="user_flagged_as_spammer_subtitle" js="0">%s  توسط %s. </word>
@@ -10566,13 +10566,13 @@
   <word key="health__logs_title" js="0">رخدادنگاشت‌ها</word>
   <word key="health__logs_table" js="0">%s جدول log</word>
   <word key="health__client_area_link" js="0">رفتن به بخش پشتیبانی مشتریان</word>
-  <word key="health_support_intro1" js="0">اگر به کمک بیشتری نیازی دارید، در بخش سوالات و مشکلات سایت IPSFarsi، مشکل و یا سوال خود را مطرح فرمایید.</word>
+  <word key="health_support_intro1" js="0"><![CDATA[در صورت نیاز به راهنمایی بیشتر، لطفاً از <a href='{external.community_support}' target='_blank'>تالار گفتمان انجمن</a> ما بازدید کنید .]]></word>
   <word key="health_support_intro2" js="0">قبل از طرح سوال توصیه می کنیم که هر مشکلی را که در این صفحه مشاهده می کنید، همراه با سوال خود درج بفرمایید. اگر سیستم شما دچار مشکل باشد و یا اطلاعات حیاتی ذکر نشود، کار کمک رسانی بسیار سخت خواهد بود.</word>
-  <word key="health_support_intro3" js="0"> </word>
+  <word key="health_support_intro3" js="0"><![CDATA[اگر کارکنان انجمن Invision نیاز به دسترسی به انجمن شما دارند، لطفاً <a href='{internal.app=core&module=support&controller=support&do=admin}' data- ipsDialog data-ipsDialog-title='Administrator Account'>برای ایجاد یک حساب سرپرست اینجا را کلیک کنید</a>. فقط در صورتی این کار را انجام دهید که توسط کارکنان انجمن Invision درخواست شده باشد.]]></word>
   <word key="administrator_account" js="0">حساب کاربری مدیریت کل</word>
   <word key="copy_admin_info" js="0">لطفا مطمئن شوید این اطلاعات را کپی کرده اید چرا که این اطلاعات دیگر قابل بازیابی نخواهند بود.</word>
   <word key="health__support_button" js="0">درخواست پشتیبانی جدید</word>
-  <word key="health__tools_title" js="0">عیب یابی و ابزارها</word>
+  <word key="health__tools_title" js="0"><![CDATA[عیب یابی و ابزارها]]></word>
   <word key="health__support_title" js="0">گرفتن پشتیبانی</word>
   <word key="health__search_title" js="0">مستندات</word>
   <word key="health__guides_link" js="0">مشاهده تمامی راهنما ها</word>
@@ -10631,13 +10631,13 @@
   <word key="health__thirdparty_appupdates" js="0">برای %s برنامه، بروزرسانی در دسترس است</word>
   <word key="health__thirdparty_pluginupdates" js="0">برای %s افزونه، بروزرسانی در دسترس است</word>
   <word key="health__guides_intro" js="0">اگر مشکلی دارید یا با ویژگی های سیستم آشنا نیستید می توانید با جستجو در مستندات ما اطلاعات بیشتری کسب کنید.</word>
-  <word key="health__guides_form" js="0">کلمه کلیدی مد نظر مثل &quot;facebook&quot; یا &quot;spam&quot;</word>
+  <word key="health__guides_form" js="0">کلمه کلیدی مد نظر مثل "facebook" یا "spam"</word>
   <word key="health__guides_featured" js="0">راهنما های ویژه</word>
   <word key="health__no_known_issues" js="0">در حال حاضر مشکلی وجود ندارد.</word>
   <word key="health__ticket_thirdparty" js="0">شما {# [1:سفارشی‌سازی‌های طرف سوم][?:سفارشی‌سازی‌ طرف سوم]} در سایت خود دارید. اگر هنوز این کار را انجام نداده‌اید، باید تمامی سفارشی‌سازی‌های طرف سوم را غیرفعال کنید. سپس بررسی کنید که مشکل شما همچنان وجود دارد یا خیر. اگر مشکل شما با غیرفعال کردن تمامی سفارشی‌سازی‌های طرف سوم حل می‌شود، خوشحال می‌شویم که ادامه داده و درخواست تیکت خود را ارسال کنید تا نماینده پشتیبانی Invision برای بررسی دقیق‌تر مشکل به شما کمک کند. اگر غیرفعال کردن تمامی سفارشی‌سازی‌های طرف سوم مشکل شما را حل می‌کند، باید تشخیص دهید کدام سفارشی‌سازی مشکل را ایجاد کرده است و با نویسنده آن برای کمک بیشتر تماس بگیرید.</word>
   <word key="health__more_information" js="0">اطلاعات بیشتر</word>
   <word key="health__caching_enabled" js="0">موتور کش: %s</word>
-  <word key="health__server_subtitle" js="0"><![CDATA[مسیر: %s<br>IP: %s]]></word>
+  <word key="health__server_subtitle" js="0">مسیر: %s<br>IP: %s</word>
   <word key="health__no_featured" js="0">مشکلی در دریافت راهنما های ویژه پیش آمده است</word>
   <word key="health__patch_before_proceed" js="0">شدیدا توصیه می شود قبل از ادامه وصله موجود نصب گردد</word>
   <word key="health_thirdparty_disabled" js="0">شخصی سازی های متفرقه</word>
@@ -10740,7 +10740,7 @@
   <word key="achievement_rule_award" js="0">سپس</word>
   <word key="achievements_award" js="0">جایزه</word>
   <word key="achievements_awards" js="0">جایزه‌ها</word>
-  <word key="achievements_awards_points" js="0">{# [1:امتیاز][?:امتیاز]}</word>
+  <word key="achievements_awards_points" js="0">{# [1:امتیاز][?:امتیاز]} 	</word>
   <word key="achievements_awards_points_short" js="0">{# [1:امتیاز][?:امتیاز]}</word>
   <word key="achievements_awards_badge" js="0">نشان %s</word>
   <word key="achievements_awards_points_and_badge" js="0">{# [1:امتیاز][?:امتیاز]} و %s نشان</word>
@@ -10762,7 +10762,7 @@
   <word key="achievement_filter_NewContentItem_node" js="0">افزودن فیلتر %s</word>
   <word key="achievement_filter_NewContentItem_node_prefix" js="0">%s در این %s باشد</word>
   <word key="achievement_filter_NewContentItem_nth" js="0">افزودن یک ره شمار شرطی</word>
-  <word key="achievement_filter_NewContentItem_nth_suffix" js="0"><![CDATA[<span data-role='مین'>مین</span> ارسال او باشد]]></word>
+  <word key="achievement_filter_NewContentItem_nth_suffix" js="0"><![CDATA[<span data-role='th'>امین</span> چنین پستی]]></word>
   <word key="AchievementAction__NewContentItem_title" js="0">مطلب ارسال شد</word>
   <word key="AchievementAction__Comment_title" js="0">نظر/پاسخ ارسال شد</word>
   <word key="AchievementAction__Review_title" js="0">نقد ارسال شد</word>
@@ -10799,14 +10799,14 @@
   <word key="achievement_filter_Reaction_nth_suffix" js="0">مین واکنش</word>
   <word key="AchievementAction__NewClub" js="0">کلوپ جدید ایجاد شد</word>
   <word key="achievement_filter_NewClub_nth" js="0">افزودن یک ره شمار شرطی</word>
-  <word key="achievement_filter_NewClub_nth_suffix" js="0"><![CDATA[<span data-role='مین'>مین</span>  کلوپ او باشد]]></word>
+  <word key="achievement_filter_NewClub_nth_suffix" js="0"><![CDATA[<span data-role='th'>ام</span> کلوپ]></word>
   <word key="AchievementAction__NewClub_title" js="0">کلوپ ایجاد شد</word>
   <word key="AchievementAction__NewClub_title_generic" js="0">کلوپ</word>
   <word key="AchievementAction__NewClub_log" js="0">کلوپ جدید ایجاد کرد: %s</word>
   <word key="AchievementAction__FollowMember_title" js="0">کاربر دنبال شد</word>
   <word key="AchievementAction__FollowMember" js="0">کاربر دنبال شد</word>
   <word key="achievement_filter_FollowMember_nth" js="0">افزودن یک ره شمار شرطی</word>
-  <word key="achievement_filter_FollowMember_nth_suffix" js="0"><![CDATA[<span data-role='مین'>مین</span> دنبال او باشد]]></word>
+  <word key="achievement_filter_FollowMember_nth_suffix" js="0"><![CDATA[<span data-role='th'>امین</span> دنبال کرد]]></word>
   <word key="achievement_filter_FollowMember_receiver" js="0">به کاربری که دنبال شد</word>
   <word key="achievement_filter_FollowMember_giver" js="0">به کاربری که عضو دیگری را دنبال کرد</word>
   <word key="AchievementAction__FollowMember_log_subject" js="0">یک دنبال کننده از %s دریافت کرد</word>
@@ -10815,7 +10815,7 @@
   <word key="AchievementAction__JoinClub" js="0">در عضو یک کلوپ شد</word>
   <word key="achievement_filter_JoinClub_joiner" js="0">به کاربر عضو شده در کلوپ</word>
   <word key="achievement_filter_JoinClub_owner" js="0">به صاحب کلوپ</word>
-  <word key="achievement_filter_JoinClub_nth_suffix" js="0"><![CDATA[<span data-role='مین'>مین</span> عضویت کلوپ او باشد]]></word>
+  <word key="achievement_filter_JoinClub_nth_suffix" js="0"><![CDATA[<span data-role='th'>امین</span> کلوپ پیوست]]></word>
   <word key="achievement_filter_JoinClub_nth" js="0">افزودن یک ره شمار شرطی</word>
   <word key="AchievementAction__JoinClub_title" js="0">کلوپ عضو شد</word>
   <word key="AchievementAction__JoinClub_title_generic" js="0">عضویت</word>
@@ -10824,7 +10824,7 @@
   <word key="achievement_filter_Node_node" js="0">افزودن فیلتر %s</word>
   <word key="achievement_filter_Node_nth" js="0">افزودن یک ره شمار شرطی</word>
   <word key="achievement_filter_Node_node_prefix" js="0">در این بخش باشد</word>
-  <word key="achievement_filter_Node_nth_suffix" js="0"><![CDATA[<span data-role='مین'>مین</span> گره ای باشد که دنبال می کند]]></word>
+  <word key="achievement_filter_Node_nth_suffix" js="0"><![CDATA[<span data-role='th'>ام</span> دنبال کردن گره]]></word>
   <word key="AchievementAction__FollowNode_title_t" js="0">یک %s را دنبال کرد</word>
   <word key="AchievementAction__FollowNode_title_generic" js="0">یک گره را دنبال کرد</word>
   <word key="AchievementAction__FollowNode_log" js="0">%s دنبال کرد</word>
@@ -10837,7 +10837,7 @@
   <word key="AchievementAction__FollowContentItem_title_t" js="0">%s دنبال کرد</word>
   <word key="AchievementAction__FollowContentItem_log" js="0">%s دنبال کرد</word>
   <word key="achievement_filter_FollowContentItem_nth" js="0">افزودن یک ره شمار شرطی</word>
-  <word key="achievement_filter_FollowContentItem_nth_suffix" js="0"><![CDATA[<span data-role='مین'>مین</span> دنبال کردنش باشد]]></word>
+  <word key="achievement_filter_FollowContentItem_nth_suffix" js="0"><![CDATA[<span data-role='th'>امین</span> چنین دنبال کنید]]></word>
   <word key="AchievementAction__NewPoll" js="0">نظرسنجی جدید ایجاد شد</word>
   <word key="achievement_filter_NewPoll_nth" js="0">افزودن یک ره شمار شرطی</word>
   <word key="achievement_filter_NewPoll_nth_suffix" js="0">نظرسنجی</word>
@@ -10861,8 +10861,8 @@
   <word key="AchievementAction__ContentPromotion_title" js="0">مطلب بازنشر شد</word>
   <word key="AchievementAction__ContentPromotion_types" js="0">نوع %s</word>
   <word key="AchievementAction__ContentPromotion_title_generic" js="0">مطلب بازنشر شد</word>
-  <word key="achievement_filter_ContentPromotion_nth_suffix" js="0"><![CDATA[<span data-role='مین'>مین</span> مطلب بازنشر یافته]]></word>
-  <word key="AchievementAction__ContentPromotion_log_subject" js="0"> %2$s از طریق &quot;%1$s&quot; بازنشر شد</word>
+  <word key="achievement_filter_ContentPromotion_nth_suffix" js="0"><![CDATA[<span data-role='th'>امین</span> مورد تبلیغ شده]]></word>
+  <word key="AchievementAction__ContentPromotion_log_subject" js="0"> %2$s از طریق "%1$s" بازنشر شد</word>
   <word key="acplog__achievement_settings" js="0">تنظیمات دستاورد ها تغییر کرد</word>
   <word key="acp_rank_points_for_next" js="0">امتیاز برای درجه بعدی:</word>
   <word key="acp_profile_points" js="0">امتیازات %s</word>
@@ -10877,7 +10877,7 @@
   <word key="acp_points_log_table_points" js="0">امتیاز اعطا شد</word>
   <word key="acp_points_log_table_balance" js="0">تراز امتیازات</word>
   <word key="acp_points_log_table_datetime" js="0">تاریخ</word>
-  <word key="acp_points_log_title" js="0"><![CDATA[امتیازات کسب شده توسط  <a href='%s'>%s</a> ]]></word>
+  <word key="acp_points_log_title" js="0"><![CDATA[امتیازهای کسب شده توسط <a href='%s'>%s</a>]]></word>
   <word key="acp_profile_ranks_title" js="0">درجه ها</word>
   <word key="acp_profile_points_manage_title" js="0">مدیریت امتیازها</word>
   <word key="acp_profile_badges_title" js="0">نشان‌ها</word>
@@ -10896,10 +10896,10 @@
   <word key="AchievementAction__Review" js="0">نقد ارسال شد</word>
   <word key="achievement_filter_Comment_author" js="0">به کاربر ارسال کننده مطلب</word>
   <word key="achievement_filter_Comment_item_author" js="0">به کاربر ارسال کننده مطلب، که به مطلب او پاسخی ارسال شده است</word>
-  <word key="achievement_filter_Comment_nth_suffix" js="0"><![CDATA[<span data-role='مین'>مین</span> ارسال او باشد]]></word>
+  <word key="achievement_filter_Comment_nth_suffix" js="0"><![CDATA[<span data-role='th'>مین</span> ارسال او باشد]]></word>
   <word key="achievement_filter_Review_author" js="0">به کاربر ارسال کننده نقد</word>
   <word key="achievement_filter_Review_item_author" js="0">به کاربر ارسال کننده مطلب، که برای مطلب او،‌نقد نوشته شده است</word>
-  <word key="achievement_filter_Review_nth_suffix" js="0"><![CDATA[<span data-role='مین'>مین</span> نقد او باشد]]></word>
+  <word key="achievement_filter_Review_nth_suffix" js="0"><![CDATA[<span data-role='th'>مین</span> نقد او باشد]]></word>
   <word key="history_manual_points_adjustment" js="0">امتیازها به صورت دستی از %s به%s %s تنظیم می شوند</word>
   <word key="block_achievements" js="0">دستاورد‌های اخیر</word>
   <word key="block_achievements_desc" js="0">نشان های بتازگی کسب شده و اعضایی که بتازگی درجه های آن ها افزایش پیدا کرده است را نشان می دهد.</word>
@@ -10916,7 +10916,7 @@
   <word key="block_achievements_more" js="0">مشاهده دستاورد‌های بیشتر</word>
   <word key="acp_profile_manage_badges" js="0">مدیریت</word>
   <word key="acp_profile_badges_manage_title" js="0">مدیریت نشان‌ها</word>
-  <word key="acp_badges_log_title" js="0"><![CDATA[نشان‌های بدست آورده شده توسط ت<a href='%s'>%s</a> ]]></word>
+  <word key="acp_badges_log_title" js="0"><![CDATA[نشان‌های کسب‌شده توسط <a href='%s'>%s</a>]]></word>
   <word key="acp_profile_badge_add" js="0">افزودن نشان</word>
   <word key="acp_badges_log_table_badge" js="0">نشان کسب شد</word>
   <word key="acp_badges_log_table_datetime" js="0">تاریخ بدست آوردن</word>
@@ -10989,7 +10989,7 @@
   <word key="recognize_blurb_awarded_points_and_badge" js="0">به شما نشان ' %s ' و %s امتیاز تعلق گرفت.</word>
   <word key="recognize_blurb_awarded_points" js="0">به شما %s امتیاز تعلق گرفت.</word>
   <word key="recognize_blurb_awarded_badge" js="0">به شما نشان «%s» اعطا گردید</word>
-  <word key="recognize_blurb_awarded_points_and_badge_third" js="0">به %s نشان &quot; %s&quot; و %s امتیاز اعطا شد.</word>
+  <word key="recognize_blurb_awarded_points_and_badge_third" js="0">به %s نشان " %s" و %s امتیاز اعطا شد.</word>
   <word key="recognize_blurb_awarded_points_third" js="0">%s امتیاز %s اهدا شد.</word>
   <word key="recognize_blurb_awarded_badge_third" js="0">به %s نشان «%s» اعطا گردید</word>
   <word key="can_recognize_content" js="0">توانایی اعطا جایزه به مطالب کاربران؟</word>
@@ -11007,8 +11007,8 @@
   <word key="achievements_recognize_max_per_user_day_suffix" js="0">ارسال شناسایی شده به ازای هر کاربر، به ازای هر روز</word>
   <word key="recognize_points_so_far_limit" js="0"><![CDATA[<p>برای %s حداکثر %s امتیاز باقی مانده است که امروز می‌تواند، پاداش بگیرید. </p>]]></word>
   <word key="can_recognize_content_no_point_limit" js="0">توانایی گذر از محدودیت روزانه دریافت امتیاز</word>
-  <word key="recognize_points_so_far_limit_but_none" js="0">شما اجازه عبور از حد مجاز روزانه را دارید.</word>
-  <word key="recognize_points_so_far_limit_none" js="0"><![CDATA[<p> %s امروز دیگر امتیاز برای تخصیص ندارد.</p>]]></word>
+  <word key="recognize_points_so_far_limit_but_none" js="0"><![CDATA[&nbsp;شما اجازه دارید از محدودیت امتیاز روزانه عبور کنید.]]></word>
+  <word key="recognize_points_so_far_limit_none" js="0"><![CDATA[<p>%s امروز امتیاز دیگری برای تخصیص ندارد.</p>]]></word>
   <word key="recognize_author_remove" js="0">حذف جایزه ها</word>
   <word key="recognize_author_remove_desc" js="0">حذف هر گونه نشان و یا امتیاز پاداش برای این مطلب.</word>
   <word key="recognize_removed_success" js="0">جایزها حذف شدند</word>
@@ -11434,7 +11434,7 @@
   <word key="hive_email_address" js="0">مدیر ایمیل</word>
   <word key="hive_email_address_desc" js="0">این آدرس ایمیل برای ایجاد حساب کاربری کندو سایت و فعال کردن دسترسی به مدیریت این سایت استفاده خواهد شد.</word>
   <word key="hive_choose_content" js="0">مطالب کندو سایت</word>
-  <word key="hive_choose_content_blurb" js="0">انتخاب کنید کدام انواع محتوا باید در اجتماع های کامیونیتی نشان داده شود. مجوزهای عضو همیشه هنگام نمایش محتوا استفاده می‌شود.</word>
+  <word key="hive_choose_content_blurb" js="0">انتخاب کنید که چه انواع محتوایی باید در کندو سایت نمایش داده شود. مجوزهای اعضا همیشه هنگام نمایش محتوا استفاده می‌شود.</word>
   <word key="hive_content_classes" js="0">نوع مطلب</word>
   <word key="hive_activated_blurb" js="0">کندو سایت فعال شده است. لطفاً برای تکمیل ایجاد حساب کاربری کندو سایت خود، ادامه دهید.</word>
   <word key="hive_continue_activation" js="0">ادامه</word>
@@ -11452,7 +11452,7 @@
   <word key="block_communityHiveFollow_desc" js="0">دکمه دنبال کردن برای Community Hive نشان داده می‌شود.</word>
   <word key="block_communityhive" js="0">کندو سایت</word>
   <word key="block_communityhive_display" js="0">Community Hive به شما امکان پی‌گیری انجمن‌های مورد علاقه‌تان را در یک مکان فراهم می‌کند.</word>
-  <word key="block_communityhive_desc" js="0">کندو سایت به شما اجازه می‌دهد تا از سایت‌های مورد علاقه‌تان را در یک مکان دنبال کنید.</word>
+  <word key="block_communityhive_desc" js="0"><![CDATA[Community Hive به شما اجازه می دهد تا انجمن های مورد علاقه خود را همه در یک مکان دنبال کنید. <em>به اعضایی که قبلاً دنبال می‌کنند نشان داده نمی‌شود.</em>]]></word>
   <word key="block_communityhive_follow" js="0">دنبال کردن در کندو سایت</word>
   <word key="block_communityhive_follow_short" js="0">دنبال کردن در</word>
   <word key="block_communityhive_admin_message" js="0">این بلوک فقط برای اعضا نمایش داده می‌شود که هنوز انجمن را دنبال نکرده‌اند.</word>
@@ -11660,7 +11660,7 @@
   <word key="saving" js="1">در حال ذخیره سازی ...</word>
   <word key="page" js="1">صفحه</word>
   <word key="addedIgnore" js="1">{{user}} به لیست نادیده گرفته های شما افزوده شد</word>
-  <word key="saveSearchExample" js="1">جستجو من برای &quot;{{currentSearch}}&quot; در {{app}}</word>
+  <word key="saveSearchExample" js="1">جستجو من برای "{{currentSearch}}" در {{app}}</word>
   <word key="searchTitle" js="1">جستجو</word>
   <word key="searchTitleTerm" js="1">جستجو برای '{{term}}'</word>
   <word key="searchTitleTermType" js="1">جستجو برای '{{term}}' در {{type}}</word>
@@ -11844,7 +11844,7 @@
   <word key="sidebarConfigError" js="1">تنظیمات قابل ذخیره نیست</word>
   <word key="sidebar_fetch_blocks_error" js="1">لیست بلوک های موجود قابل دریافت نیست</word>
   <word key="revokeWarning" js="1">حذف اخطار و بازگردانی تمامی کار ها (مثال : حذف امتیاز منفی و لغو مجازات ها)، یا فقط حذف رخداد نگاشت ها؟</word>
-  <word key="reverseAndDelete" js="1">بازگردانی و حذف</word>
+  <word key="reverseAndDelete" js="1"><![CDATA[بازگردانی و حذف]]></word>
   <word key="justDelete" js="1">فقط حذف</word>
   <word key="warningPunishment_mq" js="1">همه مطالب را تعدیل کنید</word>
   <word key="warningPunishment_rpa" js="1">محدود کردن ارسال</word>
@@ -11969,7 +11969,7 @@
   <word key="autoUpdateStopped" js="1"><![CDATA[<i class='fa fa-pause'></i> تازه سازی جهت ادامه بروزرسانی خودکار]]></word>
   <word key="streamDefaultTooltip" js="1">همچنین برای دسترسی ساده تر، ما {{title}} را اینجا قرار می دهیم</word>
   <word key="streamFilter_stream_include_comments_0" js="1">فقط موارد</word>
-  <word key="streamFilter_stream_include_comments_1" js="1">موارد، دیدگاه ها و بررسی ها</word>
+  <word key="streamFilter_stream_include_comments_1" js="1"><![CDATA[مورد، دیدگاه‌ها و بررسی‌ها]]></word>
   <word key="streamFilter_stream_read_unread" js="1">خوانده نشده</word>
   <word key="streamFilter_stream_read_all" js="1"><![CDATA[<em>هرچیزی</em>]]></word>
   <word key="streamFilter_stream_follow_all" js="1"><![CDATA[<em>هرچیزی</em>]]></word>
@@ -12034,12 +12034,12 @@
   <word key="imageLazyLoadRebuildBlurbEnable" js="1">شما می توانید به صورت اختیاری محتوای منتشر شده خود را بروز رسانی کنید تا بتوانید از بارگذاری رسانه ای تان استفاده کنید. این عمل در پس زمینه اجرا می شود و ممکن است مدتی طول بکشد.</word>
   <word key="imageLazyLoadRebuildBlurbDisable" js="1">شما می توانید به صورت اختیاری بارگذاری تنبل را از محتوای منتشر شده حذف کنید. این در پس زمینه اجرا می شود و ممکن است مدتی طول بکشد.</word>
   <word key="emoji" js="1">اموجی</word>
-  <word key="emoji-category-smileys_emotion" js="1">صورت و حالت ها</word>
-  <word key="emoji-category-people_body" js="1">آدم ها</word>
-  <word key="emoji-category-animals_nature" js="1">حیوانات و طبیعت</word>
-  <word key="emoji-category-food_drink" js="1">غذا و نوشیدنی</word>
+  <word key="emoji-category-smileys_emotion" js="1"><![CDATA[صورت و حالت ها]]></word>
+  <word key="emoji-category-people_body" js="1"><![CDATA[آدم‌ها و بدن]]></word>
+  <word key="emoji-category-animals_nature" js="1"><![CDATA[حیوانات و طبیعت]]></word>
+  <word key="emoji-category-food_drink" js="1"><![CDATA[غذا و نوشیدنی]]></word>
   <word key="emoji-category-activities" js="1">فعالیت ها</word>
-  <word key="emoji-category-travel_places" js="1">سفر و مکانها</word>
+  <word key="emoji-category-travel_places" js="1"><![CDATA[سفر و مکان‌ها]]></word>
   <word key="emoji-category-objects" js="1">اشیاء</word>
   <word key="emoji-category-symbols" js="1">نمادها</word>
   <word key="emoji-category-flags" js="1">پرچم ها</word>
@@ -12928,7 +12928,7 @@
   <word key="emoji-house_buildings" js="1">ساختمانهای خانه</word>
   <word key="emoji-cityscape" js="1">منظره شهر</word>
   <word key="emoji-derelict_house_building" js="1">ساختمان خانه متروک</word>
-  <word key="emoji-classical_building" js="1">ساختمان کلاسیک</word>
+  <word key="emoji-classical_building" js="1">Classical Building</word>
   <word key="emoji-desert" js="1">کویر</word>
   <word key="emoji-desert_island" js="1">جزیره صحرا</word>
   <word key="emoji-national_park" js="1">پارک ملی</word>
@@ -13836,7 +13836,7 @@
   <word key="emoji-melting_face" js="1">چهره ذوب شده</word>
   <word key="emoji-saluting_face" js="1">چهره با سلام کردن</word>
   <word key="emoji-face_with_open_eyes_and_hand_over_mouth" js="1">چهره با چشمان باز و دست روی دهان</word>
-  <word key="emoji-face_with_peeking_eye" js="1">چهره با چشمان خمشار</word>
+  <word key="emoji-face_with_peeking_eye" js="1">چهره‌ای با حالت یواشکی نگاه کردن</word>
   <word key="emoji-face_with_diagonal_mouth" js="1">چهره با دهان مورب</word>
   <word key="emoji-dotted_line_face" js="1">چهره با خطوط نقطه‌ای</word>
   <word key="emoji-skull_and_crossbones" js="1">جمجمه و استخوان های ضربدری</word>
