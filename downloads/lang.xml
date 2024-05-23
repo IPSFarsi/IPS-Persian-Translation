@@ -1,643 +1,643 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language>
  <app key="downloads" version="107745">
-<word key="__app_downloads" js="0">دریافت</word>
-<word key="frontnavigation_downloads" js="0">بخش دریافت</word>
-<word key="__indefart_downloads_file_comment" js="0">دیدگاهی برای یک فایل</word>
-<word key="__indefart_downloads_file" js="0">یک فایل</word>
-<word key="__indefart_downloads_file_review" js="0">نقد و بررسی برای یک فایل</word>
-<word key="__indefart_downloads_file_pending" js="0">نسخه جدید</word>
-<word key="__defart_downloads_file_comment" js="0">دیدگاه ها در یک فایل</word>
-<word key="__defart_downloads_file_comment_plural" js="0">{!#[1:دیدگاه][?:دیدگاه]} در یک فایل </word>
-<word key="__defart_downloads_file" js="0">فایل</word>
-<word key="__defart_downloads_file_plural" js="0">{!#[1:فایل][?:فایل]} </word>
-<word key="__defart_downloads_file_review" js="0">نقد برای یک فایل</word>
-<word key="__defart_downloads_file_review_plural" js="0">{!#[1:نقد][?:نقد]} روی یک فایل</word>
-<word key="__defart_downloads_file_pending" js="0">نسخه های جدید</word>
-<word key="menu__downloads_downloads" js="0">بخش دریافت</word>
-<word key="module__downloads_downloads" js="0">بخش دریافت</word>
-<word key="menu__downloads_stats" js="0">بخش دریافت</word>
-<word key="module__downloads_stats" js="0">آمارها</word>
-<word key="file_download" js="0">بخش دریافت فایل</word>
-<word key="downloads_file_container" js="0">دسته ها</word>
-<word key="search_contextual_item_downloads_categories" js="0">این دسته</word>
-<word key="search_contextual_item_downloads_file" js="0">این فایل</word>
-<word key="downloads_categories" js="0">دسته های دریافت</word>
-<word key="download_categories_lc" js="0">دسته‌بندی های دریافت</word>
-<word key="filestorage__downloads_Files" js="0">بخش دریافت فایل</word>
-<word key="filestorage__downloads_Screenshots" js="0">تصاویر بخش دریافت</word>
-<word key="filestorage__downloads_FileField" js="0">فیلدهای اختصاصی بخش دریافت</word>
-<word key="downloads_files" js="0">فایل‌های دریافت</word>
-<word key="downloads_file" js="0">فایل</word>
-<word key="downloads_file_sg_lc" js="0">فایل دریافتی</word>
-<word key="modlog__action_restorebackup" js="0"><![CDATA[نسخه قبلی فایل بازگردانده شد: <a href='%s'>%s</a>]]></word>
-<word key="modlog__action_visibilitybackup" js="0"><![CDATA[وضعیت نمایش برای نسخه قبلی فایل <a href='%s'>%s</a> تغییر یافت]]></word>
-<word key="modlog__action_deletebackup" js="0"><![CDATA[نسخه قبلی فایل حذف شد: <a href='%s'>%s</a>]]></word>
-<word key="modlog__action_purchasestatus" js="0"><![CDATA[وضعیت خرید تغییر یافته برای یک فایل : <a href='%s'>%s</a>]]></word>
-<word key="modlog__action_newversion_reject" js="0"><![CDATA[نسخه جدید این فایل رد شد:<a href='%s'>%s</a> ]]></word>
-<word key="modlog__action_newversion_approved" js="0"><![CDATA[نسخه جدیدی را برای یک فایل تأیید کرد :<a href='%s'>%s</a> ]]></word>
-<word key="modlog__action_restorebackup_stats" js="0">نسخه قبلی یک فایل را بازیابی کرد</word>
-<word key="modlog__action_visibilitybackup_stats" js="0">تغییر قابلیت مشاهده نسخه قبلی یک فایل</word>
-<word key="modlog__action_deletebackup_stats" js="0">نسخه قبلی یک فایل را حذف کرد</word>
-<word key="modlog__action_purchasestatus_stats" js="0">تغییر وضعیت خرید فایل</word>
-<word key="modlog__action_newversion_reject_stats" js="0">نسخه جدیدی از یک فایل را رد کرد</word>
-<word key="modlog__action_newversion_approved_stats" js="0">نسخه جدیدی از یک فایل را تأیید کرد</word>
-<word key="mark_category_read" js="0">علامت زدن دسته به عنوان خوانده شده</word>
-<word key="mark_category_read_title" js="0">علامت زدن این دسته به عنوان خوانده شده</word>
-<word key="editor__downloads_Categories" js="0">دسته‌های دریافت</word>
-<word key="editor__downloads_Downloads" js="0">دریافت‌های فایل</word>
-<word key="editorMedia_downloads_Files" js="0">دریافت‌های فایل</word>
-<word key="downloads_rebuilding_screenshots" js="0">باز سازی تصاویر واترمارک</word>
-<word key="member_restrictions__downloads_Downloads" js="0">دریافت‌ها</word>
-<word key="restriction_no_downloads" js="0">محدود کردن برای ثبت فایل ها</word>
-<word key="content_stats__downloads_Downloads" js="0">دریافت ها</word>
-<word key="menu__downloads_downloads_categories" js="0">دسته‌ها</word>
-<word key="subcategories" js="0">زیردسته‌ها</word>
-<word key="cname" js="0">نام</word>
-<word key="cbitoptions_disfiles" js="0">پذیرش فایل‌ها؟</word>
-<word key="cbitoptions_disfiles_desc" js="0">شما می توانید درهر زمان نوع دسته را از حالت مادر که تنها شامل زیر دسته ها می شود و امکان ارسال مستقیم به آن وجود ندارد را غیر فعال کنید.</word>
-<word key="ctypes" js="0">پسوند های مجاز</word>
-<word key="cparent" js="0">دسته والد</word>
-<word key="any_extensions" js="0">هر پسوندی</word>
-<word key="cmaxfile" js="0">حداکثر حجم فایل</word>
-<word key="ccfields" js="0">فیلدهای اضافی</word>
-<word key="category_screenshots" js="0">تصاویر</word>
-<word key="cbitoptions_allowss" js="0">پذیرش تصاویر؟</word>
-<word key="cbitoptions_allowss_desc" js="0">هنگام ارسال فایل ها میتوان تصاویر مرتبط با فایل ارسالی را نیز پیوست نمود که در هنگام نمایش فهرست فایل ها، قابل مشاهده است.</word>
-<word key="cbitoptions_reqss" js="0">نیازمند به تصویر؟</word>
-<word key="cmaxss" js="0">حداکثر حجم تصویر</word>
-<word key="cmaxdims" js="0">حداکثر ابعاد تصویر</word>
-<word key="category_display" js="0">نمایش دسته</word>
-<word key="csortorder" js="0">چیدمان پیش فرض </word>
-<word key="cbitoptions_comments" js="0">پذیرش دیدگاه ها؟</word>
-<word key="cbitoptions_reviews" js="0">پذیرش نقدها؟</word>
-<word key="cbitoptions_reviews_mod" js="0">نقدها باید پذیرفته شوند؟</word>
-<word key="cbitoptions_reviews_download" js="0">کاربر باید ابتدا فایل را دریافت، سپس امتیاز دهد؟</word>
-<word key="cbitoptions_reviews_download_desc" js="0">لازم است تا ثبت دریافت ها، فعال باشد</word>
-<word key="cdisclaimer" js="0">شرایط دریافت</word>
-<word key="cdisclaimer_placeholder" js="0">پیش از دریافت، شما باید با شرایط دریافت موافقت نمایید ...</word>
-<word key="category_errors" js="0">پیام خطا</word>
-<word key="category_errors_blurb" js="0">شما می توانید پیام های خطا خاص برای استفاده این دسته تعریف کنید. اگر ارائه نشده، یک پیام خطا عمومی استفاده خواهد شد</word>
-<word key="noperm_view" js="0">نمی‌توان فایل‌ها را دید</word>
-<word key="noperm_view_placeholder" js="0">افزودن یک پیام خطا...</word>
-<word key="noperm_dl" js="0">امکان دریافت نمی باشد</word>
-<word key="noperm_dl_placeholder" js="0">افزودن یک پیام خطا...</word>
-<word key="perm_file_perm__label" js="0" />
-<word key="perm_file_perm__view" js="0">دیدن دسته</word>
-<word key="perm_file_perm__read" js="0">مشاهده فایل‌ها</word>
-<word key="perm_file_perm__add" js="0">بارگذاری فایل‌ها</word>
-<word key="perm_file_perm__download" js="0">دریافت فایل‌ها</word>
-<word key="perm_file_perm__comment" js="0">دیدگاه ها</word>
-<word key="perm_file_perm__rate" js="0">دادن امتیاز به فایل ها</word>
-<word key="perm_file_perm__reply" js="0">دیدگاه ها</word>
-<word key="perm_file_perm__review" js="0">نقد و بررسی فایل‌ها</word>
-<word key="cbitoptions_moderation" js="0">فایل‌ها باید پذیرفته شوند؟</word>
-<word key="cbitoptions_moderation_edits" js="0">نسخه جدید فایل باید پذیرفته شود؟</word>
-<word key="cbitoptions_show_approver" js="0">نمایش فرد پذیرنده فایل؟</word>
-<word key="cbitoptions_show_approver_desc" js="0">دیگر مدیران همیشه قادر به دیدن این اطلاعات هستند.</word>
-<word key="cbitoptions_comment_moderation" js="0">دیدگاه ها باید پذیرفته شوند؟</word>
-<word key="cversion_numbers" js="0">شماره نسخه</word>
-<word key="version_numbers_disabled" js="0">غیر فعال</word>
-<word key="version_numbers_enabled" js="0">در دسترس</word>
-<word key="version_numbers_required" js="0">ضروری</word>
-<word key="cversioning_on" js="0">حفظ نسخه قبلی؟</word>
-<word key="cversioning_on_desc" js="0">اگر فعال باشد، هنگامی که نسخه جدیدی از یک فایل بارگذاری شد، نسخه های قبلی ذخیره شده و در دسترس خواهند بود.</word>
-<word key="cversioning" js="0">تعداد نسخه‌های قابل حفظ</word>
-<word key="crequire_changelog" js="0">اجباری بودن کارنامه تغییرات؟</word>
-<word key="category_moderation" js="0">مدیریت</word>
-<word key="category_downloading" js="0">درحال دریافت</word>
-<word key="category_comments_and_reviews" js="0">دیدگاه ها</word>
-<word key="category_logs" js="0">رخداد نگاشت ها‎</word>
-<word key="clog_on" js="0">ثبت دریافت‎ها؟</word>
-<word key="clog" js="0">حفظ رخداد نگاشت برای</word>
-<word key="clog_recount" js="0">بازشماری تعداد دریافت‎ها</word>
-<word key="clog_recount_desc" js="0">تعداد دریافت ها برای هر فایل در این دسته به تعداد رکورد ها فعلی موجود در گزارش بازخواهد گشت. اگر شما تنظیمات گزارش را بروزرسانی کرده باشید، لازم است که قبل از ذخیره این ابزار را اجرا نمایید. این کار برگشت ناپذیر است.</word>
-<word key="clog_recount_done" js="0">تعداد محاسبه شده</word>
-<word key="r__categories_recount_downloads" js="0">توانایی بازشماری تعداد دریافت‎ها؟</word>
-<word key="cbitoptions_submitter_log" js="0">‎اجازه مشاهده رخداد نگاشت ها برای ارسال کننده؟</word>
-<word key="cbitoptions_submitter_log_desc" js="0">همچنین شما از بخش مدیریت گروه های کاربری می توانید تعیین کنید کدامیک از کاربران می توانند رخداد نگاشت ها را مشاهده کنند.</word>
-<word key="category_submissions" js="0">ارسالی</word>
-<word key="category_allowed_files" js="0">پذیرش فایل‌ها</word>
-<word key="category_versioning" js="0">نگارش</word>
-<word key="csubmissionterms" js="0">قوانین ارسال</word>
-<word key="csubmissionterms_placeholder" js="0">با ارسال فایل شما شرایط ذکر شده را می‌پذیرید:</word>
-<word key="file_cat" js="0">دسته</word>
-<word key="file_ipaddress" js="0">آدرس IP</word>
-<word key="log_days" js="0">رخداد نگاشت بعد از {# [1:روز][?:روز]} پاکسازی می گردد</word>
-<word key="category_forums_integration" js="0">ایجاد موضوع</word>
-<word key="cforum_on" js="0">ارسال یک موضوع در زمان ارسال فایل؟</word>
-<word key="cforum_on_desc" js="0">هر بار که یک فایل جدید ارسال می‌شود، یک موضوع را در انجمن مشخص ارسال کنید.</word>
-<word key="cforum_id" js="0">تالارهای گفتگو</word>
-<word key="ctopic_prefix" js="0">پیشوند موضوع</word>
-<word key="ctopic_suffix" js="0">پسوند موضوع</word>
-<word key="cbitoptions_topic_delete" js="0">موضوع در صورت حذف فایل پاک شود؟</word>
-<word key="cbitoptions_topic_screenshot" js="0">شامل تصویر در موضوع شود؟</word>
-<word key="node_no_parentd" js="0">بدون والد </word>
-<word key="view_all_files" js="0">مشاهده همه فایل ها</word>
-<word key="downloadcategory_topic_rebuild" js="0"><![CDATA[<a href='%s' data-confirm data-confirmMessage='Rebuild Topics' data-confirmSubMessage=' با این کار اولین ارسال از تمام موضوعات توسط فایل های در این گروه  برای مطابقت با تنظیمات فعلی ویرایش میکند. این ممکن است مفید باشد اگر برخی تنظیمات را تغییر داده اید. هر پرونده ای که هنوز موضوعی را در اختیارشان قرار نگرفته باشد، بازسازی خواهد شد. بازسازی در پس زمینه پردازش می شود و شما می توانید پیشرفت در AdminCP Dashboard را ببینید.'>بازسازی محتوای موضوع</a> ]]></word>
-<word key="cmultiple_files" js="0">اجازه چندین فایل را بدهید</word>
-<word key="cmultiple_files_desc" js="0">اگر فعال باشد، نویسنده فایل می توانید چند فایل در یک بار در هنگام ایجاد  چندین پرونده همزمان آن را بارگذاری کند. </word>
-<word key="cdisclaimer_location" js="0">نمایش قوانین دریافت</word>
-<word key="cdisclaimer_purchase" js="0">قبل از خرید</word>
-<word key="cdisclaimer_download" js="0">بعد از خرید</word>
-<word key="cdisclaimer_both" js="0">قبل از خرید و دریافت</word>
-<word key="modperms__core_Content_downloads_File" js="0">بخش دریافت</word>
-<word key="download_categories" js="0">دسته‌ها</word>
-<word key="can_pin_downloads_file" js="0">توانایی مهم کردن فایل‌ها؟</word>
-<word key="can_unpin_downloads_file" js="0">توانایی غیر مهم کردن فایل‌ها؟</word>
-<word key="can_feature_downloads_file" js="0">توانایی ویژه کردن فایل‌ها؟</word>
-<word key="can_unfeature_downloads_file" js="0">توانایی غیر ویژه کردن فایل‌ها؟</word>
-<word key="can_move_downloads_file" js="0">توانایی انتقال فایل‌ها؟</word>
-<word key="can_move_downloads_file_desc" js="0">قادر خواهد بود فایل ها را فقط بین دسته بندی هایی که دسترسی مدیریت دارد جابجا کند. نه هر دسته بندی دیگر.</word>
-<word key="can_lock_downloads_file" js="0">توانایی قفل کردن فایل‌ها؟</word>
-<word key="can_unlock_downloads_file" js="0">توانایی باز کردن فایل‌ها؟</word>
-<word key="can_reply_to_locked_downloads_file" js="0">توانایی نوشتن دیدگاه ها در فایل‌های قفل شده؟</word>
-<word key="can_edit_downloads_file" js="0">توانایی ویرایش فایل‌ها؟</word>
-<word key="can_hide_downloads_file" js="0">توانایی پنهان کردن فایل‌ها؟</word>
-<word key="can_unhide_downloads_file" js="0">توانایی آشکار کردن فایل ها؟</word>
-<word key="can_view_hidden_downloads_file" js="0">توانایی مشاهده فایل‌های پنهان؟</word>
-<word key="can_delete_downloads_file" js="0">توانایی حذف فایل‌ها؟</word>
-<word key="can_edit_downloads_file_comment" js="0">توانایی ویرایش دیدگاه ها؟</word>
-<word key="can_hide_downloads_file_comment" js="0">توانایی پنهان کردن دیدگاه ها؟</word>
-<word key="can_unhide_downloads_file_comment" js="0">توانایی آشکار کردن دیدگاه ها؟</word>
-<word key="can_view_hidden_downloads_file_comment" js="0">توانایی مشاهده دیدگاه های پنهان؟</word>
-<word key="can_delete_downloads_file_comment" js="0">توانایی حذف دیدگاه ها؟</word>
-<word key="can_edit_downloads_file_review" js="0">توانایی ویرایش نقدها؟</word>
-<word key="can_hide_downloads_file_review" js="0">توانایی پنهان کردن نقد و بررسی‌ها؟</word>
-<word key="can_unhide_downloads_file_review" js="0">توانایی آشکار کردن نقد و بررسی‌ها؟</word>
-<word key="can_view_hidden_downloads_file_review" js="0">توانایی مشاهده نقد و بررسی‌های پنهان؟</word>
-<word key="can_delete_downloads_file_review" js="0">توانایی حذف نقدها؟</word>
-<word key="can_feature_comments_downloads_file" js="0">توانایی انتخاب دیدگاه ها به عنوان پیشنهاد شده در فایل؟</word>
-<word key="can_unfeature_comments_downloads_file" js="0">توانایی حذف دیدگاه های پیشنهاد شده در فایل؟</word>
-<word key="can_add_item_message_downloads_file" js="0">توانایی افزودن پیام ها در فایل؟</word>
-<word key="can_edit_item_message_downloads_file" js="0">توانایی ویرایش پیام ها در فایل؟</word>
-<word key="can_delete_item_message_downloads_file" js="0">توانایی حذف پیام ها در فایل؟</word>
-<word key="modperms__downloads_Files" js="0">دریافت‌ها</word>
-<word key="can_make_purchasable" js="0">توانایی فعال سازی خرید در فایل ها؟</word>
-<word key="can_make_unpurchasable" js="0">توانایی غیرفعال سازی خرید در فایل ها؟</word>
-<word key="menu__downloads_downloads_fields" js="0">فیلدهای اضافی</word>
-<word key="cf_topic" js="0">نمایش فیلد در موضوع ها؟</word>
-<word key="cf_format_desc" js="0"><![CDATA[مثال: <strong>{title}:</strong> {content} ]]></word>
-<word key="downloads_field_location" js="0">محل نمایش</word>
-<word key="idm_cfield_below" js="0">در زیر توضیحات</word>
-<word key="idm_cfield_tab" js="0">در یک برگه جداگانه</word>
-<word key="idm_cfield_sidebar" js="0">در نوار کناری</word>
-<word key="downloads_field_paid" js="0">خرید لازم است؟</word>
-<word key="downloads_field_paid_desc" js="0">در صورت فعال بودن ، محتویات این قسمت فقط برای کاربرانی که آن فایل را خریداری کرده اند نمایش داده می شود. این تنظیم هیچ تاثیری روی فایل های رایگان ندارد.</word>
-<word key="menu__downloads_downloads_settings" js="0">تنظیمات</word>
-<word key="acplogs__downloads_settings" js="0">بروزرسانی تنظیمات دریافت</word>
-<word key="group__downloads_Downloads" js="0">دریافت‎ها</word>
-<word key="idm_rss" js="0">فعال سازی خوراک RSS برای آخرین فایل ها؟</word>
-<word key="idm_link_blacklist" js="0">ثبت آدرس های وبگاه در لیست سیاه</word>
-<word key="idm_link_blacklist_desc" js="0">کاربرانی که دسترسی ارسال لینک از آدرس وبگاه دارند قادر نخواهند بود لینک هایی از دامنه تعریف شده در بالا را ارسال نمایند.</word>
-<word key="idm_antileech" js="0">جلوگیری از لینکدهی مستقیم؟</word>
-<word key="idm_antileech_desc" js="0">اگر فعال شود لینک ها از حالت مستقیم خارج شده و کاربران نمی توانند به صورت لینک مستقیم فایل ها را دریافت کنند و برای دریافت باید همیشه به صفحه دریافت خود فایل مراجعه کنند.</word>
-<word key="idm_watermarkpath" js="0">واترمارک تصویر</word>
-<word key="idm_watermarkpath_desc" js="0">تصویر بارگذاری شده بر روی تمامی تصاویر فایل ها چاپ خواهد شد (برای مثل برای نمایش متن کپی رایت). برای گرفتن بهترین نتیجه از تصویر کوچک با پس زمینه شفاف (transparent) استفاده نمایید.</word>
-<word key="acplogs__downloads_recount_downloads" js="0">بازشماری آمار برای دسته ها پایان یافت: %s</word>
-<word key="download_settings_saved_rebuilding" js="0">ذخیره شد.  تصویر شما نیز در زمینه کارهای آن انجام خواهد شد.</word>
-<word key="idm_default_view" js="0">نمای پیش‌فرض دسته</word>
-<word key="idm_default_view_choose" js="0">کاربر توانایی انتخاب دارد؟</word>
-<word key="downloads_default_view_table" js="0">جدول: نمای سنتی جدولی</word>
-<word key="downloads_default_view_grid" js="0">شبکه: نمایش فایل ها به صورت کارت در یک شبکه</word>
-<word key="downloads_default_view_choose" js="0">کاربران توانایی انتخاب دارد؟</word>
-<word key="downloads_default_view_choose_desc" js="0">حالت‌های نمایشی را که کاربران از میان آن ها انتخاب کنند را تعیین کنید</word>
-<word key="downloads_default_view_choose_none" js="0">به کاربران اجازه انتخاب نده</word>
-<word key="idm_view_approvers" js="0">توانایی مشاهده پذیرنده فایل‌ها؟</word>
-<word key="idm_bypass_revision" js="0">توانایی مدیریت نسخه‌ها؟</word>
-<word key="idm_view_downloads" js="0">توانایی مشاهده دریافت‎کنندگان فایل‌ها؟</word>
-<word key="idm_view_downloads_desc" js="0">رخداد نگاشت دانلود را می توان بر اساس یک بازه زمانی یا هر دسته غیرفعال کرد.</word>
-<word key="idm_throttling" js="0">حداکثر سرعت دریافت</word>
-<word key="idm_max_size" js="0">حداکثر سایز ارسالی</word>
-<word key="idm_max_size_desc" js="0">دسته ها می توانند محدودیت در حداکثر میزان سایز فایل ها داشته باشند. به صورت عادی ارسال ها محدود به تنظیمات حداکثر حجم  فایل در هر گروه کاربری هستند یا میزان تنظیمی که برای هر دسته ایجاد شده است ولی کلوپ ها محدود به این مقدار خواهند بود.</word>
-<word key="idm_maxsize_suffix" js="0">kB</word>
-<word key="idm_throttling_suffix" js="0">kb/ثانیه</word>
-<word key="idm_throttling_desc" js="0"><![CDATA[این تنظیم سرعت دانلود را به حداکثر خواهد رساند. اگر این تنظیم بسیار کم در نظر گرفته شود احتمال وقوع خطای time out خواهد شد و منجر به عدم دریافت فایل می شود.]]></word>
-<word key="idm_throttling_unlimited" js="0">بدون محدودیت</word>
-<word key="idm_wait_period" js="0">کاربران باید قبل از زمانی که دریافت شروع می شود مدتی صبر کنند</word>
-<word key="idm_bypass_revision_desc" js="0"><![CDATA[زمانی که کاربر، در دسته ای که قابلیت نگه داری از نسخه های قبلی در آن فعال باشد، فایلی را بارگذاری (آپلود) می کند، فایل های قبلی حذف نشده و برای دریافت همچنان در دسترس خواهند بود. اگر این تنظیم فعال شود، کاربر در هنگام بارگذاری نسخه جدید می تواند تعیین کند که نسخه قبلی نگه داشته نشود و توانایی بازگردانی، حذف یا پنهان کردن فایل را دارد.<br> البته کاربر باید مجوز ویرایش فایل را داشته باشد.]]></word>
-<word key="limit_sim" js="0">حداکثر دریافت‎های همزمان</word>
-<word key="min_posts" js="0">ارسال‎های مورد نیاز برای دریافت</word>
-<word key="download_min_posts" js="0">شما پس از ارسال {# [1:پست][?:پست]} می‌توانید دریافت کنید.</word>
-<word key="daily_bw" js="0">حداکثر پهنای باند مصرفی روزانه</word>
-<word key="weekly_bw" js="0">حداکثر پهنای باند مصرفی درهفته</word>
-<word key="monthly_bw" js="0">حداکثر مصرف پهنای باند ماهانه</word>
-<word key="kb_per_day" js="0">kb/روز</word>
-<word key="kb_per_week" js="0">kb/هفته</word>
-<word key="kb_per_month" js="0">kb/ماه</word>
-<word key="daily_dl" js="0">حداکثر تعداد دریافت در روز</word>
-<word key="weekly_dl" js="0">حداکثر دریافت در هفته</word>
-<word key="monthly_dl" js="0">حداکثر دریافت در ماه</word>
-<word key="downloads_requires_log" js="0">این تنظیمات براساس رخداد نگاشت های دریافت فایل عمل می کند که ممکن است برای بعضی از دسته ها غیرفعال شده باشد یا در یک بازه زمانی این رخداد نگاشت ها حذف شده باشند. اگر از این تنظیم استفاده می کنید، توصیه می شود ثبت رخدادنگاشت ها را فعال نگه داشته و بر روی حذف در بازه زمانی کمتر از ۴۸ ساعت تنظیم نکنید، در غیر این صورت با وقایع از قبل پیش بینی نشده برخورد خواهید کرد.</word>
-<word key="file_management" js="0">مدیریت فایل</word>
-<word key="download_restrictions" js="0">محدودیت دریافت</word>
-<word key="bandwidth_limits" js="0">محدودیت پهنای باند</word>
-<word key="download_limits" js="0">محدودیت دریافت</word>
-<word key="downloads_per_day" js="0">دریافت‎ها / روز</word>
-<word key="downloads_per_week" js="0">دریافت‎ها / هفته</word>
-<word key="downloads_per_month" js="0">دریافت‎ها / ماه </word>
-<word key="submission_permissions" js="0">محدودیت ارسال</word>
-<word key="idm_linked_files" js="0">توانایی ارسال آدرس وب؟</word>
-<word key="idm_import_files" js="0">توانایی وارد کردن فایل از سیستم فایل؟</word>
-<word key="idm_import_files_desc" js="0">در صورت فعال سازی، کاربران امکان درون ریزی فایل های درون سرور شما را خواهند داشت. این گزینه را باید فقط برای گروه های کاربری که اعتماد دارید، فعال کنید.</word>
-<word key="idm_bulk_submit" js="0">توانایی ارسال چند فایل بصورت همزمان؟</word>
-<word key="idm_paid_restrictions" js="0">اعمال محدودیت برای فایل های خریداری شده؟</word>
-<word key="idm_paid_restrictions_desc" js="0">در صورت فعال بودن، هر محدودیتی که در زیر تنظیم شده است نیز برای فایلهای خریداری شده توسط کاربر اعمال خواهد شد.</word>
-<word key="idm_screenshot_for" js="0">تصویری برای %s</word>
-<word key="rss_offline" js="0">این خوراک RSS غیر فعال است</word>
-<word key="rss_offline_admin" js="0">گزینه "فعال سازی خوراک RSS برای آخرین فایل ها؟" هم اکنون در سامانه دریافت غیر فعال می باشد. این تنظیم را پنل مدیریت فعال نمایید تا خوراک RSS آخرین فایل های سامانه دریافت  فعال شود.</word>
-<word key="submit_a_file" js="0">ارسال یک فایل</word>
-<word key="submit_single_file" js="0">ارسال یک فایل</word>
-<word key="submit_multiple_files" js="0">ارسال چند فایل</word>
-<word key="submit_first_file" js="0">ارسال اولین فایل</word>
-<word key="write_review" js="0">نوشتن یک نقد و بررسی</word>
-<word key="file_auto_follow" js="0"></word>
-<word key="file_auto_follow_suffix" js="0">زمان ارسال نظر توسط کاربران من را مطلع کن</word>
-<word key="file" js="0">فایل</word>
-<word key="dl_get_support" js="0"> مشاهده موضوع این فایل</word>
-<word key="dl_get_support_title" js="0"> مشاهده موضوع این فایل</word>
-<word key="file_information" js="0">اطلاعات فایل</word>
-<word key="url_files" js="0">فایل‌های لینک شده</word>
-<word key="url_files_no_perm" js="0">این فایل یک فایل لینک شده است، اما شما دیگر مجاز به ویرایش آن نیستید. اگر نیاز به تغییرات در آن است، با یکی از مدیران تماس بگیرید.</word>
-<word key="import_files" js="0">وارد کردن فایل</word>
-<word key="screenshots" js="0">تصویرها</word>
-<word key="screenshots_ct" js="0">{# [1:تصویر][?:تصویر]}</word>
-<word key="url_screenshots" js="0">تصویرهای لینک شده</word>
-<word key="file_title" js="0">نام فایل</word>
-<word key="file_submitter" js="0">ارسال کننده</word>
-<word key="file_submitted" js="0">ارسال </word>
-<word key="view_file" js="0">مشاهده فایل</word>
-<word key="version" js="0">نگارش</word>
-<word key="file_version" js="0">شماره نسخه</word>
-<word key="file_tags" js="0">برچسب‌ها</word>
-<word key="file_changelog" js="0">تغییرات جدید</word>
-<word key="new_version_details" js="0">جزئیات نسخه جدید</word>
-<word key="with_version" js="0">با نسخه %s: </word>
-<word key="file_desc" js="0">درباره این فایل</word>
-<word key="file_primary_screenshot" js="0">تصویر اصلی</word>
-<word key="file_primary_screenshot_desc" js="0">انتخاب تصویر اصلی برای نمایش در لیست دسته ها </word>
-<word key="download_now" js="0">دریافت فایل</word>
-<word key="file_view_details" js="0">نمایش فایل</word>
-<word key="downloads" js="0">دریافت‎ها</word>
-<word key="x_downloads" js="0">{# [1:دریافت][?:دریافت]} </word>
-<word key="idm_purchases" js="0">خریدها</word>
-<word key="x_purchases" js="0">{# [1:خرید][?:خرید]} </word>
-<word key="num_downloads" js="0">{# [1:دریافت][?:دریافت]}</word>
-<word key="files_no_number" js="0">{!# [1:فایل][?:فایل‌ها]}</word>
-<word key="downloads_file_comment" js="0">دیدگاه فایل</word>
-<word key="downloads_file_review" js="0">نقد و بررسی فایل</word>
-<word key="downloads_file_pl" js="0">فایل</word>
-<word key="downloads_file_pl_lc" js="0">فایل</word>
-<word key="downloads_file_comment_pl" js="0">دیدگاه های فایل</word>
-<word key="downloads_file_comment_pl_lc" js="0">دیدگاه های فایل</word>
-<word key="downloads_file_review_pl" js="0">نقد و بررسی فایل</word>
-<word key="downloads_file_review_pl_lc" js="0">بررسی فایل</word>
-<word key="downloads_file_pending" js="0">نسخه جدید</word>
-<word key="downloads_file_pending_pl" js="0">نسخه فایل جدید</word>
-<word key="downloads_file_pending_pl_lc" js="0">نسخه فایل جدید</word>
-<word key="downloads_category_select" js="0">دسته:</word>
-<word key="report_file" js="0">گزارش این فایل</word>
-<word key="file_review_count" js="0">{# [1:نقد و بررسی][?:نقد و بررسی]} </word>
-<word key="file_comment_count" js="0">{# [1:دیدگاه][?:دیدگاه]}</word>
-<word key="subcategory" js="0">زیر دسته</word>
-<word key="download_no_perm" js="0">شما مجاز به دریافت این فایل نیستید.</word>
-<word key="add_files_no_perm" js="0">شما اجازه بارگذاری فایل برای این بخش را ندارید.</word>
-<word key="new_version_versioning" js="0">نسخه قبلی بایگانی شده ولی کاربران همچنان قادر به دریافت آن خواهند بود.</word>
-<word key="file_save_revision" js="0">ذخیره نسخه قبل؟</word>
-<word key="downloads_edit_details" js="0">ویرایش</word>
-<word key="downloads_edit_details_title" js="0">ویرایش جزئیات این فایل</word>
-<word key="file__comment_placeholder" js="0">افزودن دیدگاه ...</word>
-<word key="file_submit_comment" js="0">ارسال دیدگاه </word>
-<word key="whats_new_in_version" js="0"><![CDATA[تغییرات جدید در نسخه <span data-role='versionTitle'>%s</span>]]></word>
-<word key="see_changelog" js="0">دیدن کارنامه تغییرات</word>
-<word key="see_changelog_for" js="0">مشاهده کارنامه تغییرات برای نسخه %s</word>
-<word key="see_changelog_title" js="0">مشاهده تاریخچه نسخه برای این فایل</word>
-<word key="view_downloader_list" js="0">نمایش لیست دریافت کنندگان</word>
-<word key="who_downloaded" js="0">چه کسی این را دانلود کرده؟</word>
-<word key="downloaders" js="0">دریافت کنندگان</word>
-<word key="download_your_files" js="0">دریافت فایل‌های شما</word>
-<word key="download_terms" js="0">شرایط دریافت</word>
-<word key="download_terms_desc" js="0">فایل شما برای دریافت آماده است. پیش از دریافت باید با شرایط مشخص شده موافقت کنید:</word>
-<word key="download_file_count" js="0">{# [1:فایل][?:فایل]}</word>
-<word key="agree_and_download" js="0"><![CDATA[پذیرش و دریافت]]></word>
-<word key="cancel_downloading" js="0">لغو دریافت</word>
-<word key="agree_and_download_full" js="0">پذیرش شرایط ذکر شده و دریافت فایل</word>
-<word key="download_version" js="0">دریافت</word>
-<word key="restore_version" js="0">بازگردانی</word>
-<word key="delete_version" js="0">پاک کردن</word>
-<word key="download_purchase_terms" js="0"><![CDATA[شرایط و قوانین]]></word>
-<word key="download_purchase_terms_desc" js="0">پیش از خرید، شما باید با قوانین زیر موافقت نمایید:</word>
-<word key="agree_and_purchase" js="0"><![CDATA[پذیرش و خرید]]></word>
-<word key="hide_version" js="0">پنهان کردن از کاربران</word>
-<word key="filesize" js="0">اندازه فایل</word>
-<word key="file_pending_approval" js="0">این فایل هنوز تایید نشده است و تنها برای مدیران قابل مشاهده است.</word>
-<word key="file_pending_approval_version" js="0">نسخه جدید این فایل در انتظار تأیید است.</word>
-<word key="file_pending_version_button" js="0">نسخه جدید را بررسی کنید</word>
-<word key="file_approved_by" js="0">(پذیرفته شده توسط %s، %s)</word>
-<word key="file_requires_approval_g" js="0">فایل ارسالی شما پس از تایید یکی از مدیران برای عموم به نمایش در می آید.</word>
-<word key="file_no_changelog" js="0">تغییرات رخ داده برای این نسخه، ثبت نشده است.</word>
-<word key="file_version_released" js="0">انتشار در %s</word>
-<word key="file_published" js="0">منتشر شد</word>
-<word key="restore" js="0">بازگردانی</word>
-<word key="hide_from_members" js="0">پنهان کردن از کاربران</word>
-<word key="unhide_from_members" js="0">آشکار کردن برای کاربران</word>
-<word key="version_restore_confirm" js="0">آیا از بازگردانی نسخه %s  مطمئن هستید؟</word>
-<word key="version_restore_confirm_desc" js="0">تمامی نسخه ها از %1$s حذف خواهند شد و فایل نسخه %1$s بازگردانی خواهد شد.</word>
-<word key="version_delete_confirm" js="0">آیا مطمئن هستید که میخواهید این نسخه را حذف کنید؟</word>
-<word key="idm_rss_title" js="0">آخرین فایل‌ها</word>
-<word key="wait_x_seconds_noscript" js="0">{# [1:ثانیه][?:ثانیه]} صبر کنید و سپس روی دکمه دریافت کلیک کنید</word>
-<word key="download_begins_in" js="0">شروع دریافت تا</word>
-<word key="file_actions" js="0">مدیریت فایل</word>
-<word key="max_simultaneous_downloads" js="0">شما فقط می‌توانید {# [1:فایل][?:فایل]} همزمان دریافت کنید. شما باید تا زمانی که {!# [1:دریافت دیگر شما][?:دریافت دیگر شما]} پایان یابد صبر نمایید، سپس دوباره اقدام به دریافت نمایید. </word>
-<word key="bandwidth_limit_daily" js="0">شما %s بار در روز می‌توانید اقدام به دریافت کنید. شما بعد از %s دوباره می توانید اقدام به دریافت نمایید.</word>
-<word key="bandwidth_limit_week" js="0">شما %s بار در هفته می‌توانید فایل دریافت کنید. شما بعد از %s دوباره می توانید اقدام به دریافت نمایید.</word>
-<word key="bandwidth_limit_month" js="0">شما %s بار در ماه می‌توانید فایل دریافت کنید. فایلی که برای دریافت آن تلاش می‌کنید %s است که به علت محدودیت در دریافت، امکان دریافت آن نیست.</word>
-<word key="bandwidth_limit_daily_never" js="0">شما %s بار در روز می‌توانید فایل دریافت کنید. فایلی که برای دریافت آن تلاش می‌کنید %s است که به علت محدودیت در دریافت، امکان دریافت آن نیست.</word>
-<word key="bandwidth_limit_weekly" js="0">شما %s بار در هفته می‌توانید فایل دریافت کنید. فایلی که برای دریافت آن تلاش می‌کنید %s است که به علت محدودیت در دریافت، امکان دریافت آن نیست.</word>
-<word key="download_limit_daily" js="0">شما فقط امکان دریافت {# [1:فایل][?:فایل]} در روز را دارید. شما پس از %s دوباره می‌توانید اقدام به دریافت نمایید.</word>
-<word key="download_limit_weekly" js="0">شما فقط امکان دریافت {# [1:فایل][?:فایل]} در هفته را دارید. شما پس از %s دوباره می‌توانید اقدام به دریافت نمایید.</word>
-<word key="download_limit_monthly" js="0">شما فقط امکان دریافت {# [1:فایل][?:فایل]} در ماه را دارید. شما پس از %s دوباره می‌توانید اقدام به دریافت نمایید.</word>
-<word key="file_rating_value" js="0">امتیاز شما</word>
-<word key="file_review_text" js="0">نقد و بررسی شما</word>
-<word key="file__review_placeholder" js="0">افزودن نقد و بررسی...</word>
-<word key="err_no_files" js="0">شما باید یک فایل بارگذاری و یا حداقل به یک فایل، لینک دهید.</word>
-<word key="err_too_many_files" js="0">شما تنها می توانید یک فایل بارگذاری کنید و حداکثر به یک فایل لینک دهید.</word>
-<word key="err_no_screenshots" js="0">شما باید یک تصویر بارگذاری و یا حداقل به یک تصویر، لینک دهید.</word>
-<word key="err_url_file_blacklist" js="0">آدرس‌هایی از %s غیر قابل پذیرش هستند.</word>
-<word key="err_import_files" js="0">فایل %s وجود ندارد و یا قابل خواندن نیست.</word>
-<word key="err_import_files_dir" js="0">%s یک پوشه است. شما باید مسیر برای یک فایل را مشخص کنید.</word>
-<word key="change_author_d" js="0">تغییر سازنده</word>
-<word key="change_author_title" js="0">تغییر صاحب این فایل</word>
-<word key="err_submissions_blocked" js="0">امکان بارگذاری فایل از شما گرفته شده است.</word>
-<word key="upload_new_version_title" js="0">بارگذاری نسخه جدیدی از این فایل</word>
-<word key="upload_new_version_pending" js="0">نسخه جدید در انتظار تأیید است</word>
-<word key="feature_title_file" js="0">غیر ویژه کردن این فایل</word>
-<word key="unfeature_title_file" js="0">غیر ویژه کردن این فایل</word>
-<word key="pin_title_file" js="0">مهم کردن این فایل</word>
-<word key="unpin_title_file" js="0">غیر مهم کردن این فایل</word>
-<word key="hide_title_file" js="0">پنهان کردن این فایل</word>
-<word key="unhide_title_file" js="0">آشکار کردن این فایل</word>
-<word key="approve_title_file" js="0">پذیرش این فایل</word>
-<word key="lock_title_file" js="0">قفل کردن این فایل</word>
-<word key="unlock_title_file" js="0">باز کردن این فایل</word>
-<word key="downloads_move_title" js="0">انتقال این فایل به دسته دیگر</word>
-<word key="downloads_delete_title" js="0">حذف این فایل از سایت</word>
-<word key="find_users_files" js="0">دیگر فایل‎های ارسالی این کاربر</word>
-<word key="file_versioning_info" js="0"></word>
-<word key="file_versioning_info_text" js="0">برای بارگذاری نسخه جدید فایل یا تصویر اینجا کلیک کنید</word>
-<word key="browse_whats_new" js="0">جدیدترین‌ فایل های اضافه شده</word>
-<word key="browse_highest_rated" js="0">پربیننده‌ ترین‌ فایل ها</word>
-<word key="browse_most_downloaded" js="0">پرطرفدار ترین فایل ها</word>
-<word key="no_new_files" js="0">فایلی تاکنون بارگذاری نشده است.</word>
-<word key="no_rated_files" js="0">تاکنون به فایلی امتیازی داده نشده است.</word>
-<word key="no_downloaded_files__week" js="0">فایلی در این هفته دریافت نشده است.</word>
-<word key="no_downloaded_files__month" js="0">فایلی در این ماه دریافت نشده است.</word>
-<word key="no_downloaded_files__year" js="0">فایلی در این سال دریافت نشده است.</word>
-<word key="no_downloaded_files" js="0">فایلی تاکنون دریافت نشده است.</word>
-<word key="no_download_review" js="0">شما تنها زمانی می توانید به فایل امتیاز دهید که آن را دریافت کرده باشید!</word>
-<word key="index_discover" js="0">گشتن</word>
-<word key="index_explore" js="0">گشتن در دسته‌ها</word>
-<word key="browse_categories_d" js="0">مشاهده دسته‌ها</word>
-<word key="no_files_in_cat" js="0">هیچ فایلی در این دسته موجود نیست.</word>
-<word key="submit_form_title" js="0">افزودن فایل جدید</word>
-<word key="submit_form_title_bulk" js="0">افزودن فایل‌های جدید</word>
-<word key="submit_form_desc" js="0"><![CDATA[در حال افزودن فایل به <em>%s</em> ]]></word>
-<word key="submit_form_desc_bulk" js="0"><![CDATA[در حال افزودن چند فایل به <em>%s</em> ]]></word>
-<word key="select_your_files" js="0">فایل خود را انتخاب کنید</word>
-<word key="select_your_file" js="0">فایل خود را انتخاب کنید</word>
-<word key="add_files_by_url" js="0">افزودن فایل از آدرس وبگاه</word>
-<word key="add_files_by_path" js="0">افزودن فایل از مسیر سرور</word>
-<word key="submit_menu_confirm" js="0">تایید</word>
-<word key="add_screenshots" js="0">افزودن تصویر</word>
-<word key="add_screenshots_by_url" js="0">افزودن تصویر به وسیله آدرس وبگاه</word>
-<word key="submit_file_information" js="0">اطلاعات فایل</word>
-<word key="save_and_submit_files" js="0"><![CDATA[ذخیره و ارسال فایل]]></word>
-<word key="save_and_submit_file" js="0"><![CDATA[ذخیره و ارسال فایل]]></word>
-<word key="save_and_submit_new_version" js="0"><![CDATA[ذخیره و ارسال فایل جدید]]></word>
-<word key="submit_bulk_information" js="0">اطلاعات فایل را وارد نمایید</word>
-<word key="bulk_upload_button" js="0">می‌خواهم چند فایل همزمان ارسال کنم</word>
-<word key="upload_more_files" js="0">بارگذاری فایل‌های بیشتر</word>
-<word key="featured_downloads" js="0">محبوب ترین فایل ها</word>
-<word key="next_file" js="0">فایل بعدی</word>
-<word key="prev_file" js="0">فایل قبلی</word>
-<word key="downloads_category_id" js="0">دسته</word>
-<word key="announce_download_categories" js="0">دسته‌ها</word>
-<word key="view_this_file" js="0">مشاهده فایل %s</word>
-<word key="file_locked_can_comment" js="0">این فایل قفل شده است. اما شما دسترسی ارسال دیدگاه را دارید.</word>
-<word key="file_locked_cannot_comment" js="0">این فایل برای ارسال دیدگاه قفل شده است.</word>
-<word key="file__save" js="0">ذخیره</word>
-<word key="downloads_no_file" js="0">فایل پیدا نشد</word>
-<word key="download_teaser" js="0">برای دریافت شما باید وارد شوید و یا یک حساب کاربری ایجاد نمایید.</word>
-<word key="download_no_permission" js="0">متاسفانه، شما اجازه دریافت این فایل را ندارید.</word>
-<word key="download_no_permission_guest" js="0">متاسفانه، شما اجازه دریافت این فایل را ندارید ولی ممکن است بعد از ورود به حساب کاربری خود بتوانید آن را دریافت نمایید.</word>
-<word key="downloads_file_info" js="0">دریافت‎ها</word>
-<word key="sort_file_downloads" js="0">بیشترین دریافت‌ها</word>
-<word key="club_node_downloads" js="0">فایل های کلوپ</word>
-<word key="file_imported_removed" js="0">این فایل هم اکنون درون ریزی شده است و در صورت تمایل می توان نسخه های کپی شده آن را می توان از دیسک حذف نمود.</word>
-<word key="disable_purchases" js="0">غیرفعال سازی خرید</word>
-<word key="enable_purchases" js="0">فعال سازی خرید</word>
-<word key="purchasing_disabled" js="0">این فایل در حال حاضر برای خرید در دسترس نمی باشد.</word>
-<word key="block_downloads_Overview" js="0">پیشخوان بخش دریافت</word>
-<word key="total_disk_spaced" js="0">مجموع فضای استفاده شده</word>
-<word key="total_files" js="0">مجموع فایل‌ها</word>
-<word key="total_downloads" js="0">مجموع دانلودها * </word>
-<word key="total_bandwidth" js="0">مجموع پهنای باند استفاده شده *</word>
-<word key="current_month_bandwidth" js="0">پهنای باند مصرفی این ماه *</word>
-<word key="largest_file" js="0">بزرگ‌ترین فایل</word>
-<word key="most_viewed_file" js="0">فایل با بیشترین نمایش</word>
-<word key="most_downloaded_file" js="0">بیشترین فایل دریافت شده</word>
-<word key="total_files_front" js="0">فایل‌ها</word>
-<word key="total_authors" js="0">نویسندگان</word>
-<word key="latest_file" js="0">آخرین فایل</word>
-<word key="latest_submitter" js="0">آخرین ارسال کننده</word>
-<word key="top_week" js="0">هفته</word>
-<word key="top_month" js="0">ماه</word>
-<word key="top_year" js="0">سال</word>
-<word key="top_alltime" js="0">همه</word>
-<word key="top_avg_rating" js="0">میانگین امتیاز فایل</word>
-<word key="top_submitters_empty__week" js="0">در این هفته هیچ ارسال کننده برتری وجود ندارد.</word>
-<word key="top_submitters_empty__month" js="0">امتیازی در این ماه داده نشده است.</word>
-<word key="top_submitters_empty__year" js="0">بدون برترین ارسال کننده‌ها این سال.</word>
-<word key="top_submitters_empty__all" js="0">بدون برترین ارسال کننده‌ها.</word>
-<word key="member__downloads_Downloads" js="0">دریافت‎ها</word>
-<word key="idm_block_submissions" js="0">توانایی ارسال فایل؟</word>
-<word key="idm_block_submissions_desc" js="0">هر دسته دارای مجوز برای کسی است که می تواند فایل های درون آن ارسال کند. اگر این غیر فعال باشد کاربران قادر نخواهند بود هیچ گونه فایلی را ارسال نمایند. اگر فعال باشد، تنظیمات در هر گروه قابل دسترس خواهد شد.</word>
-<word key="history_restrictions_downloads_1" js="0">امکان ارسال فایل غیر فعال شد</word>
-<word key="history_restrictions_downloads_0" js="0">امکان ارسال فایل فعال شد</word>
-<word key="downloads_stats" js="0">مشاهده آمارهای بخش دریافت</word>
-<word key="submissions" js="0">{# [1:ارسال][?:ارسال]}</word>
-<word key="deleted_file" js="0">پاک کردن فایل</word>
-<word key="dmid" js="0">کاربر</word>
-<word key="dfid" js="0">فایل</word>
-<word key="dtime" js="0">تاریخ/زمان</word>
-<word key="dsize" js="0">حجم فایل</word>
-<word key="dua" js="0">مرورگر</word>
-<word key="dip" js="0">آدرس IP</word>
-<word key="member_downloads_chart" js="0">دریافت‌های %s</word>
-<word key="bandwidth_use" js="0">پهنای باند مورد استفاده</word>
-<word key="files_submitted" js="0">فایل ارسال شده</word>
-<word key="diskspace_used" js="0">میزان فضای استفاده شده در دیسک</word>
-<word key="average_filesize_downloads" js="0">میانگین حجم فایل</word>
-<word key="number_of_downloads" js="0">* تعداد دریافت‎ها</word>
-<word key="downloads_bandwidth_used" js="0">* پهنای باند مصرف شده</word>
-<word key="downloads_stat_of_total" js="0">%s (%d%% از مجموع)</word>
-<word key="downloads_stat_of_total_link" js="0">%s (از کل %d%%) %s</word>
-<word key="downloads_stat_average" js="0">%s (میانگین برای همه کاربران: %s)</word>
-<word key="downloadS_stat_average_of_total" js="0">%d% از مجموع؛ میانگین برای همه کاربران: %d</word>
-<word key="download_stats_disclaimer" js="0">* این آمار از رخداد نگاشت‌های دریافت فایل‌ها بدست آمده است. دقت داشته باشید رخداد نگاشت‌ها ممکن است برای بعضی از دسته‌ها غیرفعال شده باشند یا در یک بازه زمانی این رخداد نگاشت‌ها به صورت خودکار پاک شوند.</word>
-<word key="download_graph_disclaimer" js="0">این داده ها از رخداد نگاشت های دریافت فایل ها بدست آمده است. دقت داشته باشید رخداد نگاشت ها ممکن است برای بعضی از دسته ها غیرفعال شده باشند یا در یک بازه زمانی این رخداد نگاشت ها پاک شده باشند.</word>
-<word key="menu__downloads_stats_downloads" js="0">آمارهای بخش دریافت</word>
-<word key="menu__downloads_stats_downloaders" js="0">برترین دریافت‎کنندگان</word>
-<word key="menu__downloads_stats_submitters" js="0">برترین ارسال کنندگان</word>
-<word key="menu__downloads_stats_topdownloads" js="0">فایل های برتر</word>
-<word key="r__downloads" js="0">آمارهای بخش دریافت</word>
-<word key="r__downloads_manage" js="0">توانایی مشاهده آمارهای بخش دریافت؟</word>
-<word key="r__downloaders_manage" js="0">توانایی مشاهده برترین دریافت‎کنندگان؟</word>
-<word key="r__submitters_manage" js="0">توانایی مشاهده برترین ارسال کنندگان؟</word>
-<word key="r__topdownloads_manage" js="0">توانایی مشاهده فایل های برتر؟</word>
-<word key="stats_overview_downloads" js="0">دریافت‌های فایل</word>
-<word key="stats_overview_downloads_desc" js="0">رخدادنگاشت‌های دریافت‌ها و مدت زمان نگهداری از آن‌ها در تنظیمات هر دسته قابل تغییر است</word>
-<word key="downloads_stats_uploader_count" js="0">{# [1:کاربر][?:کاربر]} فایل بارگذاری کرده است.</word>
-<word key="downloads_stats_downloader_count" js="0">{# [1:کاربر][?:کاربر]} فایل دریافت کرده است.</word>
-<word key="ipAddresses__downloads_DownloadLog" js="0">دریافت‎ها</word>
-<word key="acplogs__downloads_resync_topics" js="0">محتوای موضوع مجدداً همگام‌سازی شد برای %s</word>
-<word key="block_fileFeed" js="0">خوراک فایل ها</word>
-<word key="block_fileFeed_desc" js="0">ایجاد خوراک برای فایل ها</word>
-<word key="widget_feed_container_downloads_file" js="0">دسته بندی ها</word>
-<word key="block_topSubmitters" js="0">برترین ارسال‌ کنندگان</word>
-<word key="block_topSubmitters_desc" js="0">نمایش برترین ارسال‌ کنندگان</word>
-<word key="block_downloadStats" js="0">آمارهای بخش دریافت</word>
-<word key="block_downloadStats_desc" js="0">نمایش آمارهای بخش دریافت</word>
-<word key="block_topDownloads" js="0">بیشترین دریافت‎ها</word>
-<word key="block_topDownloads_desc" js="0">نمایش پرطرفدارترین فایل‌های دریافت شده</word>
-<word key="block_recentFiles" js="0">آخرین فایل‌ها</word>
-<word key="block_recentFiles_desc" js="0">نمایش جدیدترین فایل‌ها</word>
-<word key="loc_downloads_viewing_file" js="0">درحال مشاهده فایل: %s</word>
-<word key="loc_downloads_viewing_category" js="0">درحال مشاهده دسته: %s</word>
-<word key="loc_downloads_browsing_categories" js="0">نمایش دسته‌های دریافت</word>
-<word key="loc_downloads_adding_file" js="0">افزودن یک فایل</word>
-<word key="loc_downloads_browsing" js="0">درحال مشاهده بخش دریافت</word>
-<word key="loc_downloads_viewing_file_action" js="0">%s در حال مشاهده از یک فایل است</word>
-<word key="loc_downloads_viewing_category_action" js="0">%s در حال مشاهده بخش دریافت‌ها است</word>
-<word key="loc_downloads_browsing_categories_action" js="0">%s در حال مشاهده بخش دریافت‌ها است</word>
-<word key="loc_downloads_adding_file_action" js="0">%s در حال افزودن یک فایل است</word>
-<word key="loc_downloads_browsing_action" js="0">%s در حال مشاهده بخش دریافت‌ها است</word>
-<word key="acp_search_title_downloads_Downloads" js="0">دسته‌های دریافت</word>
-<word key="downloads_categories_pagetitle" js="0">دسته های دانلود</word>
-<word key="task__logCleanup" js="0">پاکسازی رخداد نگاشتهای دریافت.</word>
-<word key="task__tempFileCleanup" js="0">حذف فایل های بارگذاری شده موقتی.</word>
-<word key="digest_area_downloads_category" js="0">فایل ها</word>
-<word key="digest_area_downloads_file" js="0">فایل</word>
-<word key="x_created_file_in" js="0">%s فایلی در %s بارگذاری کرد</word>
-<word key="x_commented_file" js="0">%s دیدگاهی برای یک فایل فرستاد</word>
-<word key="x_reviewed_file" js="0">%s یک فایل را بررسی کرد</word>
-<word key="paid_file_settings" js="0">تنظیمات فایل‌های پولی</word>
-<word key="idm_nexus_on" js="0">فعال بودن فایل‌های پولی؟</word>
-<word key="idm_nexus_on_desc" js="0"><![CDATA[اگر فعال شود، امکان ارسال فایل های پولی فراهم شده و کاربران برای دریافت این فایل ها، حتما باید هزینه آن را پرداخت نمایند.<br> از طریق <a href='{internal.app=core&amp;module=members&amp;controller=groups}'>گروه های کاربری</a> می توانید تعیین کنید چه گروه هایی می توانند فایل های فروشی، ارسال نمایند.<br> زمانی که فردی فایلی را خرید، مبلغ آن به حساب صاحب فایل انتقال می یابد. شما از <a href='{internal.app=nexus&amp;module=payments&amp;controller=payouts&amp;do=settings}'>صفحه برداشت ها</a> می توانید نوع برداشت از حساب ها را کنترل کنید.]]></word>
-<word key="idm_nexus_tax" js="0">نوع مالیات برای فایل‌های پولی</word>
-<word key="idm_nexus_percent" js="0">کمیسیون برای سایت</word>
-<word key="idm_nexus_percent_desc" js="0">مقدار درصد تعیین شده از مقدار کل مبلغ که به صاحب فایل تعلق می گیرد، کم خواهد شد. به طور مثال اگر شما 10 درصد وارد نمایید و فایلی که 10 هزار تومان قیمت آن است خریداری گردد، 9 هزار تومان برای ارسال کننده واریز و هزار تومان برای سایت اختصاص می یابد.</word>
-<word key="idm_nexus_transfee" js="0">هزینه تراکنش برای سایت</word>
-<word key="idm_nexus_transfee_desc" js="0">مقدار وارد شده از مبلغ کل فایل کسر خواهد گردید.به طور مثال اگر شما مبلغ هزار تومان را وارد کنید و فایلی که 10 هزار تومان قیمت آن است خریداری گردد 9 هزار تومان برای ارسال کننده واریز و هزار تومان برای سایت اختصاص می یابد. </word>
-<word key="idm_nexus_mincost" js="0">حداقل هزینه</word>
-<word key="idm_nexus_mincost_desc" js="0">حداقل هزینه برای فایل های پولی. برای فایل های رایگان اعمال نمی شود.</word>
-<word key="idm_nexus_gateways" js="0">روش‌های پرداخت</word>
-<word key="idm_nexus_display" js="0">آمارها برای نمایش</word>
-<word key="idm_nexus_display_desc" js="0">فایل های بدون پرداخت همیشه تعداد دریافتشان نمایش داده می شود.</word>
-<word key="idm_nexus_gateways_desc" js="0">مشتریان تنها قادر به خرید و یا تمدید با روش های انتخاب شده برای این محصول می باشند.</word>
-<word key="idm_add_paid" js="0">توانایی فروش فایل؟</word>
-<word key="idm_add_paid_enable" js="0"><![CDATA[برحسب مجوز شما به کاربران برای فروختن فایل ها، شما باید <a href='{internal.app=downloads&module=downloads&controller=settings}'>خرید را برای فایل ها فعال کنید</a>.]]></word>
-<word key="idm_bypass_paid" js="0">توانایی دریافت فایل‌های پولی بدون خرید؟</word>
-<word key="file_cost_type" js="0">نوع</word>
-<word key="file_free" js="0">رایگان</word>
-<word key="file_free_feed" js="0">رایگان</word>
-<word key="file_paid" js="0">پولی</word>
-<word key="file_associate_nexus" js="0">مرتبط با محصول (ها)</word>
-<word key="file_associate_nexus_desc" js="0">کاربرانی که یکی از محصولات فعال انتخاب شده را داشته باشند، می توانند این فایل را دریافت کنند.</word>
-<word key="file_cost" js="0">قیمت</word>
-<word key="file_renewals" js="0">تمدید</word>
-<word key="file_renewals_off" js="0">بدون تمدید - زمانی که کاربری یک نسخه را خریداری کرد، نسخه های آینده را هم می‎تواند دریافت کند.</word>
-<word key="file_renewals_on" js="0">من شرایط تمدید را مشخص میکنم. کاربران برای دریافت نسخه فعلی باید هزینه پرداخت کرده باشند.</word>
-<word key="file_renewal_term" js="0">شرایط تمدید</word>
-<word key="file_renewal_term_desc" js="0">هنگامی که فایل ذخیره شد، شرایط نوسازی قابل ویرایش نیست.</word>
-<word key="file_nexus" js="0">محصولات مرتبط</word>
-<word key="file_not_purchased" js="0">شما این فایل را خریداری نکرده اید یا خرید شما پایان یافته  است.</word>
-<word key="buy_now" js="0">خرید</word>
-<word key="file_cost_desc_both" js="0">%s%% کمیسیون، بعلاوه یک %s بابت کارمزد معامله کسر خواهد شد.</word>
-<word key="file_cost_desc_percent" js="0">%s%%  بابت کمیسیون کسر خواهد شد.</word>
-<word key="file_cost_desc_fee" js="0">یک %s بابت کارمزد معامله کسر خواهد شد.</word>
-<word key="file_cost_desc_minimum" js="0">حداقل هزینه : %s</word>
-<word key="file_cost_too_low" js="0">قیمت وارد شده کمتر از حد مورد نیاز است.</word>
-<word key="file_renewal_term_val" js="0">شرایط تمدید: %s</word>
-<word key="choose_file_nexus_blurb" js="0">این فایل همراه با یکی از این بسته ها در دسترس خواهد بود. برای ادامه لطفا یکی از این بسته ها را به سبد خود اضافه کنید.</word>
-<word key="choose_file_nexus_title" js="0">انتخاب یک بسته</word>
-<word key="file_no_price_for_currency" js="0">این فایل برای واحد پولی شما در دسترس نمی باشد.</word>
-<word key="nexus_file_no_longer_available" js="0">این فایل دیگر برای دریافت در دسترس نمی باشد، برای اطلاعات بیشتر با کاربر ارسال کننده تماس حاصل فرمایید.</word>
-<word key="notifications__downloads_Files" js="0">فایل های بروز شده</word>
-<word key="notifications__downloads_Files_desc" js="0">این اعلامیه ها در زمانی که نسخه جدیدی از فایلی که دنبال می کنید، در سایت قرار گرفت، ارسال می شوند.</word>
-<word key="email_new_file_version_plain" js="0">%s نسخه جدید %s را بارگذاری نموده است،</word>
-<word key="email_new_file_version" js="0"><![CDATA[<a href='%s'>%s</a> نسخه جدید %s را بارگذاری نموده است،]]></word>
-<word key="email_new_file_version_guest" js="0">%s (مهمان) نسخه جدید %s را بارگذاری نموده است،</word>
-<word key="mailsub__downloads_notification_new_file_version" js="0"><![CDATA[{$content->author()->name|raw} نسخه‌ای جدیدی از  {$content->mapped("title")|raw} را بارگذاری کرد ]]></word>
-<word key="notification__new_file_version" js="0">%s نسخه جدیدی از فایل %s را بارگذاری کرد</word>
-<word key="notification__new_file_version_title" js="0">فایل بروز شد</word>
-<word key="notification__new_file_version_with" js="0">%s نسخه %s بروزشده %s را بارگذاری کرد</word>
-<word key="emailtpl_notification_new_file_version" js="0">اعلامیه نسخه جدید فایل</word>
-<word key="emailstats__notification_new_file_version" js="0">اطلاعیه نسخه جدید فایل</word>
-<word key="backgroundQueue_new_version" js="0">در حال ارسال نسخه جدید اعلامیه ها برای %s</word>
-<word key="block_downloadsCommentFeed" js="0">دیدگاه های بخش دریافت</word>
-<word key="block_downloadsCommentFeed_desc" js="0">نمایش خوراک دیدگاه ها</word>
-<word key="block_downloadsReviewFeed" js="0">نقدهای بخش دریافت</word>
-<word key="block_downloadsReviewFeed_desc" js="0">نمایش خوراک نقد و بررسی</word>
-<word key="__api_downloads_files" js="0">فایل‌ها</word>
-<word key="__api_downloads_comments" js="0">دیدگاه‌ها</word>
-<word key="__api_downloads_reviews" js="0">نقدها</word>
-<word key="__api_downloads_categories" js="0">دسته‌ها</word>
-<word key="idm_landing_page" js="0">دانلود صفحه اصلی</word>
-<word key="idm_show_featured" js="0">نمایش باکس "محبوب ترین فایل ها"</word>
-<word key="idm_featured_count" js="0">تعداد فایل های ویژه برای نمایش</word>
-<word key="idm_show_newest" js="0">نمایش باکس "جدیدترین ها"</word>
-<word key="idm_newest_categories" js="0">دسته ها</word>
-<word key="idm_show_highest_rated" js="0">نمایش باکس "بیشترین امتیازها"</word>
-<word key="idm_show_most_downloaded" js="0">نمایش باکس "بهترین دانلود ها"</word>
-<word key="idm_highest_rated_categories" js="0">دسته بندی</word>
-<word key="idm_show_most_downloaded_categories" js="0">دسته بندی</word>
-<word key="downloads_forum_used" js="0"><![CDATA[این بخش از تالارها از برنامه دریافت‌ها برای ایجاد موضوع ها در زمان ارسال استفاده می کند و نمی توان آن را حذف کرد.<br/> لطفا دسته %s که مربوط به این برنامه است را حذف کنید تا بتوانید این برنامه را پاک نمایید.]]></word>
-<word key="file_subscribe" js="1">بروزرسانی نسخه جدید را برای من ارسال کن</word>
-<word key="file_unsubscribe" js="1">بروزرسانی  نسخه غیر فعال است</word>
-<word key="file_subscribed" js="0">بروزرسانی  نسخه جدید فعال شده است</word>
-<word key="file_unsubscribed" js="0">بروزرسانی نسخه جدید غیرفعال شده است</word>
-<word key="file_notify_heading" js="0">بروز رسانی نسخه جدید</word>
-<word key="file_notify_current" js="0">در حال حاضر تمامی این اعلامیه ها را از طریق %s دریافت می کنید</word>
-<word key="file_notify_none" js="0">شما هیچ روشی برای اعلامیه ها تعیین نکرده اید</word>
-<word key="file_version_pending_approval" js="0">نسخه جدید این فایل هنوز تأیید نشده است و فقط برای مدیران قابل مشاهده است. نسخه قبلی فایل برای کاربران قابل مشاهده است.</word>
-<word key="file_version_pending_cannot_approve" js="0">نسخه اصلی این فایل در انتظار تایید است. ابتدا باید نسخه اصلی تایید شود تا این نسخه مورد تایید قرار گیرد.</word>
-<word key="pending_no_new_files" js="0">این نسخه هیچ فایل بروز شده ای ندارد.</word>
-<word key="pending_no_changelog" js="0">نویسنده برای این نسخه گزارش تغییر ایجاد نکرده است.</word>
-<word key="pending_version" js="0">نسخه در حال انتظار</word>
-<word key="pending_version_reject" js="0"> رد شد</word>
-<word key="pending_version_reject_title" js="0"> رد کردن این فایل؟</word>
-<word key="pending_version_reject_desc" js="0">با این کار این نسخه در حال انتظار حذف شده و نسخه فعلی فایل قابل مشاهده خواهد بود</word>
-<word key="file_new_version_date" js="0">نسخه جدید %s ارسال شد</word>
-<word key="achievement_filter_DownloadFile_nth_suffix" js="0">مین دریافت</word>
-<word key="achievement_filter_DownloadFile_receiver" js="0">به کاربری که فایل را بارگذاری کرده است</word>
-<word key="achievement_filter_DownloadFile_giver" js="0">به کاربری که فایل را دریافت کرده است</word>
-<word key="AchievementAction__DownloadFile_log" js="0">فایل %s دریافت کرد</word>
-<word key="AchievementAction__DownloadFile_title_generic" js="0">فایل دریافت شد</word>
-<word key="AchievementAction__DownloadFile_title" js="0">کاربری که یک فایل دریافت کرده است</word>
-<word key="AchievementAction__DownloadFile" js="0">کاربری که فایل دریافت کرده است</word>
-<word key="webhook_downloads_new_version" js="0">اجرا در زمانی که نسخه جدیدی در دسترس قرار می‌گیرد</word>
-<word key="makePrimaryScreenshot" js="1">انتخاب به عنوان تصویر اصلی</word>
-<word key="makePrimary" js="1">اصلی</word>
-<word key="removeScreenshot" js="1">حذف این تصویر</word>
-<word key="markCategoryAsReadConfirm" js="1">آیا شما مطمئن هستید که می خواهید تمام فایل ها به عنوان خوانده شده در نظر گرفته شود؟</word>
-<word key="categoryMarkedRead" js="1">دسته به عنوان خوانده شده، نشانه گذاری شد</word>
-<word key="downloadsScreenshotsWatermark" js="1">بازسازی تصویرهای کنونی؟</word>
-<word key="downloadsScreenshotsWatermarkBlurb" js="1">بازساری تصاویر موجود باعث می شود واترمارک جدید شما بر روی تمام تصاویر قرار گیرد.</word>
-<word key="downloadsScreenshotsWatermarkYes" js="1">بله، بازسازی شود</word>
-<word key="downloadsScreenshotsWatermarkNo" js="1">خیر</word>
-<word key="file_subscribe" js="1">بروزرسانی نسخه جدید را برای من ارسال کن</word>
-<word key="file_unsubscribe" js="1">بروزرسانی  نسخه غیر فعال است</word>
-<word key="files_optional" js="1">محدود در نوع فایل ها</word>
+  <word key="__app_downloads" js="0">دریافت</word>
+  <word key="frontnavigation_downloads" js="0">بخش دریافت</word>
+  <word key="__indefart_downloads_file_comment" js="0">دیدگاهی برای یک فایل</word>
+  <word key="__indefart_downloads_file" js="0">یک فایل</word>
+  <word key="__indefart_downloads_file_review" js="0">نقد و بررسی برای یک فایل</word>
+  <word key="__indefart_downloads_file_pending" js="0">نسخه جدید</word>
+  <word key="__defart_downloads_file_comment" js="0">دیدگاه ها در یک فایل</word>
+  <word key="__defart_downloads_file_comment_plural" js="0">{!#[1:دیدگاه][?:دیدگاه]} در یک فایل </word>
+  <word key="__defart_downloads_file" js="0">فایل</word>
+  <word key="__defart_downloads_file_plural" js="0">{!#[1:فایل][?:فایل]} </word>
+  <word key="__defart_downloads_file_review" js="0">نقد برای یک فایل</word>
+  <word key="__defart_downloads_file_review_plural" js="0">{!#[1:نقد][?:نقد]} روی یک فایل</word>
+  <word key="__defart_downloads_file_pending" js="0">نسخه های جدید</word>
+  <word key="menu__downloads_downloads" js="0">بخش دریافت</word>
+  <word key="module__downloads_downloads" js="0">بخش دریافت</word>
+  <word key="menu__downloads_stats" js="0">بخش دریافت</word>
+  <word key="module__downloads_stats" js="0">آمارها</word>
+  <word key="file_download" js="0">بخش دریافت فایل</word>
+  <word key="downloads_file_container" js="0">دسته ها</word>
+  <word key="search_contextual_item_downloads_categories" js="0">این دسته</word>
+  <word key="search_contextual_item_downloads_file" js="0">این فایل</word>
+  <word key="downloads_categories" js="0">دسته های دریافت</word>
+  <word key="download_categories_lc" js="0">دسته‌بندی های دریافت</word>
+  <word key="filestorage__downloads_Files" js="0">بخش دریافت فایل</word>
+  <word key="filestorage__downloads_Screenshots" js="0">تصاویر بخش دریافت</word>
+  <word key="filestorage__downloads_FileField" js="0">فیلدهای اختصاصی بخش دریافت</word>
+  <word key="downloads_files" js="0">فایل‌های دریافت</word>
+  <word key="downloads_file" js="0">فایل</word>
+  <word key="downloads_file_sg_lc" js="0">فایل دریافتی</word>
+  <word key="modlog__action_restorebackup" js="0"><![CDATA[نسخه قبلی فایل بازگردانده شد: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_visibilitybackup" js="0"><![CDATA[وضعیت نمایش برای نسخه قبلی فایل <a href='%s'>%s</a> تغییر یافت]]></word>
+  <word key="modlog__action_deletebackup" js="0"><![CDATA[نسخه قبلی فایل حذف شد: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_purchasestatus" js="0"><![CDATA[وضعیت خرید تغییر یافته برای یک فایل : <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_newversion_reject" js="0"><![CDATA[نسخه جدید این فایل رد شد:<a href='%s'>%s</a> ]]></word>
+  <word key="modlog__action_newversion_approved" js="0"><![CDATA[نسخه جدیدی را برای یک فایل تأیید کرد :<a href='%s'>%s</a> ]]></word>
+  <word key="modlog__action_restorebackup_stats" js="0">نسخه قبلی یک فایل را بازیابی کرد</word>
+  <word key="modlog__action_visibilitybackup_stats" js="0">تغییر قابلیت مشاهده نسخه قبلی یک فایل</word>
+  <word key="modlog__action_deletebackup_stats" js="0">نسخه قبلی یک فایل را حذف کرد</word>
+  <word key="modlog__action_purchasestatus_stats" js="0">تغییر وضعیت خرید فایل</word>
+  <word key="modlog__action_newversion_reject_stats" js="0">نسخه جدیدی از یک فایل را رد کرد</word>
+  <word key="modlog__action_newversion_approved_stats" js="0">نسخه جدیدی از یک فایل را تأیید کرد</word>
+  <word key="mark_category_read" js="0">علامت زدن دسته به عنوان خوانده شده</word>
+  <word key="mark_category_read_title" js="0">علامت زدن این دسته به عنوان خوانده شده</word>
+  <word key="editor__downloads_Categories" js="0">دسته‌های دریافت</word>
+  <word key="editor__downloads_Downloads" js="0">دریافت‌های فایل</word>
+  <word key="editorMedia_downloads_Files" js="0">دریافت‌های فایل</word>
+  <word key="downloads_rebuilding_screenshots" js="0">باز سازی تصاویر واترمارک</word>
+  <word key="member_restrictions__downloads_Downloads" js="0">دریافت‌ها</word>
+  <word key="restriction_no_downloads" js="0">محدود کردن برای ثبت فایل ها</word>
+  <word key="content_stats__downloads_Downloads" js="0">دریافت ها</word>
+  <word key="menu__downloads_downloads_categories" js="0">دسته‌ها</word>
+  <word key="subcategories" js="0">زیردسته‌ها</word>
+  <word key="cname" js="0">نام</word>
+  <word key="cbitoptions_disfiles" js="0">پذیرش فایل‌ها؟</word>
+  <word key="cbitoptions_disfiles_desc" js="0">شما می توانید درهر زمان نوع دسته را از حالت مادر که تنها شامل زیر دسته ها می شود و امکان ارسال مستقیم به آن وجود ندارد را غیر فعال کنید.</word>
+  <word key="ctypes" js="0">پسوند های مجاز</word>
+  <word key="cparent" js="0">دسته والد</word>
+  <word key="any_extensions" js="0">هر پسوندی</word>
+  <word key="cmaxfile" js="0">حداکثر حجم فایل</word>
+  <word key="ccfields" js="0">فیلدهای اضافی</word>
+  <word key="category_screenshots" js="0">تصاویر</word>
+  <word key="cbitoptions_allowss" js="0">پذیرش تصاویر؟</word>
+  <word key="cbitoptions_allowss_desc" js="0">هنگام ارسال فایل ها میتوان تصاویر مرتبط با فایل ارسالی را نیز پیوست نمود که در هنگام نمایش فهرست فایل ها، قابل مشاهده است.</word>
+  <word key="cbitoptions_reqss" js="0">نیازمند به تصویر؟</word>
+  <word key="cmaxss" js="0">حداکثر حجم تصویر</word>
+  <word key="cmaxdims" js="0">حداکثر ابعاد تصویر</word>
+  <word key="category_display" js="0">نمایش دسته</word>
+  <word key="csortorder" js="0">چیدمان پیش فرض </word>
+  <word key="cbitoptions_comments" js="0">پذیرش دیدگاه ها؟</word>
+  <word key="cbitoptions_reviews" js="0">پذیرش نقدها؟</word>
+  <word key="cbitoptions_reviews_mod" js="0">نقدها باید پذیرفته شوند؟</word>
+  <word key="cbitoptions_reviews_download" js="0">کاربر باید ابتدا فایل را دریافت، سپس امتیاز دهد؟</word>
+  <word key="cbitoptions_reviews_download_desc" js="0">لازم است تا ثبت دریافت ها، فعال باشد</word>
+  <word key="cdisclaimer" js="0">شرایط دریافت</word>
+  <word key="cdisclaimer_placeholder" js="0">پیش از دریافت، شما باید با شرایط دریافت موافقت نمایید ...</word>
+  <word key="category_errors" js="0">پیام خطا</word>
+  <word key="category_errors_blurb" js="0">شما می توانید پیام های خطا خاص برای استفاده این دسته تعریف کنید. اگر ارائه نشده، یک پیام خطا عمومی استفاده خواهد شد</word>
+  <word key="noperm_view" js="0">نمی‌توان فایل‌ها را دید</word>
+  <word key="noperm_view_placeholder" js="0">افزودن یک پیام خطا...</word>
+  <word key="noperm_dl" js="0">امکان دریافت نمی باشد</word>
+  <word key="noperm_dl_placeholder" js="0">افزودن یک پیام خطا...</word>
+  <word key="perm_file_perm__label" js="0" />
+  <word key="perm_file_perm__view" js="0">دیدن دسته</word>
+  <word key="perm_file_perm__read" js="0">مشاهده فایل‌ها</word>
+  <word key="perm_file_perm__add" js="0">بارگذاری فایل‌ها</word>
+  <word key="perm_file_perm__download" js="0">دریافت فایل‌ها</word>
+  <word key="perm_file_perm__comment" js="0">دیدگاه ها</word>
+  <word key="perm_file_perm__rate" js="0">دادن امتیاز به فایل ها</word>
+  <word key="perm_file_perm__reply" js="0">دیدگاه ها</word>
+  <word key="perm_file_perm__review" js="0">نقد و بررسی فایل‌ها</word>
+  <word key="cbitoptions_moderation" js="0">فایل‌ها باید پذیرفته شوند؟</word>
+  <word key="cbitoptions_moderation_edits" js="0">نسخه جدید فایل باید پذیرفته شود؟</word>
+  <word key="cbitoptions_show_approver" js="0">نمایش فرد پذیرنده فایل؟</word>
+  <word key="cbitoptions_show_approver_desc" js="0">دیگر مدیران همیشه قادر به دیدن این اطلاعات هستند.</word>
+  <word key="cbitoptions_comment_moderation" js="0">دیدگاه ها باید پذیرفته شوند؟</word>
+  <word key="cversion_numbers" js="0">شماره نسخه</word>
+  <word key="version_numbers_disabled" js="0">غیر فعال</word>
+  <word key="version_numbers_enabled" js="0">در دسترس</word>
+  <word key="version_numbers_required" js="0">ضروری</word>
+  <word key="cversioning_on" js="0">حفظ نسخه قبلی؟</word>
+  <word key="cversioning_on_desc" js="0">اگر فعال باشد، هنگامی که نسخه جدیدی از یک فایل بارگذاری شد، نسخه های قبلی ذخیره شده و در دسترس خواهند بود.</word>
+  <word key="cversioning" js="0">تعداد نسخه‌های قابل حفظ</word>
+  <word key="crequire_changelog" js="0">اجباری بودن کارنامه تغییرات؟</word>
+  <word key="category_moderation" js="0">مدیریت</word>
+  <word key="category_downloading" js="0">درحال دریافت</word>
+  <word key="category_comments_and_reviews" js="0">دیدگاه ها</word>
+  <word key="category_logs" js="0">رخداد نگاشت ها‎</word>
+  <word key="clog_on" js="0">ثبت دریافت‎ها؟</word>
+  <word key="clog" js="0">حفظ رخداد نگاشت برای</word>
+  <word key="clog_recount" js="0">بازشماری تعداد دریافت‎ها</word>
+  <word key="clog_recount_desc" js="0">تعداد دریافت ها برای هر فایل در این دسته به تعداد رکورد ها فعلی موجود در گزارش بازخواهد گشت. اگر شما تنظیمات گزارش را بروزرسانی کرده باشید، لازم است که قبل از ذخیره این ابزار را اجرا نمایید. این کار برگشت ناپذیر است.</word>
+  <word key="clog_recount_done" js="0">تعداد محاسبه شده</word>
+  <word key="r__categories_recount_downloads" js="0">توانایی بازشماری تعداد دریافت‎ها؟</word>
+  <word key="cbitoptions_submitter_log" js="0">‎اجازه مشاهده رخداد نگاشت ها برای ارسال کننده؟</word>
+  <word key="cbitoptions_submitter_log_desc" js="0">همچنین شما از بخش مدیریت گروه های کاربری می توانید تعیین کنید کدامیک از کاربران می توانند رخداد نگاشت ها را مشاهده کنند.</word>
+  <word key="category_submissions" js="0">ارسالی</word>
+  <word key="category_allowed_files" js="0">پذیرش فایل‌ها</word>
+  <word key="category_versioning" js="0">نگارش</word>
+  <word key="csubmissionterms" js="0">قوانین ارسال</word>
+  <word key="csubmissionterms_placeholder" js="0">با ارسال فایل شما شرایط ذکر شده را می‌پذیرید:</word>
+  <word key="file_cat" js="0">دسته</word>
+  <word key="file_ipaddress" js="0">آدرس IP</word>
+  <word key="log_days" js="0">رخداد نگاشت بعد از {# [1:روز][?:روز]} پاکسازی می گردد</word>
+  <word key="category_forums_integration" js="0">ایجاد موضوع</word>
+  <word key="cforum_on" js="0">ارسال یک موضوع در زمان ارسال فایل؟</word>
+  <word key="cforum_on_desc" js="0">هر بار که یک فایل جدید ارسال می‌شود، یک موضوع را در انجمن مشخص ارسال کنید.</word>
+  <word key="cforum_id" js="0">تالارهای گفتگو</word>
+  <word key="ctopic_prefix" js="0">پیشوند موضوع</word>
+  <word key="ctopic_suffix" js="0">پسوند موضوع</word>
+  <word key="cbitoptions_topic_delete" js="0">موضوع در صورت حذف فایل پاک شود؟</word>
+  <word key="cbitoptions_topic_screenshot" js="0">شامل تصویر در موضوع شود؟</word>
+  <word key="node_no_parentd" js="0">بدون والد </word>
+  <word key="view_all_files" js="0">مشاهده همه فایل ها</word>
+  <word key="downloadcategory_topic_rebuild" js="0"><![CDATA[<a href='%s' data-confirm data-confirmMessage='Rebuild Topics' data-confirmSubMessage=' با این کار اولین ارسال از تمام موضوعات توسط فایل های در این گروه  برای مطابقت با تنظیمات فعلی ویرایش میکند. این ممکن است مفید باشد اگر برخی تنظیمات را تغییر داده اید. هر پرونده ای که هنوز موضوعی را در اختیارشان قرار نگرفته باشد، بازسازی خواهد شد. بازسازی در پس زمینه پردازش می شود و شما می توانید پیشرفت در AdminCP Dashboard را ببینید.'>بازسازی محتوای موضوع</a> ]]></word>
+  <word key="cmultiple_files" js="0">اجازه چندین فایل را بدهید</word>
+  <word key="cmultiple_files_desc" js="0">اگر فعال باشد، نویسنده فایل می توانید چند فایل در یک بار در هنگام ایجاد  چندین پرونده همزمان آن را بارگذاری کند. </word>
+  <word key="cdisclaimer_location" js="0">نمایش قوانین دریافت</word>
+  <word key="cdisclaimer_purchase" js="0">قبل از خرید</word>
+  <word key="cdisclaimer_download" js="0">بعد از خرید</word>
+  <word key="cdisclaimer_both" js="0">قبل از خرید و دریافت</word>
+  <word key="modperms__core_Content_downloads_File" js="0">بخش دریافت</word>
+  <word key="download_categories" js="0">دسته‌ها</word>
+  <word key="can_pin_downloads_file" js="0">توانایی مهم کردن فایل‌ها؟</word>
+  <word key="can_unpin_downloads_file" js="0">توانایی غیر مهم کردن فایل‌ها؟</word>
+  <word key="can_feature_downloads_file" js="0">توانایی ویژه کردن فایل‌ها؟</word>
+  <word key="can_unfeature_downloads_file" js="0">توانایی غیر ویژه کردن فایل‌ها؟</word>
+  <word key="can_move_downloads_file" js="0">توانایی انتقال فایل‌ها؟</word>
+  <word key="can_move_downloads_file_desc" js="0">قادر خواهد بود فایل ها را فقط بین دسته بندی هایی که دسترسی مدیریت دارد جابجا کند. نه هر دسته بندی دیگر.</word>
+  <word key="can_lock_downloads_file" js="0">توانایی قفل کردن فایل‌ها؟</word>
+  <word key="can_unlock_downloads_file" js="0">توانایی باز کردن فایل‌ها؟</word>
+  <word key="can_reply_to_locked_downloads_file" js="0">توانایی نوشتن دیدگاه ها در فایل‌های قفل شده؟</word>
+  <word key="can_edit_downloads_file" js="0">توانایی ویرایش فایل‌ها؟</word>
+  <word key="can_hide_downloads_file" js="0">توانایی پنهان کردن فایل‌ها؟</word>
+  <word key="can_unhide_downloads_file" js="0">توانایی آشکار کردن فایل ها؟</word>
+  <word key="can_view_hidden_downloads_file" js="0">توانایی مشاهده فایل‌های پنهان؟</word>
+  <word key="can_delete_downloads_file" js="0">توانایی حذف فایل‌ها؟</word>
+  <word key="can_edit_downloads_file_comment" js="0">توانایی ویرایش دیدگاه ها؟</word>
+  <word key="can_hide_downloads_file_comment" js="0">توانایی پنهان کردن دیدگاه ها؟</word>
+  <word key="can_unhide_downloads_file_comment" js="0">توانایی آشکار کردن دیدگاه ها؟</word>
+  <word key="can_view_hidden_downloads_file_comment" js="0">توانایی مشاهده دیدگاه های پنهان؟</word>
+  <word key="can_delete_downloads_file_comment" js="0">توانایی حذف دیدگاه ها؟</word>
+  <word key="can_edit_downloads_file_review" js="0">توانایی ویرایش نقدها؟</word>
+  <word key="can_hide_downloads_file_review" js="0">توانایی پنهان کردن نقد و بررسی‌ها؟</word>
+  <word key="can_unhide_downloads_file_review" js="0">توانایی آشکار کردن نقد و بررسی‌ها؟</word>
+  <word key="can_view_hidden_downloads_file_review" js="0">توانایی مشاهده نقد و بررسی‌های پنهان؟</word>
+  <word key="can_delete_downloads_file_review" js="0">توانایی حذف نقدها؟</word>
+  <word key="can_feature_comments_downloads_file" js="0">توانایی انتخاب دیدگاه ها به عنوان پیشنهاد شده در فایل؟</word>
+  <word key="can_unfeature_comments_downloads_file" js="0">توانایی حذف دیدگاه های پیشنهاد شده در فایل؟</word>
+  <word key="can_add_item_message_downloads_file" js="0">توانایی افزودن پیام ها در فایل؟</word>
+  <word key="can_edit_item_message_downloads_file" js="0">توانایی ویرایش پیام ها در فایل؟</word>
+  <word key="can_delete_item_message_downloads_file" js="0">توانایی حذف پیام ها در فایل؟</word>
+  <word key="modperms__downloads_Files" js="0">دریافت‌ها</word>
+  <word key="can_make_purchasable" js="0">توانایی فعال سازی خرید در فایل ها؟</word>
+  <word key="can_make_unpurchasable" js="0">توانایی غیرفعال سازی خرید در فایل ها؟</word>
+  <word key="menu__downloads_downloads_fields" js="0">فیلدهای اضافی</word>
+  <word key="cf_topic" js="0">نمایش فیلد در موضوع ها؟</word>
+  <word key="cf_format_desc" js="0"><![CDATA[مثال: <strong>{title}:</strong> {content} ]]></word>
+  <word key="downloads_field_location" js="0">محل نمایش</word>
+  <word key="idm_cfield_below" js="0">در زیر توضیحات</word>
+  <word key="idm_cfield_tab" js="0">در یک برگه جداگانه</word>
+  <word key="idm_cfield_sidebar" js="0">در نوار کناری</word>
+  <word key="downloads_field_paid" js="0">خرید لازم است؟</word>
+  <word key="downloads_field_paid_desc" js="0">در صورت فعال بودن ، محتویات این قسمت فقط برای کاربرانی که آن فایل را خریداری کرده اند نمایش داده می شود. این تنظیم هیچ تاثیری روی فایل های رایگان ندارد.</word>
+  <word key="menu__downloads_downloads_settings" js="0">تنظیمات</word>
+  <word key="acplogs__downloads_settings" js="0">بروزرسانی تنظیمات دریافت</word>
+  <word key="group__downloads_Downloads" js="0">دریافت‎ها</word>
+  <word key="idm_rss" js="0">فعال سازی خوراک RSS برای آخرین فایل ها؟</word>
+  <word key="idm_link_blacklist" js="0">ثبت آدرس های وبگاه در لیست سیاه</word>
+  <word key="idm_link_blacklist_desc" js="0">کاربرانی که دسترسی ارسال لینک از آدرس وبگاه دارند قادر نخواهند بود لینک هایی از دامنه تعریف شده در بالا را ارسال نمایند.</word>
+  <word key="idm_antileech" js="0">جلوگیری از لینکدهی مستقیم؟</word>
+  <word key="idm_antileech_desc" js="0">اگر فعال شود لینک ها از حالت مستقیم خارج شده و کاربران نمی توانند به صورت لینک مستقیم فایل ها را دریافت کنند و برای دریافت باید همیشه به صفحه دریافت خود فایل مراجعه کنند.</word>
+  <word key="idm_watermarkpath" js="0">واترمارک تصویر</word>
+  <word key="idm_watermarkpath_desc" js="0">تصویر بارگذاری شده بر روی تمامی تصاویر فایل ها چاپ خواهد شد (برای مثل برای نمایش متن کپی رایت). برای گرفتن بهترین نتیجه از تصویر کوچک با پس زمینه شفاف (transparent) استفاده نمایید.</word>
+  <word key="acplogs__downloads_recount_downloads" js="0">بازشماری آمار برای دسته ها پایان یافت: %s</word>
+  <word key="download_settings_saved_rebuilding" js="0">ذخیره شد.  تصویر شما نیز در زمینه کارهای آن انجام خواهد شد.</word>
+  <word key="idm_default_view" js="0">نمای پیش‌فرض دسته</word>
+  <word key="idm_default_view_choose" js="0">کاربر توانایی انتخاب دارد؟</word>
+  <word key="downloads_default_view_table" js="0">جدول: نمای سنتی جدولی</word>
+  <word key="downloads_default_view_grid" js="0">شبکه: نمایش فایل ها به صورت کارت در یک شبکه</word>
+  <word key="downloads_default_view_choose" js="0">کاربران توانایی انتخاب دارد؟</word>
+  <word key="downloads_default_view_choose_desc" js="0">حالت‌های نمایشی را که کاربران از میان آن ها انتخاب کنند را تعیین کنید</word>
+  <word key="downloads_default_view_choose_none" js="0">به کاربران اجازه انتخاب نده</word>
+  <word key="idm_view_approvers" js="0">توانایی مشاهده پذیرنده فایل‌ها؟</word>
+  <word key="idm_bypass_revision" js="0">توانایی مدیریت نسخه‌ها؟</word>
+  <word key="idm_view_downloads" js="0">توانایی مشاهده دریافت‎کنندگان فایل‌ها؟</word>
+  <word key="idm_view_downloads_desc" js="0">رخداد نگاشت دانلود را می توان بر اساس یک بازه زمانی یا هر دسته غیرفعال کرد.</word>
+  <word key="idm_throttling" js="0">حداکثر سرعت دریافت</word>
+  <word key="idm_max_size" js="0">حداکثر سایز ارسالی</word>
+  <word key="idm_max_size_desc" js="0">دسته ها می توانند محدودیت در حداکثر میزان سایز فایل ها داشته باشند. به صورت عادی ارسال ها محدود به تنظیمات حداکثر حجم  فایل در هر گروه کاربری هستند یا میزان تنظیمی که برای هر دسته ایجاد شده است ولی کلوپ ها محدود به این مقدار خواهند بود.</word>
+  <word key="idm_maxsize_suffix" js="0">kB</word>
+  <word key="idm_throttling_suffix" js="0">kb/ثانیه</word>
+  <word key="idm_throttling_desc" js="0"><![CDATA[این تنظیم سرعت دانلود را به حداکثر خواهد رساند. اگر این تنظیم بسیار کم در نظر گرفته شود احتمال وقوع خطای time out خواهد شد و منجر به عدم دریافت فایل می شود.]]></word>
+  <word key="idm_throttling_unlimited" js="0">بدون محدودیت</word>
+  <word key="idm_wait_period" js="0">کاربران باید قبل از زمانی که دریافت شروع می شود مدتی صبر کنند</word>
+  <word key="idm_bypass_revision_desc" js="0"><![CDATA[زمانی که کاربر، در دسته ای که قابلیت نگه داری از نسخه های قبلی در آن فعال باشد، فایلی را بارگذاری (آپلود) می کند، فایل های قبلی حذف نشده و برای دریافت همچنان در دسترس خواهند بود. اگر این تنظیم فعال شود، کاربر در هنگام بارگذاری نسخه جدید می تواند تعیین کند که نسخه قبلی نگه داشته نشود و توانایی بازگردانی، حذف یا پنهان کردن فایل را دارد.<br> البته کاربر باید مجوز ویرایش فایل را داشته باشد.]]></word>
+  <word key="limit_sim" js="0">حداکثر دریافت‎های همزمان</word>
+  <word key="min_posts" js="0">ارسال‎های مورد نیاز برای دریافت</word>
+  <word key="download_min_posts" js="0">شما پس از ارسال {# [1:پست][?:پست]} می‌توانید دریافت کنید.</word>
+  <word key="daily_bw" js="0">حداکثر پهنای باند مصرفی روزانه</word>
+  <word key="weekly_bw" js="0">حداکثر پهنای باند مصرفی درهفته</word>
+  <word key="monthly_bw" js="0">حداکثر مصرف پهنای باند ماهانه</word>
+  <word key="kb_per_day" js="0">kb/روز</word>
+  <word key="kb_per_week" js="0">kb/هفته</word>
+  <word key="kb_per_month" js="0">kb/ماه</word>
+  <word key="daily_dl" js="0">حداکثر تعداد دریافت در روز</word>
+  <word key="weekly_dl" js="0">حداکثر دریافت در هفته</word>
+  <word key="monthly_dl" js="0">حداکثر دریافت در ماه</word>
+  <word key="downloads_requires_log" js="0">این تنظیمات براساس رخداد نگاشت های دریافت فایل عمل می کند که ممکن است برای بعضی از دسته ها غیرفعال شده باشد یا در یک بازه زمانی این رخداد نگاشت ها حذف شده باشند. اگر از این تنظیم استفاده می کنید، توصیه می شود ثبت رخدادنگاشت ها را فعال نگه داشته و بر روی حذف در بازه زمانی کمتر از ۴۸ ساعت تنظیم نکنید، در غیر این صورت با وقایع از قبل پیش بینی نشده برخورد خواهید کرد.</word>
+  <word key="file_management" js="0">مدیریت فایل</word>
+  <word key="download_restrictions" js="0">محدودیت دریافت</word>
+  <word key="bandwidth_limits" js="0">محدودیت پهنای باند</word>
+  <word key="download_limits" js="0">محدودیت دریافت</word>
+  <word key="downloads_per_day" js="0">دریافت‎ها / روز</word>
+  <word key="downloads_per_week" js="0">دریافت‎ها / هفته</word>
+  <word key="downloads_per_month" js="0">دریافت‎ها / ماه </word>
+  <word key="submission_permissions" js="0">محدودیت ارسال</word>
+  <word key="idm_linked_files" js="0">توانایی ارسال آدرس وب؟</word>
+  <word key="idm_import_files" js="0">توانایی وارد کردن فایل از سیستم فایل؟</word>
+  <word key="idm_import_files_desc" js="0">در صورت فعال سازی، کاربران امکان درون ریزی فایل های درون سرور شما را خواهند داشت. این گزینه را باید فقط برای گروه های کاربری که اعتماد دارید، فعال کنید.</word>
+  <word key="idm_bulk_submit" js="0">توانایی ارسال چند فایل بصورت همزمان؟</word>
+  <word key="idm_paid_restrictions" js="0">اعمال محدودیت برای فایل های خریداری شده؟</word>
+  <word key="idm_paid_restrictions_desc" js="0">در صورت فعال بودن، هر محدودیتی که در زیر تنظیم شده است نیز برای فایلهای خریداری شده توسط کاربر اعمال خواهد شد.</word>
+  <word key="idm_screenshot_for" js="0">تصویری برای %s</word>
+  <word key="rss_offline" js="0">این خوراک RSS غیر فعال است</word>
+  <word key="rss_offline_admin" js="0">گزینه "فعال سازی خوراک RSS برای آخرین فایل ها؟" هم اکنون در سامانه دریافت غیر فعال می باشد. این تنظیم را پنل مدیریت فعال نمایید تا خوراک RSS آخرین فایل های سامانه دریافت  فعال شود.</word>
+  <word key="submit_a_file" js="0">ارسال یک فایل</word>
+  <word key="submit_single_file" js="0">ارسال یک فایل</word>
+  <word key="submit_multiple_files" js="0">ارسال چند فایل</word>
+  <word key="submit_first_file" js="0">ارسال اولین فایل</word>
+  <word key="write_review" js="0">نوشتن یک نقد و بررسی</word>
+  <word key="file_auto_follow" js="0"></word>
+  <word key="file_auto_follow_suffix" js="0">زمان ارسال نظر توسط کاربران من را مطلع کن</word>
+  <word key="file" js="0">فایل</word>
+  <word key="dl_get_support" js="0"> مشاهده موضوع این فایل</word>
+  <word key="dl_get_support_title" js="0"> مشاهده موضوع این فایل</word>
+  <word key="file_information" js="0">اطلاعات فایل</word>
+  <word key="url_files" js="0">فایل‌های لینک شده</word>
+  <word key="url_files_no_perm" js="0">این فایل یک فایل لینک شده است، اما شما دیگر مجاز به ویرایش آن نیستید. اگر نیاز به تغییرات در آن است، با یکی از مدیران تماس بگیرید.</word>
+  <word key="import_files" js="0">وارد کردن فایل</word>
+  <word key="screenshots" js="0">تصویرها</word>
+  <word key="screenshots_ct" js="0">{# [1:تصویر][?:تصویر]}</word>
+  <word key="url_screenshots" js="0">تصویرهای لینک شده</word>
+  <word key="file_title" js="0">نام فایل</word>
+  <word key="file_submitter" js="0">ارسال کننده</word>
+  <word key="file_submitted" js="0">ارسال </word>
+  <word key="view_file" js="0">مشاهده فایل</word>
+  <word key="version" js="0">نگارش</word>
+  <word key="file_version" js="0">شماره نسخه</word>
+  <word key="file_tags" js="0">برچسب‌ها</word>
+  <word key="file_changelog" js="0">تغییرات جدید</word>
+  <word key="new_version_details" js="0">جزئیات نسخه جدید</word>
+  <word key="with_version" js="0">با نسخه %s: </word>
+  <word key="file_desc" js="0">درباره این فایل</word>
+  <word key="file_primary_screenshot" js="0">تصویر اصلی</word>
+  <word key="file_primary_screenshot_desc" js="0">انتخاب تصویر اصلی برای نمایش در لیست دسته ها </word>
+  <word key="download_now" js="0">دریافت فایل</word>
+  <word key="file_view_details" js="0">نمایش فایل</word>
+  <word key="downloads" js="0">دریافت‎ها</word>
+  <word key="x_downloads" js="0">{# [1:دریافت][?:دریافت]} </word>
+  <word key="idm_purchases" js="0">خریدها</word>
+  <word key="x_purchases" js="0">{# [1:خرید][?:خرید]} </word>
+  <word key="num_downloads" js="0">{# [1:دریافت][?:دریافت]}</word>
+  <word key="files_no_number" js="0">{!# [1:فایل][?:فایل‌ها]}</word>
+  <word key="downloads_file_comment" js="0">دیدگاه فایل</word>
+  <word key="downloads_file_review" js="0">نقد و بررسی فایل</word>
+  <word key="downloads_file_pl" js="0">فایل</word>
+  <word key="downloads_file_pl_lc" js="0">فایل</word>
+  <word key="downloads_file_comment_pl" js="0">دیدگاه های فایل</word>
+  <word key="downloads_file_comment_pl_lc" js="0">دیدگاه های فایل</word>
+  <word key="downloads_file_review_pl" js="0">نقد و بررسی فایل</word>
+  <word key="downloads_file_review_pl_lc" js="0">بررسی فایل</word>
+  <word key="downloads_file_pending" js="0">نسخه جدید</word>
+  <word key="downloads_file_pending_pl" js="0">نسخه فایل جدید</word>
+  <word key="downloads_file_pending_pl_lc" js="0">نسخه فایل جدید</word>
+  <word key="downloads_category_select" js="0">دسته:</word>
+  <word key="report_file" js="0">گزارش این فایل</word>
+  <word key="file_review_count" js="0">{# [1:نقد و بررسی][?:نقد و بررسی]} </word>
+  <word key="file_comment_count" js="0">{# [1:دیدگاه][?:دیدگاه]}</word>
+  <word key="subcategory" js="0">زیر دسته</word>
+  <word key="download_no_perm" js="0">شما مجاز به دریافت این فایل نیستید.</word>
+  <word key="add_files_no_perm" js="0">شما اجازه بارگذاری فایل برای این بخش را ندارید.</word>
+  <word key="new_version_versioning" js="0">نسخه قبلی بایگانی شده ولی کاربران همچنان قادر به دریافت آن خواهند بود.</word>
+  <word key="file_save_revision" js="0">ذخیره نسخه قبل؟</word>
+  <word key="downloads_edit_details" js="0">ویرایش</word>
+  <word key="downloads_edit_details_title" js="0">ویرایش جزئیات این فایل</word>
+  <word key="file__comment_placeholder" js="0">افزودن دیدگاه ...</word>
+  <word key="file_submit_comment" js="0">ارسال دیدگاه </word>
+  <word key="whats_new_in_version" js="0"><![CDATA[تغییرات جدید در نسخه <span data-role='versionTitle'>%s</span>]]></word>
+  <word key="see_changelog" js="0">دیدن کارنامه تغییرات</word>
+  <word key="see_changelog_for" js="0">مشاهده کارنامه تغییرات برای نسخه %s</word>
+  <word key="see_changelog_title" js="0">مشاهده تاریخچه نسخه برای این فایل</word>
+  <word key="view_downloader_list" js="0">نمایش لیست دریافت کنندگان</word>
+  <word key="who_downloaded" js="0">چه کسی این را دانلود کرده؟</word>
+  <word key="downloaders" js="0">دریافت کنندگان</word>
+  <word key="download_your_files" js="0">دریافت فایل‌های شما</word>
+  <word key="download_terms" js="0">شرایط دریافت</word>
+  <word key="download_terms_desc" js="0">فایل شما برای دریافت آماده است. پیش از دریافت باید با شرایط مشخص شده موافقت کنید:</word>
+  <word key="download_file_count" js="0">{# [1:فایل][?:فایل]}</word>
+  <word key="agree_and_download" js="0"><![CDATA[پذیرش و دریافت]]></word>
+  <word key="cancel_downloading" js="0">لغو دریافت</word>
+  <word key="agree_and_download_full" js="0">پذیرش شرایط ذکر شده و دریافت فایل</word>
+  <word key="download_version" js="0">دریافت</word>
+  <word key="restore_version" js="0">بازگردانی</word>
+  <word key="delete_version" js="0">پاک کردن</word>
+  <word key="download_purchase_terms" js="0"><![CDATA[شرایط و قوانین]]></word>
+  <word key="download_purchase_terms_desc" js="0">پیش از خرید، شما باید با قوانین زیر موافقت نمایید:</word>
+  <word key="agree_and_purchase" js="0"><![CDATA[پذیرش و خرید]]></word>
+  <word key="hide_version" js="0">پنهان کردن از کاربران</word>
+  <word key="filesize" js="0">اندازه فایل</word>
+  <word key="file_pending_approval" js="0">این فایل هنوز تایید نشده است و تنها برای مدیران قابل مشاهده است.</word>
+  <word key="file_pending_approval_version" js="0">نسخه جدید این فایل در انتظار تأیید است.</word>
+  <word key="file_pending_version_button" js="0">نسخه جدید را بررسی کنید</word>
+  <word key="file_approved_by" js="0">(پذیرفته شده توسط %s، %s)</word>
+  <word key="file_requires_approval_g" js="0">فایل ارسالی شما پس از تایید یکی از مدیران برای عموم به نمایش در می آید.</word>
+  <word key="file_no_changelog" js="0">تغییرات رخ داده برای این نسخه، ثبت نشده است.</word>
+  <word key="file_version_released" js="0">انتشار در %s</word>
+  <word key="file_published" js="0">منتشر شد</word>
+  <word key="restore" js="0">بازگردانی</word>
+  <word key="hide_from_members" js="0">پنهان کردن از کاربران</word>
+  <word key="unhide_from_members" js="0">آشکار کردن برای کاربران</word>
+  <word key="version_restore_confirm" js="0">آیا از بازگردانی نسخه %s  مطمئن هستید؟</word>
+  <word key="version_restore_confirm_desc" js="0">تمامی نسخه ها از %1$s حذف خواهند شد و فایل نسخه %1$s بازگردانی خواهد شد.</word>
+  <word key="version_delete_confirm" js="0">آیا مطمئن هستید که میخواهید این نسخه را حذف کنید؟</word>
+  <word key="idm_rss_title" js="0">آخرین فایل‌ها</word>
+  <word key="wait_x_seconds_noscript" js="0">{# [1:ثانیه][?:ثانیه]} صبر کنید و سپس روی دکمه دریافت کلیک کنید</word>
+  <word key="download_begins_in" js="0">شروع دریافت تا</word>
+  <word key="file_actions" js="0">مدیریت فایل</word>
+  <word key="max_simultaneous_downloads" js="0">شما فقط می‌توانید {# [1:فایل][?:فایل]} همزمان دریافت کنید. شما باید تا زمانی که {!# [1:دریافت دیگر شما][?:دریافت دیگر شما]} پایان یابد صبر نمایید، سپس دوباره اقدام به دریافت نمایید. </word>
+  <word key="bandwidth_limit_daily" js="0">شما %s بار در روز می‌توانید اقدام به دریافت کنید. شما بعد از %s دوباره می توانید اقدام به دریافت نمایید.</word>
+  <word key="bandwidth_limit_week" js="0">شما %s بار در هفته می‌توانید فایل دریافت کنید. شما بعد از %s دوباره می توانید اقدام به دریافت نمایید.</word>
+  <word key="bandwidth_limit_month" js="0">شما %s بار در ماه می‌توانید فایل دریافت کنید. فایلی که برای دریافت آن تلاش می‌کنید %s است که به علت محدودیت در دریافت، امکان دریافت آن نیست.</word>
+  <word key="bandwidth_limit_daily_never" js="0">شما %s بار در روز می‌توانید فایل دریافت کنید. فایلی که برای دریافت آن تلاش می‌کنید %s است که به علت محدودیت در دریافت، امکان دریافت آن نیست.</word>
+  <word key="bandwidth_limit_weekly" js="0">شما %s بار در هفته می‌توانید فایل دریافت کنید. فایلی که برای دریافت آن تلاش می‌کنید %s است که به علت محدودیت در دریافت، امکان دریافت آن نیست.</word>
+  <word key="download_limit_daily" js="0">شما فقط امکان دریافت {# [1:فایل][?:فایل]} در روز را دارید. شما پس از %s دوباره می‌توانید اقدام به دریافت نمایید.</word>
+  <word key="download_limit_weekly" js="0">شما فقط امکان دریافت {# [1:فایل][?:فایل]} در هفته را دارید. شما پس از %s دوباره می‌توانید اقدام به دریافت نمایید.</word>
+  <word key="download_limit_monthly" js="0">شما فقط امکان دریافت {# [1:فایل][?:فایل]} در ماه را دارید. شما پس از %s دوباره می‌توانید اقدام به دریافت نمایید.</word>
+  <word key="file_rating_value" js="0">امتیاز شما</word>
+  <word key="file_review_text" js="0">نقد و بررسی شما</word>
+  <word key="file__review_placeholder" js="0">افزودن نقد و بررسی...</word>
+  <word key="err_no_files" js="0">شما باید یک فایل بارگذاری و یا حداقل به یک فایل، لینک دهید.</word>
+  <word key="err_too_many_files" js="0">شما تنها می توانید یک فایل بارگذاری کنید و حداکثر به یک فایل لینک دهید.</word>
+  <word key="err_no_screenshots" js="0">شما باید یک تصویر بارگذاری و یا حداقل به یک تصویر، لینک دهید.</word>
+  <word key="err_url_file_blacklist" js="0">آدرس‌هایی از %s غیر قابل پذیرش هستند.</word>
+  <word key="err_import_files" js="0">فایل %s وجود ندارد و یا قابل خواندن نیست.</word>
+  <word key="err_import_files_dir" js="0">%s یک پوشه است. شما باید مسیر برای یک فایل را مشخص کنید.</word>
+  <word key="change_author_d" js="0">تغییر سازنده</word>
+  <word key="change_author_title" js="0">تغییر صاحب این فایل</word>
+  <word key="err_submissions_blocked" js="0">امکان بارگذاری فایل از شما گرفته شده است.</word>
+  <word key="upload_new_version_title" js="0">بارگذاری نسخه جدیدی از این فایل</word>
+  <word key="upload_new_version_pending" js="0">نسخه جدید در انتظار تأیید است</word>
+  <word key="feature_title_file" js="0">غیر ویژه کردن این فایل</word>
+  <word key="unfeature_title_file" js="0">غیر ویژه کردن این فایل</word>
+  <word key="pin_title_file" js="0">مهم کردن این فایل</word>
+  <word key="unpin_title_file" js="0">غیر مهم کردن این فایل</word>
+  <word key="hide_title_file" js="0">پنهان کردن این فایل</word>
+  <word key="unhide_title_file" js="0">آشکار کردن این فایل</word>
+  <word key="approve_title_file" js="0">پذیرش این فایل</word>
+  <word key="lock_title_file" js="0">قفل کردن این فایل</word>
+  <word key="unlock_title_file" js="0">باز کردن این فایل</word>
+  <word key="downloads_move_title" js="0">انتقال این فایل به دسته دیگر</word>
+  <word key="downloads_delete_title" js="0">حذف این فایل از سایت</word>
+  <word key="find_users_files" js="0">دیگر فایل‎های ارسالی این کاربر</word>
+  <word key="file_versioning_info" js="0"></word>
+  <word key="file_versioning_info_text" js="0">برای بارگذاری نسخه جدید فایل یا تصویر اینجا کلیک کنید</word>
+  <word key="browse_whats_new" js="0">جدیدترین‌ فایل های اضافه شده</word>
+  <word key="browse_highest_rated" js="0">پربیننده‌ ترین‌ فایل ها</word>
+  <word key="browse_most_downloaded" js="0">پرطرفدار ترین فایل ها</word>
+  <word key="no_new_files" js="0">فایلی تاکنون بارگذاری نشده است.</word>
+  <word key="no_rated_files" js="0">تاکنون به فایلی امتیازی داده نشده است.</word>
+  <word key="no_downloaded_files__week" js="0">فایلی در این هفته دریافت نشده است.</word>
+  <word key="no_downloaded_files__month" js="0">فایلی در این ماه دریافت نشده است.</word>
+  <word key="no_downloaded_files__year" js="0">فایلی در این سال دریافت نشده است.</word>
+  <word key="no_downloaded_files" js="0">فایلی تاکنون دریافت نشده است.</word>
+  <word key="no_download_review" js="0">شما تنها زمانی می توانید به فایل امتیاز دهید که آن را دریافت کرده باشید!</word>
+  <word key="index_discover" js="0">گشتن</word>
+  <word key="index_explore" js="0">گشتن در دسته‌ها</word>
+  <word key="browse_categories_d" js="0">مشاهده دسته‌ها</word>
+  <word key="no_files_in_cat" js="0">هیچ فایلی در این دسته موجود نیست.</word>
+  <word key="submit_form_title" js="0">افزودن فایل جدید</word>
+  <word key="submit_form_title_bulk" js="0">افزودن فایل‌های جدید</word>
+  <word key="submit_form_desc" js="0"><![CDATA[در حال افزودن فایل به <em>%s</em> ]]></word>
+  <word key="submit_form_desc_bulk" js="0"><![CDATA[در حال افزودن چند فایل به <em>%s</em> ]]></word>
+  <word key="select_your_files" js="0">فایل خود را انتخاب کنید</word>
+  <word key="select_your_file" js="0">فایل خود را انتخاب کنید</word>
+  <word key="add_files_by_url" js="0">افزودن فایل از آدرس وبگاه</word>
+  <word key="add_files_by_path" js="0">افزودن فایل از مسیر سرور</word>
+  <word key="submit_menu_confirm" js="0">تایید</word>
+  <word key="add_screenshots" js="0">افزودن تصویر</word>
+  <word key="add_screenshots_by_url" js="0">افزودن تصویر به وسیله آدرس وبگاه</word>
+  <word key="submit_file_information" js="0">اطلاعات فایل</word>
+  <word key="save_and_submit_files" js="0"><![CDATA[ذخیره و ارسال فایل]]></word>
+  <word key="save_and_submit_file" js="0"><![CDATA[ذخیره و ارسال فایل]]></word>
+  <word key="save_and_submit_new_version" js="0"><![CDATA[ذخیره و ارسال فایل جدید]]></word>
+  <word key="submit_bulk_information" js="0">اطلاعات فایل را وارد نمایید</word>
+  <word key="bulk_upload_button" js="0">می‌خواهم چند فایل همزمان ارسال کنم</word>
+  <word key="upload_more_files" js="0">بارگذاری فایل‌های بیشتر</word>
+  <word key="featured_downloads" js="0">محبوب ترین فایل ها</word>
+  <word key="next_file" js="0">فایل بعدی</word>
+  <word key="prev_file" js="0">فایل قبلی</word>
+  <word key="downloads_category_id" js="0">دسته</word>
+  <word key="announce_download_categories" js="0">دسته‌ها</word>
+  <word key="view_this_file" js="0">مشاهده فایل %s</word>
+  <word key="file_locked_can_comment" js="0">این فایل قفل شده است. اما شما دسترسی ارسال دیدگاه را دارید.</word>
+  <word key="file_locked_cannot_comment" js="0">این فایل برای ارسال دیدگاه قفل شده است.</word>
+  <word key="file__save" js="0">ذخیره</word>
+  <word key="downloads_no_file" js="0">فایل پیدا نشد</word>
+  <word key="download_teaser" js="0">برای دریافت شما باید وارد شوید و یا یک حساب کاربری ایجاد نمایید.</word>
+  <word key="download_no_permission" js="0">متاسفانه، شما اجازه دریافت این فایل را ندارید.</word>
+  <word key="download_no_permission_guest" js="0">متاسفانه، شما اجازه دریافت این فایل را ندارید ولی ممکن است بعد از ورود به حساب کاربری خود بتوانید آن را دریافت نمایید.</word>
+  <word key="downloads_file_info" js="0">دریافت‎ها</word>
+  <word key="sort_file_downloads" js="0">بیشترین دریافت‌ها</word>
+  <word key="club_node_downloads" js="0">فایل های کلوپ</word>
+  <word key="file_imported_removed" js="0">این فایل هم اکنون درون ریزی شده است و در صورت تمایل می توان نسخه های کپی شده آن را می توان از دیسک حذف نمود.</word>
+  <word key="disable_purchases" js="0">غیرفعال سازی خرید</word>
+  <word key="enable_purchases" js="0">فعال سازی خرید</word>
+  <word key="purchasing_disabled" js="0">این فایل در حال حاضر برای خرید در دسترس نمی باشد.</word>
+  <word key="block_downloads_Overview" js="0">پیشخوان بخش دریافت</word>
+  <word key="total_disk_spaced" js="0">مجموع فضای استفاده شده</word>
+  <word key="total_files" js="0">مجموع فایل‌ها</word>
+  <word key="total_downloads" js="0">مجموع دانلودها * </word>
+  <word key="total_bandwidth" js="0">مجموع پهنای باند استفاده شده *</word>
+  <word key="current_month_bandwidth" js="0">پهنای باند مصرفی این ماه *</word>
+  <word key="largest_file" js="0">بزرگ‌ترین فایل</word>
+  <word key="most_viewed_file" js="0">فایل با بیشترین نمایش</word>
+  <word key="most_downloaded_file" js="0">بیشترین فایل دریافت شده</word>
+  <word key="total_files_front" js="0">فایل‌ها</word>
+  <word key="total_authors" js="0">نویسندگان</word>
+  <word key="latest_file" js="0">آخرین فایل</word>
+  <word key="latest_submitter" js="0">آخرین ارسال کننده</word>
+  <word key="top_week" js="0">هفته</word>
+  <word key="top_month" js="0">ماه</word>
+  <word key="top_year" js="0">سال</word>
+  <word key="top_alltime" js="0">همه</word>
+  <word key="top_avg_rating" js="0">میانگین امتیاز فایل</word>
+  <word key="top_submitters_empty__week" js="0">در این هفته هیچ ارسال کننده برتری وجود ندارد.</word>
+  <word key="top_submitters_empty__month" js="0">امتیازی در این ماه داده نشده است.</word>
+  <word key="top_submitters_empty__year" js="0">بدون برترین ارسال کننده‌ها این سال.</word>
+  <word key="top_submitters_empty__all" js="0">بدون برترین ارسال کننده‌ها.</word>
+  <word key="member__downloads_Downloads" js="0">دریافت‎ها</word>
+  <word key="idm_block_submissions" js="0">توانایی ارسال فایل؟</word>
+  <word key="idm_block_submissions_desc" js="0">هر دسته دارای مجوز برای کسی است که می تواند فایل های درون آن ارسال کند. اگر این غیر فعال باشد کاربران قادر نخواهند بود هیچ گونه فایلی را ارسال نمایند. اگر فعال باشد، تنظیمات در هر گروه قابل دسترس خواهد شد.</word>
+  <word key="history_restrictions_downloads_1" js="0">امکان ارسال فایل غیر فعال شد</word>
+  <word key="history_restrictions_downloads_0" js="0">امکان ارسال فایل فعال شد</word>
+  <word key="downloads_stats" js="0">مشاهده آمارهای بخش دریافت</word>
+  <word key="submissions" js="0">{# [1:ارسال][?:ارسال]}</word>
+  <word key="deleted_file" js="0">پاک کردن فایل</word>
+  <word key="dmid" js="0">کاربر</word>
+  <word key="dfid" js="0">فایل</word>
+  <word key="dtime" js="0">تاریخ/زمان</word>
+  <word key="dsize" js="0">حجم فایل</word>
+  <word key="dua" js="0">مرورگر</word>
+  <word key="dip" js="0">آدرس IP</word>
+  <word key="member_downloads_chart" js="0">دریافت‌های %s</word>
+  <word key="bandwidth_use" js="0">پهنای باند مورد استفاده</word>
+  <word key="files_submitted" js="0">فایل ارسال شده</word>
+  <word key="diskspace_used" js="0">میزان فضای استفاده شده در دیسک</word>
+  <word key="average_filesize_downloads" js="0">میانگین حجم فایل</word>
+  <word key="number_of_downloads" js="0">* تعداد دریافت‎ها</word>
+  <word key="downloads_bandwidth_used" js="0">* پهنای باند مصرف شده</word>
+  <word key="downloads_stat_of_total" js="0">%s (%d%% از مجموع)</word>
+  <word key="downloads_stat_of_total_link" js="0">%s (از کل %d%%) %s</word>
+  <word key="downloads_stat_average" js="0">%s (میانگین برای همه کاربران: %s)</word>
+  <word key="downloadS_stat_average_of_total" js="0">%d% از مجموع؛ میانگین برای همه کاربران: %d</word>
+  <word key="download_stats_disclaimer" js="0">* این آمار از رخداد نگاشت‌های دریافت فایل‌ها بدست آمده است. دقت داشته باشید رخداد نگاشت‌ها ممکن است برای بعضی از دسته‌ها غیرفعال شده باشند یا در یک بازه زمانی این رخداد نگاشت‌ها به صورت خودکار پاک شوند.</word>
+  <word key="download_graph_disclaimer" js="0">این داده ها از رخداد نگاشت های دریافت فایل ها بدست آمده است. دقت داشته باشید رخداد نگاشت ها ممکن است برای بعضی از دسته ها غیرفعال شده باشند یا در یک بازه زمانی این رخداد نگاشت ها پاک شده باشند.</word>
+  <word key="menu__downloads_stats_downloads" js="0">آمارهای بخش دریافت</word>
+  <word key="menu__downloads_stats_downloaders" js="0">برترین دریافت‎کنندگان</word>
+  <word key="menu__downloads_stats_submitters" js="0">برترین ارسال کنندگان</word>
+  <word key="menu__downloads_stats_topdownloads" js="0">فایل های برتر</word>
+  <word key="r__downloads" js="0">آمارهای بخش دریافت</word>
+  <word key="r__downloads_manage" js="0">توانایی مشاهده آمارهای بخش دریافت؟</word>
+  <word key="r__downloaders_manage" js="0">توانایی مشاهده برترین دریافت‎کنندگان؟</word>
+  <word key="r__submitters_manage" js="0">توانایی مشاهده برترین ارسال کنندگان؟</word>
+  <word key="r__topdownloads_manage" js="0">توانایی مشاهده فایل های برتر؟</word>
+  <word key="stats_overview_downloads" js="0">دریافت‌های فایل</word>
+  <word key="stats_overview_downloads_desc" js="0">رخدادنگاشت‌های دریافت‌ها و مدت زمان نگهداری از آن‌ها در تنظیمات هر دسته قابل تغییر است</word>
+  <word key="downloads_stats_uploader_count" js="0">{# [1:کاربر][?:کاربر]} فایل بارگذاری کرده است.</word>
+  <word key="downloads_stats_downloader_count" js="0">{# [1:کاربر][?:کاربر]} فایل دریافت کرده است.</word>
+  <word key="ipAddresses__downloads_DownloadLog" js="0">دریافت‎ها</word>
+  <word key="acplogs__downloads_resync_topics" js="0">محتوای موضوع مجدداً همگام‌سازی شد برای %s</word>
+  <word key="block_fileFeed" js="0">خوراک فایل ها</word>
+  <word key="block_fileFeed_desc" js="0">ایجاد خوراک برای فایل ها</word>
+  <word key="widget_feed_container_downloads_file" js="0">دسته بندی ها</word>
+  <word key="block_topSubmitters" js="0">برترین ارسال‌ کنندگان</word>
+  <word key="block_topSubmitters_desc" js="0">نمایش برترین ارسال‌ کنندگان</word>
+  <word key="block_downloadStats" js="0">آمارهای بخش دریافت</word>
+  <word key="block_downloadStats_desc" js="0">نمایش آمارهای بخش دریافت</word>
+  <word key="block_topDownloads" js="0">بیشترین دریافت‎ها</word>
+  <word key="block_topDownloads_desc" js="0">نمایش پرطرفدارترین فایل‌های دریافت شده</word>
+  <word key="block_recentFiles" js="0">آخرین فایل‌ها</word>
+  <word key="block_recentFiles_desc" js="0">نمایش جدیدترین فایل‌ها</word>
+  <word key="loc_downloads_viewing_file" js="0">درحال مشاهده فایل: %s</word>
+  <word key="loc_downloads_viewing_category" js="0">درحال مشاهده دسته: %s</word>
+  <word key="loc_downloads_browsing_categories" js="0">نمایش دسته‌های دریافت</word>
+  <word key="loc_downloads_adding_file" js="0">افزودن یک فایل</word>
+  <word key="loc_downloads_browsing" js="0">درحال مشاهده بخش دریافت</word>
+  <word key="loc_downloads_viewing_file_action" js="0">%s در حال مشاهده از یک فایل است</word>
+  <word key="loc_downloads_viewing_category_action" js="0">%s در حال مشاهده بخش دریافت‌ها است</word>
+  <word key="loc_downloads_browsing_categories_action" js="0">%s در حال مشاهده بخش دریافت‌ها است</word>
+  <word key="loc_downloads_adding_file_action" js="0">%s در حال افزودن یک فایل است</word>
+  <word key="loc_downloads_browsing_action" js="0">%s در حال مشاهده بخش دریافت‌ها است</word>
+  <word key="acp_search_title_downloads_Downloads" js="0">دسته‌های دریافت</word>
+  <word key="downloads_categories_pagetitle" js="0">دسته های دانلود</word>
+  <word key="task__logCleanup" js="0">پاکسازی رخداد نگاشتهای دریافت.</word>
+  <word key="task__tempFileCleanup" js="0">حذف فایل های بارگذاری شده موقتی.</word>
+  <word key="digest_area_downloads_category" js="0">فایل ها</word>
+  <word key="digest_area_downloads_file" js="0">فایل</word>
+  <word key="x_created_file_in" js="0">%s فایلی در %s بارگذاری کرد</word>
+  <word key="x_commented_file" js="0">%s دیدگاهی برای یک فایل فرستاد</word>
+  <word key="x_reviewed_file" js="0">%s یک فایل را بررسی کرد</word>
+  <word key="paid_file_settings" js="0">تنظیمات فایل‌های پولی</word>
+  <word key="idm_nexus_on" js="0">فعال بودن فایل‌های پولی؟</word>
+  <word key="idm_nexus_on_desc" js="0"><![CDATA[اگر فعال شود، امکان ارسال فایل های پولی فراهم شده و کاربران برای دریافت این فایل ها، حتما باید هزینه آن را پرداخت نمایند.<br> از طریق <a href='{internal.app=core&amp;module=members&amp;controller=groups}'>گروه های کاربری</a> می توانید تعیین کنید چه گروه هایی می توانند فایل های فروشی، ارسال نمایند.<br> زمانی که فردی فایلی را خرید، مبلغ آن به حساب صاحب فایل انتقال می یابد. شما از <a href='{internal.app=nexus&amp;module=payments&amp;controller=payouts&amp;do=settings}'>صفحه برداشت ها</a> می توانید نوع برداشت از حساب ها را کنترل کنید.]]></word>
+  <word key="idm_nexus_tax" js="0">نوع مالیات برای فایل‌های پولی</word>
+  <word key="idm_nexus_percent" js="0">کمیسیون برای سایت</word>
+  <word key="idm_nexus_percent_desc" js="0">مقدار درصد تعیین شده از مقدار کل مبلغ که به صاحب فایل تعلق می گیرد، کم خواهد شد. به طور مثال اگر شما 10 درصد وارد نمایید و فایلی که 10 هزار تومان قیمت آن است خریداری گردد، 9 هزار تومان برای ارسال کننده واریز و هزار تومان برای سایت اختصاص می یابد.</word>
+  <word key="idm_nexus_transfee" js="0">هزینه تراکنش برای سایت</word>
+  <word key="idm_nexus_transfee_desc" js="0">مقدار وارد شده از مبلغ کل فایل کسر خواهد گردید.به طور مثال اگر شما مبلغ هزار تومان را وارد کنید و فایلی که 10 هزار تومان قیمت آن است خریداری گردد 9 هزار تومان برای ارسال کننده واریز و هزار تومان برای سایت اختصاص می یابد. </word>
+  <word key="idm_nexus_mincost" js="0">حداقل هزینه</word>
+  <word key="idm_nexus_mincost_desc" js="0">حداقل هزینه برای فایل های پولی. برای فایل های رایگان اعمال نمی شود.</word>
+  <word key="idm_nexus_gateways" js="0">روش‌های پرداخت</word>
+  <word key="idm_nexus_display" js="0">آمارها برای نمایش</word>
+  <word key="idm_nexus_display_desc" js="0">فایل های بدون پرداخت همیشه تعداد دریافتشان نمایش داده می شود.</word>
+  <word key="idm_nexus_gateways_desc" js="0">مشتریان تنها قادر به خرید و یا تمدید با روش های انتخاب شده برای این محصول می باشند.</word>
+  <word key="idm_add_paid" js="0">توانایی فروش فایل؟</word>
+  <word key="idm_add_paid_enable" js="0"><![CDATA[برحسب مجوز شما به کاربران برای فروختن فایل ها، شما باید <a href='{internal.app=downloads&module=downloads&controller=settings}'>خرید را برای فایل ها فعال کنید</a>.]]></word>
+  <word key="idm_bypass_paid" js="0">توانایی دریافت فایل‌های پولی بدون خرید؟</word>
+  <word key="file_cost_type" js="0">نوع</word>
+  <word key="file_free" js="0">رایگان</word>
+  <word key="file_free_feed" js="0">رایگان</word>
+  <word key="file_paid" js="0">پولی</word>
+  <word key="file_associate_nexus" js="0">مرتبط با محصول (ها)</word>
+  <word key="file_associate_nexus_desc" js="0">کاربرانی که یکی از محصولات فعال انتخاب شده را داشته باشند، می توانند این فایل را دریافت کنند.</word>
+  <word key="file_cost" js="0">قیمت</word>
+  <word key="file_renewals" js="0">تمدید</word>
+  <word key="file_renewals_off" js="0">بدون تمدید - زمانی که کاربری یک نسخه را خریداری کرد، نسخه های آینده را هم می‎تواند دریافت کند.</word>
+  <word key="file_renewals_on" js="0">من شرایط تمدید را مشخص میکنم. کاربران برای دریافت نسخه فعلی باید هزینه پرداخت کرده باشند.</word>
+  <word key="file_renewal_term" js="0">شرایط تمدید</word>
+  <word key="file_renewal_term_desc" js="0">هنگامی که فایل ذخیره شد، شرایط نوسازی قابل ویرایش نیست.</word>
+  <word key="file_nexus" js="0">محصولات مرتبط</word>
+  <word key="file_not_purchased" js="0">شما این فایل را خریداری نکرده اید یا خرید شما پایان یافته  است.</word>
+  <word key="buy_now" js="0">خرید</word>
+  <word key="file_cost_desc_both" js="0">%s%% کمیسیون، بعلاوه یک %s بابت کارمزد معامله کسر خواهد شد.</word>
+  <word key="file_cost_desc_percent" js="0">%s%%  بابت کمیسیون کسر خواهد شد.</word>
+  <word key="file_cost_desc_fee" js="0">یک %s بابت کارمزد معامله کسر خواهد شد.</word>
+  <word key="file_cost_desc_minimum" js="0">حداقل هزینه : %s</word>
+  <word key="file_cost_too_low" js="0">قیمت وارد شده کمتر از حد مورد نیاز است.</word>
+  <word key="file_renewal_term_val" js="0">شرایط تمدید: %s</word>
+  <word key="choose_file_nexus_blurb" js="0">این فایل همراه با یکی از این بسته ها در دسترس خواهد بود. برای ادامه لطفا یکی از این بسته ها را به سبد خود اضافه کنید.</word>
+  <word key="choose_file_nexus_title" js="0">انتخاب یک بسته</word>
+  <word key="file_no_price_for_currency" js="0">این فایل برای واحد پولی شما در دسترس نمی باشد.</word>
+  <word key="nexus_file_no_longer_available" js="0">این فایل دیگر برای دریافت در دسترس نمی باشد، برای اطلاعات بیشتر با کاربر ارسال کننده تماس حاصل فرمایید.</word>
+  <word key="notifications__downloads_Files" js="0">فایل های بروز شده</word>
+  <word key="notifications__downloads_Files_desc" js="0">این اعلامیه ها در زمانی که نسخه جدیدی از فایلی که دنبال می کنید، در سایت قرار گرفت، ارسال می شوند.</word>
+  <word key="email_new_file_version_plain" js="0">%s نسخه جدید %s را بارگذاری نموده است،</word>
+  <word key="email_new_file_version" js="0"><![CDATA[<a href='%s'>%s</a> نسخه جدید %s را بارگذاری نموده است،]]></word>
+  <word key="email_new_file_version_guest" js="0">%s (مهمان) نسخه جدید %s را بارگذاری نموده است،</word>
+  <word key="mailsub__downloads_notification_new_file_version" js="0"><![CDATA[{$content->author()->name|raw} نسخه‌ای جدیدی از  {$content->mapped("title")|raw} را بارگذاری کرد ]]></word>
+  <word key="notification__new_file_version" js="0">%s نسخه جدیدی از فایل %s را بارگذاری کرد</word>
+  <word key="notification__new_file_version_title" js="0">فایل بروز شد</word>
+  <word key="notification__new_file_version_with" js="0">%s نسخه %s بروزشده %s را بارگذاری کرد</word>
+  <word key="emailtpl_notification_new_file_version" js="0">اعلامیه نسخه جدید فایل</word>
+  <word key="emailstats__notification_new_file_version" js="0">اطلاعیه نسخه جدید فایل</word>
+  <word key="backgroundQueue_new_version" js="0">در حال ارسال نسخه جدید اعلامیه ها برای %s</word>
+  <word key="block_downloadsCommentFeed" js="0">دیدگاه های بخش دریافت</word>
+  <word key="block_downloadsCommentFeed_desc" js="0">نمایش خوراک دیدگاه ها</word>
+  <word key="block_downloadsReviewFeed" js="0">نقدهای بخش دریافت</word>
+  <word key="block_downloadsReviewFeed_desc" js="0">نمایش خوراک نقد و بررسی</word>
+  <word key="__api_downloads_files" js="0">فایل‌ها</word>
+  <word key="__api_downloads_comments" js="0">دیدگاه‌ها</word>
+  <word key="__api_downloads_reviews" js="0">نقدها</word>
+  <word key="__api_downloads_categories" js="0">دسته‌ها</word>
+  <word key="idm_landing_page" js="0">دانلود صفحه اصلی</word>
+  <word key="idm_show_featured" js="0">نمایش باکس "محبوب ترین فایل ها"</word>
+  <word key="idm_featured_count" js="0">تعداد فایل های ویژه برای نمایش</word>
+  <word key="idm_show_newest" js="0">نمایش باکس "جدیدترین ها"</word>
+  <word key="idm_newest_categories" js="0">دسته ها</word>
+  <word key="idm_show_highest_rated" js="0">نمایش باکس "بیشترین امتیازها"</word>
+  <word key="idm_show_most_downloaded" js="0">نمایش باکس "بهترین دانلود ها"</word>
+  <word key="idm_highest_rated_categories" js="0">دسته بندی</word>
+  <word key="idm_show_most_downloaded_categories" js="0">دسته بندی</word>
+  <word key="downloads_forum_used" js="0"><![CDATA[این بخش از تالارها از برنامه دریافت‌ها برای ایجاد موضوع ها در زمان ارسال استفاده می کند و نمی توان آن را حذف کرد.<br/> لطفا دسته %s که مربوط به این برنامه است را حذف کنید تا بتوانید این برنامه را پاک نمایید.]]></word>
+  <word key="file_subscribe" js="1">بروزرسانی نسخه جدید را برای من ارسال کن</word>
+  <word key="file_unsubscribe" js="1">بروزرسانی  نسخه غیر فعال است</word>
+  <word key="file_subscribed" js="0">بروزرسانی  نسخه جدید فعال شده است</word>
+  <word key="file_unsubscribed" js="0">بروزرسانی نسخه جدید غیرفعال شده است</word>
+  <word key="file_notify_heading" js="0">بروز رسانی نسخه جدید</word>
+  <word key="file_notify_current" js="0">در حال حاضر تمامی این اعلامیه ها را از طریق %s دریافت می کنید</word>
+  <word key="file_notify_none" js="0">شما هیچ روشی برای اعلامیه ها تعیین نکرده اید</word>
+  <word key="file_version_pending_approval" js="0">نسخه جدید این فایل هنوز تأیید نشده است و فقط برای مدیران قابل مشاهده است. نسخه قبلی فایل برای کاربران قابل مشاهده است.</word>
+  <word key="file_version_pending_cannot_approve" js="0">نسخه اصلی این فایل در انتظار تایید است. ابتدا باید نسخه اصلی تایید شود تا این نسخه مورد تایید قرار گیرد.</word>
+  <word key="pending_no_new_files" js="0">این نسخه هیچ فایل بروز شده ای ندارد.</word>
+  <word key="pending_no_changelog" js="0">نویسنده برای این نسخه گزارش تغییر ایجاد نکرده است.</word>
+  <word key="pending_version" js="0">نسخه در حال انتظار</word>
+  <word key="pending_version_reject" js="0"> رد شد</word>
+  <word key="pending_version_reject_title" js="0"> رد کردن این فایل؟</word>
+  <word key="pending_version_reject_desc" js="0">با این کار این نسخه در حال انتظار حذف شده و نسخه فعلی فایل قابل مشاهده خواهد بود</word>
+  <word key="file_new_version_date" js="0">نسخه جدید %s ارسال شد</word>
+  <word key="achievement_filter_DownloadFile_nth_suffix" js="0">مین دریافت</word>
+  <word key="achievement_filter_DownloadFile_receiver" js="0">به کاربری که فایل را بارگذاری کرده است</word>
+  <word key="achievement_filter_DownloadFile_giver" js="0">به کاربری که فایل را دریافت کرده است</word>
+  <word key="AchievementAction__DownloadFile_log" js="0">فایل %s دریافت کرد</word>
+  <word key="AchievementAction__DownloadFile_title_generic" js="0">فایل دریافت شد</word>
+  <word key="AchievementAction__DownloadFile_title" js="0">کاربری که یک فایل دریافت کرده است</word>
+  <word key="AchievementAction__DownloadFile" js="0">کاربری که فایل دریافت کرده است</word>
+  <word key="webhook_downloads_new_version" js="0">اجرا در زمانی که نسخه جدیدی در دسترس قرار می‌گیرد</word>
+  <word key="makePrimaryScreenshot" js="1">انتخاب به عنوان تصویر اصلی</word>
+  <word key="makePrimary" js="1">اصلی</word>
+  <word key="removeScreenshot" js="1">حذف این تصویر</word>
+  <word key="markCategoryAsReadConfirm" js="1">آیا شما مطمئن هستید که می خواهید تمام فایل ها به عنوان خوانده شده در نظر گرفته شود؟</word>
+  <word key="categoryMarkedRead" js="1">دسته به عنوان خوانده شده، نشانه گذاری شد</word>
+  <word key="downloadsScreenshotsWatermark" js="1">بازسازی تصویرهای کنونی؟</word>
+  <word key="downloadsScreenshotsWatermarkBlurb" js="1">بازساری تصاویر موجود باعث می شود واترمارک جدید شما بر روی تمام تصاویر قرار گیرد.</word>
+  <word key="downloadsScreenshotsWatermarkYes" js="1">بله، بازسازی شود</word>
+  <word key="downloadsScreenshotsWatermarkNo" js="1">خیر</word>
+  <word key="file_subscribe" js="1">بروزرسانی نسخه جدید را برای من ارسال کن</word>
+  <word key="file_unsubscribe" js="1">بروزرسانی  نسخه غیر فعال است</word>
+  <word key="files_optional" js="1">محدود در نوع فایل ها</word>
  </app>
 </language>

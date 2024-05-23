@@ -2077,10 +2077,10 @@
   <word key="login_handler_Google_info" js="0"><![CDATA[برای به دست آوردن این جزئیات، <a href='{external.login_google}' target='_blank' rel='noopener'> ورود با حساب گوگل </a>را مطالعه کنید. URI Redirect برای استفاده <code>%s</code> می باشد]]></word>
   <word key="login_handler_Linkedin_info" js="0"><![CDATA[Follow the <a href='{external.login_linkedin}' target='_blank' rel='noopener'>LinkedIn Login</a> guide to obtain these details. The Redirect URL to use is <code>%s</code>]]></word>
   <word key="login_handler_Live_info" js="0"><![CDATA[Follow the <a href='{external.login_live}' target='_blank' rel='noopener'>Microsoft Login</a> guide to obtain these details. The Redirect URL to use is <code>%s</code>]]></word>
-  <word key="login_handler_Twitter_info" js="0">برای به دست آوردن این جزئیات،  <a href='{external.login_twitter}' target='_blank' rel='noopener'>راهنمای ورود توییتر </a> را دنبال کنید. انتخاب URL Redirect برای استفاده است <code>%s</code></word>
+  <word key="login_handler_Twitter_info" js="0"><![CDATA[برای به دست آوردن این جزئیات،  <a href='{external.login_twitter}' target='_blank' rel='noopener'>راهنمای ورود توییتر </a> را دنبال کنید. انتخاب URL Redirect برای استفاده است <code>%s</code>]]></word>
   <word key="oauth_setup_error_generic" js="0"><![CDATA[ارائه دهنده مطابق انتظار پاسخ نمی دهد. بررسی کنید تنظیمات برنامه صحیح است و URI تغییر مسیر صحیح را ثبت کرده اید.<br><code>%s</code>]]></word>
   <word key="oauth_setup_error_secret" js="0">تنظیمات برنامه ارائه شده درست نیست.</word>
-  <word key="oauth1_setup_error" js="0">ارائه دهنده همانطور که انتظار می رود پاسخ نمی دهد. بررسی کنید که تنظیمات برنامه صحیح است. <br><code>%s</code> </word>
+  <word key="oauth1_setup_error" js="0"><![CDATA[ارائه دهنده همانطور که انتظار می رود پاسخ نمی دهد. بررسی کنید که تنظیمات برنامه صحیح است. <br><code>%s</code> ]]></word>
   <word key="account_management_settings" js="0">مدیریت حساب</word>
   <word key="account_management_email_pass" js="0">تغییرات ایمیل و گذرواژه</word>
   <word key="account_management_email_pass_blurb" js="0">شما نیاز ندارید این تنظیمات را تغییر دهید مگر اینکه سایت شما در ابتدا از یک روش ورود به سیستم استفاده کند که داده های حساب مانند پایگاه داده خروجی خارجی یا LDAP را مدیریت می کند.</word>
@@ -2484,7 +2484,7 @@
   <word key="member_export_security_member" js="0">عضو</word>
   <word key="member_export_security_column" js="0">ستون</word>
   <word key="member_export_security_value" js="0">مقدار</word>
-  <word key="member_export_security_footer" js="0">اگر شما داده ها را بررسی نموده و مطمئن هستید هیچ ریسک امنیتی ندارند شما می توانید <a href='{internal.app=core&amp;module=members&amp;controller=members&amp;do=export&amp;_step=export_choose_data&amp;includeInsecure=1}' data-confirm data-confirmSubMessage='این کار باعث ایجاد سطر هایی خواهد شد که ممکن است خطرناک باشند. تنها زمانی این کار را انجام دهید که مطمئن باشید هیچ خطری وجود ندارد.'>لیست کامل را حتی با قسمت های ذکر شده دریافت نمایید</a>.</word>
+  <word key="member_export_security_footer" js="0"><![CDATA[اگر شما داده ها را بررسی نموده و مطمئن هستید هیچ ریسک امنیتی ندارند شما می توانید <a href='{internal.app=core&amp;module=members&amp;controller=members&amp;do=export&amp;_step=export_choose_data&amp;includeInsecure=1}' data-confirm data-confirmSubMessage='این کار باعث ایجاد سطر هایی خواهد شد که ممکن است خطرناک باشند. تنها زمانی این کار را انجام دهید که مطمئن باشید هیچ خطری وجود ندارد.'>لیست کامل را حتی با قسمت های ذکر شده دریافت نمایید</a>.]]></word>
   <word key="members_manage_error" js="0">مشکلی با پردازش درخواست مربوطه رخ داده است، لطفا بعدا تلاش نمایید.</word>
   <word key="member_history" js="0">تاریخچه کاربر</word>
   <word key="member_history_member" js="0">تاریخچه کاربری %s</word>
@@ -4929,7 +4929,7 @@
   <word key="core_theme_resource_name_choice_o_filename_desc" js="0">اگر نام فایل متفاوت از فایل اصلی باشد، شما باید تمام منابع {resource=&quot;%s&quot;} را در قالب های خود بروز کنید.</word>
   <word key="acplog__theme_resource_deleted" js="0">فایل حذف شد - %s</word>
   <word key="acplog__theme_resource_edited" js="0">فایل ویرایش شد - %s</word>
-  <word key="acplog__theme_resource_added" js="0"فایل اضافه شد - %s</word>
+  <word key="acplog__theme_resource_added" js="0">فایل اضافه شد - %s</word>
   <word key="core_theme_set_diff" js="0">مشاهده تغییرات</word>
   <word key="theme_set_export" js="0">دریافت</word>
   <word key="theme_set_export_title" js="0">دریافت %s </word>
@@ -10637,7 +10637,7 @@
   <word key="health__ticket_thirdparty" js="0">شما {# [1:سفارشی‌سازی‌های طرف سوم][?:سفارشی‌سازی‌ طرف سوم]} در سایت خود دارید. اگر هنوز این کار را انجام نداده‌اید، باید تمامی سفارشی‌سازی‌های طرف سوم را غیرفعال کنید. سپس بررسی کنید که مشکل شما همچنان وجود دارد یا خیر. اگر مشکل شما با غیرفعال کردن تمامی سفارشی‌سازی‌های طرف سوم حل می‌شود، خوشحال می‌شویم که ادامه داده و درخواست تیکت خود را ارسال کنید تا نماینده پشتیبانی Invision برای بررسی دقیق‌تر مشکل به شما کمک کند. اگر غیرفعال کردن تمامی سفارشی‌سازی‌های طرف سوم مشکل شما را حل می‌کند، باید تشخیص دهید کدام سفارشی‌سازی مشکل را ایجاد کرده است و با نویسنده آن برای کمک بیشتر تماس بگیرید.</word>
   <word key="health__more_information" js="0">اطلاعات بیشتر</word>
   <word key="health__caching_enabled" js="0">موتور کش: %s</word>
-  <word key="health__server_subtitle" js="0">مسیر: %s<br>IP: %s</word>
+  <word key="health__server_subtitle" js="0"><![CDATA[مسیر: %s<br>IP: %s]]></word>
   <word key="health__no_featured" js="0">مشکلی در دریافت راهنما های ویژه پیش آمده است</word>
   <word key="health__patch_before_proceed" js="0">شدیدا توصیه می شود قبل از ادامه وصله موجود نصب گردد</word>
   <word key="health_thirdparty_disabled" js="0">شخصی سازی های متفرقه</word>
@@ -11118,7 +11118,7 @@
   <word key="custom_body_code" js="0">کد Body</word>
   <word key="custom_body_code_desc" js="0"><![CDATA[بعضی از خدمات خارجی نیاز به یک تکه کد برای درج در خروجی صفحه بین تگ‌های &lt;body&gt; دارند. شما می‌توانید آن را اینجا اضافه کنید.]]></word>
   <word key="custom_page_view_js" js="0">جاوا اسکریپت مشاهده صفحه</word>
-  <word key="custom_page_view_js_desc" js="0">به طور پیش فرض، اکثر ارائه‌دهندگان آنالیتیک زمانی که محتوای جدید به طور پویا به صفحه فعلی بارگذاری می‌شود، یک مشاهده صفحه ثبت نمی‌کنند. اگر می‌خواهید هنگام این اتفاق این کار را دستی انجام دهید، می‌توانید کد جاوا اسکریپت را اینجا مشخص کنید.]]></word>
+  <word key="custom_page_view_js_desc" js="0">به طور پیش فرض، اکثر ارائه‌دهندگان آنالیتیک زمانی که محتوای جدید به طور پویا به صفحه فعلی بارگذاری می‌شود، یک مشاهده صفحه ثبت نمی‌کنند. اگر می‌خواهید هنگام این اتفاق این کار را دستی انجام دهید، می‌توانید کد جاوا اسکریپت را اینجا مشخص کنید.</word>
   <word key="menu__core_stats_warnings" js="0">هشدار‌ها</word>
   <word key="stats_warnings_title" js="0">هشدارها در طول زمان</word>
   <word key="stats_suspended_title" js="0">تعلیق‌ها در طول زمان</word>

@@ -269,7 +269,7 @@
   <word key="g_blog_allowprivate_desc" js="0">وبلاگ‌های خصوصی تنها توسط کاربران انتخاب شده توسط مالک وبلاگ‌ قابل مشاهده هستند.</word>
   <word key="g_blog_allowpoll" js="0">توانایی افزودن نظرسنجی به نوشته‌ های وبلاگ؟</word>
   <word key="g_blog_allowcomment" js="0">توانایی ارسال دیدگاه ها در نوشته‌ ها؟</word>
-  <word key="g_blog_allowcomment_guestreg" js="0"><![CDATA[<a href='{internal.admin.app=core&module=settings&controller=posting&searchResult=post_before_registering}'>ارسال قبل از ثبت‌نام</a> فعال است، اما زمانی که این تنظیم را فعال کنید، دور زده خواهد شد.]]><word>
+  <word key="g_blog_allowcomment_guestreg" js="0"><![CDATA[<a href='{internal.admin.app=core&module=settings&controller=posting&searchResult=post_before_registering}'>ارسال قبل از ثبت‌نام</a> فعال است، اما زمانی که این تنظیم را فعال کنید، دور زده خواهد شد.]]></word>
   <word key="g_blog_allowownmod" js="0">توانایی مدیریت نوشته های وبلاگ خود؟</word>
   <word key="g_blog_allowownmod_desc" js="0">کاربر قادر خواهد بود: ویرایش دیدگاه ها و نوشته‌ها، حذف نوشته‌ها و دیدگاه ها و غیرفعال سازی ارسال دیدگاه در نوشته ها.</word>
   <word key="g_blog_allowdelete" js="0">توانایی حذف وبلاگ خود؟</word>
