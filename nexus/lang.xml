@@ -2139,7 +2139,7 @@
   <word key="package_pricing" js="0">قیمت گذاری</word>
   <word key="p_base_price" js="0">قیمت</word>
   <word key="p_renews" js="0">تمدید؟</word>
-  <word key="p_renews_desc" js="0"><a href='{internal.app=nexus&amp;module=payments&amp;controller=invoiceTimeline}' data-ipsDialog data-ipsDialog-title='جریان صورتحساب'> نمایش جدول چگونگی ساخت تمدید صورتحساب</a></word>
+  <word key="p_renews_desc" js="0"><![CDATA[<a href='{internal.app=nexus&amp;module=payments&amp;controller=invoiceTimeline}' data-ipsDialog data-ipsDialog-title='جریان صورتحساب'> نمایش جدول چگونگی ساخت تمدید صورتحساب</a>]]></word>
   <word key="p_renew_options" js="0">گزینه های تمدید</word>
   <word key="p_initial_term" js="0">Initial Term</word>
   <word key="p_initial_term_desc" js="0">You can specify different initial and renewal terms to create trials. For example, if the initial term is $0 for 1 months and the renewal term is $10 for 1 year, users will get the first month free and then be charged $10 per year after.</word>
@@ -2599,7 +2599,7 @@
   <word key="edit_address_title" js="0">ویرایش آدرس</word>
   <word key="delete_address_title" js="0">حذف آدرس</word>
   <word key="delete_address_confirm" js="0">آیا شما از حذف این آدرس مطمئن هستید؟</word>
-  <word key="delete_address_confirm_billing" js="0">آیا مطمئن هستید که می خواهید این آدرس را حذف کنید؟ <br> <br> لطفا توجه داشته باشید که برای پرداخت های تمدید خودکار یک آدرس صورتحساب اولیه لازم است. اگر آدرس دیگری را به عنوان آدرس صورتحساب اولیه خود تعیین نکردید ، قبل از انجام پرداختهای جدید برای تمدید ، موظف به انجام این کار هستید.</word>
+  <word key="delete_address_confirm_billing" js="0"><![CDATA[آیا مطمئن هستید که می خواهید این آدرس را حذف کنید؟ <br> <br> لطفا توجه داشته باشید که برای پرداخت های تمدید خودکار یک آدرس صورتحساب اولیه لازم است. اگر آدرس دیگری را به عنوان آدرس صورتحساب اولیه خود تعیین نکردید ، قبل از انجام پرداختهای جدید برای تمدید ، موظف به انجام این کار هستید.]]></word>
   <word key="set_as_address" js="0">تنظیم آدرس پیش فرض برای :</word>
   <word key="address_billing" js="0">صورتحساب</word>
   <word key="address_billing_title" js="0">تنظیم این آدرس به عنوان شیوه پرداخت پیش‌فرض شما.</word>
@@ -2982,9 +2982,9 @@
   <word key="email_transaction_failed" js="0">متأسفانه مشکلی در پذیرش پرداخت شما وجود داشت. لطفا سفارش خود را در زیر چک کنید، سپس دوباره با کلیک روی دکمه هم اکنون میخواهم پرداخت کنم ، دوباره پرداخت خود را ارسال کنید.</word>
   <word key="email_transaction_wait" js="0">The following transaction is currently pending payment.</word>
   <word key="email_transaction_waiting" js="0">با تشکر از شما برای سفارش در %s. سفارش شما در انتظار پرداخت است، و دستور العمل برای انجام این کار به شرح زیر است. اطلاعات بیشتر سفارش شما پس از پرداخت ایمیل خواهد شد.</word>
-  <word key="email_held_approval" js="0">از سفارش شما متشکریم. پرداخت دریافت شده است و جزئیات صورتحساب شما به شرح زیر است <strong> در حال حاضر برای بررسی بیشتر برای شما ارسال شد </strong>.<br> در این مرحله، هیچ اقدام دیگری از طرف شما مورد نیاز نیست. بعد از پذیرفته شدن پرداخت ؛ ما به شما یک ایمیل دیگری ارسال خواهیم کرد.</word>
+  <word key="email_held_approval" js="0"><![CDATA[از سفارش شما متشکریم. پرداخت دریافت شده است و جزئیات صورتحساب شما به شرح زیر است <strong> در حال حاضر برای بررسی بیشتر برای شما ارسال شد </strong>.<br> در این مرحله، هیچ اقدام دیگری از طرف شما مورد نیاز نیست. بعد از پذیرفته شدن پرداخت ؛ ما به شما یک ایمیل دیگری ارسال خواهیم کرد.]]></word>
   <word key="email_held_approval_plain" js="0">از سفارش شما متشکریم. صورتحساب های پرداخت شده شما جهت بررسی برای شما ارسال میشود اگر تغییر دیگری از سمت شما انجام نشود ، بعد از تایید سفارش شما یک ایمیل تایید پرداخت برای شما ارسال میشود.</word>
-  <word key="email_gateway_pending" js="0">از سفارش شما متشکریم. پرداخت شما برای صورتحسابی که در زیر آمده است دریافت شده است و <strong> در حال پردازش است </strong>.<br> در این مرحله هیچ اقدام دیگری از سمت شما لازم نیست. پس از تأیید پرداخت شما، یک ایمیل دیگری برای شما ارسال میکنیم.</word>
+  <word key="email_gateway_pending" js="0"><![CDATA[از سفارش شما متشکریم. پرداخت شما برای صورتحسابی که در زیر آمده است دریافت شده است و <strong> در حال پردازش است </strong>.<br> در این مرحله هیچ اقدام دیگری از سمت شما لازم نیست. پس از تأیید پرداخت شما، یک ایمیل دیگری برای شما ارسال میکنیم.]]></word>
   <word key="email_gateway_pending_plain" js="0">از سفارش شما متشکریم. جزئیات پرداخت شما برای صورتحسابی که در زیر آمده است دریافت شده است و در حال حاضر پردازش است. در این مرحله، هیچ اقدام دیگری از سمت شما لازم نیست. پس از تأیید پرداخت شما، ما برای شما یک ایمیل دیگری ارسال میکنیم.</word>
   <word key="email_order_placed" js="0">سفارش ثبت شد</word>
   <word key="email_view_order" js="0">مشاهده‌ی سفارش</word>
