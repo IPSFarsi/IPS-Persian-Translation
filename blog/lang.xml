@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language>
- <app key="blog" version="107745">
+ <app key="blog" version="107763">
   <word key="__app_blog" js="0">وبلاگ</word>
   <word key="frontnavigation_blogs" js="0">وبلاگ ها</word>
   <word key="__indefart_blog_entry_comment" js="0">دیدگاه ها در یک نوشته وبلاگ</word>

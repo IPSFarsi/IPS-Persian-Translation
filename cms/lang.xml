@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language>
- <app key="cms" version="107745">
+ <app key="cms" version="107763">
   <word key="__app_cms" js="0">صفحه‌ها</word>
   <word key="menutab__cms" js="0">صفحه‌ها</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -1075,5 +1075,6 @@
   <word key="mediaUploadedCount" js="1">{!# [1:یک پرونده به این پوشه اضافه شد][?:# پرونده به این پوشه اضافه شد]}</word>
   <word key="replaceMediaFile" js="1">فایل را جایگزین کنید</word>
   <word key="mediaUploadedReplace" js="1">این فایل بروزرسانی شد</word>
+  <word key="template_title_desc" js="1">لطفا فقط از a-z و 0-9 بدون هیچ کاراکتر یا فاصله خاصی استفاده کنید. عنوان باید با یک حرف یا زیرخط شروع شود.</word>
  </app>
 </language>

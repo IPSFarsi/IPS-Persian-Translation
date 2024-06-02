@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language>
- <app key="core" version="107745">
+ <app key="core" version="107763">
   <word key="__app_core" js="0">سیستم</word>
   <word key="__indefart_personal_conversation" js="0">یک پیغام خصوصی</word>
   <word key="__indefart_personal_conversation_message" js="0">یک پیام در پیغام خصوصی</word>
@@ -2174,12 +2174,19 @@
   <word key="apple_key" js="0">کلید</word>
   <word key="login_handler_Apple_info" js="0"><![CDATA[برای دریافت جزییات، به راهنمای <a href='{external.login_apple}' target='_blank' rel='noopener'>ورود با اپل</a> مراجعه کنید. برای این کار نیاز به حساب توسعه‌دهنده پرداختی اپل دارید. URI انتقال به <code>{internal.interface.oauth/callback/}</code> می‌باشد.]]></word>
   <word key="login_appleinvalid_key" js="0">فایل کلید نامعتبر است.</word>
+  <word key="ipb_bruteforce_attempts_title" js="0">حفاظت از حمله‌های Brute Force روی حساب کاربری</word>
+  <word key="ipb_bruteforce_attempts_block_desc" js="0">برای محافظت در برابر حمله‌های brute force، پس از تعداد معینی تلاش ناموفق برای ورود حساب کاربری عضو که مورد هدف قرار گرفته است، حساب قفل می‌شود.</word>
   <word key="ipb_bruteforce_attempts" js="0">بستن حساب های کاربری</word>
   <word key="failed_logins" js="0">ورود های ناموفق</word>
   <word key="ipb_bruteforce_period" js="0">تنظیم مجدد شمارشگر ورود ناموفق</word>
   <word key="ipb_bruteforce_unlock" js="0">در زمانیکه شمارشگر ورود های ناموفق صفر گردید، حساب های کاربری بسته شده به طور خودکار باز شوند؟</word>
   <word key="ipb_bruteforce_unlock_desc" js="0">اگر غیر فعال شود، شما باید به صورت دستی از پنل مدیریت حساب کاربر بسته شده را باز کنید.</word>
   <word key="new_device_email" js="0">ارسال ایمیل در هنگامی که کاربر با یک دستگاه جدید وارد سایت شد؟</word>
+  <word key="bruteforce_global_attempts_title" js="0">محافظت در برابر حمله‌های Brute Force از طریق آدرس IP</word>
+  <word key="bruteforce_global_attempts_block_desc" js="0">محافظت در برابر حمله‌های brute force ای که پس از تعداد معینی تلاش ناموفق برای ورود از یک آدرس IP که چندین حساب کاربری عضو را هدف قرار داده است.</word>
+  <word key="bruteforce_global_attempts" js="0">مسدود کردن تلاش‌های ورود</word>
+  <word key="bruteforce_global_attempts_desc" js="0">آدرس IP ای که پس از تعداد معینی تلاش ناموفق برای ورود سعی می‌کند، مسدود می‌شود.</word>
+  <word key="bruteforce_global_period" js="0">حذف مسدودیت</word>
   <word key="members" js="0">کاربران</word>
   <word key="guests" js="0">مهمان ها</word>
   <word key="visitors" js="0">بازدید کنندگان</word>
@@ -6287,6 +6294,7 @@
   <word key="email_filter_action_replace" js="0">تغییر آدرس ایمیل با متن جایگزین</word>
   <word key="email_filter_replace_text" js="0">متن جایگزین ایمیل</word>
   <word key="form_image_too_large" js="0">ابعاد تصاویر تا حداکثر 4800 پیکسل محدود شده‌اند</word>
+  <word key="form_image_not_null" js="0">ابعاد تصویر نمی تواند 0 یا خالی باشد</word>
   <word key="server_environment" js="0">سرور</word>
   <word key="lazy_load_enabled" js="0">استفاده از  Lazy load برای فایل های چند رسانه ای؟</word>
   <word key="lazy_load_enabled_desc" js="0">بارگذاری تنبل تکنیکی است که با استفاده از آن تصاویر، فیلم ها و جاسازی ها در محتوا بارگذاری نمی شوند تا کاربر به اندازه کافی به آنها نگاه کند. این می تواند بار صفحه را بهبود بخشد و پهنای باند را کاهش دهد.</word>
@@ -8617,6 +8625,7 @@
   <word key="requirements_php_version_fail" js="0">شما در حال حاضر از PHP نگارش %s استفاده می کنید. شما نیاز به PHP %s یا بالاتر را دارید. برای رفع این مشکل با پشتیبانی فضای میزبانی یا مدیر سیستم خود تماس بگیرید و درخواست نمایید تا این نگارش را بروز نمایند.</word>
   <word key="requirements_php_version_fail_no_recommended" js="0">PHP شما نسخه %s می باشد. نیاز است PHP شما حداقل نسخه %s یا بیشتر باشد. شما باید با پشتیبان سرور خود تماس بگیرید و تقاضا ارتقا نسخه PHP خود را نمایید.</word>
   <word key="requirements_php_version_advice" js="0">شما در حال حاضر از PHP نگارش %s استفاده می کنید. در حالیکه این نسخه سازگار است، ما توصیه میکنیم از نگارش %s به بالا استفاده نمایید.</word>
+  <word key="requirements_php_version_advice_max" js="0">شما نسخه PHP %s را اجرا می کنید. در حالی که این نسخه ممکن است کار کند، ممکن است با خطاها یا مشکلات دیگری مواجه شوید. ما نسخه %s را توصیه می کنیم.</word>
   <word key="requirements_curl_success" js="0">افزونه cURL بارگذاری شده است</word>
   <word key="requirements_curl_fopen" js="0">allow_url_fopen فعال است</word>
   <word key="requirements_file_uploads" js="0">بارگذاری پرونده در حال حاضر در پیکربندی PHP شما غیرفعال است ، که از عملکرد صحیح بسیاری از ویژگی ها جلوگیری می کند. برای فعال کردن گزینه `file_uploads` باید با میزبان خود تماس بگیرید یا در IPSFARSI مشکل خورد را بیان کنید.</word>
@@ -10592,6 +10601,7 @@
   <word key="health_database_check_fail" js="0">مشکلات بانک اطلاعاتی</word>
   <word key="health_database_compact_fail" js="0">جدول نوع «فشرده»</word>
   <word key="health_check_update_recommended" js="0">بروزرسانی توصیه می گردد</word>
+  <word key="health_check_downgrade_recommended" js="0">استفاده از نسخه پایین‌تر توصیه می‌شود</word>
   <word key="health_check_update_required" js="0">بروزرسانی نیاز است</word>
   <word key="health__php_memory" js="0">memory limit پایین</word>
   <word key="health__php_extension" js="0">اکستنشن ناموجود: %s</word>

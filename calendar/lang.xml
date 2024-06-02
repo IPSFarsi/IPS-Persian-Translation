@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language>
- <app key="calendar" version="107745">
+ <app key="calendar" version="107763">
   <word key="__app_calendar" js="0">تقویم</word>
   <word key="frontnavigation_calendar" js="0">تقویم</word>
   <word key="__indefart_calendar_event_comment" js="0">یک دیدگاه در یک رویداد تقویم</word>
