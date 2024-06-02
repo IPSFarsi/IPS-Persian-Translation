@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language>
- <app key="convert" version="107745">
+ <app key="convert" version="107763">
   <word key="__app_convert" js="0">تبدیل کننده</word>
   <word key="menu__convert_manage" js="0">تبدیل کننده</word>
   <word key="menu__convert_manage_manage_start" js="0">آغاز تبدیل جدید</word>
